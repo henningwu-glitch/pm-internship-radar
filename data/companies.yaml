@@ -559,6 +559,11 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_Jobs
+- name: Marsh
+  ats: workday
+  tenant: mmc
+  dc: wd1
+  site: MMC
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
