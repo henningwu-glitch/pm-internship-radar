@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PM Internship Radar — Summer 2027</title>
+<title>UK PM Internship Radar — Summer 2027</title>
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -11,10 +11,12 @@
 :root {
   --paper:#f5f6f4; --surface:#fff; --ink:#14181a; --ink-soft:#4b545c; --ink-faint:#8a9299;
   --signal:#1f7a6c; --signal-soft:#e4efec; --ping:#b45f1c; --ping-soft:#f6e7d8; --line:#dde1dc;
+  --fresh:#1d5fae; --fresh-soft:#dde8f7;
 }
 @media (prefers-color-scheme: dark) {
   :root { --paper:#0f1317; --surface:#161c20; --ink:#eef1ee; --ink-soft:#a7b2b8; --ink-faint:#6d777d;
-    --signal:#3fae9b; --signal-soft:#17302c; --ping:#e0964f; --ping-soft:#3a2a17; --line:#262d33; }
+    --signal:#3fae9b; --signal-soft:#17302c; --ping:#e0964f; --ping-soft:#3a2a17; --line:#262d33;
+    --fresh:#6fa8f5; --fresh-soft:#16283f; }
 }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:"Source Sans 3",system-ui,sans-serif; line-height:1.4; }
@@ -44,6 +46,13 @@ a { color: inherit; }
 }
 .controls input::placeholder { color: var(--ink-faint); }
 
+.legend { display:flex; gap: 1.25rem; margin-bottom: .9rem; font-size: .8rem; color: var(--ink-soft); flex-wrap: wrap; }
+.legend .swatch {
+  display:inline-block; width:.65rem; height:.65rem; border-radius: 3px; margin-right: .4rem; vertical-align: middle;
+}
+.legend .swatch.fresh { background: var(--fresh); }
+.legend .swatch.open { background: var(--signal); }
+
 .table-wrap { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
 .scroll-x { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; min-width: 640px; }
@@ -55,18 +64,18 @@ thead th {
 tbody td { padding: .8rem 1rem; border-bottom: 1px solid var(--line); vertical-align: top; font-size: .92rem; }
 tbody tr:last-child td { border-bottom: none; }
 tbody tr:hover { background: color-mix(in srgb, var(--signal-soft) 55%, transparent); }
-.company-cell { font-weight: 600; }
-.badge {
-  display:inline-block; background:var(--ping); color:#fff; font-family:"IBM Plex Mono",monospace; font-weight:700;
-  padding:.15rem .4rem; border-radius:4px; font-size:.62rem; margin-left:.4rem; vertical-align: middle;
+.company-cell { font-weight: 600; white-space: nowrap; }
+.programme-link {
+  color: var(--signal); text-decoration: none; font-weight: 600;
 }
+.programme-link:hover { text-decoration: underline; }
 .tag { display:inline-block; color:var(--signal); background:var(--signal-soft); border-radius:20px; padding:.15rem .55rem; font-size:.74rem; }
-.apply-link {
-  display:inline-block; font-family:"IBM Plex Mono",monospace; font-size: .8rem; font-weight: 600;
-  color: var(--signal); text-decoration: none; white-space: nowrap;
-}
-.apply-link:hover { text-decoration: underline; }
 .meta { color: var(--ink-faint); font-size: .82rem; }
+td.date-cell {
+  font-family:"IBM Plex Mono",monospace; font-weight: 700; font-size: .82rem; white-space: nowrap;
+}
+td.date-cell.fresh { background: var(--fresh-soft); color: var(--fresh); }
+td.date-cell.open { background: var(--signal-soft); color: var(--signal); }
 
 .empty-state {
   text-align:center; padding: 4rem 1.5rem; color: var(--ink-soft); background: var(--surface);
@@ -85,12 +94,13 @@ footer a { color: var(--signal); }
 <body>
 <div class="wrap">
   <div class="brand">
-    <h1>PM Internship Radar</h1>
+    <h1>UK PM Internship Radar</h1>
     <div class="updated" id="updated-at"></div>
   </div>
-  <p class="subtitle">Tracking Product Manager (and APM / Technical PM) internships for the Summer 2027 cycle,
-    polled directly from company ATS boards — Greenhouse, Ashby, Lever, Workday, SmartRecruiters. No LinkedIn
-    reposts, no manual curation lag.</p>
+  <p class="subtitle">Tracking Product Manager, Product Owner, and UX/product-design internships based in the
+    UK for the Summer 2027 cycle, polled directly from company ATS boards — Greenhouse, Ashby, Lever, Workday,
+    SmartRecruiters. The company list itself re-scans daily too, so newly-posting employers get picked up
+    automatically. No LinkedIn reposts, no manual curation lag.</p>
 
   <div class="stats">
     <div class="stat-card">
@@ -116,17 +126,22 @@ footer a { color: var(--signal); }
     <select id="company-filter"><option value="">All companies</option></select>
   </div>
 
+  <div class="legend">
+    <span><span class="swatch fresh"></span> Just posted (last 2 days)</span>
+    <span><span class="swatch open"></span> Open</span>
+  </div>
+
   <div id="table-container"></div>
 
   <footer>
     Built with <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a>.
-    Updates automatically twice daily via GitHub Actions. Source data in
-    <code>data/postings.json</code>.
+    Updates automatically three times daily via GitHub Actions, which also re-scans for newly-posting
+    companies each run. Source data in <code>data/postings.json</code>.
   </footer>
 </div>
 
-<script id="postings-data" type="application/json">[{"source_id": "/job/St-Paul-MN/Product-Management-Intern---Risk-Management_R-011083", "company": "Allied Solutions", "ats": "workday", "title": "Product Management Intern - Risk Management", "location": "St. Paul, MN", "url": "https://alliedsolutions.wd501.myworkdayjobs.com/Allied_External/job/St-Paul-MN/Product-Management-Intern---Risk-Management_R-011083", "posted_at": null, "department": null, "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "8041243", "company": "Appian", "ats": "greenhouse", "title": "Product Manager Intern ", "location": "McLean, Virginia", "url": "https://job-boards.greenhouse.io/appian/jobs/8041243", "posted_at": "2026-07-23T14:39:15-04:00", "department": "Product", "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "6883068002", "company": "Databricks", "ats": "greenhouse", "title": "Product Management Intern (Summer 2027)", "location": "Bellevue, Washington; Mountain View, California; San Francisco, California", "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6883068002", "posted_at": "2023-08-17T17:27:27-04:00", "department": "Product", "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "8108241", "company": "Datadog", "ats": "greenhouse", "title": "Product Management Intern", "location": "New York, New York, USA", "url": "https://careers.datadoghq.com/detail/8108241/?gh_jid=8108241", "posted_at": "2026-08-17T10:31:17-04:00", "department": "Engineering Interns", "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "5291162008", "company": "Geotab", "ats": "greenhouse", "title": "Product Management Intern, Growth & Marketplace (Winter/January 2027, 12 Months)", "location": "Oakville, Ontario - Canada", "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5291162008", "posted_at": "2026-09-02T08:54:01-04:00", "department": "Product Management", "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "5383920008", "company": "Geotab", "ats": "greenhouse", "title": "Product Management Intern, Installation Experience (Winter/January 2027, 8 - 12 Months)", "location": "Oakville, Ontario - Canada", "url": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5383920008", "posted_at": "2026-09-02T08:56:33-04:00", "department": "Product Management Core", "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "/job/Denver-CO-WHQ/Product-Management-Intern--Summer-2027_R26_1432", "company": "Johns Manville", "ats": "workday", "title": "Product Management Intern- Summer 2027", "location": "Denver CO WHQ", "url": "https://jm.wd103.myworkdayjobs.com/External/job/Denver-CO-WHQ/Product-Management-Intern--Summer-2027_R26_1432", "posted_at": null, "department": null, "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "/job/Singapore/Product-Management-Intern--Summer-2027---Singapore_R-287573", "company": "Mastercard", "ats": "workday", "title": "Product Management Intern, Summer 2027 - Singapore", "location": "Singapore", "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/Singapore/Product-Management-Intern--Summer-2027---Singapore_R-287573", "posted_at": null, "department": null, "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "/job/OFallon-Missouri/Product-Management---Technical-Intern--Summer-2027---St-Louis--MO--US_R-284711", "company": "Mastercard", "ats": "workday", "title": "Product Management – Technical Intern, Summer 2027 – St. Louis, MO, US", "location": "O'Fallon, Missouri", "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Product-Management---Technical-Intern--Summer-2027---St-Louis--MO--US_R-284711", "posted_at": null, "department": null, "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "/job/NJM---Trenton/Insurance-Product-Management-Analyst-Intern-3_R2008190", "company": "NJM Insurance Group", "ats": "workday", "title": "Insurance Product Management Analyst Intern", "location": "NJM - Trenton", "url": "https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/Insurance-Product-Management-Analyst-Intern-3_R2008190", "posted_at": null, "department": null, "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "/job/Golden-Valley-MN/Product-Management-Leadership-Development-Internship-Program---Summer-2027_R23713", "company": "Pentair", "ats": "workday", "title": "Product Management Leadership Development Internship Program - Summer 2027", "location": "6 Locations", "url": "https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/Product-Management-Leadership-Development-Internship-Program---Summer-2027_R23713", "posted_at": null, "department": null, "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "/job/IL-Rosemont/Tax-Innovation-Delivery-Experience--TIDE----Product-Management---Intern---Summer-2027_756419WD", "company": "PricewaterhouseCoopers (PwC)", "ats": "workday", "title": "Tax Innovation Delivery Experience (TIDE) - Product Management - Intern - Summer 2027", "location": "5 Locations", "url": "https://pwc.wd3.myworkdayjobs.com/US_Entry_Level_Careers/job/IL-Rosemont/Tax-Innovation-Delivery-Experience--TIDE----Product-Management---Intern---Summer-2027_756419WD", "posted_at": null, "department": null, "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "8143981", "company": "Roblox", "ats": "greenhouse", "title": "[Summer 2027] Product Management Intern", "location": "San Mateo, CA, United States", "url": "https://careers.roblox.com/jobs/8143981?gh_jid=8143981", "posted_at": "2026-09-02T12:41:13-04:00", "department": "Early Career Internships", "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}, {"source_id": "/job/TORONTO-Ontario-Canada/XMLNAME-2027-Global-Asset-Management--Product-Management-Intern-Winter-Spring--8-months-_R-0000185514", "company": "Royal Bank of Canada", "ats": "workday", "title": "2027 Global Asset Management, Product Management Intern Winter/Spring (8 months)", "location": "TORONTO, Ontario, Canada", "url": "https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/XMLNAME-2027-Global-Asset-Management--Product-Management-Intern-Winter-Spring--8-months-_R-0000185514", "posted_at": null, "department": null, "first_seen_at": "2026-09-06T01:46:30Z", "last_seen_at": "2026-09-06T08:25:48Z"}]</script>
-<script id="meta-data" type="application/json">{"generated_at": "2026-09-06T08:25:48Z", "companies_watched": 248}</script>
+<script id="postings-data" type="application/json">[{"source_id": "44129013-01e0-4699-8fc1-7a189bb37b63", "company": "Palantir Technologies", "ats": "lever", "title": "Product Designer, Internship", "location": "London, United Kingdom", "url": "https://jobs.lever.co/palantir/44129013-01e0-4699-8fc1-7a189bb37b63", "posted_at": 1548784293349, "department": "Design", "first_seen_at": "2026-09-06T04:45:02Z", "last_seen_at": "2026-09-06T04:45:02Z"}]</script>
+<script id="meta-data" type="application/json">{"generated_at": "2026-09-06T04:45:23Z", "companies_watched": 266}</script>
 <script>
 (function () {
   const postings = JSON.parse(document.getElementById("postings-data").textContent);
@@ -163,6 +178,15 @@ footer a { color: var(--signal); }
     return Math.floor(hrs / 24) + "d ago";
   }
 
+  const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  function formatDate(iso) {
+    const d = new Date(iso);
+    const day = String(d.getUTCDate()).padStart(2, "0");
+    const month = MONTHS[d.getUTCMonth()];
+    const year = String(d.getUTCFullYear()).slice(-2);
+    return day + " " + month + " " + year;
+  }
+
   function render() {
     const q = searchInput.value.trim().toLowerCase();
     const companyFilter = companySelect.value;
@@ -181,7 +205,7 @@ footer a { color: var(--signal); }
     if (postings.length === 0) {
       container.innerHTML =
         '<div class="empty-state"><h2>Watching, nothing yet</h2>' +
-        '<p>Tracking ' + meta.companies_watched + ' companies. Most Summer 2027 PM internships ' +
+        '<p>Tracking ' + meta.companies_watched + ' companies for UK-based roles. Most Summer 2027 PM internships ' +
         'open between November and February — an early empty board is expected, not broken.</p></div>';
       return;
     }
@@ -193,18 +217,18 @@ footer a { color: var(--signal); }
 
     const html = [
       '<div class="table-wrap"><div class="scroll-x"><table>',
-      '<thead><tr><th>Company</th><th>Title</th><th>Location</th><th>First seen</th><th></th></tr></thead>',
+      '<thead><tr><th>Company</th><th>Programme Name</th><th>Location</th><th>Opening Date</th></tr></thead>',
       '<tbody>',
     ];
     for (const p of rows) {
-      const badge = isNew(p, DAY) ? '<span class="badge">NEW</span>' : "";
+      const dateClass = isNew(p, 2 * DAY) ? "fresh" : "open";
       html.push(
         '<tr>',
         '<td class="company-cell">', escapeHtml(p.company), '</td>',
-        '<td>', escapeHtml(p.title), badge, '</td>',
+        '<td><a class="programme-link" href="', escapeAttr(p.url), '" target="_blank" rel="noopener">',
+          escapeHtml(p.title), '</a></td>',
         '<td class="meta">', escapeHtml(p.location || "—"), '</td>',
-        '<td class="meta">', formatRelative(p.first_seen_at), '</td>',
-        '<td><a class="apply-link" href="', escapeAttr(p.url), '" target="_blank" rel="noopener">Apply →</a></td>',
+        '<td class="date-cell ', dateClass, '">', formatDate(p.first_seen_at), '</td>',
         '</tr>'
       );
     }
