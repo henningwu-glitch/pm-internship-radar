@@ -1,0 +1,32 @@
+name: pm-internship-radar
+on:
+  schedule:
+    - cron: "0 8,20 * * *"   # twice a day, 08:00 and 20:00 UTC
+  workflow_dispatch: {}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python scripts/poll.py
+      - run: python scripts/build_site.py
+      - run: |
+          git config user.name "pm-internship-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/postings.json site/index.html
+          git diff --quiet --cached || git commit -m "radar: update postings [skip ci]"
+          git push
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 1001,
+      "title": "Product Manager Intern, Summer 2027",
+      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/1001",
+      "location": {"name": "San Francisco, CA"},
+      "first_published": "2026-09-01T12:00:00Z",
+      "updated_at": "2026-09-01T12:00:00Z",
+      "departments": [{"name": "Product"}]
+    },
+    {
+      "id": 1002,
+      "title": "Software Engineer Intern, Summer 2027",
+      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/1002",
+      "location": {"name": "Remote"},
+      "first_published": "2026-09-01T12:00:00Z",
+      "updated_at": "2026-09-01T12:00:00Z",
+      "departments": [{"name": "Engineering"}]
+    },
+    {
+      "id": 1003,
+      "title": "Senior Product Manager",
+      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/1003",
+      "location": {"name": "New York, NY"},
+      "first_published": "2026-08-01T12:00:00Z",
+      "updated_at": "2026-08-01T12:00:00Z",
+      "departments": [{"name": "Product"}]
+    },
+    {
+      "id": 1004,
+      "title": "APM Intern",
+      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/1004",
+      "location": {"name": "Seattle, WA"},
+      "first_published": "2026-09-02T12:00:00Z",
+      "updated_at": "2026-09-02T12:00:00Z",
+      "departments": [{"name": "Product"}]
+    }
+  ]
+}

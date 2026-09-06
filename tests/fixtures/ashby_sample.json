@@ -1,0 +1,31 @@
+{
+  "jobs": [
+    {
+      "id": "ab-2001",
+      "title": "Technical Product Manager Internship - Summer 2027",
+      "department": "Product",
+      "location": "Remote - US",
+      "publishedAt": "2026-09-03T09:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/beta/ab-2001",
+      "applyUrl": "https://jobs.ashbyhq.com/beta/ab-2001/apply"
+    },
+    {
+      "id": "ab-2002",
+      "title": "Product Design Intern",
+      "department": "Design",
+      "location": "Remote - US",
+      "publishedAt": "2026-09-03T09:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/beta/ab-2002",
+      "applyUrl": "https://jobs.ashbyhq.com/beta/ab-2002/apply"
+    },
+    {
+      "id": "ab-2003",
+      "title": "Internship Coordinator",
+      "department": "People",
+      "location": "Remote - US",
+      "publishedAt": "2026-09-03T09:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/beta/ab-2003",
+      "applyUrl": "https://jobs.ashbyhq.com/beta/ab-2003/apply"
+    }
+  ]
+}
