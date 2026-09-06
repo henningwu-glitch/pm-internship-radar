@@ -91,6 +91,9 @@
 - name: Asana
   ats: greenhouse
   token: asana
+- name: ASOS
+  ats: smartrecruiters
+  token: ASOS
 - name: Atoms
   ats: greenhouse
   token: cssmerge
@@ -110,11 +113,19 @@
   tenant: baird
   dc: wd1
   site: careers
+- name: Bank of Montreal
+  ats: workday
+  tenant: bmo
+  dc: wd3
+  site: Privileged
 - name: Barclays
   ats: workday
   tenant: barclays
   dc: wd3
   site: External_Career_Site_Barclays
+- name: Barclays
+  ats: smartrecruiters
+  token: Barclays
 - name: Belvedere Trading
   ats: lever
   token: belvederetrading
@@ -154,6 +165,9 @@
   tenant: brunswick
   dc: wd1
   site: search
+- name: BT Group
+  ats: smartrecruiters
+  token: BT
 - name: BTI360
   ats: greenhouse
   token: bti36021
@@ -421,6 +435,9 @@
   tenant: globalfoundries
   dc: wd1
   site: External
+- name: GoCardless
+  ats: greenhouse
+  token: gocardless
 - name: Greenheck Group
   ats: workday
   tenant: greenheckgroup
@@ -429,6 +446,9 @@
 - name: Gusto
   ats: greenhouse
   token: gusto
+- name: Gymshark
+  ats: greenhouse
+  token: gymshark
 - name: Hadrian
   ats: ashby
   token: hadrian-automation
@@ -449,6 +469,9 @@
 - name: HPR (Hyannis Port Research)
   ats: greenhouse
   token: hyannisportresearch
+- name: HSBC
+  ats: smartrecruiters
+  token: HSBC
 - name: HubSpot
   ats: greenhouse
   token: hubspot
@@ -598,6 +621,9 @@
 - name: MongoDB
   ats: greenhouse
   token: mongodb
+- name: Monzo
+  ats: greenhouse
+  token: monzo
 - name: Motorola
   ats: workday
   tenant: motorolasolutions
@@ -614,6 +640,9 @@
   tenant: nationwide
   dc: wd1
   site: Nationwide_Career
+- name: NatWest Group
+  ats: smartrecruiters
+  token: NatWestGroup
 - name: Newrez
   ats: workday
   tenant: newrez
@@ -704,6 +733,9 @@
   tenant: philips
   dc: wd3
   site: jobs-and-careers
+- name: PhotoRoom
+  ats: ashby
+  token: photoroom
 - name: PIMCO
   ats: workday
   tenant: pimco
@@ -840,9 +872,15 @@
   tenant: snc
   dc: wd1
   site: snc_external_career_site
+- name: Sky
+  ats: smartrecruiters
+  token: Sky
 - name: Skydio
   ats: ashby
   token: skydio
+- name: Skyscanner
+  ats: greenhouse
+  token: skyscanner
 - name: Skyward
   ats: smartrecruiters
   token: Skyward1
@@ -874,6 +912,9 @@
 - name: Syngenta Group
   ats: smartrecruiters
   token: SyngentaGroup
+- name: Synthesia
+  ats: ashby
+  token: synthesia
 - name: T. Rowe Price
   ats: workday
   tenant: troweprice
@@ -936,6 +977,9 @@
   tenant: disney
   dc: wd5
   site: disneycareerdc
+- name: Tide
+  ats: greenhouse
+  token: tide
 - name: TJX
   ats: workday
   tenant: tjx
@@ -946,6 +990,9 @@
   tenant: travelers
   dc: wd5
   site: External
+- name: Trustpilot
+  ats: greenhouse
+  token: trustpilot
 - name: Twilio
   ats: greenhouse
   token: twilio
@@ -989,6 +1036,9 @@
   tenant: walmart
   dc: wd504
   site: WalmartExternal
+- name: Wayve
+  ats: greenhouse
+  token: wayve
 - name: Webflow
   ats: greenhouse
   token: webflow
@@ -998,9 +1048,15 @@
 - name: WhiteWater Midstream
   ats: greenhouse
   token: whitewatermidstream
+- name: Wise
+  ats: greenhouse
+  token: wise
 - name: Xantium
   ats: greenhouse
   token: xantium
+- name: Zilch
+  ats: ashby
+  token: zilch
 - name: Zip
   ats: ashby
   token: zip

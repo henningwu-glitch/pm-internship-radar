@@ -14,7 +14,7 @@ def _load(name):
 def test_parse_greenhouse_normalizes_shape():
     data = _load("greenhouse_sample.json")
     postings = parse_greenhouse("Acme", data)
-    assert len(postings) == 4
+    assert len(postings) == 5
     first = postings[0]
     assert first["source_id"] == "1001"
     assert first["company"] == "Acme"

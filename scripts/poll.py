@@ -18,7 +18,7 @@ print = functools.partial(print, flush=True)  # noqa: A001 — always flush so C
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from radar.ats_clients import fetch_for_company  # noqa: E402
-from radar.classify import is_relevant  # noqa: E402
+from radar.classify import is_relevant_uk  # noqa: E402
 from radar.storage import load_postings, merge_postings, save_postings  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -67,7 +67,7 @@ def main() -> None:
             time.sleep(0.5)
             continue
 
-        relevant = [p for p in postings if is_relevant(p["title"])]
+        relevant = [p for p in postings if is_relevant_uk(p["title"], p["location"])]
         all_relevant.extend(relevant)
         if relevant:
             print(f"  {name}: {len(relevant)} PM-relevant posting(s) of {len(postings)} total")
