@@ -372,9 +372,6 @@
 - name: Five Rings Capital
   ats: greenhouse
   token: fiveringsllc
-- name: Flow Traders
-  ats: greenhouse
-  token: flowtraders
 - name: Freddie Mac
   ats: workday
   tenant: freddiemac
