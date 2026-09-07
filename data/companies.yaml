@@ -424,6 +424,9 @@
 - name: General Matter
   ats: greenhouse
   token: generalmatter
+- name: Geotab
+  ats: greenhouse
+  token: internshiplist2000
 - name: GlobalFoundries
   ats: workday
   tenant: globalfoundries
@@ -492,6 +495,9 @@
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
+- name: incident.io
+  ats: ashby
+  token: incident
 - name: InfiniteQuant
   ats: smartrecruiters
   token: InfiniteQuant
@@ -558,6 +564,11 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_Jobs
+- name: Marsh & McLennan
+  ats: workday
+  tenant: mmc
+  dc: wd1
+  site: mmc
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
@@ -883,6 +894,9 @@
 - name: Skyward
   ats: smartrecruiters
   token: Skyward1
+- name: SoFi
+  ats: greenhouse
+  token: sofi
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
