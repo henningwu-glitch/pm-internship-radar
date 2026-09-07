@@ -424,9 +424,6 @@
 - name: General Matter
   ats: greenhouse
   token: generalmatter
-- name: Geotab
-  ats: greenhouse
-  token: internshiplist2000
 - name: GlobalFoundries
   ats: workday
   tenant: globalfoundries
@@ -487,6 +484,11 @@
   tenant: iatinsurancegroup
   dc: wd1
   site: iat
+- name: ICF International
+  ats: workday
+  tenant: icf
+  dc: wd5
+  site: icfexternal_career_site
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
@@ -556,11 +558,6 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_Jobs
-- name: Marsh
-  ats: workday
-  tenant: mmc
-  dc: wd1
-  site: MMC
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
@@ -686,6 +683,11 @@
   tenant: nvidia
   dc: wd5
   site: NVIDIAExternalCareerSite
+- name: NXP Semiconductors
+  ats: workday
+  tenant: nxp
+  dc: wd3
+  site: careers
 - name: Okta
   ats: greenhouse
   token: okta
@@ -831,12 +833,12 @@
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: rec_rtx_ext_gateway
+  site: Private_Posting_No_TMP
 - name: RTX
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: Private_Posting_No_TMP
+  site: rec_rtx_ext_gateway
 - name: Ryan Companies
   ats: workday
   tenant: ryancompanies
@@ -881,9 +883,6 @@
 - name: Skyward
   ats: smartrecruiters
   token: Skyward1
-- name: SoFi
-  ats: greenhouse
-  token: sofi
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
@@ -982,6 +981,11 @@
   tenant: tjx
   dc: wd1
   site: tjx_external
+- name: Tokyo Electron
+  ats: workday
+  tenant: tel
+  dc: wd3
+  site: tel-careers
 - name: Travelers
   ats: workday
   tenant: travelers
@@ -1051,6 +1055,11 @@
 - name: Xantium
   ats: greenhouse
   token: xantium
+- name: Xcel Energy
+  ats: workday
+  tenant: xcelenergy
+  dc: wd1
+  site: External
 - name: Zilch
   ats: ashby
   token: zilch
