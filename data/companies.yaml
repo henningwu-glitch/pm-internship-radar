@@ -83,11 +83,6 @@
   tenant: archgroup
   dc: wd1
   site: careers
-- name: Arrowstreet Capital
-  ats: workday
-  tenant: arrowstreetcapital
-  dc: wd5
-  site: Campus_Careers
 - name: Asana
   ats: greenhouse
   token: asana
@@ -552,6 +547,11 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_Jobs
+- name: Marsh
+  ats: workday
+  tenant: mmc
+  dc: wd1
+  site: MMC
 - name: Marsh & McLennan
   ats: workday
   tenant: mmc
@@ -1030,9 +1030,6 @@
   tenant: walmart
   dc: wd504
   site: WalmartExternal
-- name: Wayve
-  ats: greenhouse
-  token: wayve
 - name: Webflow
   ats: greenhouse
   token: webflow
