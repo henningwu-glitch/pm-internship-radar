@@ -196,6 +196,47 @@ def fetch_smartrecruiters(company: str, token: str) -> list[dict[str, Any]]:
     return all_postings
 
 
+_ISO_COUNTRY_NAMES = {"GB": "United Kingdom"}  # Teamtailor's structured address gives ISO codes,
+# not names, and classify.is_uk_location only recognizes country names/cities — GB must be
+# expanded here rather than teaching the shared classifier about ISO codes.
+
+
+def parse_teamtailor(company: str, data: dict) -> list[dict[str, Any]]:
+    postings = []
+    for item in data.get("items", []):
+        jobposting = item.get("_jobposting") or {}
+        loc_strs = []
+        for place in jobposting.get("jobLocation") or []:
+            addr = place.get("address") or {}
+            country = addr.get("addressCountry")
+            parts = [
+                addr.get("addressLocality"),
+                addr.get("addressRegion"),
+                _ISO_COUNTRY_NAMES.get(country, country),
+            ]
+            loc_strs.append(", ".join(p for p in parts if p))
+        postings.append({
+            "source_id": str(item.get("id", "")),
+            "company": company,
+            "ats": "teamtailor",
+            "title": item.get("title", ""),
+            "location": "; ".join(loc_strs),
+            "url": item.get("url", ""),
+            "posted_at": item.get("date_published"),
+            "department": None,
+        })
+    return postings
+
+
+def fetch_teamtailor(company: str, domain: str) -> list[dict[str, Any]]:
+    url = f"https://{domain}/jobs.json"
+    resp = _get(url)
+    if resp.status_code == 404:
+        raise TokenError(f"teamtailor: no board for domain {domain!r}")
+    resp.raise_for_status()
+    return parse_teamtailor(company, resp.json())
+
+
 def fetch_for_company(entry: dict[str, Any]) -> list[dict[str, Any]]:
     """Dispatch to the right client based on an entry from companies.yaml."""
     ats = entry["ats"]
@@ -210,4 +251,6 @@ def fetch_for_company(entry: dict[str, Any]) -> list[dict[str, Any]]:
         return fetch_workday(name, entry["tenant"], entry["dc"], entry["site"])
     if ats == "smartrecruiters":
         return fetch_smartrecruiters(name, entry["token"])
+    if ats == "teamtailor":
+        return fetch_teamtailor(name, entry["domain"])
     raise ValueError(f"unknown ats {ats!r} for company {name!r}")

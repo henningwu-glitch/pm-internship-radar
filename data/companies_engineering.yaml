@@ -6,9 +6,15 @@
 - name: AFRY
   ats: smartrecruiters
   token: AFRY
+- name: Alloyed
+  ats: teamtailor
+  domain: careers.alloyed.com
 - name: Bosch
   ats: smartrecruiters
   token: BoschGroup
+- name: Crux Product Design
+  ats: teamtailor
+  domain: cruxproductdesign.teamtailor.com
 - name: Diageo
   ats: workday
   tenant: diageo
@@ -32,6 +38,9 @@
   tenant: intel
   dc: wd1
   site: External
+- name: Open Cosmos
+  ats: teamtailor
+  domain: careers.open-cosmos.com
 - name: Thales
   ats: workday
   tenant: thales
@@ -40,3 +49,6 @@
 - name: Turner & Townsend
   ats: smartrecruiters
   token: TurnerTownsend
+- name: Vertical Aerospace
+  ats: ashby
+  token: vertical-aerospace

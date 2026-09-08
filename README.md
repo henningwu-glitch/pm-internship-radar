@@ -2,8 +2,8 @@
 
 Two trackers sharing one polling engine — both **based in the UK**, both
 polling company ATS boards directly (Greenhouse, Ashby, Lever, Workday,
-SmartRecruiters), no LinkedIn/Indeed scraping (both prohibit it, and neither
-is the original source anyway):
+SmartRecruiters, Teamtailor), no LinkedIn/Indeed scraping (both prohibit it,
+and neither is the original source anyway):
 
 - **PM/UX Radar** (`site/index.html`) — Product Manager, Product Owner, and
   UX/product-design internships, at a broad, self-expanding company registry
@@ -75,12 +75,15 @@ them posts is in scope. A posting still needs a placement-shaped title
    clock time across the BST/GMT switch, since GitHub Actions cron is
    UTC-only).
 
-Many large UK industrials (defence primes, utilities, construction) run
-bespoke careers portals or Workday tenants with no guessable token, so
-coverage of the ~185-company list is necessarily partial — a company that
-doesn't verify simply isn't polled, rather than shown with a guessed link.
-Run the discovery script to see the current verified count; add a company
-by hand once you've found its real token (see "Adding a company" below).
+Most large UK industrials (defence primes, utilities, construction) run
+entirely bespoke careers platforms — Phenom People, Sitecore+Coveo/Solr,
+SuccessFactors, Oracle Taleo — with no public JSON API to poll at all, not
+just an unguessable token; some are actively hardened against automated
+access (Cloudflare bot challenges). Coverage of the ~185-company list is
+necessarily partial as a result — a company that doesn't verify simply
+isn't polled, rather than shown with a guessed link. Run the discovery
+script to see the current verified count; add a company by hand once
+you've found its real token (see "Adding a company" below).
 
 The engineering site also has a **"My status"** column (Not Applied /
 Applied / Interviewing / Offer / Rejected) you can click through per
@@ -117,13 +120,19 @@ Add a verified entry to `data/companies.yaml` (PM tracker) or
 
 ```yaml
 - name: Example Corp
-  ats: greenhouse   # or: ashby, lever, smartrecruiters, workday
+  ats: greenhouse   # or: ashby, lever, smartrecruiters, teamtailor, workday
   token: examplecorp
 ```
 
 Workday entries need `tenant`, `dc`, and `site` instead of `token` — find
 them via DevTools → Network tab on the company's live careers page (the
 request URL contains all three: `https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs`).
+
+Teamtailor entries need `domain` instead of `token` — the company's careers
+hostname itself (either their default `{company}.teamtailor.com` or a
+white-labeled custom domain like `careers.example.com`); confirm it works
+by checking `https://{domain}/jobs.json` returns a JSON Feed with an
+`items` array.
 
 Never add an entry you haven't personally verified returns real data —
 re-run the relevant discovery script to re-verify the whole registry, or

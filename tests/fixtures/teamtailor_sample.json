@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Acme",
+  "home_page_url": "https://careers.acme.example/jobs",
+  "feed_url": "https://careers.acme.example/jobs.json",
+  "items": [
+    {
+      "id": "3001",
+      "title": "Software Engineering Intern, Summer 2027",
+      "url": "https://careers.acme.example/jobs/3001-software-engineering-intern",
+      "date_published": "2026-09-01T10:00:00+01:00",
+      "content_html": "<p>Join us</p>",
+      "_jobposting": {
+        "@context": "http://schema.org/",
+        "@type": "JobPosting",
+        "title": "Software Engineering Intern, Summer 2027",
+        "datePosted": "2026-09-01T10:00:00+01:00",
+        "hiringOrganization": {"@type": "Organization", "name": "Acme"},
+        "jobLocation": [
+          {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "London",
+              "addressRegion": null,
+              "addressCountry": "GB"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "3002",
+      "title": "Senior Engineer",
+      "url": "https://careers.acme.example/jobs/3002-senior-engineer",
+      "date_published": "2026-08-15T09:00:00+01:00",
+      "content_html": "<p>Join us</p>",
+      "_jobposting": {
+        "@context": "http://schema.org/",
+        "@type": "JobPosting",
+        "title": "Senior Engineer",
+        "datePosted": "2026-08-15T09:00:00+01:00",
+        "hiringOrganization": {"@type": "Organization", "name": "Acme"},
+        "jobLocation": [
+          {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Barcelona",
+              "addressRegion": null,
+              "addressCountry": "ES"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

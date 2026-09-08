@@ -61,8 +61,8 @@ ENGINEERING_EMPLOYERS: dict[str, list[tuple]] = {
     "Raytheon": [("workday", ("rtx", "wd1", "External"))],
     "Rolls-Royce": [("workday", ("rollsroyce", "wd3", "Rolls_Royce_Careers"))],
     "Thales": [("workday", ("thales", "wd3", "Careers"))],
-    "Vertical Aerospace": [("lever", "verticalaerospace"), ("greenhouse", "verticalaerospace")],
-    "Open Cosmos": [("greenhouse", "opencosmos"), ("lever", "opencosmos")],
+    "Vertical Aerospace": [("ashby", "vertical-aerospace")],
+    "Open Cosmos": [("teamtailor", "careers.open-cosmos.com")],
     "Martin-Baker": [("greenhouse", "martinbaker")],
     "Subsea7": [("workday", ("subsea7", "wd3", "Subsea7_Careers"))],
     "Parker Meggitt": [("workday", ("parker", "wd1", "Parker_Careers"))],
@@ -173,6 +173,8 @@ ENGINEERING_EMPLOYERS: dict[str, list[tuple]] = {
     "Osprey Group": [("greenhouse", "ospreygroup")],
     "Risktec Solutions": [("greenhouse", "risktec")],
     "TotalSim CFD": [("greenhouse", "totalsim")],
+    "Crux Product Design": [("teamtailor", "cruxproductdesign.teamtailor.com")],
+    "Alloyed": [("teamtailor", "careers.alloyed.com")],
     # --- Manufacturing & Product Design ---
     "3M": [("workday", ("3m", "wd1", "Search"))],
     "ABB": [("workday", ("abb", "wd3", "abbcareers"))],
@@ -188,7 +190,6 @@ ENGINEERING_EMPLOYERS: dict[str, list[tuple]] = {
     "Renishaw": [("greenhouse", "renishaw")],
     "Siemens": [("workday", ("siemens", "wd3", "Siemens_Internal"))],
     "ASMPT": [("greenhouse", "asmpt")],
-    "Alloyed": [("greenhouse", "alloyed")],
     "Fortescue": [("greenhouse", "fortescue")],
     "Isembard": [("greenhouse", "isembard")],
     "Labman": [("greenhouse", "labman")],
@@ -263,6 +264,10 @@ def verify(candidate: dict) -> bool:
                 return False
             data = resp.json()
             return "jobPostings" in data
+        elif ats == "teamtailor":
+            domain = candidate["domain"]
+            resp = _verify_session.get(f"https://{domain}/jobs.json", timeout=_PROBE_TIMEOUT)
+            return resp.status_code == 200 and "items" in resp.json()
         else:
             return False
     except requests.exceptions.RequestException:
@@ -293,6 +298,10 @@ def main() -> None:
                 key = ("workday", f"{tenant}/{dc}/{site}")
                 if key not in all_candidates:
                     all_candidates[key] = {"name": name, "ats": "workday", "tenant": tenant, "dc": dc, "site": site}
+            elif ats == "teamtailor":
+                key = ("teamtailor", token)
+                if key not in all_candidates:
+                    all_candidates[key] = {"name": name, "ats": "teamtailor", "domain": token}
             else:
                 key = (ats, token)
                 if key not in all_candidates:
@@ -304,7 +313,10 @@ def main() -> None:
     verified: list[dict] = []
     seen_names: set[str] = set()
     for i, candidate in enumerate(all_candidates.values(), 1):
-        label = candidate.get("token") or f"{candidate.get('tenant')}/{candidate.get('dc')}/{candidate.get('site')}"
+        label = (
+            candidate.get("token") or candidate.get("domain")
+            or f"{candidate.get('tenant')}/{candidate.get('dc')}/{candidate.get('site')}"
+        )
         print(f"  [{i}/{len(all_candidates)}] {candidate['ats']}:{label} ({candidate['name']}) checking...")
         ok = verify_with_timeout(candidate)
         status = "OK" if ok else "DROP"
