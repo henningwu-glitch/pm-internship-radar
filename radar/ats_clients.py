@@ -173,13 +173,27 @@ def parse_smartrecruiters(company: str, data: dict) -> list[dict[str, Any]]:
     return postings
 
 
+SMARTRECRUITERS_MAX_POSTINGS = 2000  # safety cap — some employers post thousands globally
+
+
 def fetch_smartrecruiters(company: str, token: str) -> list[dict[str, Any]]:
-    url = f"https://api.smartrecruiters.com/v1/companies/{token}/postings?limit=100"
-    resp = _get(url)
-    if resp.status_code == 404:
-        raise TokenError(f"smartrecruiters: no company for token {token!r}")
-    resp.raise_for_status()
-    return parse_smartrecruiters(company, resp.json())
+    all_postings: list[dict[str, Any]] = []
+    offset = 0
+    limit = 100
+    while True:
+        url = f"https://api.smartrecruiters.com/v1/companies/{token}/postings?limit={limit}&offset={offset}"
+        resp = _get(url)
+        if resp.status_code == 404:
+            raise TokenError(f"smartrecruiters: no company for token {token!r}")
+        resp.raise_for_status()
+        data = resp.json()
+        all_postings.extend(parse_smartrecruiters(company, data))
+        total = data.get("totalFound", len(all_postings))
+        offset += limit
+        if offset >= total or not data.get("content") or offset >= SMARTRECRUITERS_MAX_POSTINGS:
+            break
+        time.sleep(0.3)
+    return all_postings
 
 
 def fetch_for_company(entry: dict[str, Any]) -> list[dict[str, Any]]:

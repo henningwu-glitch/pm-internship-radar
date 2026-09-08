@@ -26,6 +26,10 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/companies.yaml data/postings.json site/index.html
           git diff --quiet --cached || git commit -m "radar: update postings [skip ci]"
+          # The engineering tracker workflow can push to main around the same
+          # times; pull --rebase before pushing so a concurrent,
+          # non-overlapping change (different files) doesn't reject this push.
+          git pull --rebase --autostash origin main
           git push
       - uses: actions/upload-pages-artifact@v3
         with: { path: site }

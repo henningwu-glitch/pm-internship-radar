@@ -265,12 +265,29 @@ def verify(candidate: dict) -> bool:
             )
             return resp.status_code == 200
         elif ats == "smartrecruiters":
+            # The postings API (.../v1/companies/{token}/postings) returns
+            # HTTP 200 with an empty result set for ANY token, real or not —
+            # useless as a verification signal on its own. Two checks
+            # together are needed: (1) the public jobs redirect, which
+            # discriminates a real token (redirects to
+            # careers.smartrecruiters.com/{token}, or the company's own
+            # white-labeled domain) from an invalid one (bounces back to the
+            # generic jobs.smartrecruiters.com landing page); and (2) the
+            # postings API actually reporting totalFound > 0, since several
+            # large employers hold a reserved/placeholder SmartRecruiters
+            # company profile with zero published postings behind it —
+            # recognized by (1) but not a live board by any useful measure.
             token = candidate["token"]
             resp = _verify_session.get(
+                f"https://jobs.smartrecruiters.com/{token}", timeout=_PROBE_TIMEOUT
+            )
+            if resp.status_code != 200 or resp.url.rstrip("/") == "https://jobs.smartrecruiters.com":
+                return False
+            resp2 = _verify_session.get(
                 f"https://api.smartrecruiters.com/v1/companies/{token}/postings?limit=1",
                 timeout=_PROBE_TIMEOUT,
             )
-            return resp.status_code == 200
+            return resp2.status_code == 200 and resp2.json().get("totalFound", 0) > 0
         elif ats == "workday":
             tenant, dc, site = candidate["tenant"], candidate["dc"], candidate["site"]
             url = f"https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs"

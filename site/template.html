@@ -23,6 +23,11 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:"Source 
 a { color: inherit; }
 .wrap { max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
 
+.nav { display:flex; gap:1rem; margin-bottom: 1.25rem; font-family:"IBM Plex Mono",monospace; font-size:.78rem; }
+.nav a { color: var(--ink-faint); text-decoration:none; padding:.3rem .1rem; border-bottom: 2px solid transparent; }
+.nav a.active { color: var(--ink); border-bottom-color: var(--signal); }
+.nav a:hover { color: var(--ink); }
+
 .brand { display:flex; align-items:baseline; justify-content:space-between; gap:1rem; flex-wrap:wrap; margin-bottom: .35rem; }
 .brand h1 { font-family:"Fraunces",Georgia,serif; font-weight:700; font-size: 1.9rem; margin: 0; }
 .brand .updated { font-family:"IBM Plex Mono",monospace; font-size: .78rem; color: var(--ink-faint); }
@@ -93,6 +98,10 @@ footer a { color: var(--signal); }
 </head>
 <body>
 <div class="wrap">
+  <div class="nav">
+    <a href="index.html" class="active">PM / UX Radar</a>
+    <a href="engineering.html">Engineering Radar</a>
+  </div>
   <div class="brand">
     <h1>UK PM Internship Radar</h1>
     <div class="updated" id="updated-at"></div>

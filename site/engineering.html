@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UK PM Internship Radar — Summer 2027</title>
+<title>UK Engineering Internship Radar — Summer 2027</title>
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -12,16 +12,17 @@
   --paper:#f5f6f4; --surface:#fff; --ink:#14181a; --ink-soft:#4b545c; --ink-faint:#8a9299;
   --signal:#1f7a6c; --signal-soft:#e4efec; --ping:#b45f1c; --ping-soft:#f6e7d8; --line:#dde1dc;
   --fresh:#1d5fae; --fresh-soft:#dde8f7;
+  --applied:#1d5fae; --applied-soft:#dde8f7;
 }
 @media (prefers-color-scheme: dark) {
   :root { --paper:#0f1317; --surface:#161c20; --ink:#eef1ee; --ink-soft:#a7b2b8; --ink-faint:#6d777d;
     --signal:#3fae9b; --signal-soft:#17302c; --ping:#e0964f; --ping-soft:#3a2a17; --line:#262d33;
-    --fresh:#6fa8f5; --fresh-soft:#16283f; }
+    --fresh:#6fa8f5; --fresh-soft:#16283f; --applied:#6fa8f5; --applied-soft:#16283f; }
 }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:"Source Sans 3",system-ui,sans-serif; line-height:1.4; }
 a { color: inherit; }
-.wrap { max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
 
 .nav { display:flex; gap:1rem; margin-bottom: 1.25rem; font-family:"IBM Plex Mono",monospace; font-size:.78rem; }
 .nav a { color: var(--ink-faint); text-decoration:none; padding:.3rem .1rem; border-bottom: 2px solid transparent; }
@@ -31,7 +32,7 @@ a { color: inherit; }
 .brand { display:flex; align-items:baseline; justify-content:space-between; gap:1rem; flex-wrap:wrap; margin-bottom: .35rem; }
 .brand h1 { font-family:"Fraunces",Georgia,serif; font-weight:700; font-size: 1.9rem; margin: 0; }
 .brand .updated { font-family:"IBM Plex Mono",monospace; font-size: .78rem; color: var(--ink-faint); }
-.subtitle { color: var(--ink-soft); margin: 0 0 1.75rem; max-width: 62ch; }
+.subtitle { color: var(--ink-soft); margin: 0 0 1.75rem; max-width: 68ch; }
 
 .stats { display:grid; grid-template-columns: repeat(4, 1fr); gap: .85rem; margin-bottom: 2rem; }
 .stat-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.1rem; }
@@ -60,7 +61,7 @@ a { color: inherit; }
 
 .table-wrap { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
 .scroll-x { overflow-x: auto; }
-table { width: 100%; border-collapse: collapse; min-width: 640px; }
+table { width: 100%; border-collapse: collapse; min-width: 760px; }
 thead th {
   text-align:left; font-family:"IBM Plex Mono",monospace; font-size: .68rem; text-transform: uppercase;
   letter-spacing: .05em; color: var(--ink-faint); padding: .8rem 1rem; border-bottom: 1px solid var(--line);
@@ -82,6 +83,15 @@ td.date-cell {
 td.date-cell.fresh { background: var(--fresh-soft); color: var(--fresh); }
 td.date-cell.open { background: var(--signal-soft); color: var(--signal); }
 
+select.status-select {
+  font-family:"IBM Plex Mono",monospace; font-size: .74rem; font-weight: 600; padding: .3rem .5rem;
+  border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-soft);
+}
+select.status-select[data-status="Applied"] { color: var(--applied); background: var(--applied-soft); border-color: transparent; }
+select.status-select[data-status="Interviewing"] { color: var(--ping); background: var(--ping-soft); border-color: transparent; }
+select.status-select[data-status="Offer"] { color: var(--signal); background: var(--signal-soft); border-color: transparent; }
+select.status-select[data-status="Rejected"] { color: var(--ink-faint); }
+
 .empty-state {
   text-align:center; padding: 4rem 1.5rem; color: var(--ink-soft); background: var(--surface);
   border: 1px solid var(--line); border-radius: 10px;
@@ -99,17 +109,17 @@ footer a { color: var(--signal); }
 <body>
 <div class="wrap">
   <div class="nav">
-    <a href="index.html" class="active">PM / UX Radar</a>
-    <a href="engineering.html">Engineering Radar</a>
+    <a href="index.html">PM / UX Radar</a>
+    <a href="engineering.html" class="active">Engineering Radar</a>
   </div>
   <div class="brand">
-    <h1>UK PM Internship Radar</h1>
+    <h1>UK Engineering Internship Radar</h1>
     <div class="updated" id="updated-at"></div>
   </div>
-  <p class="subtitle">Tracking Product Manager, Product Owner, and UX/product-design internships based in the
-    UK for the Summer 2027 cycle, polled directly from company ATS boards — Greenhouse, Ashby, Lever, Workday,
-    SmartRecruiters. The company list itself re-scans daily too, so newly-posting employers get picked up
-    automatically. No LinkedIn reposts, no manual curation lag.</p>
+  <p class="subtitle">Tracking Summer 2027 engineering internships and placements — any discipline, any of the
+    ~185 tracked UK engineering, defence, construction, energy, and manufacturing employers — polled directly
+    from company ATS boards. "My status" is stored only in your own browser (nothing is sent anywhere), so it's
+    yours to mark up like a personal application tracker.</p>
 
   <div class="stats">
     <div class="stat-card">
@@ -133,6 +143,14 @@ footer a { color: var(--signal); }
   <div class="controls">
     <input type="search" id="search" placeholder="Search title, company, or location…">
     <select id="company-filter"><option value="">All companies</option></select>
+    <select id="status-filter">
+      <option value="">All statuses</option>
+      <option value="Not Applied">Not Applied</option>
+      <option value="Applied">Applied</option>
+      <option value="Interviewing">Interviewing</option>
+      <option value="Offer">Offer</option>
+      <option value="Rejected">Rejected</option>
+    </select>
   </div>
 
   <div class="legend">
@@ -144,13 +162,13 @@ footer a { color: var(--signal); }
 
   <footer>
     Built with <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a>.
-    Updates automatically three times daily via GitHub Actions, which also re-scans for newly-posting
-    companies each run. Source data in <code>data/postings.json</code>.
+    Updates automatically three times daily (9am / 12pm / 2pm UK time) via GitHub Actions, which also
+    re-scans for newly-posting companies each run. Source data in <code>data/postings_engineering.json</code>.
   </footer>
 </div>
 
-<script id="postings-data" type="application/json">[{"source_id": "44129013-01e0-4699-8fc1-7a189bb37b63", "company": "Palantir Technologies", "ats": "lever", "title": "Product Designer, Internship", "location": "London, United Kingdom", "url": "https://jobs.lever.co/palantir/44129013-01e0-4699-8fc1-7a189bb37b63", "posted_at": 1548784293349, "department": "Design", "first_seen_at": "2026-09-06T04:45:02Z", "last_seen_at": "2026-09-07T20:46:00Z"}]</script>
-<script id="meta-data" type="application/json">{"generated_at": "2026-09-07T20:46:00Z", "companies_watched": 264}</script>
+<script id="postings-data" type="application/json">[]</script>
+<script id="meta-data" type="application/json">{"generated_at": "2026-09-07T19:47:38Z", "companies_watched": 10}</script>
 <script>
 (function () {
   const postings = JSON.parse(document.getElementById("postings-data").textContent);
@@ -177,6 +195,22 @@ footer a { color: var(--signal); }
 
   const container = document.getElementById("table-container");
   const searchInput = document.getElementById("search");
+  const statusSelect = document.getElementById("status-filter");
+
+  // --- "My status" — purely client-side, per-browser, never sent anywhere.
+  const STATUS_KEY = "engineering-radar-status-v1";
+  const STATUSES = ["Not Applied", "Applied", "Interviewing", "Offer", "Rejected"];
+  let statusStore = {};
+  try {
+    statusStore = JSON.parse(localStorage.getItem(STATUS_KEY) || "{}");
+  } catch (e) { statusStore = {}; }
+
+  function postingKey(p) { return p.company + "|" + p.ats + "|" + p.source_id; }
+  function getStatus(p) { return statusStore[postingKey(p)] || "Not Applied"; }
+  function setStatus(p, status) {
+    statusStore[postingKey(p)] = status;
+    try { localStorage.setItem(STATUS_KEY, JSON.stringify(statusStore)); } catch (e) { /* storage unavailable */ }
+  }
 
   function formatRelative(iso) {
     const d = new Date(iso);
@@ -199,9 +233,11 @@ footer a { color: var(--signal); }
   function render() {
     const q = searchInput.value.trim().toLowerCase();
     const companyFilter = companySelect.value;
+    const statusFilter = statusSelect.value;
 
     let rows = postings;
     if (companyFilter) rows = rows.filter(p => p.company === companyFilter);
+    if (statusFilter) rows = rows.filter(p => getStatus(p) === statusFilter);
     if (q) {
       rows = rows.filter(p =>
         p.title.toLowerCase().includes(q) ||
@@ -214,8 +250,8 @@ footer a { color: var(--signal); }
     if (postings.length === 0) {
       container.innerHTML =
         '<div class="empty-state"><h2>Watching, nothing yet</h2>' +
-        '<p>Tracking ' + meta.companies_watched + ' companies for UK-based roles. Most Summer 2027 PM internships ' +
-        'open between November and February — an early empty board is expected, not broken.</p></div>';
+        '<p>Tracking ' + meta.companies_watched + ' companies for UK-based roles. Most Summer 2027 engineering ' +
+        'placements open between November and February — an early empty board is expected, not broken.</p></div>';
       return;
     }
 
@@ -226,13 +262,19 @@ footer a { color: var(--signal); }
 
     const html = [
       '<div class="table-wrap"><div class="scroll-x"><table>',
-      '<thead><tr><th>Company</th><th>Programme Name</th><th>Location</th><th>Opening Date</th></tr></thead>',
+      '<thead><tr><th>My Status</th><th>Company</th><th>Programme Name</th><th>Location</th><th>Opening Date</th></tr></thead>',
       '<tbody>',
     ];
     for (const p of rows) {
       const dateClass = isNew(p, 2 * DAY) ? "fresh" : "open";
+      const status = getStatus(p);
+      const options = STATUSES.map(s =>
+        '<option value="' + s + '"' + (s === status ? " selected" : "") + '>' + s + '</option>'
+      ).join("");
       html.push(
         '<tr>',
+        '<td><select class="status-select" data-status="', status, '" data-key="', escapeAttr(postingKey(p)), '">',
+          options, '</select></td>',
         '<td class="company-cell">', escapeHtml(p.company), '</td>',
         '<td><a class="programme-link" href="', escapeAttr(p.url), '" target="_blank" rel="noopener">',
           escapeHtml(p.title), '</a></td>',
@@ -243,6 +285,17 @@ footer a { color: var(--signal); }
     }
     html.push('</tbody></table></div></div>');
     container.innerHTML = html.join("");
+
+    container.querySelectorAll("select.status-select").forEach(sel => {
+      sel.addEventListener("change", () => {
+        const key = sel.getAttribute("data-key");
+        const posting = postings.find(p => postingKey(p) === key);
+        if (!posting) return;
+        setStatus(posting, sel.value);
+        sel.setAttribute("data-status", sel.value);
+        if (statusFilter) render(); // re-filter if a status filter is active
+      });
+    });
   }
 
   function escapeHtml(s) {
@@ -254,6 +307,7 @@ footer a { color: var(--signal); }
 
   searchInput.addEventListener("input", render);
   companySelect.addEventListener("change", render);
+  statusSelect.addEventListener("change", render);
   render();
 })();
 </script>

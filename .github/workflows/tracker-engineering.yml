@@ -1,0 +1,45 @@
+name: engineering-internship-radar
+on:
+  schedule:
+    # Three times a day at 9am / 12pm / 2pm UK LOCAL time. GitHub Actions cron
+    # is UTC-only, so this uses two schedules to approximate UK clock time
+    # year-round: UK is UTC+1 (BST) from late March to late October, and
+    # UTC+0 (GMT) the rest of the year. The month boundaries below are a
+    # few weeks generous on each side of the actual (date-varying) DST
+    # transition, so at most one run near the changeover lands ~1h off —
+    # never wrong by more than that.
+    - cron: "0 8,11,13 * 4-9 *"    # Apr-Sep: safely inside BST -> 9am/12pm/2pm UK time
+    - cron: "0 9,12,14 * 10-12,1-3 *"  # Oct-Mar: safely inside GMT -> 9am/12pm/2pm UK time
+  workflow_dispatch: {}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python scripts/discover_companies_engineering.py
+      - run: python scripts/poll_engineering.py
+      - run: python scripts/build_site_engineering.py
+      - run: |
+          git config user.name "pm-internship-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/companies_engineering.yaml data/postings_engineering.json site/engineering.html
+          git diff --quiet --cached || git commit -m "engineering-radar: update postings [skip ci]"
+          # The PM/UX tracker workflow can push to main around the same times;
+          # pull --rebase before pushing so a concurrent, non-overlapping
+          # change (different files) doesn't reject this push outright.
+          git pull --rebase --autostash origin main
+          git push
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+      - id: deployment
+        uses: actions/deploy-pages@v4

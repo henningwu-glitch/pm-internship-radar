@@ -123,9 +123,6 @@
   tenant: barclays
   dc: wd3
   site: External_Career_Site_Barclays
-- name: Barclays
-  ats: smartrecruiters
-  token: Barclays
 - name: Belvedere Trading
   ats: lever
   token: belvederetrading
@@ -165,9 +162,6 @@
   tenant: brunswick
   dc: wd1
   site: search
-- name: BT Group
-  ats: smartrecruiters
-  token: BT
 - name: BTI360
   ats: greenhouse
   token: bti36021
@@ -372,9 +366,6 @@
 - name: Five Rings Capital
   ats: greenhouse
   token: fiveringsllc
-- name: Flow Traders
-  ats: greenhouse
-  token: flowtraders
 - name: Freddie Mac
   ats: workday
   tenant: freddiemac
@@ -469,9 +460,6 @@
 - name: HPR (Hyannis Port Research)
   ats: greenhouse
   token: hyannisportresearch
-- name: HSBC
-  ats: smartrecruiters
-  token: HSBC
 - name: HubSpot
   ats: greenhouse
   token: hubspot
@@ -490,9 +478,17 @@
   tenant: iatinsurancegroup
   dc: wd1
   site: iat
+- name: ICF International
+  ats: workday
+  tenant: icf
+  dc: wd5
+  site: icfexternal_career_site
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
+- name: incident.io
+  ats: ashby
+  token: incident
 - name: InfiniteQuant
   ats: smartrecruiters
   token: InfiniteQuant
@@ -527,9 +523,6 @@
   tenant: keybank
   dc: wd5
   site: External_Career_Site
-- name: Klarna
-  ats: smartrecruiters
-  token: Klarna
 - name: Land O'Lakes
   ats: workday
   tenant: landolakes
@@ -559,11 +552,11 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_Jobs
-- name: Marsh
+- name: Marsh & McLennan
   ats: workday
   tenant: mmc
   dc: wd1
-  site: MMC
+  site: mmc
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
@@ -571,12 +564,12 @@
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers
+  site: MarvellCareers2
 - name: Marvell
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers2
+  site: MarvellCareers
 - name: Mastercard
   ats: workday
   tenant: mastercard
@@ -640,9 +633,6 @@
   tenant: nationwide
   dc: wd1
   site: Nationwide_Career
-- name: NatWest Group
-  ats: smartrecruiters
-  token: NatWestGroup
 - name: Newrez
   ats: workday
   tenant: newrez
@@ -689,6 +679,11 @@
   tenant: nvidia
   dc: wd5
   site: NVIDIAExternalCareerSite
+- name: NXP Semiconductors
+  ats: workday
+  tenant: nxp
+  dc: wd3
+  site: careers
 - name: Okta
   ats: greenhouse
   token: okta
@@ -834,12 +829,12 @@
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: rec_rtx_ext_gateway
+  site: Private_Posting_No_TMP
 - name: RTX
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: Private_Posting_No_TMP
+  site: rec_rtx_ext_gateway
 - name: Ryan Companies
   ats: workday
   tenant: ryancompanies
@@ -872,9 +867,6 @@
   tenant: snc
   dc: wd1
   site: snc_external_career_site
-- name: Sky
-  ats: smartrecruiters
-  token: Sky
 - name: Skydio
   ats: ashby
   token: skydio
@@ -985,6 +977,11 @@
   tenant: tjx
   dc: wd1
   site: tjx_external
+- name: Tokyo Electron
+  ats: workday
+  tenant: tel
+  dc: wd3
+  site: tel-careers
 - name: Travelers
   ats: workday
   tenant: travelers
@@ -1054,6 +1051,11 @@
 - name: Xantium
   ats: greenhouse
   token: xantium
+- name: Xcel Energy
+  ats: workday
+  tenant: xcelenergy
+  dc: wd1
+  site: External
 - name: Zilch
   ats: ashby
   token: zilch

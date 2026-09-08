@@ -1,10 +1,23 @@
-# UK PM Internship Radar — Summer 2027
+# UK Internship Radar — Summer 2027
 
-Tracks Product Manager, Product Owner, and UX/product-design internships
-**based in the UK** for the Summer 2027 cycle, by polling company ATS
-boards directly — Greenhouse, Ashby, Lever, Workday, SmartRecruiters —
-three times a day. No LinkedIn/Indeed scraping (both prohibit it, and
-neither is the original source anyway).
+Two trackers sharing one polling engine — both **based in the UK**, both
+polling company ATS boards directly (Greenhouse, Ashby, Lever, Workday,
+SmartRecruiters), no LinkedIn/Indeed scraping (both prohibit it, and neither
+is the original source anyway):
+
+- **PM/UX Radar** (`site/index.html`) — Product Manager, Product Owner, and
+  UX/product-design internships, at a broad, self-expanding company registry
+  mined from open-source internship trackers plus a curated PM-heavy list.
+  Updates three times daily at 06:00 / 14:00 / 22:00 UTC.
+- **Engineering Radar** (`site/engineering.html`) — any Summer 2027
+  internship/placement (engineering, commercial analyst, whatever the
+  discipline) at a curated, fixed list of ~185 UK engineering, defence,
+  construction, energy, and manufacturing employers. No role-keyword
+  filtering — the company list itself is what scopes it to engineering
+  employers. Updates three times daily at 9am / 12pm / 2pm **UK local
+  time**.
+
+## PM/UX Radar
 
 A posting only survives if it matches on **both** title (PM/APM/Technical
 PM, Product Owner, or UX/product-design internship, Summer 2027 or
@@ -37,6 +50,44 @@ UK-located postings pass the filter.
    three times daily (06:00 / 14:00 / 22:00 UTC), commits the updated data,
    and redeploys the site to GitHub Pages.
 
+## Engineering Radar
+
+Unlike the PM tracker, this one doesn't filter by role/title keyword at
+all — see `radar/classify_engineering.py`. The company registry
+(`data/companies_engineering.yaml`) is itself a curated, fixed list of ~185
+UK engineering employers, so any Summer 2027 internship/placement any of
+them posts is in scope. A posting still needs a placement-shaped title
+("Internship", "Placement", "Year in Industry", "Vacation Scheme", ...), the
+2027 cycle (or no year at all), and a UK location.
+
+1. **`scripts/discover_companies_engineering.py`** — resolves each of the
+   ~185 companies to its ATS token/tenant by probing plausible guesses, then
+   verifies every candidate with a live call — same honest philosophy as the
+   PM tracker's discovery script, but scoped only to this fixed employer
+   list (it does **not** mine the community trackers, which skew almost
+   entirely US tech/finance and would silently expand scope far beyond
+   these ~185 companies).
+2. **`scripts/poll_engineering.py`** / **`scripts/build_site_engineering.py`**
+   — same shape as the PM tracker's, writing to `data/postings_engineering.json`
+   and `site/engineering.html`.
+3. **`.github/workflows/tracker-engineering.yml`** — runs three times daily
+   at 9am / 12pm / 2pm **UK local time** (two cron schedules approximate UK
+   clock time across the BST/GMT switch, since GitHub Actions cron is
+   UTC-only).
+
+Many large UK industrials (defence primes, utilities, construction) run
+bespoke careers portals or Workday tenants with no guessable token, so
+coverage of the ~185-company list is necessarily partial — a company that
+doesn't verify simply isn't polled, rather than shown with a guessed link.
+Run the discovery script to see the current verified count; add a company
+by hand once you've found its real token (see "Adding a company" below).
+
+The engineering site also has a **"My status"** column (Not Applied /
+Applied / Interviewing / Offer / Rejected) you can click through per
+posting — stored only in your own browser's `localStorage`, never sent
+anywhere, so it works like a personal application tracker layered on top of
+the live feed.
+
 ## Local development
 
 ```bash
@@ -44,17 +95,25 @@ python -m venv .venv
 .venv/Scripts/activate   # or: source .venv/bin/activate on macOS/Linux
 pip install -r requirements.txt
 
-pytest tests/                        # zero network calls
-python scripts/discover_companies.py # rebuild data/companies.yaml (verifies live)
-python scripts/poll.py               # poll every company, update data/postings.json
-python scripts/build_site.py         # render site/index.html
+pytest tests/                                    # zero network calls
+
+# PM/UX tracker
+python scripts/discover_companies.py             # rebuild data/companies.yaml (verifies live)
+python scripts/poll.py                           # poll every company, update data/postings.json
+python scripts/build_site.py                     # render site/index.html
+
+# Engineering tracker
+python scripts/discover_companies_engineering.py # rebuild data/companies_engineering.yaml (verifies live)
+python scripts/poll_engineering.py               # poll every company, update data/postings_engineering.json
+python scripts/build_site_engineering.py         # render site/engineering.html
 ```
 
-Open `site/index.html` directly in a browser to preview.
+Open `site/index.html` or `site/engineering.html` directly in a browser to preview.
 
 ## Adding a company
 
-Add a verified entry to `data/companies.yaml`:
+Add a verified entry to `data/companies.yaml` (PM tracker) or
+`data/companies_engineering.yaml` (Engineering tracker):
 
 ```yaml
 - name: Example Corp
@@ -67,11 +126,14 @@ them via DevTools → Network tab on the company's live careers page (the
 request URL contains all three: `https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs`).
 
 Never add an entry you haven't personally verified returns real data —
-run `python scripts/discover_companies.py` to re-verify the whole registry,
-or test one company directly with `radar/ats_clients.py`.
+re-run the relevant discovery script to re-verify the whole registry, or
+test one company directly with `radar/ats_clients.py`. For the Engineering
+tracker specifically, also add the company to `ENGINEERING_EMPLOYERS` in
+`scripts/discover_companies_engineering.py` so it survives the next
+automated re-discovery run instead of being silently dropped.
 
 ## Why an empty board is sometimes correct
 
 Most companies don't open Summer 2027 postings until November–February. If
-`data/postings.json` is empty or thin, the site says so honestly rather
-than fabricating anything.
+a postings file is empty or thin, the site says so honestly rather than
+fabricating anything.
