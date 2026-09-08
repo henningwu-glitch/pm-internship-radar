@@ -50,17 +50,9 @@
   tenant: ameriprise
   dc: wd5
   site: Ameriprise
-- name: Amgen
-  ats: workday
-  tenant: amgen
-  dc: wd1
-  site: careers
 - name: Amplitude
   ats: greenhouse
   token: amplitude
-- name: AnaVation
-  ats: lever
-  token: anavationllc
 - name: Anthelion Capital
   ats: ashby
   token: anthelioncap
@@ -144,6 +136,9 @@
   tenant: bah
   dc: wd1
   site: Confidential
+- name: Brex
+  ats: greenhouse
+  token: brex
 - name: Brunswick
   ats: workday
   tenant: brunswick
@@ -152,6 +147,11 @@
 - name: BTI360
   ats: greenhouse
   token: bti36021
+- name: C.H. Robinson
+  ats: workday
+  tenant: chrobinson
+  dc: wd5
+  site: CHRobinson
 - name: CACI
   ats: workday
   tenant: caci
@@ -992,6 +992,11 @@
 - name: Twilio
   ats: greenhouse
   token: twilio
+- name: U.S. Bank
+  ats: workday
+  tenant: usbank
+  dc: wd1
+  site: US_Bank_Careers
 - name: Uline
   ats: workday
   tenant: uline
