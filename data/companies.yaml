@@ -83,11 +83,6 @@
   tenant: archgroup
   dc: wd1
   site: careers
-- name: Arrowstreet Capital
-  ats: workday
-  tenant: arrowstreetcapital
-  dc: wd5
-  site: Campus_Careers
 - name: Asana
   ats: greenhouse
   token: asana
@@ -113,11 +108,6 @@
   tenant: baird
   dc: wd1
   site: careers
-- name: Bank of Montreal
-  ats: workday
-  tenant: bmo
-  dc: wd3
-  site: Privileged
 - name: Barclays
   ats: workday
   tenant: barclays
@@ -154,9 +144,6 @@
   tenant: bah
   dc: wd1
   site: Confidential
-- name: Brex
-  ats: greenhouse
-  token: brex
 - name: Brunswick
   ats: workday
   tenant: brunswick
@@ -281,6 +268,11 @@
 - name: Dev Technology Group
   ats: greenhouse
   token: devtechnology
+- name: Dick's Sporting Goods
+  ats: workday
+  tenant: dickssportinggoods
+  dc: wd1
+  site: DSG
 - name: Dimensional Fund Advisors
   ats: workday
   tenant: dimensional
@@ -552,6 +544,11 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_Jobs
+- name: Marsh
+  ats: workday
+  tenant: mmc
+  dc: wd1
+  site: MMC
 - name: Marsh & McLennan
   ats: workday
   tenant: mmc
@@ -596,16 +593,16 @@
 - name: Melius
   ats: ashby
   token: melius
+- name: Merck
+  ats: workday
+  tenant: msd
+  dc: wd5
+  site: searchjobs
 - name: Michelin
   ats: workday
   tenant: michelinhr
   dc: wd3
   site: Michelin
-- name: Moderna
-  ats: workday
-  tenant: modernatx
-  dc: wd1
-  site: M_tx
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -826,12 +823,12 @@
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: Private_Posting_No_TMP
+  site: rec_rtx_ext_gateway
 - name: RTX
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: rec_rtx_ext_gateway
+  site: Private_Posting_No_TMP
 - name: Ryan Companies
   ats: workday
   tenant: ryancompanies
@@ -966,6 +963,11 @@
   tenant: disney
   dc: wd5
   site: disneycareerdc
+- name: Thermo Fisher Scientific
+  ats: workday
+  tenant: thermofisher
+  dc: wd5
+  site: ThermoFisherCareers
 - name: Tide
   ats: greenhouse
   token: tide
