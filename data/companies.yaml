@@ -765,9 +765,6 @@
   tenant: pg
   dc: wd5
   site: '1000'
-- name: Pylon
-  ats: ashby
-  token: pylon-labs
 - name: Quadrillion
   ats: ashby
   token: quadrillion-labs
