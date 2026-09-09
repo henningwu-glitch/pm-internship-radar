@@ -231,11 +231,6 @@
 - name: Circleback
   ats: ashby
   token: circleback
-- name: Citi
-  ats: workday
-  tenant: citi
-  dc: wd5
-  site: '2'
 - name: Clarios
   ats: workday
   tenant: clarios
@@ -244,11 +239,6 @@
 - name: Cloudflare
   ats: greenhouse
   token: cloudflare
-- name: CNO Financial Group
-  ats: workday
-  tenant: cnoinc
-  dc: wd5
-  site: Careers
 - name: Coinbase
   ats: greenhouse
   token: coinbase
@@ -333,6 +323,9 @@
   tenant: drivetime
   dc: wd1
   site: DriveTime
+- name: Dropbox
+  ats: greenhouse
+  token: dropbox
 - name: DRW
   ats: greenhouse
   token: drweng
@@ -591,11 +584,6 @@
   tenant: mmc
   dc: wd1
   site: MMC
-- name: Marsh & McLennan
-  ats: workday
-  tenant: mmc
-  dc: wd1
-  site: mmc
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
@@ -661,6 +649,11 @@
 - name: Monzo
   ats: greenhouse
   token: monzo
+- name: Moog
+  ats: workday
+  tenant: moog
+  dc: wd5
+  site: moog_external_career_site
 - name: Motorola
   ats: workday
   tenant: motorolasolutions
@@ -941,9 +934,6 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
-- name: SpaceX
-  ats: greenhouse
-  token: spacex
 - name: Squarespace
   ats: greenhouse
   token: squarespace
