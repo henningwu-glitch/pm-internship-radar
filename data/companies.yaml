@@ -906,11 +906,6 @@
 - name: Semgrep
   ats: ashby
   token: semgrep
-- name: Sensata
-  ats: workday
-  tenant: sensata
-  dc: wd1
-  site: Sensata-Careers
 - name: Sierra
   ats: ashby
   token: Sierra
@@ -934,6 +929,9 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
+- name: SpaceX
+  ats: greenhouse
+  token: spacex
 - name: Squarespace
   ats: greenhouse
   token: squarespace
@@ -1076,6 +1074,11 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
+- name: Verizon Communications
+  ats: workday
+  tenant: verizon
+  dc: wd12
+  site: verizon-careers
 - name: Verkada
   ats: greenhouse
   token: verkada
