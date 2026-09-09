@@ -1,3 +1,8 @@
+- name: ABB
+  ats: workday
+  tenant: abb
+  dc: wd3
+  site: external_career_page
 - name: AbbVie
   ats: smartrecruiters
   token: AbbVie
@@ -35,6 +40,9 @@
   tenant: aimco
   dc: wd10
   site: AIMCoCareers
+- name: Allen Control Systems
+  ats: ashby
+  token: allen-control-systems
 - name: Allied Solutions
   ats: workday
   tenant: alliedsolutions
@@ -53,6 +61,9 @@
 - name: Amplitude
   ats: greenhouse
   token: amplitude
+- name: AnaVation
+  ats: lever
+  token: anavationllc
 - name: Anthelion Capital
   ats: ashby
   token: anthelioncap
@@ -105,6 +116,9 @@
   tenant: barclays
   dc: wd3
   site: External_Career_Site_Barclays
+- name: Bedrock Robotics
+  ats: ashby
+  token: bedrock-robotics
 - name: Belvedere Trading
   ats: lever
   token: belvederetrading
@@ -126,6 +140,11 @@
   tenant: nebraskablue
   dc: wd1
   site: BCBSNE
+- name: Boeing
+  ats: workday
+  tenant: boeing
+  dc: wd1
+  site: EXTERNAL_CAREERS
 - name: Booz Allen
   ats: workday
   tenant: bah
@@ -147,6 +166,11 @@
 - name: BTI360
   ats: greenhouse
   token: bti36021
+- name: Burlington Stores
+  ats: workday
+  tenant: burlington
+  dc: wd5
+  site: BurlingtonCareers
 - name: C.H. Robinson
   ats: workday
   tenant: chrobinson
@@ -177,6 +201,9 @@
   tenant: chamberlain
   dc: wd1
   site: Chamberlain_Group
+- name: CHAOS Industries
+  ats: greenhouse
+  token: chaosindustries
 - name: Chicago Trading Company
   ats: greenhouse
   token: chicagotradingcampus
@@ -243,6 +270,11 @@
   tenant: clr
   dc: wd5
   site: CLR_Careers
+- name: COUNTRY Financial
+  ats: workday
+  tenant: countryfinancial
+  dc: wd5
+  site: COUNTRYCorporateInternships
 - name: Cox
   ats: workday
   tenant: cox
@@ -301,9 +333,6 @@
   tenant: drivetime
   dc: wd1
   site: DriveTime
-- name: Dropbox
-  ats: greenhouse
-  token: dropbox
 - name: DRW
   ats: greenhouse
   token: drweng
@@ -326,6 +355,11 @@
 - name: Elk Valley Resources
   ats: lever
   token: evr
+- name: Ercot
+  ats: workday
+  tenant: ercot
+  dc: wd1
+  site: ercot_careers
 - name: Eulerity
   ats: greenhouse
   token: eulerity
@@ -376,6 +410,9 @@
   tenant: gresearch
   dc: wd103
   site: G-Research
+- name: Gallup
+  ats: greenhouse
+  token: gallup
 - name: Garda Capital Partners
   ats: greenhouse
   token: gardacp
@@ -410,6 +447,11 @@
 - name: General Matter
   ats: greenhouse
   token: generalmatter
+- name: General Motors
+  ats: workday
+  tenant: generalmotors
+  dc: wd5
+  site: Careers_GM
 - name: Geotab
   ats: greenhouse
   token: internshiplist2000
@@ -561,12 +603,12 @@
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers2
+  site: MarvellCareers
 - name: Marvell
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers
+  site: MarvellCareers2
 - name: Mastercard
   ats: workday
   tenant: mastercard
@@ -590,6 +632,11 @@
   tenant: medtronic
   dc: wd1
   site: redeploymentmedtroniccareers
+- name: Meijer
+  ats: workday
+  tenant: meijer
+  dc: wd5
+  site: Meijer
 - name: Melius
   ats: ashby
   token: melius
@@ -630,6 +677,9 @@
   tenant: nationwide
   dc: wd1
   site: Nationwide_Career
+- name: Neighbor
+  ats: lever
+  token: neighbor
 - name: Newrez
   ats: workday
   tenant: newrez
@@ -684,6 +734,9 @@
 - name: Okta
   ats: greenhouse
   token: okta
+- name: ONE Finance
+  ats: ashby
+  token: oneapp
 - name: Ontario Teachers' Pension Plan
   ats: workday
   tenant: otppb
@@ -762,6 +815,9 @@
   tenant: pg
   dc: wd5
   site: '1000'
+- name: Protective Life
+  ats: lever
+  token: protective
 - name: Quadrillion
   ats: ashby
   token: quadrillion-labs
@@ -787,6 +843,12 @@
   tenant: repsol
   dc: wd3
   site: Repsol
+- name: Revel
+  ats: ashby
+  token: revel
+- name: RF-SMART
+  ats: greenhouse
+  token: rfsmart
 - name: Rivian and Volkswagen Group Technologies
   ats: ashby
   token: rivianvw.tech
@@ -848,6 +910,9 @@
 - name: Schonfeld
   ats: greenhouse
   token: schonfeld
+- name: Semgrep
+  ats: ashby
+  token: semgrep
 - name: Sensata
   ats: workday
   tenant: sensata
@@ -906,6 +971,9 @@
   tenant: troweprice
   dc: wd5
   site: TRowePrice
+- name: Talos
+  ats: ashby
+  token: Talos-Trading
 - name: Tarrant Regional Water District
   ats: workday
   tenant: trwd
@@ -924,11 +992,6 @@
 - name: TELUS Digital
   ats: ashby
   token: telus-digital
-- name: The Boeing Company
-  ats: workday
-  tenant: boeing
-  dc: wd1
-  site: EXTERNAL_CAREERS
 - name: The Boeing Company
   ats: workday
   tenant: boeing
@@ -986,6 +1049,11 @@
   tenant: travelers
   dc: wd5
   site: External
+- name: Trimble
+  ats: workday
+  tenant: trimble
+  dc: wd1
+  site: TrimbleCareers
 - name: Trustpilot
   ats: greenhouse
   token: trustpilot
@@ -1026,6 +1094,9 @@
   tenant: vermeer
   dc: wd5
   site: externalcareersite
+- name: Viam
+  ats: greenhouse
+  token: viamrobotics
 - name: Virtu Financial
   ats: greenhouse
   token: virtu
