@@ -116,6 +116,9 @@
   tenant: barclays
   dc: wd3
   site: External_Career_Site_Barclays
+- name: Barnes & Thornburg
+  ats: ashby
+  token: barnes
 - name: Bedrock Robotics
   ats: ashby
   token: bedrock-robotics
@@ -201,9 +204,6 @@
   tenant: chamberlain
   dc: wd1
   site: Chamberlain_Group
-- name: CHAOS Industries
-  ats: greenhouse
-  token: chaosindustries
 - name: Chicago Trading Company
   ats: greenhouse
   token: chicagotradingcampus
@@ -265,6 +265,11 @@
   tenant: countryfinancial
   dc: wd5
   site: COUNTRYCorporateInternships
+- name: Covestro
+  ats: workday
+  tenant: covestro
+  dc: wd3
+  site: cov_external
 - name: Cox
   ats: workday
   tenant: cox
@@ -481,6 +486,11 @@
 - name: Hermeus
   ats: lever
   token: hermeus
+- name: HMH
+  ats: workday
+  tenant: hmhw
+  dc: wd12
+  site: hmh_careers
 - name: HP IQ
   ats: greenhouse
   token: hpiq
@@ -513,6 +523,9 @@
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
+- name: Immuta
+  ats: lever
+  token: immuta
 - name: incident.io
   ats: ashby
   token: incident
@@ -545,6 +558,11 @@
 - name: K2 Space
   ats: greenhouse
   token: k2spacecorporation
+- name: Kensho
+  ats: workday
+  tenant: spgi
+  dc: wd5
+  site: Kensho_Careers
 - name: KeyBank
   ats: workday
   tenant: keybank
@@ -563,6 +581,9 @@
   tenant: leidos
   dc: wd5
   site: External
+- name: Lexington Medical
+  ats: greenhouse
+  token: lexingtonmedical
 - name: Linear
   ats: ashby
   token: linear
@@ -746,6 +767,14 @@
   tenant: oshkoshcorporation
   dc: wd5
   site: Oshkosh
+- name: Ovintiv
+  ats: workday
+  tenant: ovintiv
+  dc: wd3
+  site: ovintivcareers
+- name: Pacific Fusion
+  ats: greenhouse
+  token: pacificfusion
 - name: Palantir Technologies
   ats: lever
   token: palantir
@@ -774,6 +803,9 @@
 - name: PhotoRoom
   ats: ashby
   token: photoroom
+- name: Pilot Company
+  ats: smartrecruiters
+  token: PilotCompany
 - name: PIMCO
   ats: workday
   tenant: pimco
@@ -854,6 +886,9 @@
 - name: Roblox
   ats: greenhouse
   token: roblox
+- name: Rocket Lab USA
+  ats: greenhouse
+  token: rocketlab
 - name: Royal Bank of Canada
   ats: workday
   tenant: rbc
@@ -889,6 +924,11 @@
   tenant: ryancompanies
   dc: wd5
   site: ryancompanies
+- name: S&P Global
+  ats: workday
+  tenant: spgi
+  dc: wd5
+  site: SPGI_Careers
 - name: Saab
   ats: workday
   tenant: saabusa
@@ -897,6 +937,9 @@
 - name: Sage
   ats: greenhouse
   token: sage49
+- name: Saronic
+  ats: ashby
+  token: saronic
 - name: Scale AI
   ats: greenhouse
   token: scaleai
@@ -906,6 +949,9 @@
 - name: Semgrep
   ats: ashby
   token: semgrep
+- name: Shield AI
+  ats: lever
+  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
@@ -980,6 +1026,11 @@
 - name: TELUS Digital
   ats: ashby
   token: telus-digital
+- name: The Aerospace Corporation
+  ats: workday
+  tenant: aero
+  dc: wd5
+  site: external
 - name: The Boeing Company
   ats: workday
   tenant: boeing
@@ -1063,6 +1114,11 @@
   tenant: hcmportal
   dc: wd5
   site: Search
+- name: USAA
+  ats: workday
+  tenant: usaa
+  dc: wd1
+  site: USAAJOBSWD
 - name: Vanguard
   ats: workday
   tenant: vanguard
