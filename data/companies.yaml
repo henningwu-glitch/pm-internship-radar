@@ -158,11 +158,6 @@
   tenant: bah
   dc: wd1
   site: bah_jobs
-- name: Booz Allen
-  ats: workday
-  tenant: bah
-  dc: wd1
-  site: Confidential
 - name: Brex
   ats: greenhouse
   token: brex
@@ -505,6 +500,9 @@
 - name: HubSpot
   ats: greenhouse
   token: hubspot
+- name: Hudl
+  ats: greenhouse
+  token: hudl
 - name: Huntington Bancshares
   ats: workday
   tenant: huntington
@@ -669,6 +667,11 @@
   tenant: michelinhr
   dc: wd3
   site: Michelin
+- name: MKS Instruments
+  ats: workday
+  tenant: mksinst
+  dc: wd1
+  site: MKSCareersUniversity
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -982,9 +985,6 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
-- name: SpaceX
-  ats: greenhouse
-  token: spacex
 - name: Squarespace
   ats: greenhouse
   token: squarespace
@@ -1001,9 +1001,6 @@
   tenant: stryker
   dc: wd1
   site: StrykerCareers
-- name: Syngenta Group
-  ats: smartrecruiters
-  token: SyngentaGroup
 - name: Synthesia
   ats: ashby
   token: synthesia
@@ -1150,9 +1147,6 @@
   tenant: vermeer
   dc: wd5
   site: externalcareersite
-- name: Viam
-  ats: greenhouse
-  token: viamrobotics
 - name: Virtu Financial
   ats: greenhouse
   token: virtu
