@@ -119,6 +119,11 @@
 - name: Barnes & Thornburg
   ats: ashby
   token: barnes
+- name: Barr
+  ats: workday
+  tenant: barr
+  dc: wd1
+  site: barrcareers
 - name: Bedrock Robotics
   ats: ashby
   token: bedrock-robotics
@@ -545,6 +550,11 @@
   tenant: intel
   dc: wd1
   site: external
+- name: J.M. Smucker
+  ats: workday
+  tenant: smucker
+  dc: wd5
+  site: US_External_Careers
 - name: Johns Manville
   ats: workday
   tenant: jm
@@ -748,9 +758,6 @@
 - name: Okta
   ats: greenhouse
   token: okta
-- name: ONE Finance
-  ats: ashby
-  token: oneapp
 - name: Ontario Teachers' Pension Plan
   ats: workday
   tenant: otppb
