@@ -220,6 +220,11 @@
   tenant: cibc
   dc: wd3
   site: campus
+- name: Ciena
+  ats: workday
+  tenant: ciena
+  dc: wd5
+  site: Careers
 - name: Cigna Group
   ats: workday
   tenant: cigna
@@ -286,9 +291,6 @@
 - name: Databricks
   ats: greenhouse
   token: databricks
-- name: Datadog
-  ats: greenhouse
-  token: datadog
 - name: Dee Zee
   ats: workday
   tenant: deezee
@@ -333,9 +335,6 @@
 - name: Dropbox
   ats: greenhouse
   token: dropbox
-- name: DRW
-  ats: greenhouse
-  token: drweng
 - name: DuCharme, McMillen & Associates
   ats: workday
   tenant: dmainc
@@ -808,6 +807,9 @@
 - name: Palantir Technologies
   ats: lever
   token: palantir
+- name: PDT Partners
+  ats: greenhouse
+  token: pdtpartners
 - name: Peloton
   ats: greenhouse
   token: peloton
@@ -1000,9 +1002,6 @@
 - name: Skydio
   ats: ashby
   token: skydio
-- name: Skyscanner
-  ats: greenhouse
-  token: skyscanner
 - name: Skyward
   ats: smartrecruiters
   token: Skyward1
@@ -1110,11 +1109,6 @@
 - name: The Voleon Group
   ats: ashby
   token: voleon
-- name: The Walt Disney Company
-  ats: workday
-  tenant: disney
-  dc: wd5
-  site: disneycareerdc
 - name: Thermo Fisher Scientific
   ats: workday
   tenant: thermofisher
