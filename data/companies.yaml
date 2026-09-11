@@ -808,9 +808,6 @@
 - name: Palantir Technologies
   ats: lever
   token: palantir
-- name: PDT Partners
-  ats: greenhouse
-  token: pdtpartners
 - name: Peloton
   ats: greenhouse
   token: peloton
@@ -1224,6 +1221,9 @@
   tenant: wellington
   dc: wd5
   site: Campus
+- name: Wellmark
+  ats: smartrecruiters
+  token: WellmarkInc
 - name: Western Digital
   ats: smartrecruiters
   token: WesternDigital
