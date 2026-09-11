@@ -61,9 +61,6 @@
 - name: Amplitude
   ats: greenhouse
   token: amplitude
-- name: AnaVation
-  ats: lever
-  token: anavationllc
 - name: Anthelion Capital
   ats: ashby
   token: anthelioncap
@@ -281,6 +278,11 @@
 - name: Cybernetic Labs
   ats: ashby
   token: netic
+- name: Danaher
+  ats: workday
+  tenant: danaher
+  dc: wd1
+  site: danaherjobs
 - name: Databricks
   ats: greenhouse
   token: databricks
@@ -450,6 +452,9 @@
   tenant: generalmotors
   dc: wd5
   site: Careers_GM
+- name: Geneva Trading
+  ats: greenhouse
+  token: genevatrading
 - name: Geotab
   ats: greenhouse
   token: internshiplist2000
@@ -503,6 +508,11 @@
 - name: Hudl
   ats: greenhouse
   token: hudl
+- name: Humana
+  ats: workday
+  tenant: humana
+  dc: wd5
+  site: humana_external_career_site
 - name: Huntington Bancshares
   ats: workday
   tenant: huntington
@@ -543,6 +553,11 @@
 - name: Instacart
   ats: greenhouse
   token: instacart
+- name: Insulet
+  ats: workday
+  tenant: insulet
+  dc: wd5
+  site: insuletcareers
 - name: Intel
   ats: workday
   tenant: intel
@@ -571,6 +586,11 @@
   tenant: spgi
   dc: wd5
   site: Kensho_Careers
+- name: Ketjen
+  ats: workday
+  tenant: albemarle
+  dc: wd5
+  site: ketjenexternal
 - name: KeyBank
   ats: workday
   tenant: keybank
@@ -853,6 +873,11 @@
 - name: Protective Life
   ats: lever
   token: protective
+- name: PSP Investments
+  ats: workday
+  tenant: investpsp
+  dc: wd3
+  site: psp_careers
 - name: Quadrillion
   ats: ashby
   token: quadrillion-labs
@@ -956,6 +981,11 @@
 - name: Schonfeld
   ats: greenhouse
   token: schonfeld
+- name: Securian Financial Group
+  ats: workday
+  tenant: hq
+  dc: wd12
+  site: Securian_External
 - name: Semgrep
   ats: ashby
   token: semgrep
@@ -985,6 +1015,9 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
+- name: SpaceX
+  ats: greenhouse
+  token: spacex
 - name: Squarespace
   ats: greenhouse
   token: squarespace
@@ -1012,6 +1045,14 @@
 - name: Talos
   ats: ashby
   token: Talos-Trading
+- name: Tanium
+  ats: greenhouse
+  token: tanium
+- name: Target
+  ats: workday
+  tenant: target
+  dc: wd5
+  site: targetcareers
 - name: Tarrant Regional Water District
   ats: workday
   tenant: trwd
@@ -1058,9 +1099,17 @@
   tenant: homedepot
   dc: wd5
   site: careerdepot
+- name: The MJ Companies
+  ats: greenhouse
+  token: themjcos
 - name: The Nuclear Company
   ats: greenhouse
   token: thenuclearcompany
+- name: The Toro Company
+  ats: workday
+  tenant: ttc
+  dc: wd1
+  site: Toro_External_Careers
 - name: The Voleon Group
   ats: ashby
   token: voleon
@@ -1147,9 +1196,15 @@
   tenant: vermeer
   dc: wd5
   site: externalcareersite
+- name: Viam
+  ats: greenhouse
+  token: viamrobotics
 - name: Virtu Financial
   ats: greenhouse
   token: virtu
+- name: Visier Solutions
+  ats: greenhouse
+  token: visiersolutionsinc
 - name: Voloridge
   ats: greenhouse
   token: voloridgeinvestmentmanagement
@@ -1164,6 +1219,11 @@
 - name: Webflow
   ats: greenhouse
   token: webflow
+- name: Wellington Management
+  ats: workday
+  tenant: wellington
+  dc: wd5
+  site: Campus
 - name: Western Digital
   ats: smartrecruiters
   token: WesternDigital
