@@ -71,6 +71,9 @@
 - name: Amplitude
   ats: greenhouse
   token: amplitude
+- name: AnaVation
+  ats: lever
+  token: anavationllc
 - name: Anthelion Capital
   ats: ashby
   token: anthelioncap
@@ -644,6 +647,9 @@
   tenant: keybank
   dc: wd5
   site: External_Career_Site
+- name: Klaviyo
+  ats: greenhouse
+  token: klaviyocampus
 - name: LabCorp
   ats: workday
   tenant: labcorp
