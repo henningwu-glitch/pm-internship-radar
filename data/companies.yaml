@@ -422,9 +422,6 @@
   tenant: fnbcorp
   dc: wd501
   site: FNBCORP
-- name: Five Rings Capital
-  ats: greenhouse
-  token: fiveringsllc
 - name: Freddie Mac
   ats: workday
   tenant: freddiemac
@@ -1260,9 +1257,6 @@
 - name: Visier Solutions
   ats: greenhouse
   token: visiersolutionsinc
-- name: Voloridge
-  ats: greenhouse
-  token: voloridgeinvestmentmanagement
 - name: Walmart
   ats: workday
   tenant: walmart
