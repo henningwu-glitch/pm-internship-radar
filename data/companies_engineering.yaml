@@ -20,6 +20,11 @@
   tenant: diageo
   dc: wd3
   site: Diageo_Careers
+- name: Dyson
+  ats: workday
+  tenant: dyson
+  dc: wd3
+  site: Dyson_Careers
 - name: Fugro
   ats: workday
   tenant: fugro
@@ -36,6 +41,11 @@
 - name: Open Cosmos
   ats: teamtailor
   domain: careers.open-cosmos.com
+- name: Thales
+  ats: workday
+  tenant: thales
+  dc: wd3
+  site: Careers
 - name: Turner & Townsend
   ats: smartrecruiters
   token: TurnerTownsend
