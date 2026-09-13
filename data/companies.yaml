@@ -248,9 +248,6 @@
   tenant: cigna
   dc: wd5
   site: cignacareers
-- name: Circleback
-  ats: ashby
-  token: circleback
 - name: Clarios
   ats: workday
   tenant: clarios
@@ -746,11 +743,6 @@
   tenant: michelinhr
   dc: wd3
   site: Michelin
-- name: MKS Instruments
-  ats: workday
-  tenant: mksinst
-  dc: wd1
-  site: MKSCareersUniversity
 - name: Momentive
   ats: workday
   tenant: momentive
