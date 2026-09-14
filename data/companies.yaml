@@ -126,6 +126,16 @@
   tenant: baird
   dc: wd1
   site: careers
+- name: Bank of Montreal
+  ats: workday
+  tenant: bmo
+  dc: wd3
+  site: Campus
+- name: Bank of Montreal
+  ats: workday
+  tenant: bmo
+  dc: wd3
+  site: External
 - name: Barclays
   ats: workday
   tenant: barclays
@@ -253,6 +263,11 @@
   tenant: clarios
   dc: wd5
   site: clarioscareers
+- name: Cleveland-Cliffs
+  ats: workday
+  tenant: aksteel
+  dc: wd1
+  site: careers
 - name: Cloudflare
   ats: greenhouse
   token: cloudflare
@@ -285,6 +300,11 @@
   tenant: corteva
   dc: wd5
   site: corteva
+- name: CoStar Group
+  ats: workday
+  tenant: costar
+  dc: wd1
+  site: Costar_Campus
 - name: COUNTRY Financial
   ats: workday
   tenant: countryfinancial
@@ -340,6 +360,11 @@
 - name: Discord
   ats: greenhouse
   token: discord
+- name: Dow Jones
+  ats: workday
+  tenant: dowjones
+  dc: wd1
+  site: Dow_Jones_Career
 - name: DraftKings
   ats: workday
   tenant: draftkings
@@ -382,6 +407,11 @@
   tenant: emcins
   dc: wd5
   site: EMC_Careers
+- name: Enact Mortgage Insurance
+  ats: workday
+  tenant: gnw
+  dc: wd1
+  site: enact_mi
 - name: Ercot
   ats: workday
   tenant: ercot
@@ -416,6 +446,11 @@
   tenant: fnbcorp
   dc: wd501
   site: FNBCORP
+- name: FNBO
+  ats: workday
+  tenant: firstnational
+  dc: wd12
+  site: fnbocareers
 - name: Freddie Mac
   ats: workday
   tenant: freddiemac
@@ -495,6 +530,11 @@
 - name: GoCardless
   ats: greenhouse
   token: gocardless
+- name: Gordon Food Service
+  ats: workday
+  tenant: gfs
+  dc: wd5
+  site: usjobs-gen-gfs
 - name: Greenheck Group
   ats: workday
   tenant: greenheckgroup
@@ -575,11 +615,6 @@
 - name: ibotta
   ats: ashby
   token: ibotta
-- name: ICF International
-  ats: workday
-  tenant: icf
-  dc: wd5
-  site: icfexternal_career_site
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
@@ -670,11 +705,21 @@
 - name: Linear
   ats: ashby
   token: linear
+- name: Lowe's
+  ats: workday
+  tenant: lowes
+  dc: wd5
+  site: LWS_External_CS
 - name: LPL Financial Holdings
   ats: workday
   tenant: lplfinancial
   dc: wd1
   site: university
+- name: LSEG
+  ats: workday
+  tenant: lseg
+  dc: wd3
+  site: Graduate_Careers
 - name: LSEG
   ats: workday
   tenant: lseg
@@ -700,12 +745,12 @@
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers
+  site: MarvellCareers2
 - name: Marvell
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers2
+  site: MarvellCareers
 - name: Mastercard
   ats: workday
   tenant: mastercard
@@ -777,6 +822,9 @@
 - name: National Information Solutions Cooperative
   ats: greenhouse
   token: testnisc
+- name: National Life
+  ats: greenhouse
+  token: nationallifeinsurancecompany
 - name: Nationwide
   ats: workday
   tenant: nationwide
@@ -847,6 +895,9 @@
 - name: OpenAI
   ats: ashby
   token: openai
+- name: OpenGov
+  ats: ashby
+  token: opengov
 - name: Optiver
   ats: greenhouse
   token: optiverprivate
@@ -860,6 +911,9 @@
   tenant: ovintiv
   dc: wd3
   site: ovintivcareers
+- name: Pace
+  ats: ashby
+  token: withpace
 - name: Pacific Fusion
   ats: greenhouse
   token: pacificfusion
@@ -942,6 +996,11 @@
 - name: Ramp
   ats: ashby
   token: ramp
+- name: Raymond James Financial
+  ats: workday
+  tenant: raymondjames
+  dc: wd1
+  site: RaymondJamesEarlyCareers
 - name: Reddit
   ats: greenhouse
   token: reddit
@@ -1047,6 +1106,9 @@
 - name: Semgrep
   ats: ashby
   token: semgrep
+- name: SEP
+  ats: lever
+  token: sep
 - name: Shield AI
   ats: lever
   token: shieldai
@@ -1070,9 +1132,6 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
-- name: SpaceX
-  ats: greenhouse
-  token: spacex
 - name: Squarespace
   ats: greenhouse
   token: squarespace
@@ -1278,6 +1337,11 @@
 - name: Western Digital
   ats: smartrecruiters
   token: WesternDigital
+- name: Wex
+  ats: workday
+  tenant: wexinc
+  dc: wd5
+  site: WEXInc
 - name: WhiteWater Midstream
   ats: greenhouse
   token: whitewatermidstream
