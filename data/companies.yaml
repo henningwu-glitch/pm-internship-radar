@@ -303,9 +303,6 @@
 - name: Cursor
   ats: ashby
   token: cursor
-- name: Cybernetic Labs
-  ats: ashby
-  token: netic
 - name: Danaher
   ats: workday
   tenant: danaher
@@ -503,6 +500,11 @@
   tenant: greenheckgroup
   dc: wd5
   site: external
+- name: Guardian Life
+  ats: workday
+  tenant: guardianlife
+  dc: wd5
+  site: guardian-life-careers
 - name: Gusto
   ats: greenhouse
   token: gusto
@@ -673,6 +675,11 @@
   tenant: lplfinancial
   dc: wd1
   site: university
+- name: LSEG
+  ats: workday
+  tenant: lseg
+  dc: wd3
+  site: Careers
 - name: Lyft
   ats: greenhouse
   token: lyft
