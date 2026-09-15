@@ -257,9 +257,6 @@
 - name: Chicago Trading Company
   ats: greenhouse
   token: chicagotradingcampus
-- name: Chicago Trading Company
-  ats: greenhouse
-  token: ctccampusboard
 - name: Chime
   ats: greenhouse
   token: chime
@@ -296,9 +293,6 @@
 - name: Cloudflare
   ats: greenhouse
   token: cloudflare
-- name: Coinbase
-  ats: greenhouse
-  token: coinbase
 - name: Commerce Bank
   ats: workday
   tenant: commercebank
@@ -364,6 +358,9 @@
   tenant: deezee
   dc: wd108
   site: DeeZee_Careers
+- name: Deliveroo
+  ats: greenhouse
+  token: deliveroo
 - name: Dev Technology Group
   ats: greenhouse
   token: devtechnology
@@ -382,6 +379,9 @@
   tenant: directv
   dc: wd1
   site: careers
+- name: Discord
+  ats: greenhouse
+  token: discord
 - name: DoorDash
   ats: greenhouse
   token: doordashcanada
@@ -474,6 +474,9 @@
   tenant: fnbcorp
   dc: wd501
   site: FNBCORP
+- name: Five Rings Capital
+  ats: greenhouse
+  token: fiveringsllc
 - name: FNBO
   ats: workday
   tenant: firstnational
@@ -528,6 +531,11 @@
   tenant: gevernova
   dc: wd5
   site: only_confidential_executive_recruiting
+- name: General Dynamics Information Technology
+  ats: workday
+  tenant: gdit
+  dc: wd5
+  site: external_career_site
 - name: General Dynamics UK
   ats: smartrecruiters
   token: GDMSI
@@ -813,6 +821,11 @@
   tenant: msd
   dc: wd5
   site: searchjobs
+- name: Michelin
+  ats: workday
+  tenant: michelinhr
+  dc: wd3
+  site: Michelin
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -1008,6 +1021,11 @@
   tenant: investpsp
   dc: wd3
   site: psp_careers
+- name: QTS
+  ats: workday
+  tenant: qtsdatacenters
+  dc: wd5
+  site: qts
 - name: Quadrillion
   ats: ashby
   token: quadrillion-labs
@@ -1069,11 +1087,6 @@
   tenant: rbc
   dc: wd3
   site: rbcglobal1
-- name: Royal Bank of Canada
-  ats: workday
-  tenant: rbc
-  dc: wd3
-  site: ExternalPrivatePostingStudents
 - name: RSM
   ats: workday
   tenant: rsm
@@ -1324,6 +1337,11 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
+- name: Verizon Communications
+  ats: workday
+  tenant: verizon
+  dc: wd12
+  site: verizon-careers
 - name: Verkada
   ats: greenhouse
   token: verkada
