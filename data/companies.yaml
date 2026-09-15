@@ -102,6 +102,11 @@
 - name: ASOS
   ats: smartrecruiters
   token: ASOS
+- name: AtkinsRéalis
+  ats: workday
+  tenant: slihrms
+  dc: wd3
+  site: careers
 - name: Atoms
   ats: greenhouse
   token: cssmerge
@@ -126,6 +131,11 @@
   tenant: baird
   dc: wd1
   site: careers
+- name: Bank of Montreal
+  ats: workday
+  tenant: bmo
+  dc: wd3
+  site: Privileged
 - name: Bank of Montreal
   ats: workday
   tenant: bmo
@@ -155,6 +165,11 @@
 - name: Belvedere Trading
   ats: lever
   token: belvederetrading
+- name: BlackRock
+  ats: workday
+  tenant: blackrock
+  dc: wd1
+  site: BlackRock_Professional
 - name: Blackstone
   ats: workday
   tenant: blackstone
@@ -242,12 +257,12 @@
   ats: workday
   tenant: cibc
   dc: wd3
-  site: search
+  site: campus
 - name: CIBC
   ats: workday
   tenant: cibc
   dc: wd3
-  site: campus
+  site: search
 - name: Ciena
   ats: workday
   tenant: ciena
@@ -360,6 +375,12 @@
 - name: Discord
   ats: greenhouse
   token: discord
+- name: DoorDash
+  ats: greenhouse
+  token: doordashcanada
+- name: DoorDash
+  ats: greenhouse
+  token: doordashusa
 - name: Dow Jones
   ats: workday
   tenant: dowjones
@@ -580,6 +601,11 @@
   tenant: hntb
   dc: wd5
   site: hntb_university_careers
+- name: Howden
+  ats: workday
+  tenant: hyperiongrp
+  dc: wd3
+  site: Hyperion_External
 - name: HP IQ
   ats: greenhouse
   token: hpiq
@@ -745,12 +771,12 @@
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers2
+  site: MarvellCareers
 - name: Marvell
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers
+  site: MarvellCareers2
 - name: Mastercard
   ats: workday
   tenant: mastercard
@@ -1132,6 +1158,9 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
+- name: SpaceX
+  ats: greenhouse
+  token: spacex
 - name: Squarespace
   ats: greenhouse
   token: squarespace
@@ -1151,6 +1180,11 @@
   tenant: stryker
   dc: wd1
   site: StrykerCareers
+- name: Sun Life
+  ats: workday
+  tenant: sunlife
+  dc: wd3
+  site: Campus
 - name: Synthesia
   ats: ashby
   token: synthesia
@@ -1348,6 +1382,9 @@
 - name: Wise
   ats: greenhouse
   token: wise
+- name: Workshop
+  ats: greenhouse
+  token: workshop
 - name: Xantium
   ats: greenhouse
   token: xantium
