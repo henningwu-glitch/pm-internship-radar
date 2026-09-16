@@ -87,6 +87,9 @@
 - name: Anduril
   ats: greenhouse
   token: andurilindustries
+- name: Antares Nuclear
+  ats: ashby
+  token: Antares
 - name: Anthelion Capital
   ats: ashby
   token: anthelioncap
@@ -792,6 +795,11 @@
 - name: Linear
   ats: ashby
   token: linear
+- name: Live Oak Bank
+  ats: workday
+  tenant: liveoakbancshares
+  dc: wd1
+  site: Live_Oak
 - name: Lowe's
   ats: workday
   tenant: lowes
@@ -1213,6 +1221,9 @@
 - name: Skyward
   ats: smartrecruiters
   token: Skyward1
+- name: SoFi
+  ats: greenhouse
+  token: sofi
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
