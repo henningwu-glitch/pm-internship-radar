@@ -58,6 +58,11 @@
   tenant: alliedsolutions
   dc: wd501
   site: Allied_External
+- name: Altar'd State
+  ats: workday
+  tenant: standoutforgood
+  dc: wd12
+  site: StandOutForGood
 - name: Ameren
   ats: workday
   tenant: ameren
@@ -79,12 +84,18 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Anthelion Capital
   ats: ashby
   token: anthelioncap
 - name: Anthropic
   ats: greenhouse
   token: anthropic
+- name: Apera AI
+  ats: greenhouse
+  token: aperaaiinc
 - name: Apex
   ats: ashby
   token: apex-technology-inc
@@ -107,6 +118,11 @@
 - name: ASOS
   ats: smartrecruiters
   token: ASOS
+- name: AspenTech
+  ats: workday
+  tenant: aspentech
+  dc: wd5
+  site: aspentech
 - name: AtkinsRéalis
   ats: workday
   tenant: slihrms
@@ -249,6 +265,9 @@
   tenant: cat
   dc: wd5
   site: CaterpillarCareers
+- name: CesiumAstro
+  ats: lever
+  token: CesiumAstro
 - name: Chamberlain Group
   ats: workday
   tenant: chamberlain
@@ -257,6 +276,9 @@
 - name: Chicago Trading Company
   ats: greenhouse
   token: chicagotradingcampus
+- name: Chicago Trading Company
+  ats: greenhouse
+  token: ctccampusboard
 - name: Chime
   ats: greenhouse
   token: chime
@@ -293,6 +315,9 @@
 - name: Cloudflare
   ats: greenhouse
   token: cloudflare
+- name: Coinbase
+  ats: greenhouse
+  token: coinbase
 - name: Commerce Bank
   ats: workday
   tenant: commercebank
@@ -342,6 +367,11 @@
 - name: Cursor
   ats: ashby
   token: cursor
+- name: Dallas Fort Worth International Airport
+  ats: workday
+  tenant: dfwairport
+  dc: wd5
+  site: External
 - name: Danaher
   ats: workday
   tenant: danaher
@@ -416,6 +446,9 @@
   tenant: dmainc
   dc: wd5
   site: dma
+- name: Duolingo
+  ats: greenhouse
+  token: duolingounirecruitment
 - name: Duolingo
   ats: greenhouse
   token: duolingo
@@ -531,6 +564,9 @@
   tenant: gevernova
   dc: wd5
   site: only_confidential_executive_recruiting
+- name: Gecko Robotics
+  ats: ashby
+  token: gecko-robotics
 - name: General Dynamics Information Technology
   ats: workday
   tenant: gdit
@@ -601,6 +637,11 @@
 - name: Hermeus
   ats: lever
   token: hermeus
+- name: Hitachi
+  ats: workday
+  tenant: hitachi
+  dc: wd1
+  site: hitachi
 - name: HMH
   ats: workday
   tenant: hmhw
@@ -743,6 +784,11 @@
 - name: Lexington Medical
   ats: greenhouse
   token: lexingtonmedical
+- name: LexisNexis Legal & Professional
+  ats: workday
+  tenant: relx
+  dc: wd3
+  site: LexisNexisLegal
 - name: Linear
   ats: ashby
   token: linear
@@ -987,6 +1033,11 @@
 - name: Pinterest
   ats: greenhouse
   token: pinterest
+- name: Plastipak
+  ats: workday
+  tenant: plastipak
+  dc: wd1
+  site: Plastipak
 - name: Polaris
   ats: workday
   tenant: polaris
@@ -1021,6 +1072,11 @@
   tenant: investpsp
   dc: wd3
   site: psp_careers
+- name: Q2
+  ats: workday
+  tenant: q2ebanking
+  dc: wd5
+  site: Q2
 - name: QTS
   ats: workday
   tenant: qtsdatacenters
@@ -1157,9 +1213,6 @@
 - name: Skyward
   ats: smartrecruiters
   token: Skyward1
-- name: SoFi
-  ats: greenhouse
-  token: sofi
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
