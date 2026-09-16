@@ -84,9 +84,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -183,6 +180,11 @@
   tenant: barr
   dc: wd1
   site: barrcareers
+- name: Bass Pro Shops
+  ats: workday
+  tenant: basspro
+  dc: wd1
+  site: careers
 - name: Bedrock Robotics
   ats: ashby
   token: bedrock-robotics
@@ -230,9 +232,6 @@
   tenant: brunswick
   dc: wd1
   site: search
-- name: BTI360
-  ats: greenhouse
-  token: bti36021
 - name: Burlington Stores
   ats: workday
   tenant: burlington
@@ -449,9 +448,6 @@
   tenant: dmainc
   dc: wd5
   site: dma
-- name: Duolingo
-  ats: greenhouse
-  token: duolingounirecruitment
 - name: Duolingo
   ats: greenhouse
   token: duolingo
@@ -735,6 +731,11 @@
   tenant: smucker
   dc: wd5
   site: US_External_Careers
+- name: Jabil
+  ats: workday
+  tenant: jabil
+  dc: wd5
+  site: Jabil_Careers
 - name: Johns Manville
   ats: workday
   tenant: jm
@@ -779,11 +780,6 @@
 - name: Lawrence Livermore National Laboratory (LLNL)
   ats: smartrecruiters
   token: LLNL
-- name: Leidos
-  ats: workday
-  tenant: leidos
-  dc: wd5
-  site: External
 - name: Lexington Medical
   ats: greenhouse
   token: lexingtonmedical
@@ -810,9 +806,6 @@
   tenant: lplfinancial
   dc: wd1
   site: university
-- name: Lyft
-  ats: greenhouse
-  token: lyft
 - name: Manulife Financial
   ats: workday
   tenant: manulife
@@ -1051,9 +1044,6 @@
   tenant: polaris
   dc: wd5
   site: PolarisJobs
-- name: Postman
-  ats: greenhouse
-  token: postman
 - name: PricewaterhouseCoopers (PwC)
   ats: workday
   tenant: pwc
@@ -1423,6 +1413,9 @@
 - name: Visier Solutions
   ats: greenhouse
   token: visiersolutionsinc
+- name: Wabash Valley Power Alliance
+  ats: smartrecruiters
+  token: WabashValleyPowerAlliance
 - name: Walmart
   ats: workday
   tenant: walmart
