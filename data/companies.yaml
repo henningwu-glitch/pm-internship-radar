@@ -42,9 +42,6 @@
 - name: Airbnb
   ats: greenhouse
   token: airbnb
-- name: Airtable
-  ats: greenhouse
-  token: airtable
 - name: Alberta Investment Management Corporation
   ats: workday
   tenant: aimco
@@ -165,16 +162,6 @@
   tenant: bmo
   dc: wd3
   site: Privileged
-- name: Bank of Montreal
-  ats: workday
-  tenant: bmo
-  dc: wd3
-  site: Campus
-- name: Bank of Montreal
-  ats: workday
-  tenant: bmo
-  dc: wd3
-  site: External
 - name: Barclays
   ats: workday
   tenant: barclays
@@ -235,6 +222,11 @@
 - name: Brex
   ats: greenhouse
   token: brex
+- name: British Columbia Investment
+  ats: workday
+  tenant: bci
+  dc: wd10
+  site: BCI_Careers
 - name: Brunswick
   ats: workday
   tenant: brunswick
@@ -534,11 +526,6 @@
 - name: Figma
   ats: greenhouse
   token: figma
-- name: Finastra
-  ats: workday
-  tenant: finastra
-  dc: wd3
-  site: FINC
 - name: First National Bank
   ats: workday
   tenant: fnbcorp
@@ -1055,9 +1042,6 @@
 - name: Perpay
   ats: greenhouse
   token: perpay
-- name: Persona
-  ats: ashby
-  token: persona
 - name: Persona AI
   ats: ashby
   token: persona.ai
@@ -1260,6 +1244,11 @@
 - name: Skyward
   ats: smartrecruiters
   token: Skyward1
+- name: Smith+Nephew
+  ats: workday
+  tenant: smithnephew
+  dc: wd5
+  site: External
 - name: SoFi
   ats: greenhouse
   token: sofi
@@ -1433,6 +1422,11 @@
   ats: workday
   tenant: vanguard
   dc: wd5
+  site: contractors_restricted
+- name: Vanguard
+  ats: workday
+  tenant: vanguard
+  dc: wd5
   site: vanguard_external
 - name: Vanta
   ats: ashby
@@ -1459,6 +1453,11 @@
 - name: Virtu Financial
   ats: greenhouse
   token: virtu
+- name: Visa
+  ats: workday
+  tenant: visa
+  dc: wd5
+  site: Visa
 - name: Visier Solutions
   ats: greenhouse
   token: visiersolutionsinc
