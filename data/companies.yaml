@@ -84,6 +84,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -123,6 +126,11 @@
   tenant: aspentech
   dc: wd5
   site: aspentech
+- name: ATC
+  ats: workday
+  tenant: atcllc
+  dc: wd5
+  site: atcllc
 - name: AtkinsRéalis
   ats: workday
   tenant: slihrms
@@ -232,6 +240,9 @@
   tenant: brunswick
   dc: wd1
   site: search
+- name: BTI360
+  ats: greenhouse
+  token: bti36021
 - name: Burlington Stores
   ats: workday
   tenant: burlington
@@ -275,6 +286,11 @@
   tenant: chamberlain
   dc: wd1
   site: Chamberlain_Group
+- name: Charter Manufacturing
+  ats: workday
+  tenant: chartermfg
+  dc: wd5
+  site: Charter_Careers
 - name: Chicago Trading Company
   ats: greenhouse
   token: chicagotradingcampus
@@ -356,6 +372,9 @@
   tenant: countryfinancial
   dc: wd5
   site: COUNTRYCorporateInternships
+- name: CoVar
+  ats: greenhouse
+  token: covar
 - name: Covestro
   ats: workday
   tenant: covestro
@@ -369,6 +388,9 @@
 - name: Cursor
   ats: ashby
   token: cursor
+- name: Cyvl
+  ats: ashby
+  token: cyvl
 - name: Dallas Fort Worth International Airport
   ats: workday
   tenant: dfwairport
@@ -385,6 +407,9 @@
 - name: Datadog
   ats: greenhouse
   token: datadog
+- name: Decagon
+  ats: ashby
+  token: decagon
 - name: Dee Zee
   ats: workday
   tenant: deezee
@@ -450,6 +475,9 @@
   site: dma
 - name: Duolingo
   ats: greenhouse
+  token: duolingounirecruitment
+- name: Duolingo
+  ats: greenhouse
   token: duolingo
 - name: DV Trading
   ats: greenhouse
@@ -472,6 +500,16 @@
   tenant: gnw
   dc: wd1
   site: enact_mi
+- name: Ensign-Bickford Aerospace & Defense Company
+  ats: workday
+  tenant: ebi
+  dc: wd5
+  site: ebadcareers
+- name: Ensign-Bickford Industries
+  ats: workday
+  tenant: ebi
+  dc: wd5
+  site: ebicareers
 - name: Ercot
   ats: workday
   tenant: ercot
@@ -590,9 +628,6 @@
   tenant: gnw
   dc: wd1
   site: GNW
-- name: Geotab
-  ats: greenhouse
-  token: internshiplist2000
 - name: GlobalFoundries
   ats: workday
   tenant: globalfoundries
@@ -806,6 +841,9 @@
   tenant: lplfinancial
   dc: wd1
   site: university
+- name: Lyft
+  ats: greenhouse
+  token: lyft
 - name: Manulife Financial
   ats: workday
   tenant: manulife
@@ -894,6 +932,11 @@
   tenant: motorolasolutions
   dc: wd5
   site: Careers
+- name: Nasdaq
+  ats: workday
+  tenant: nasdaq
+  dc: wd1
+  site: Global_External_Site
 - name: National Information Solutions Cooperative
   ats: greenhouse
   token: nisc
@@ -1012,6 +1055,9 @@
 - name: Perpay
   ats: greenhouse
   token: perpay
+- name: Persona
+  ats: ashby
+  token: persona
 - name: Persona AI
   ats: ashby
   token: persona.ai
@@ -1099,6 +1145,9 @@
   tenant: regions
   dc: wd5
   site: regions_careers
+- name: Relay
+  ats: greenhouse
+  token: relaypro
 - name: Remote
   ats: greenhouse
   token: remotecom
