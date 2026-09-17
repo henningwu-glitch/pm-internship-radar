@@ -42,6 +42,9 @@
 - name: Airbnb
   ats: greenhouse
   token: airbnb
+- name: Airtable
+  ats: greenhouse
+  token: airtable
 - name: Alberta Investment Management Corporation
   ats: workday
   tenant: aimco
@@ -748,6 +751,16 @@
   tenant: intel
   dc: wd1
   site: external
+- name: Invesco
+  ats: workday
+  tenant: invesco
+  dc: wd1
+  site: IVZ
+- name: Invesco
+  ats: workday
+  tenant: invesco
+  dc: wd1
+  site: IVZearlycareers
 - name: J.M. Smucker
   ats: workday
   tenant: smucker
@@ -1164,6 +1177,9 @@
 - name: Rocket Lab USA
   ats: greenhouse
   token: rocketlab
+- name: Rothesay
+  ats: greenhouse
+  token: rothesaygraduates
 - name: Royal Bank of Canada
   ats: workday
   tenant: rbc
