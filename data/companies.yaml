@@ -84,9 +84,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -451,9 +448,6 @@
   token: discord
 - name: DoorDash
   ats: greenhouse
-  token: doordashcanada
-- name: DoorDash
-  ats: greenhouse
   token: doordashusa
 - name: Dow Jones
   ats: workday
@@ -486,9 +480,6 @@
 - name: Duolingo
   ats: greenhouse
   token: duolingounirecruitment
-- name: Duolingo
-  ats: greenhouse
-  token: duolingo
 - name: DV Trading
   ats: greenhouse
   token: dvtrading
@@ -1112,6 +1103,9 @@
   tenant: pimco
   dc: wd1
   site: pimco-careers
+- name: Pinterest
+  ats: greenhouse
+  token: pinterest
 - name: Plastipak
   ats: workday
   tenant: plastipak
