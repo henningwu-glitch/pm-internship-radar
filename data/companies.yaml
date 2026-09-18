@@ -570,11 +570,6 @@
 - name: Freeform
   ats: greenhouse
   token: freeformfuturecorp
-- name: FTI Consulting
-  ats: workday
-  tenant: fticonsulting
-  dc: wd108
-  site: FTIConsultingCareersPrivate
 - name: G-Research
   ats: workday
   tenant: gresearch
@@ -984,6 +979,11 @@
 - name: Neighbor
   ats: lever
   token: neighbor
+- name: Netsmart
+  ats: workday
+  tenant: ntst
+  dc: wd1
+  site: careers
 - name: Newrez
   ats: workday
   tenant: newrez
@@ -1054,6 +1054,9 @@
 - name: OpenGov
   ats: ashby
   token: opengov
+- name: Optiver
+  ats: greenhouse
+  token: optiverprivate
 - name: Oshkosh
   ats: workday
   tenant: oshkoshcorporation
@@ -1109,9 +1112,6 @@
   tenant: pimco
   dc: wd1
   site: pimco-careers
-- name: Pinterest
-  ats: greenhouse
-  token: pinterest
 - name: Plastipak
   ats: workday
   tenant: plastipak
@@ -1425,11 +1425,6 @@
 - name: Tide
   ats: greenhouse
   token: tide
-- name: TJX
-  ats: workday
-  tenant: tjx
-  dc: wd1
-  site: tjx_external
 - name: Tokyo Electron
   ats: workday
   tenant: tel
