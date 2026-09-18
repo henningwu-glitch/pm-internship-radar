@@ -202,6 +202,11 @@
 - name: Block
   ats: greenhouse
   token: block
+- name: Blue Cross and Blue Shield of Kansas
+  ats: workday
+  tenant: bcbsks
+  dc: wd1
+  site: External
 - name: Blue Origin
   ats: workday
   tenant: blueorigin
@@ -273,6 +278,11 @@
   tenant: cat
   dc: wd5
   site: CaterpillarCareers
+- name: Cerity Partners
+  ats: workday
+  tenant: ceritypartners
+  dc: wd12
+  site: ceritypartnerscareers
 - name: CesiumAstro
   ats: lever
   token: CesiumAstro
@@ -295,6 +305,11 @@
 - name: Chime
   ats: greenhouse
   token: chime
+- name: Church & Dwight
+  ats: workday
+  tenant: churchdwight
+  dc: wd1
+  site: chdcareers
 - name: CIBC
   ats: workday
   tenant: cibc
@@ -521,6 +536,11 @@
   tenant: fanniemae
   dc: wd1
   site: FannieMaeCareers
+- name: Fidelity National Information Services
+  ats: workday
+  tenant: fis
+  dc: wd5
+  site: searchjobs
 - name: Fifth Third Bank
   ats: workday
   tenant: fifththird
@@ -576,11 +596,6 @@
   tenant: haier
   dc: wd3
   site: ge_appliances
-- name: GE Healthcare
-  ats: workday
-  tenant: gehc
-  dc: wd5
-  site: GEHC_ExternalSite
 - name: GE Vernova
   ats: workday
   tenant: gevernova
@@ -594,6 +609,11 @@
 - name: Gecko Robotics
   ats: ashby
   token: gecko-robotics
+- name: Generac
+  ats: workday
+  tenant: generac
+  dc: wd5
+  site: external
 - name: General Dynamics Information Technology
   ats: workday
   tenant: gdit
@@ -755,12 +775,12 @@
   ats: workday
   tenant: invesco
   dc: wd1
-  site: IVZ
+  site: IVZearlycareers
 - name: Invesco
   ats: workday
   tenant: invesco
   dc: wd1
-  site: IVZearlycareers
+  site: IVZ
 - name: J.M. Smucker
   ats: workday
   tenant: smucker
@@ -841,6 +861,16 @@
   tenant: lplfinancial
   dc: wd1
   site: university
+- name: LSEG
+  ats: workday
+  tenant: lseg
+  dc: wd3
+  site: Graduate_Careers
+- name: LSEG
+  ats: workday
+  tenant: lseg
+  dc: wd3
+  site: Careers
 - name: Lyft
   ats: greenhouse
   token: lyft
@@ -861,12 +891,12 @@
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers
+  site: MarvellCareers2
 - name: Marvell
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers2
+  site: MarvellCareers
 - name: Mastercard
   ats: workday
   tenant: mastercard
@@ -1005,6 +1035,11 @@
   tenant: nxp
   dc: wd3
   site: careers
+- name: OCC
+  ats: workday
+  tenant: theocc
+  dc: wd5
+  site: careers
 - name: Okta
   ats: greenhouse
   token: okta
@@ -1019,9 +1054,6 @@
 - name: OpenGov
   ats: ashby
   token: opengov
-- name: Optiver
-  ats: greenhouse
-  token: optiverprivate
 - name: Oshkosh
   ats: workday
   tenant: oshkoshcorporation
@@ -1055,6 +1087,9 @@
 - name: Perpay
   ats: greenhouse
   token: perpay
+- name: Persona
+  ats: ashby
+  token: persona
 - name: Persona AI
   ats: ashby
   token: persona.ai
@@ -1156,6 +1191,11 @@
   tenant: repsol
   dc: wd3
   site: Repsol
+- name: Republic Airways
+  ats: workday
+  tenant: rjet
+  dc: wd108
+  site: External_Career_Site
 - name: Revel
   ats: ashby
   token: revel
@@ -1199,12 +1239,12 @@
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: rec_rtx_ext_gateway
+  site: Private_Posting_No_TMP
 - name: RTX
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: Private_Posting_No_TMP
+  site: rec_rtx_ext_gateway
 - name: Ryan Companies
   ats: workday
   tenant: ryancompanies
@@ -1485,6 +1525,11 @@
   tenant: walmart
   dc: wd504
   site: WalmartExternal
+- name: Watts Water
+  ats: workday
+  tenant: wattswater
+  dc: wd5
+  site: Intern-External
 - name: Wayve
   ats: greenhouse
   token: wayve
@@ -1533,3 +1578,8 @@
 - name: Zip
   ats: ashby
   token: zip
+- name: Zurn Elkay Water Solutions
+  ats: workday
+  tenant: elkay
+  dc: wd1
+  site: Elkay_External
