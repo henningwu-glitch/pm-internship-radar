@@ -324,9 +324,6 @@
 - name: Chicago Trading Company
   ats: greenhouse
   token: chicagotradingcampus
-- name: Chicago Trading Company
-  ats: greenhouse
-  token: ctccampusboard
 - name: Chime
   ats: greenhouse
   token: chime
