@@ -11,6 +11,11 @@
 - name: AbbVie
   ats: smartrecruiters
   token: AbbVie
+- name: Acima
+  ats: workday
+  tenant: upbound
+  dc: wd501
+  site: Acima
 - name: Adobe
   ats: workday
   tenant: adobe
@@ -89,6 +94,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -375,9 +383,6 @@
   tenant: commercebank
   dc: wd1
   site: CommerceJobs
-- name: Commure
-  ats: ashby
-  token: Commure
 - name: Compeer Financial
   ats: greenhouse
   token: compeerfinancial
@@ -555,6 +560,11 @@
   tenant: fanniemae
   dc: wd1
   site: FannieMaeCareers
+- name: Fidelity Investments
+  ats: workday
+  tenant: fmr
+  dc: wd1
+  site: fidelitycareers
 - name: Fidelity National Information Services
   ats: workday
   tenant: fis
@@ -594,6 +604,11 @@
 - name: Freeform
   ats: greenhouse
   token: freeformfuturecorp
+- name: G-Research
+  ats: workday
+  tenant: gresearch
+  dc: wd103
+  site: G-Research
 - name: Gallup
   ats: greenhouse
   token: gallup
@@ -955,9 +970,6 @@
   tenant: msd
   dc: wd5
   site: searchjobs
-- name: MetOx International
-  ats: greenhouse
-  token: metoxinternationalinc
 - name: MFS
   ats: workday
   tenant: mfs
@@ -1086,9 +1098,6 @@
 - name: OpenGov
   ats: ashby
   token: opengov
-- name: Optiver
-  ats: greenhouse
-  token: optiverprivate
 - name: Oshkosh
   ats: workday
   tenant: oshkoshcorporation
@@ -1238,6 +1247,9 @@
 - name: Robert Bosch Venture Capital
   ats: smartrecruiters
   token: BoschGroup
+- name: Robinhood
+  ats: greenhouse
+  token: robinhood
 - name: Roblox
   ats: greenhouse
   token: roblox
@@ -1374,11 +1386,6 @@
 - name: Tanium
   ats: greenhouse
   token: tanium
-- name: Target
-  ats: workday
-  tenant: target
-  dc: wd5
-  site: targetcareers
 - name: Tarrant Regional Water District
   ats: workday
   tenant: trwd
@@ -1497,6 +1504,11 @@
   tenant: hcmportal
   dc: wd5
   site: Search
+- name: Upbound Group
+  ats: workday
+  tenant: upbound
+  dc: wd501
+  site: Upbound
 - name: USAA
   ats: workday
   tenant: usaa
