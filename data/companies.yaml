@@ -605,11 +605,6 @@
 - name: Freeform
   ats: greenhouse
   token: freeformfuturecorp
-- name: G-Research
-  ats: workday
-  tenant: gresearch
-  dc: wd103
-  site: G-Research
 - name: Gallup
   ats: greenhouse
   token: gallup
@@ -1377,11 +1372,6 @@
 - name: Synthesia
   ats: ashby
   token: synthesia
-- name: T. Rowe Price
-  ats: workday
-  tenant: troweprice
-  dc: wd5
-  site: TRowePrice
 - name: Talos
   ats: ashby
   token: Talos-Trading
