@@ -100,9 +100,6 @@
 - name: Antares Nuclear
   ats: ashby
   token: Antares
-- name: Anthelion Capital
-  ats: ashby
-  token: anthelioncap
 - name: Anthropic
   ats: greenhouse
   token: anthropic
@@ -112,9 +109,6 @@
 - name: Apex
   ats: ashby
   token: apex-technology-inc
-- name: Appian
-  ats: greenhouse
-  token: appian
 - name: Applied Materials
   ats: workday
   tenant: amat
@@ -534,6 +528,11 @@
   tenant: emcins
   dc: wd5
   site: EMC_Careers
+- name: EMC Insurance
+  ats: workday
+  tenant: emcins
+  dc: wd5
+  site: EMC_Internships
 - name: Ensign-Bickford Aerospace & Defense Company
   ats: workday
   tenant: ebi
@@ -565,6 +564,11 @@
   tenant: fmr
   dc: wd1
   site: fidelitycareers
+- name: Fidelity Investments
+  ats: workday
+  tenant: fmr
+  dc: wd1
+  site: targeted
 - name: Fidelity National Information Services
   ats: workday
   tenant: fis
@@ -625,6 +629,11 @@
   tenant: haier
   dc: wd3
   site: ge_appliances
+- name: GE Healthcare
+  ats: workday
+  tenant: gehc
+  dc: wd5
+  site: GEHC_ExternalSite
 - name: GE Vernova
   ats: workday
   tenant: gevernova
@@ -936,6 +945,11 @@
   tenant: mastercard
   dc: wd1
   site: Campus
+- name: Mastercard
+  ats: workday
+  tenant: mastercard
+  dc: wd1
+  site: CorporateCareers
 - name: Maven Securities
   ats: greenhouse
   token: mavensecuritiesholdingltd
@@ -1020,6 +1034,11 @@
   tenant: nationwide
   dc: wd1
   site: Nationwide_Career
+- name: Nebraska Medicine
+  ats: workday
+  tenant: nebraskamed
+  dc: wd5
+  site: nm
 - name: Neighbor
   ats: lever
   token: neighbor
@@ -1087,11 +1106,9 @@
 - name: Okta
   ats: greenhouse
   token: okta
-- name: Ontario Teachers' Pension Plan
-  ats: workday
-  tenant: otppb
-  dc: wd3
-  site: OntarioTeachers_Careers
+- name: ONE Finance
+  ats: ashby
+  token: oneapp
 - name: OpenAI
   ats: ashby
   token: openai
@@ -1222,6 +1239,9 @@
 - name: Remote
   ats: greenhouse
   token: remotecom
+- name: Renesas Electronics
+  ats: smartrecruiters
+  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1235,6 +1255,9 @@
   tenant: rjet
   dc: wd108
   site: External_Career_Site
+- name: Resultant
+  ats: smartrecruiters
+  token: Resultant
 - name: Revel
   ats: ashby
   token: revel
@@ -1541,6 +1564,9 @@
 - name: Viam
   ats: greenhouse
   token: viamrobotics
+- name: Viking Global
+  ats: greenhouse
+  token: vikingglobalinvestors
 - name: Virtu Financial
   ats: greenhouse
   token: virtu
@@ -1607,6 +1633,9 @@
 - name: Xcimer Energy
   ats: lever
   token: xcimer
+- name: XPENG Motors
+  ats: greenhouse
+  token: xpengmotors
 - name: Zilch
   ats: ashby
   token: zilch
