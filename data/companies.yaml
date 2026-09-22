@@ -179,11 +179,6 @@
   tenant: bmo
   dc: wd3
   site: External
-- name: Bank of Montreal
-  ats: workday
-  tenant: bmo
-  dc: wd3
-  site: Privileged
 - name: Barclays
   ats: workday
   tenant: barclays
@@ -205,9 +200,6 @@
 - name: Bedrock Robotics
   ats: ashby
   token: bedrock-robotics
-- name: Belvedere Trading
-  ats: lever
-  token: belvederetrading
 - name: BlackRock
   ats: workday
   tenant: blackrock
@@ -564,11 +556,6 @@
   tenant: fmr
   dc: wd1
   site: fidelitycareers
-- name: Fidelity Investments
-  ats: workday
-  tenant: fmr
-  dc: wd1
-  site: targeted
 - name: Fidelity National Information Services
   ats: workday
   tenant: fis
@@ -657,9 +644,6 @@
   tenant: gdit
   dc: wd5
   site: external_career_site
-- name: General Dynamics UK
-  ats: smartrecruiters
-  token: GDMSI
 - name: General Matter
   ats: greenhouse
   token: generalmatter
@@ -796,11 +780,6 @@
 - name: InfiniteQuant
   ats: smartrecruiters
   token: InfiniteQuant
-- name: Ingredion
-  ats: workday
-  tenant: ingredion
-  dc: wd1
-  site: IngredionCareers
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -852,11 +831,6 @@
   tenant: spgi
   dc: wd5
   site: Kensho_Careers
-- name: Ketjen
-  ats: workday
-  tenant: albemarle
-  dc: wd5
-  site: ketjenexternal
 - name: KeyBank
   ats: workday
   tenant: keybank
@@ -1214,9 +1188,6 @@
   tenant: qtsdatacenters
   dc: wd5
   site: qts
-- name: Quadrillion
-  ats: ashby
-  token: quadrillion-labs
 - name: Ramp
   ats: ashby
   token: ramp
@@ -1605,9 +1576,6 @@
 - name: Wellmark
   ats: smartrecruiters
   token: WellmarkInc
-- name: Western Digital
-  ats: smartrecruiters
-  token: WesternDigital
 - name: Wex
   ats: workday
   tenant: wexinc
