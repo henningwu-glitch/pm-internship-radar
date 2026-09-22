@@ -94,9 +94,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -556,6 +553,11 @@
   tenant: fmr
   dc: wd1
   site: fidelitycareers
+- name: Fidelity Investments
+  ats: workday
+  tenant: fmr
+  dc: wd1
+  site: targeted
 - name: Fidelity National Information Services
   ats: workday
   tenant: fis
@@ -611,11 +613,6 @@
   tenant: geaerospace
   dc: wd5
   site: ge_externalsite
-- name: GE Appliances
-  ats: workday
-  tenant: haier
-  dc: wd3
-  site: ge_appliances
 - name: GE Healthcare
   ats: workday
   tenant: gehc
@@ -683,6 +680,11 @@
   tenant: guardianlife
   dc: wd5
   site: guardian-life-careers
+- name: GuideStone
+  ats: workday
+  tenant: guidestone
+  dc: wd1
+  site: guidestone
 - name: Gusto
   ats: greenhouse
   token: gusto
@@ -780,6 +782,11 @@
 - name: InfiniteQuant
   ats: smartrecruiters
   token: InfiniteQuant
+- name: Ingredion
+  ats: workday
+  tenant: ingredion
+  dc: wd1
+  site: IngredionCareers
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -831,6 +838,11 @@
   tenant: spgi
   dc: wd5
   site: Kensho_Careers
+- name: Ketjen
+  ats: workday
+  tenant: albemarle
+  dc: wd5
+  site: ketjenexternal
 - name: KeyBank
   ats: workday
   tenant: keybank
@@ -973,9 +985,6 @@
   tenant: momentive
   dc: wd1
   site: MC
-- name: MongoDB
-  ats: greenhouse
-  token: mongodb
 - name: Monzo
   ats: greenhouse
   token: monzo
@@ -1241,9 +1250,6 @@
 - name: Robert Bosch Venture Capital
   ats: smartrecruiters
   token: BoschGroup
-- name: Robinhood
-  ats: greenhouse
-  token: robinhood
 - name: Roblox
   ats: greenhouse
   token: roblox
@@ -1344,9 +1350,6 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
-- name: SpaceX
-  ats: greenhouse
-  token: spacex
 - name: Squarespace
   ats: greenhouse
   token: squarespace
@@ -1524,6 +1527,11 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
+- name: Verizon Communications
+  ats: workday
+  tenant: verizon
+  dc: wd12
+  site: verizon-careers
 - name: Verkada
   ats: greenhouse
   token: verkada
@@ -1576,6 +1584,9 @@
 - name: Wellmark
   ats: smartrecruiters
   token: WellmarkInc
+- name: Western Digital
+  ats: smartrecruiters
+  token: WesternDigital
 - name: Wex
   ats: workday
   tenant: wexinc
