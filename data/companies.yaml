@@ -1128,11 +1128,6 @@
   tenant: oshkoshcorporation
   dc: wd5
   site: Oshkosh
-- name: Ovintiv
-  ats: workday
-  tenant: ovintiv
-  dc: wd3
-  site: ovintivcareers
 - name: Pace
   ats: ashby
   token: withpace
@@ -1381,6 +1376,9 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
+- name: Stand Together
+  ats: lever
+  token: standtogether
 - name: Stanley Black & Decker
   ats: workday
   tenant: sbdinc
