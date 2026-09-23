@@ -6,15 +6,9 @@
 - name: AFRY
   ats: smartrecruiters
   token: AFRY
-- name: Alloyed
-  ats: teamtailor
-  domain: careers.alloyed.com
 - name: Bosch
   ats: smartrecruiters
   token: BoschGroup
-- name: Crux Product Design
-  ats: teamtailor
-  domain: cruxproductdesign.teamtailor.com
 - name: Diageo
   ats: workday
   tenant: diageo
