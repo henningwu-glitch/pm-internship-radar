@@ -138,11 +138,6 @@
   tenant: atcllc
   dc: wd5
   site: atcllc
-- name: Athene
-  ats: workday
-  tenant: athene
-  dc: wd5
-  site: athene_careers
 - name: Atoms
   ats: greenhouse
   token: cssmerge
@@ -305,9 +300,6 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
-- name: CesiumAstro
-  ats: lever
-  token: CesiumAstro
 - name: Chamberlain Group
   ats: workday
   tenant: chamberlain
@@ -554,6 +546,11 @@
 - name: Eulerity
   ats: greenhouse
   token: eulerity
+- name: Excellus BCBS
+  ats: workday
+  tenant: lthc
+  dc: wd1
+  site: ExcellusBCBSCareers
 - name: Faire
   ats: greenhouse
   token: faire
@@ -1055,6 +1052,11 @@
   tenant: ntst
   dc: wd1
   site: careers
+- name: Neuberger Berman
+  ats: workday
+  tenant: nb
+  dc: wd1
+  site: NBCareers
 - name: Newrez
   ats: workday
   tenant: newrez
@@ -1173,11 +1175,6 @@
 - name: Pinterest
   ats: greenhouse
   token: pinterest
-- name: Plastipak
-  ats: workday
-  tenant: plastipak
-  dc: wd1
-  site: Plastipak
 - name: Polaris
   ats: workday
   tenant: polaris
