@@ -94,6 +94,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -127,6 +130,9 @@
   tenant: aspentech
   dc: wd5
   site: aspentech
+- name: Astranis
+  ats: greenhouse
+  token: astranis
 - name: ATC
   ats: workday
   tenant: atcllc
@@ -137,11 +143,6 @@
   tenant: athene
   dc: wd5
   site: athene_careers
-- name: AtkinsRéalis
-  ats: workday
-  tenant: slihrms
-  dc: wd3
-  site: careers
 - name: Atoms
   ats: greenhouse
   token: cssmerge
@@ -197,6 +198,9 @@
 - name: Bedrock Robotics
   ats: ashby
   token: bedrock-robotics
+- name: Belvedere Trading
+  ats: lever
+  token: belvederetrading
 - name: BlackRock
   ats: workday
   tenant: blackrock
@@ -271,6 +275,11 @@
   tenant: cai
   dc: wd5
   site: computer_aid
+- name: Capital Group
+  ats: workday
+  tenant: capgroup
+  dc: wd1
+  site: capitalgroupcareers
 - name: Capital One
   ats: workday
   tenant: capitalone
@@ -413,6 +422,11 @@
 - name: Cyvl
   ats: ashby
   token: cyvl
+- name: Daimler Truck
+  ats: workday
+  tenant: dtna
+  dc: wd5
+  site: dtna_affiliate
 - name: Dallas Fort Worth International Airport
   ats: workday
   tenant: dfwairport
@@ -675,6 +689,9 @@
   tenant: greenheckgroup
   dc: wd5
   site: external
+- name: Grow Therapy
+  ats: ashby
+  token: grow-therapy
 - name: Guardian Life
   ats: workday
   tenant: guardianlife
@@ -864,6 +881,11 @@
 - name: Lawrence Livermore National Laboratory (LLNL)
   ats: smartrecruiters
   token: LLNL
+- name: Leidos
+  ats: workday
+  tenant: leidos
+  dc: wd5
+  site: External
 - name: Lexington Medical
   ats: greenhouse
   token: lexingtonmedical
@@ -920,12 +942,12 @@
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers2
+  site: MarvellCareers
 - name: Marvell
   ats: workday
   tenant: marvell
   dc: wd1
-  site: MarvellCareers
+  site: MarvellCareers2
 - name: Mastercard
   ats: workday
   tenant: mastercard
@@ -985,6 +1007,9 @@
   tenant: momentive
   dc: wd1
   site: MC
+- name: MongoDB
+  ats: greenhouse
+  token: mongodb
 - name: Monzo
   ats: greenhouse
   token: monzo
@@ -1117,9 +1142,6 @@
 - name: Palantir Technologies
   ats: lever
   token: palantir
-- name: PDT Partners
-  ats: greenhouse
-  token: pdtpartners
 - name: Peloton
   ats: greenhouse
   token: peloton
@@ -1250,6 +1272,9 @@
 - name: Robert Bosch Venture Capital
   ats: smartrecruiters
   token: BoschGroup
+- name: Robinhood
+  ats: greenhouse
+  token: robinhood
 - name: Roblox
   ats: greenhouse
   token: roblox
@@ -1263,12 +1288,12 @@
   ats: workday
   tenant: rbc
   dc: wd3
-  site: rbcglobal1
+  site: RBCEARLYTALENT1
 - name: Royal Bank of Canada
   ats: workday
   tenant: rbc
   dc: wd3
-  site: RBCEARLYTALENT1
+  site: rbcglobal1
 - name: RSM
   ats: workday
   tenant: rsm
@@ -1350,12 +1375,12 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
+- name: SpaceX
+  ats: greenhouse
+  token: spacex
 - name: Squarespace
   ats: greenhouse
   token: squarespace
-- name: Stand Together
-  ats: lever
-  token: standtogether
 - name: Stanley Black & Decker
   ats: workday
   tenant: sbdinc
