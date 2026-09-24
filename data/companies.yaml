@@ -94,9 +94,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -792,11 +789,6 @@
 - name: ibotta
   ats: ashby
   token: ibotta
-- name: ICF International
-  ats: workday
-  tenant: icf
-  dc: wd5
-  site: icfexternal_career_site
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
@@ -1371,9 +1363,6 @@
   tenant: smithnephew
   dc: wd5
   site: External
-- name: SoFi
-  ats: greenhouse
-  token: sofi
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
@@ -1562,11 +1551,6 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
-- name: Verizon Communications
-  ats: workday
-  tenant: verizon
-  dc: wd12
-  site: verizon-careers
 - name: Verkada
   ats: greenhouse
   token: verkada
