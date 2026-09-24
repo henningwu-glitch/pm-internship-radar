@@ -158,9 +158,6 @@
   tenant: axiomspace
   dc: wd5
   site: External_Career_Site
-- name: Axon
-  ats: greenhouse
-  token: axontalentcommunity
 - name: AXQ Capital
   ats: greenhouse
   token: axq
@@ -236,9 +233,6 @@
   tenant: bah
   dc: wd1
   site: bah_jobs
-- name: Brex
-  ats: greenhouse
-  token: brex
 - name: British Columbia Investment
   ats: workday
   tenant: bci
@@ -729,11 +723,6 @@
 - name: Hermeus
   ats: lever
   token: hermeus
-- name: Hitachi
-  ats: workday
-  tenant: hitachi
-  dc: wd1
-  site: hitachi
 - name: HMH
   ats: workday
   tenant: hmhw
@@ -883,11 +872,6 @@
 - name: Lawrence Livermore National Laboratory (LLNL)
   ats: smartrecruiters
   token: LLNL
-- name: Leidos
-  ats: workday
-  tenant: leidos
-  dc: wd5
-  site: External
 - name: LexisNexis Legal & Professional
   ats: workday
   tenant: relx
@@ -1338,6 +1322,11 @@
 - name: Semgrep
   ats: ashby
   token: semgrep
+- name: Semtech
+  ats: workday
+  tenant: semtech
+  dc: wd1
+  site: SemtechCareers
 - name: SEP
   ats: lever
   token: sep
@@ -1363,6 +1352,9 @@
   tenant: smithnephew
   dc: wd5
   site: External
+- name: SoFi
+  ats: greenhouse
+  token: sofi
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
@@ -1375,11 +1367,6 @@
 - name: Stand Together
   ats: lever
   token: standtogether
-- name: Stanley Black & Decker
-  ats: workday
-  tenant: sbdinc
-  dc: wd1
-  site: Stanley_Black_Decker_Career_Site
 - name: Stripe
   ats: greenhouse
   token: stripe
