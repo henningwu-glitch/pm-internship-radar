@@ -138,6 +138,11 @@
   tenant: atcllc
   dc: wd5
   site: atcllc
+- name: AtkinsRéalis
+  ats: workday
+  tenant: slihrms
+  dc: wd3
+  site: careers
 - name: Atoms
   ats: greenhouse
   token: cssmerge
@@ -300,6 +305,9 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
+- name: CesiumAstro
+  ats: lever
+  token: CesiumAstro
 - name: Chamberlain Group
   ats: workday
   tenant: chamberlain
@@ -651,6 +659,11 @@
   ats: workday
   tenant: gdit
   dc: wd5
+  site: gdit_earlytalent
+- name: General Dynamics Information Technology
+  ats: workday
+  tenant: gdit
+  dc: wd5
   site: external_career_site
 - name: General Matter
   ats: greenhouse
@@ -883,9 +896,6 @@
   tenant: leidos
   dc: wd5
   site: External
-- name: Lexington Medical
-  ats: greenhouse
-  token: lexingtonmedical
 - name: LexisNexis Legal & Professional
   ats: workday
   tenant: relx
@@ -1211,6 +1221,9 @@
   tenant: qtsdatacenters
   dc: wd5
   site: qts
+- name: Qumulo
+  ats: ashby
+  token: qumulo
 - name: Ramp
   ats: ashby
   token: ramp
@@ -1233,9 +1246,6 @@
 - name: Remote
   ats: greenhouse
   token: remotecom
-- name: Renesas Electronics
-  ats: smartrecruiters
-  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1408,6 +1418,11 @@
   tenant: trwd
   dc: wd1
   site: TRWDCareers
+- name: TC Energy
+  ats: workday
+  tenant: tcenergy
+  dc: wd3
+  site: CAREER_SITE_TC
 - name: TD Bank
   ats: workday
   tenant: td
@@ -1600,6 +1615,11 @@
   ats: workday
   tenant: wellington
   dc: wd5
+  site: external
+- name: Wellington Management
+  ats: workday
+  tenant: wellington
+  dc: wd5
   site: Campus
 - name: Wellmark
   ats: smartrecruiters
@@ -1635,6 +1655,11 @@
 - name: XPENG Motors
   ats: greenhouse
   token: xpengmotors
+- name: Zekelman Industries
+  ats: workday
+  tenant: zekelman
+  dc: wd12
+  site: Careers
 - name: Zilch
   ats: ashby
   token: zilch
