@@ -211,11 +211,6 @@
 - name: Block
   ats: greenhouse
   token: block
-- name: Blue Cross and Blue Shield of Kansas
-  ats: workday
-  tenant: bcbsks
-  dc: wd1
-  site: External
 - name: Blue Origin
   ats: workday
   tenant: blueorigin
@@ -509,6 +504,9 @@
   tenant: dmainc
   dc: wd5
   site: dma
+- name: Duolingo
+  ats: greenhouse
+  token: duolingounirecruitment
 - name: Duolingo
   ats: greenhouse
   token: duolingo
@@ -821,12 +819,12 @@
   ats: workday
   tenant: invesco
   dc: wd1
-  site: IVZ
+  site: IVZearlycareers
 - name: Invesco
   ats: workday
   tenant: invesco
   dc: wd1
-  site: IVZearlycareers
+  site: IVZ
 - name: iRhythm Technologies
   ats: workday
   tenant: irhythmtech
@@ -1141,6 +1139,9 @@
 - name: Pace
   ats: ashby
   token: withpace
+- name: Pacific Fusion
+  ats: greenhouse
+  token: pacificfusion
 - name: Palantir Technologies
   ats: lever
   token: palantir
@@ -1246,9 +1247,6 @@
 - name: Remote
   ats: greenhouse
   token: remotecom
-- name: Renesas Electronics
-  ats: smartrecruiters
-  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1379,11 +1377,6 @@
 - name: Skyward
   ats: smartrecruiters
   token: Skyward1
-- name: Smith+Nephew
-  ats: workday
-  tenant: smithnephew
-  dc: wd5
-  site: External
 - name: SoFi
   ats: greenhouse
   token: sofi
@@ -1480,6 +1473,9 @@
   tenant: homedepot
   dc: wd5
   site: careerdepot
+- name: The MJ Companies
+  ats: greenhouse
+  token: themjcos
 - name: The Nuclear Company
   ats: greenhouse
   token: thenuclearcompany
