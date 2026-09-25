@@ -94,6 +94,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -233,6 +236,9 @@
   tenant: bah
   dc: wd1
   site: bah_jobs
+- name: Brex
+  ats: greenhouse
+  token: brex
 - name: British Columbia Investment
   ats: workday
   tenant: bci
@@ -495,14 +501,14 @@
 - name: Dropbox
   ats: greenhouse
   token: dropbox
+- name: DRW
+  ats: greenhouse
+  token: drwuniversityjobs
 - name: DuCharme, McMillen & Associates
   ats: workday
   tenant: dmainc
   dc: wd5
   site: dma
-- name: Duolingo
-  ats: greenhouse
-  token: duolingounirecruitment
 - name: Duolingo
   ats: greenhouse
   token: duolingo
@@ -664,6 +670,9 @@
   tenant: generalmotors
   dc: wd5
   site: Careers_GM
+- name: Genesis Molecular AI
+  ats: ashby
+  token: genesis-molecular-ai
 - name: Geneva Trading
   ats: greenhouse
   token: genevatrading
@@ -818,6 +827,11 @@
   tenant: invesco
   dc: wd1
   site: IVZearlycareers
+- name: iRhythm Technologies
+  ats: workday
+  tenant: irhythmtech
+  dc: wd5
+  site: irhythm
 - name: J.M. Smucker
   ats: workday
   tenant: smucker
@@ -913,6 +927,11 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_Jobs
+- name: Marathon Petroleum
+  ats: workday
+  tenant: mpc
+  dc: wd1
+  site: MPCCareers
 - name: Marsh
   ats: workday
   tenant: mmc
@@ -985,6 +1004,9 @@
   tenant: michelinhr
   dc: wd3
   site: Michelin
+- name: Mill
+  ats: greenhouse
+  token: mill
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -1119,9 +1141,6 @@
 - name: Pace
   ats: ashby
   token: withpace
-- name: Pacific Fusion
-  ats: greenhouse
-  token: pacificfusion
 - name: Palantir Technologies
   ats: lever
   token: palantir
@@ -1200,6 +1219,11 @@
 - name: Qumulo
   ats: ashby
   token: qumulo
+- name: Radiance Technologies
+  ats: workday
+  tenant: radiancetech
+  dc: wd12
+  site: Radiance_External
 - name: Ramp
   ats: ashby
   token: ramp
@@ -1222,6 +1246,9 @@
 - name: Remote
   ats: greenhouse
   token: remotecom
+- name: Renesas Electronics
+  ats: smartrecruiters
+  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1238,6 +1265,11 @@
 - name: Resultant
   ats: smartrecruiters
   token: Resultant
+- name: Revantage Corporate Services
+  ats: workday
+  tenant: revantage
+  dc: wd1
+  site: Revantage
 - name: Revel
   ats: ashby
   token: revel
@@ -1367,6 +1399,11 @@
 - name: Stand Together
   ats: lever
   token: standtogether
+- name: Stanley Black & Decker
+  ats: workday
+  tenant: sbdinc
+  dc: wd1
+  site: Stanley_Black_Decker_Career_Site
 - name: Stripe
   ats: greenhouse
   token: stripe
@@ -1443,9 +1480,6 @@
   tenant: homedepot
   dc: wd5
   site: careerdepot
-- name: The MJ Companies
-  ats: greenhouse
-  token: themjcos
 - name: The Nuclear Company
   ats: greenhouse
   token: thenuclearcompany
