@@ -531,9 +531,6 @@
 - name: Efficient Computer
   ats: greenhouse
   token: efficientcomputer
-- name: Elk Valley Resources
-  ats: lever
-  token: evr
 - name: EMC Insurance
   ats: workday
   tenant: emcins
