@@ -297,11 +297,6 @@
   tenant: myhrabc
   dc: wd5
   site: Global
-- name: Centene
-  ats: workday
-  tenant: centene
-  dc: wd5
-  site: Centene_External
 - name: Cerity Partners
   ats: workday
   tenant: ceritypartners
@@ -331,11 +326,6 @@
   tenant: churchdwight
   dc: wd1
   site: chdcareers
-- name: CIBC
-  ats: workday
-  tenant: cibc
-  dc: wd3
-  site: campus
 - name: CIBC
   ats: workday
   tenant: cibc
@@ -531,6 +521,9 @@
 - name: Efficient Computer
   ats: greenhouse
   token: efficientcomputer
+- name: Elk Valley Resources
+  ats: lever
+  token: evr
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -556,9 +549,6 @@
   tenant: ercot
   dc: wd1
   site: ercot_careers
-- name: Eulerity
-  ats: greenhouse
-  token: eulerity
 - name: Excellus BCBS
   ats: workday
   tenant: lthc
@@ -587,11 +577,6 @@
   tenant: fis
   dc: wd5
   site: searchjobs
-- name: Fifth Third Bank
-  ats: workday
-  tenant: fifththird
-  dc: wd5
-  site: 53careers
 - name: Figma
   ats: greenhouse
   token: figma
@@ -1198,11 +1183,6 @@
 - name: Pilot Company
   ats: smartrecruiters
   token: PilotCompany
-- name: PIMCO
-  ats: workday
-  tenant: pimco
-  dc: wd1
-  site: pimco-careers
 - name: Pinterest
   ats: greenhouse
   token: pinterest
@@ -1413,9 +1393,6 @@
 - name: SoFi
   ats: greenhouse
   token: sofi
-- name: Solidigm
-  ats: smartrecruiters
-  token: Solidigm
 - name: SpaceX
   ats: greenhouse
   token: spacex
@@ -1475,11 +1452,6 @@
 - name: TELUS Digital
   ats: ashby
   token: telus-digital
-- name: The Aerospace Corporation
-  ats: workday
-  tenant: aero
-  dc: wd5
-  site: external
 - name: The Boeing Company
   ats: workday
   tenant: boeing
@@ -1530,9 +1502,6 @@
   tenant: thrivent
   dc: wd5
   site: external
-- name: Tide
-  ats: greenhouse
-  token: tide
 - name: Together AI
   ats: greenhouse
   token: togetherai
@@ -1621,9 +1590,6 @@
 - name: Visier Solutions
   ats: greenhouse
   token: visiersolutionsinc
-- name: Wabash Valley Power Alliance
-  ats: smartrecruiters
-  token: WabashValleyPowerAlliance
 - name: Walmart
   ats: workday
   tenant: walmart
