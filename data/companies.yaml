@@ -174,11 +174,6 @@
   tenant: baird
   dc: wd1
   site: careers
-- name: Bank of Montreal
-  ats: workday
-  tenant: bmo
-  dc: wd3
-  site: External
 - name: Barclays
   ats: workday
   tenant: barclays
@@ -187,11 +182,6 @@
 - name: Barnes & Thornburg
   ats: ashby
   token: barnes
-- name: Barr
-  ats: workday
-  tenant: barr
-  dc: wd1
-  site: barrcareers
 - name: Bass Pro Shops
   ats: workday
   tenant: basspro
