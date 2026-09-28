@@ -93,9 +93,6 @@
   tenant: amgen
   dc: wd1
   site: careers
-- name: Amplitude
-  ats: greenhouse
-  token: amplitude
 - name: AnaVation
   ats: lever
   token: anavationllc
@@ -649,6 +646,11 @@
 - name: Gecko Robotics
   ats: ashby
   token: gecko-robotics
+- name: Generac
+  ats: workday
+  tenant: generac
+  dc: wd5
+  site: external
 - name: General Dynamics Information Technology
   ats: workday
   tenant: gdit
@@ -1266,11 +1268,6 @@
 - name: Resultant
   ats: smartrecruiters
   token: Resultant
-- name: Revantage Corporate Services
-  ats: workday
-  tenant: revantage
-  dc: wd1
-  site: Revantage
 - name: Revel
   ats: ashby
   token: revel
@@ -1513,11 +1510,6 @@
 - name: Together AI
   ats: greenhouse
   token: togetherai
-- name: Tokyo Electron
-  ats: workday
-  tenant: tel
-  dc: wd3
-  site: tel-careers
 - name: Travelers
   ats: workday
   tenant: travelers
