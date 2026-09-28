@@ -570,11 +570,6 @@
   tenant: fmr
   dc: wd1
   site: fidelitycareers
-- name: Fidelity Investments
-  ats: workday
-  tenant: fmr
-  dc: wd1
-  site: targeted
 - name: Fidelity National Information Services
   ats: workday
   tenant: fis
@@ -654,11 +649,6 @@
 - name: Gecko Robotics
   ats: ashby
   token: gecko-robotics
-- name: Generac
-  ats: workday
-  tenant: generac
-  dc: wd5
-  site: external
 - name: General Dynamics Information Technology
   ats: workday
   tenant: gdit
@@ -1312,9 +1302,6 @@
   tenant: rockwellautomation
   dc: wd1
   site: External_Rockwell_Automation
-- name: Rothesay
-  ats: greenhouse
-  token: rothesaygraduates
 - name: Royal Bank of Canada
   ats: workday
   tenant: rbc
@@ -1325,9 +1312,6 @@
   tenant: rbc
   dc: wd3
   site: rbcglobal1
-- name: RRS Group
-  ats: smartrecruiters
-  token: RRSGroup
 - name: RSM
   ats: workday
   tenant: rsm
