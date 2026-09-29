@@ -16,6 +16,11 @@
   tenant: upbound
   dc: wd501
   site: Acima
+- name: Adobe
+  ats: workday
+  tenant: adobe
+  dc: wd5
+  site: external_experienced
 - name: AeroVironment
   ats: workday
   tenant: avav
@@ -254,6 +259,11 @@
   tenant: caci
   dc: wd1
   site: external
+- name: CAI
+  ats: workday
+  tenant: cai
+  dc: wd5
+  site: computer_aid
 - name: Capital Group
   ats: workday
   tenant: capgroup
@@ -372,6 +382,11 @@
   tenant: costar
   dc: wd1
   site: Costar_Campus
+- name: COUNTRY Financial
+  ats: workday
+  tenant: countryfinancial
+  dc: wd5
+  site: COUNTRYCorporateInternships
 - name: CoVar
   ats: greenhouse
   token: covar
@@ -465,6 +480,11 @@
   tenant: draftkings
   dc: wd1
   site: Employee_Referral_Portal
+- name: Draper
+  ats: workday
+  tenant: draper
+  dc: wd5
+  site: Draper_Careers
 - name: DriveTime
   ats: workday
   tenant: drivetime
@@ -498,6 +518,9 @@
 - name: Efficient Computer
   ats: greenhouse
   token: efficientcomputer
+- name: Elk Valley Resources
+  ats: lever
+  token: evr
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -543,12 +566,12 @@
   ats: workday
   tenant: fmr
   dc: wd1
-  site: targeted
-- name: Fidelity National Information Services
+  site: fidelitycareers
+- name: Fidelity Investments
   ats: workday
-  tenant: fis
-  dc: wd5
-  site: searchjobs
+  tenant: fmr
+  dc: wd1
+  site: targeted
 - name: Fifth Third Bank
   ats: workday
   tenant: fifththird
@@ -570,6 +593,9 @@
   tenant: flextronics
   dc: wd1
   site: Careers
+- name: Flint
+  ats: ashby
+  token: flint
 - name: FNBO
   ats: workday
   tenant: firstnational
@@ -714,6 +740,11 @@
   tenant: hntb
   dc: wd5
   site: hntb_university_careers
+- name: Howden
+  ats: workday
+  tenant: hyperiongrp
+  dc: wd3
+  site: Hyperion_External
 - name: HP IQ
   ats: greenhouse
   token: hpiq
@@ -925,6 +956,11 @@
   tenant: medline
   dc: wd5
   site: Medline
+- name: Medtronic
+  ats: workday
+  tenant: medtronic
+  dc: wd1
+  site: redeploymentmedtroniccareers
 - name: MegazoneCloud
   ats: ashby
   token: megazone
@@ -933,14 +969,16 @@
   tenant: meijer
   dc: wd5
   site: Meijer
-- name: Melius
-  ats: ashby
-  token: melius
 - name: Merck
   ats: workday
   tenant: msd
   dc: wd5
   site: searchjobs
+- name: Michelin
+  ats: workday
+  tenant: michelinhr
+  dc: wd3
+  site: Michelin
 - name: Mill
   ats: greenhouse
   token: mill
@@ -1102,6 +1140,9 @@
   tenant: pentair
   dc: wd5
   site: pentair_careers
+- name: Perchwell
+  ats: ashby
+  token: Perchwell
 - name: Perpay
   ats: greenhouse
   token: perpay
@@ -1158,6 +1199,9 @@
   tenant: qtsdatacenters
   dc: wd5
   site: qts
+- name: Qumulo
+  ats: ashby
+  token: qumulo
 - name: Radiance Technologies
   ats: workday
   tenant: radiancetech
@@ -1275,9 +1319,6 @@
   tenant: saabusa
   dc: wd1
   site: saab_careers
-- name: Sage
-  ats: greenhouse
-  token: sage49
 - name: Saronic
   ats: ashby
   token: saronic
@@ -1326,6 +1367,9 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
+- name: SpaceX
+  ats: greenhouse
+  token: spacex
 - name: Squarespace
   ats: greenhouse
   token: squarespace
@@ -1398,11 +1442,6 @@
 - name: The Exploration Company
   ats: ashby
   token: the-exploration-company
-- name: The Federal Reserve System
-  ats: workday
-  tenant: rb
-  dc: wd5
-  site: FRS
 - name: The Hartford
   ats: workday
   tenant: thehartford
@@ -1530,12 +1569,14 @@
 - name: Virtu Financial
   ats: greenhouse
   token: virtu
-- name: Visier Solutions
-  ats: greenhouse
-  token: visiersolutionsinc
 - name: Wabash Valley Power Alliance
   ats: smartrecruiters
   token: WabashValleyPowerAlliance
+- name: Walmart
+  ats: workday
+  tenant: walmart
+  dc: wd504
+  site: WalmartExternal
 - name: Watts Water
   ats: workday
   tenant: wattswater
