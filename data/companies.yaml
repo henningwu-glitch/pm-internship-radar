@@ -86,11 +86,6 @@
   tenant: amfam
   dc: wd1
   site: AmFamGroupInternCareers
-- name: Ameriprise Financial
-  ats: workday
-  tenant: ameriprise
-  dc: wd5
-  site: Ameriprise
 - name: Amgen
   ats: workday
   tenant: amgen
@@ -99,6 +94,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -241,6 +239,9 @@
   tenant: brunswick
   dc: wd1
   site: search
+- name: BTI360
+  ats: greenhouse
+  token: bti36021
 - name: Burlington Stores
   ats: workday
   tenant: burlington
@@ -403,11 +404,6 @@
 - name: Cyvl
   ats: ashby
   token: cyvl
-- name: Daimler Truck
-  ats: workday
-  tenant: dtna
-  dc: wd5
-  site: dtna_affiliate
 - name: Dallas Fort Worth International Airport
   ats: workday
   tenant: dfwairport
@@ -1178,6 +1174,11 @@
 - name: Pinterest
   ats: greenhouse
   token: pinterest
+- name: POET
+  ats: workday
+  tenant: poet
+  dc: wd1
+  site: POET
 - name: Polaris
   ats: workday
   tenant: polaris
