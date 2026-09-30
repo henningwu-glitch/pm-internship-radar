@@ -68,6 +68,9 @@
   tenant: standoutforgood
   dc: wd12
   site: StandOutForGood
+- name: AMCA
+  ats: greenhouse
+  token: amca
 - name: Ameren
   ats: workday
   tenant: ameren
@@ -96,9 +99,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -241,9 +241,6 @@
   tenant: brunswick
   dc: wd1
   site: search
-- name: BTI360
-  ats: greenhouse
-  token: bti36021
 - name: Burlington Stores
   ats: workday
   tenant: burlington
@@ -531,6 +528,9 @@
   tenant: emcins
   dc: wd5
   site: EMC_Internships
+- name: Enova
+  ats: greenhouse
+  token: enova
 - name: Ensign-Bickford Aerospace & Defense Company
   ats: workday
   tenant: ebi
@@ -825,6 +825,16 @@
   tenant: irhythmtech
   dc: wd5
   site: irhythm
+- name: Itron
+  ats: workday
+  tenant: itron
+  dc: wd5
+  site: Early_Careers
+- name: Itron
+  ats: workday
+  tenant: itron
+  dc: wd5
+  site: Itron
 - name: J.M. Smucker
   ats: workday
   tenant: smucker
@@ -879,6 +889,11 @@
 - name: Lawrence Livermore National Laboratory (LLNL)
   ats: smartrecruiters
   token: LLNL
+- name: Leidos
+  ats: workday
+  tenant: leidos
+  dc: wd5
+  site: External
 - name: LexisNexis Legal & Professional
   ats: workday
   tenant: relx
@@ -956,11 +971,6 @@
   tenant: medline
   dc: wd5
   site: Medline
-- name: Medtronic
-  ats: workday
-  tenant: medtronic
-  dc: wd1
-  site: redeploymentmedtroniccareers
 - name: MegazoneCloud
   ats: ashby
   token: megazone
@@ -982,6 +992,11 @@
 - name: Mill
   ats: greenhouse
   token: mill
+- name: Moderna
+  ats: workday
+  tenant: modernatx
+  dc: wd1
+  site: M_tx
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -1065,11 +1080,6 @@
   tenant: njm
   dc: wd1
   site: njm
-- name: Northern Trust
-  ats: workday
-  tenant: ntrs
-  dc: wd1
-  site: northerntrust
 - name: Northrop Grumman
   ats: workday
   tenant: ngc
@@ -1218,11 +1228,6 @@
 - name: Reddit
   ats: greenhouse
   token: reddit
-- name: Regions Bank
-  ats: workday
-  tenant: regions
-  dc: wd5
-  site: regions_careers
 - name: Relay
   ats: greenhouse
   token: relaypro
@@ -1289,11 +1294,6 @@
   tenant: rbc
   dc: wd3
   site: rbcglobal1
-- name: RSM
-  ats: workday
-  tenant: rsm
-  dc: wd1
-  site: RSMCareers
 - name: RTX
   ats: workday
   tenant: globalhr
@@ -1319,6 +1319,9 @@
   tenant: saabusa
   dc: wd1
   site: saab_careers
+- name: Sage
+  ats: greenhouse
+  token: sage49
 - name: Saronic
   ats: ashby
   token: saronic
@@ -1367,6 +1370,11 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
+- name: SouthState Bank
+  ats: workday
+  tenant: southstatebank
+  dc: wd5
+  site: external
 - name: SpaceX
   ats: greenhouse
   token: spacex
@@ -1566,9 +1574,6 @@
 - name: Viking Global
   ats: greenhouse
   token: vikingglobalinvestors
-- name: Virtu Financial
-  ats: greenhouse
-  token: virtu
 - name: Wabash Valley Power Alliance
   ats: smartrecruiters
   token: WabashValleyPowerAlliance
