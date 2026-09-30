@@ -138,6 +138,11 @@
   tenant: atcllc
   dc: wd5
   site: atcllc
+- name: Athene
+  ats: workday
+  tenant: athene
+  dc: wd5
+  site: athene_careers
 - name: AtkinsRéalis
   ats: workday
   tenant: slihrms
@@ -417,9 +422,6 @@
 - name: Databricks
   ats: greenhouse
   token: databricks
-- name: Datadog
-  ats: greenhouse
-  token: datadog
 - name: Decagon
   ats: ashby
   token: decagon
@@ -455,9 +457,6 @@
 - name: DoorDash
   ats: greenhouse
   token: doordashcanada
-- name: DoorDash
-  ats: greenhouse
-  token: doordashusa
 - name: Dow Jones
   ats: workday
   tenant: dowjones
@@ -898,6 +897,11 @@
 - name: Linear
   ats: ashby
   token: linear
+- name: Live Oak Bank
+  ats: workday
+  tenant: liveoakbancshares
+  dc: wd1
+  site: Live_Oak
 - name: Lowe's
   ats: workday
   tenant: lowes
@@ -1235,9 +1239,6 @@
 - name: Remote
   ats: greenhouse
   token: remotecom
-- name: Renesas Electronics
-  ats: smartrecruiters
-  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
