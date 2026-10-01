@@ -166,11 +166,6 @@
   tenant: avisbudget
   dc: wd1
   site: abg_careers
-- name: Axiom Space
-  ats: workday
-  tenant: axiomspace
-  dc: wd5
-  site: External_Career_Site
 - name: AXQ Capital
   ats: greenhouse
   token: axq
@@ -1027,11 +1022,6 @@
 - name: Monzo
   ats: greenhouse
   token: monzo
-- name: Moog
-  ats: workday
-  tenant: moog
-  dc: wd5
-  site: moog_external_career_site
 - name: Motorola
   ats: workday
   tenant: motorolasolutions
@@ -1067,11 +1057,6 @@
 - name: Neighbor
   ats: lever
   token: neighbor
-- name: Neogen
-  ats: workday
-  tenant: neogen
-  dc: wd5
-  site: neogencareers
 - name: Netsmart
   ats: workday
   tenant: ntst
@@ -1352,9 +1337,6 @@
 - name: Saronic
   ats: ashby
   token: saronic
-- name: Scale AI
-  ats: greenhouse
-  token: scaleai
 - name: Schonfeld
   ats: greenhouse
   token: schonfeld
@@ -1401,6 +1383,11 @@
   ats: workday
   tenant: southstatebank
   dc: wd5
+  site: external
+- name: Southwest Airlines
+  ats: workday
+  tenant: swa
+  dc: wd1
   site: external
 - name: SpaceX
   ats: greenhouse
@@ -1579,6 +1566,9 @@
 - name: Vanta
   ats: ashby
   token: vanta
+- name: Varda Space
+  ats: greenhouse
+  token: vardaspace
 - name: Vercel
   ats: greenhouse
   token: vercel
