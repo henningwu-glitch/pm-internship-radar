@@ -58,11 +58,6 @@
 - name: Allen Control Systems
   ats: ashby
   token: allen-control-systems
-- name: Allied Solutions
-  ats: workday
-  tenant: alliedsolutions
-  dc: wd501
-  site: Allied_External
 - name: Altar'd State
   ats: workday
   tenant: standoutforgood
@@ -130,6 +125,16 @@
   tenant: aspentech
   dc: wd5
   site: aspentech
+- name: Assurant
+  ats: workday
+  tenant: assurant
+  dc: wd1
+  site: External_Limited_Posting
+- name: Assurant
+  ats: workday
+  tenant: assurant
+  dc: wd1
+  site: Assurant_Careers
 - name: Astranis
   ats: greenhouse
   token: astranis
@@ -277,6 +282,9 @@
   tenant: capitalone
   dc: wd12
   site: Capital_One
+- name: Capstone Investment Advisors
+  ats: greenhouse
+  token: capstoneinvestmentadvisors
 - name: Cardinal Health
   ats: workday
   tenant: cardinalhealth
@@ -419,9 +427,15 @@
   tenant: danaher
   dc: wd1
   site: danaherjobs
+- name: Dandy
+  ats: ashby
+  token: dandy
 - name: Databricks
   ats: greenhouse
   token: databricks
+- name: Datadog
+  ats: greenhouse
+  token: datadog
 - name: Decagon
   ats: ashby
   token: decagon
@@ -457,6 +471,9 @@
 - name: DoorDash
   ats: greenhouse
   token: doordashcanada
+- name: DoorDash
+  ats: greenhouse
+  token: doordashusa
 - name: Dow Jones
   ats: workday
   tenant: dowjones
@@ -720,6 +737,11 @@
 - name: Hermeus
   ats: lever
   token: hermeus
+- name: Hitachi
+  ats: workday
+  tenant: hitachi
+  dc: wd1
+  site: hitachi
 - name: HMH
   ats: workday
   tenant: hmhw
@@ -743,9 +765,6 @@
 - name: HP IQ
   ats: greenhouse
   token: hpiq
-- name: HPR (Hyannis Port Research)
-  ats: greenhouse
-  token: hyannisportresearch
 - name: HubSpot
   ats: greenhouse
   token: hubspot
@@ -894,6 +913,11 @@
   tenant: relx
   dc: wd3
   site: LexisNexisLegal
+- name: Life Fitness
+  ats: workday
+  tenant: lifefitness
+  dc: wd1
+  site: searchLFN
 - name: Linear
   ats: ashby
   token: linear
@@ -930,11 +954,6 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_Jobs
-- name: Marathon Petroleum
-  ats: workday
-  tenant: mpc
-  dc: wd1
-  site: MPCCareers
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
@@ -1018,6 +1037,9 @@
   tenant: motorolasolutions
   dc: wd5
   site: Careers
+- name: Muon Space
+  ats: greenhouse
+  token: muonspace
 - name: Nasdaq
   ats: workday
   tenant: nasdaq
@@ -1142,6 +1164,9 @@
 - name: Palantir Technologies
   ats: lever
   token: palantir
+- name: Patch My PC
+  ats: lever
+  token: patchmypc
 - name: Peloton
   ats: greenhouse
   token: peloton
@@ -1647,9 +1672,6 @@
 - name: Zilch
   ats: ashby
   token: zilch
-- name: Zip
-  ats: ashby
-  token: zip
 - name: Zurn Elkay Water Solutions
   ats: workday
   tenant: elkay
