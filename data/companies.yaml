@@ -50,11 +50,6 @@
 - name: Airtable
   ats: greenhouse
   token: airtable
-- name: Alberta Investment Management Corporation
-  ats: workday
-  tenant: aimco
-  dc: wd10
-  site: AIMCoCareers
 - name: Allen Control Systems
   ats: ashby
   token: allen-control-systems
@@ -1149,9 +1144,6 @@
 - name: Palantir Technologies
   ats: lever
   token: palantir
-- name: Patch My PC
-  ats: lever
-  token: patchmypc
 - name: Peloton
   ats: greenhouse
   token: peloton
@@ -1337,6 +1329,9 @@
 - name: Saronic
   ats: ashby
   token: saronic
+- name: Scale AI
+  ats: greenhouse
+  token: scaleai
 - name: Schonfeld
   ats: greenhouse
   token: schonfeld
@@ -1604,9 +1599,6 @@
   tenant: wattswater
   dc: wd5
   site: Intern-External
-- name: Wayve
-  ats: greenhouse
-  token: wayve
 - name: Webflow
   ats: greenhouse
   token: webflow
@@ -1626,11 +1618,6 @@
 - name: Western Digital
   ats: smartrecruiters
   token: WesternDigital
-- name: Wex
-  ats: workday
-  tenant: wexinc
-  dc: wd5
-  site: WEXInc
 - name: WhiteWater Midstream
   ats: greenhouse
   token: whitewatermidstream
