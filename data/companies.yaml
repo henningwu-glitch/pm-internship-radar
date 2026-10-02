@@ -11,11 +11,6 @@
 - name: AbbVie
   ats: smartrecruiters
   token: AbbVie
-- name: Acima
-  ats: workday
-  tenant: upbound
-  dc: wd501
-  site: Acima
 - name: Adobe
   ats: workday
   tenant: adobe
@@ -234,11 +229,6 @@
 - name: Brex
   ats: greenhouse
   token: brex
-- name: British Columbia Investment
-  ats: workday
-  tenant: bci
-  dc: wd10
-  site: BCI_Careers
 - name: Brunswick
   ats: workday
   tenant: brunswick
@@ -740,9 +730,9 @@
   tenant: hdsupply
   dc: wd1
   site: External
-- name: Hermeus
-  ats: lever
-  token: hermeus
+- name: Helion Energy
+  ats: ashby
+  token: helion
 - name: Hitachi
   ats: workday
   tenant: hitachi
@@ -774,9 +764,6 @@
 - name: HubSpot
   ats: greenhouse
   token: hubspot
-- name: Hudl
-  ats: greenhouse
-  token: hudl
 - name: Humana
   ats: workday
   tenant: humana
@@ -840,11 +827,6 @@
   tenant: invesco
   dc: wd1
   site: IVZearlycareers
-- name: iRhythm Technologies
-  ats: workday
-  tenant: irhythmtech
-  dc: wd5
-  site: irhythm
 - name: Itron
   ats: workday
   tenant: itron
@@ -1109,11 +1091,6 @@
   tenant: nvidia
   dc: wd5
   site: NVIDIAExternalCareerSite
-- name: NXP Semiconductors
-  ats: workday
-  tenant: nxp
-  dc: wd3
-  site: careers
 - name: OCC
   ats: workday
   tenant: theocc
@@ -1307,11 +1284,6 @@
   tenant: rbc
   dc: wd3
   site: rbcglobal1
-- name: RSM
-  ats: workday
-  tenant: rsm
-  dc: wd1
-  site: RSMCareers
 - name: RTX
   ats: workday
   tenant: globalhr
@@ -1552,11 +1524,6 @@
   tenant: hcmportal
   dc: wd5
   site: Search
-- name: Upbound Group
-  ats: workday
-  tenant: upbound
-  dc: wd501
-  site: Upbound
 - name: USAA
   ats: workday
   tenant: usaa
