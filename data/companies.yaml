@@ -104,11 +104,6 @@
   tenant: amat
   dc: wd1
   site: External
-- name: Arch Capital Group
-  ats: workday
-  tenant: archgroup
-  dc: wd1
-  site: careers
 - name: Asana
   ats: greenhouse
   token: asana
@@ -156,6 +151,16 @@
   tenant: aoins
   dc: wd5
   site: AutoOwners
+- name: Autodesk
+  ats: workday
+  tenant: autodesk
+  dc: wd1
+  site: Ext
+- name: Autodesk
+  ats: workday
+  tenant: autodesk
+  dc: wd1
+  site: uni
 - name: Avis Budget Group
   ats: workday
   tenant: avisbudget
@@ -285,6 +290,11 @@
   tenant: cat
   dc: wd5
   site: CaterpillarCareers
+- name: Centene
+  ats: workday
+  tenant: centene
+  dc: wd5
+  site: Centene_External
 - name: Cerity Partners
   ats: workday
   tenant: ceritypartners
@@ -423,6 +433,9 @@
 - name: Databricks
   ats: greenhouse
   token: databricks
+- name: Datacor
+  ats: greenhouse
+  token: datacor
 - name: Datadog
   ats: greenhouse
   token: datadog
@@ -679,6 +692,9 @@
   tenant: gnw
   dc: wd1
   site: GNW
+- name: Glean
+  ats: greenhouse
+  token: gleanwork
 - name: GlobalFoundries
   ats: workday
   tenant: globalfoundries
@@ -872,11 +888,6 @@
   tenant: albemarle
   dc: wd5
   site: ketjenexternal
-- name: KeyBank
-  ats: workday
-  tenant: keybank
-  dc: wd5
-  site: External_Career_Site
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
@@ -898,11 +909,6 @@
   tenant: leidos
   dc: wd5
   site: External
-- name: LexisNexis Legal & Professional
-  ats: workday
-  tenant: relx
-  dc: wd3
-  site: LexisNexisLegal
 - name: Life Fitness
   ats: workday
   tenant: lifefitness
@@ -993,6 +999,11 @@
   tenant: msd
   dc: wd5
   site: searchjobs
+- name: MFS
+  ats: workday
+  tenant: mfs
+  dc: wd1
+  site: MFS-Careers
 - name: Michelin
   ats: workday
   tenant: michelinhr
@@ -1052,11 +1063,6 @@
 - name: Neighbor
   ats: lever
   token: neighbor
-- name: Netsmart
-  ats: workday
-  tenant: ntst
-  dc: wd1
-  site: careers
 - name: Neuberger Berman
   ats: workday
   tenant: nb
@@ -1147,11 +1153,6 @@
 - name: Peloton
   ats: greenhouse
   token: peloton
-- name: Pentair
-  ats: workday
-  tenant: pentair
-  dc: wd5
-  site: pentair_careers
 - name: Perchwell
   ats: ashby
   token: Perchwell
@@ -1193,6 +1194,11 @@
 - name: Primer
   ats: ashby
   token: primer
+- name: Primient
+  ats: workday
+  tenant: primient
+  dc: wd1
+  site: External_Careers
 - name: Procter & Gamble
   ats: workday
   tenant: pg
@@ -1263,6 +1269,9 @@
 - name: RF-SMART
   ats: greenhouse
   token: rfsmart
+- name: Riot Games
+  ats: greenhouse
+  token: riotgamesup
 - name: Rivian and Volkswagen Group Technologies
   ats: ashby
   token: rivianvw.tech
@@ -1298,6 +1307,11 @@
   tenant: rbc
   dc: wd3
   site: rbcglobal1
+- name: RSM
+  ats: workday
+  tenant: rsm
+  dc: wd1
+  site: RSMCareers
 - name: RTX
   ats: workday
   tenant: globalhr
@@ -1448,17 +1462,17 @@
   tenant: aero
   dc: wd5
   site: external
-- name: The Boeing Company
-  ats: workday
-  tenant: boeing
-  dc: wd1
-  site: INTERN
 - name: The Brattle Group
   ats: greenhouse
   token: thebrattlegroup
 - name: The Exploration Company
   ats: ashby
   token: the-exploration-company
+- name: The Federal Reserve System
+  ats: workday
+  tenant: rb
+  dc: wd5
+  site: FRS
 - name: The Hartford
   ats: workday
   tenant: thehartford
@@ -1589,6 +1603,9 @@
 - name: Wabash Valley Power Alliance
   ats: smartrecruiters
   token: WabashValleyPowerAlliance
+- name: Walleye Capital
+  ats: greenhouse
+  token: walleyecapital-external-students
 - name: Walmart
   ats: workday
   tenant: walmart
