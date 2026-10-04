@@ -620,19 +620,11 @@
 - name: Gas South
   ats: greenhouse
   token: gassouth
-- name: GCM Grosvenor
-  ats: greenhouse
-  token: gcmgrosvenor
 - name: GE Aerospace
   ats: workday
   tenant: geaerospace
   dc: wd5
   site: ge_externalsite
-- name: GE Appliances
-  ats: workday
-  tenant: haier
-  dc: wd3
-  site: ge_appliances
 - name: GE Healthcare
   ats: workday
   tenant: gehc
