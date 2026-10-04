@@ -38,6 +38,11 @@
 - name: Allen Control Systems
   ats: ashby
   token: allen-control-systems
+- name: Altar'd State
+  ats: workday
+  tenant: standoutforgood
+  dc: wd12
+  site: StandOutForGood
 - name: AMCA
   ats: greenhouse
   token: amca
@@ -276,6 +281,11 @@
   tenant: centene
   dc: wd5
   site: Centene_External
+- name: Cerity Partners
+  ats: workday
+  tenant: ceritypartners
+  dc: wd12
+  site: ceritypartnerscareers
 - name: CesiumAstro
   ats: lever
   token: CesiumAstro
@@ -1601,6 +1611,11 @@
 - name: XPENG Motors
   ats: greenhouse
   token: xpengmotors
+- name: Zekelman Industries
+  ats: workday
+  tenant: zekelman
+  dc: wd12
+  site: Careers
 - name: Zilch
   ats: ashby
   token: zilch
