@@ -34,11 +34,6 @@
   tenant: aig
   dc: wd1
   site: early_careers
-- name: AIG
-  ats: workday
-  tenant: aig
-  dc: wd1
-  site: aig
 - name: Airbnb
   ats: greenhouse
   token: airbnb
@@ -123,11 +118,6 @@
   tenant: assurant
   dc: wd1
   site: External_Limited_Posting
-- name: Assurant
-  ats: workday
-  tenant: assurant
-  dc: wd1
-  site: Assurant_Careers
 - name: Astranis
   ats: greenhouse
   token: astranis
@@ -355,11 +345,6 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
-- name: Commerce Bank
-  ats: workday
-  tenant: commercebank
-  dc: wd1
-  site: CommerceJobs
 - name: Compeer Financial
   ats: greenhouse
   token: compeerfinancial
@@ -383,11 +368,6 @@
   tenant: costar
   dc: wd1
   site: Costar_Campus
-- name: COUNTRY Financial
-  ats: workday
-  tenant: countryfinancial
-  dc: wd5
-  site: COUNTRYCorporateInternships
 - name: CoVar
   ats: greenhouse
   token: covar
@@ -522,9 +502,6 @@
   tenant: elevancehealth
   dc: wd1
   site: ELV-ET
-- name: Elk Valley Resources
-  ats: lever
-  token: evr
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -585,14 +562,6 @@
 - name: Five Rings Capital
   ats: greenhouse
   token: fiveringsllc
-- name: Flex
-  ats: workday
-  tenant: flextronics
-  dc: wd1
-  site: Careers
-- name: Flint
-  ats: ashby
-  token: flint
 - name: FNBO
   ats: workday
   tenant: firstnational
@@ -617,6 +586,11 @@
 - name: Garda Capital Partners
   ats: greenhouse
   token: gardacp
+- name: Gartner
+  ats: workday
+  tenant: gartner
+  dc: wd5
+  site: EXT
 - name: Gas South
   ats: greenhouse
   token: gassouth
@@ -714,9 +688,6 @@
 - name: Gymshark
   ats: greenhouse
   token: gymshark
-- name: Hadrian
-  ats: ashby
-  token: hadrian-automation
 - name: Harvey
   ats: ashby
   token: harvey
@@ -835,11 +806,6 @@
   tenant: itron
   dc: wd5
   site: Early_Careers
-- name: Itron
-  ats: workday
-  tenant: itron
-  dc: wd5
-  site: Itron
 - name: J.M. Smucker
   ats: workday
   tenant: smucker
@@ -997,11 +963,6 @@
 - name: Mill
   ats: greenhouse
   token: mill
-- name: Moderna
-  ats: workday
-  tenant: modernatx
-  dc: wd1
-  site: M_tx
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -1053,11 +1014,6 @@
   tenant: nelnet
   dc: wd1
   site: MyNelnet
-- name: Neuberger Berman
-  ats: workday
-  tenant: nb
-  dc: wd1
-  site: NBCareers
 - name: New York Mets
   ats: workday
   tenant: sterlingmets
@@ -1202,9 +1158,6 @@
   tenant: qtsdatacenters
   dc: wd5
   site: qts
-- name: Qumulo
-  ats: ashby
-  token: qumulo
 - name: Radiance Technologies
   ats: workday
   tenant: radiancetech
@@ -1421,11 +1374,6 @@
   tenant: tcenergy
   dc: wd3
   site: CAREER_SITE_TC
-- name: TD Bank
-  ats: workday
-  tenant: td
-  dc: wd3
-  site: TD_Bank_Careers
 - name: Teledyne
   ats: workday
   tenant: flir
@@ -1471,14 +1419,6 @@
   tenant: ttc
   dc: wd1
   site: Toro_External_Careers
-- name: The Voleon Group
-  ats: ashby
-  token: voleon
-- name: Thermo Fisher Scientific
-  ats: workday
-  tenant: thermofisher
-  dc: wd5
-  site: ThermoFisherCareers
 - name: Thrivent
   ats: workday
   tenant: thrivent
@@ -1514,11 +1454,6 @@
 - name: Twilio
   ats: greenhouse
   token: twilio
-- name: U.S. Bank
-  ats: workday
-  tenant: usbank
-  dc: wd1
-  site: US_Bank_Careers
 - name: United Parcel Service
   ats: workday
   tenant: hcmportal
