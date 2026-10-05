@@ -235,9 +235,6 @@
   tenant: brunswick
   dc: wd1
   site: search
-- name: BTI360
-  ats: greenhouse
-  token: bti36021
 - name: Burlington Stores
   ats: workday
   tenant: burlington
@@ -490,9 +487,6 @@
 - name: Dropbox
   ats: greenhouse
   token: dropbox
-- name: DRW
-  ats: greenhouse
-  token: drwuniversityjobs
 - name: DuCharme, McMillen & Associates
   ats: workday
   tenant: dmainc
@@ -737,7 +731,7 @@
 - name: Hermeus
   ats: lever
   token: hermeus
-- name: Hitachi
+- name: Hitachi Energy
   ats: workday
   tenant: hitachi
   dc: wd1
@@ -1239,6 +1233,9 @@
 - name: Remote
   ats: greenhouse
   token: remotecom
+- name: Renesas Electronics
+  ats: smartrecruiters
+  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
