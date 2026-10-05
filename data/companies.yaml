@@ -1425,6 +1425,11 @@
   tenant: tcenergy
   dc: wd3
   site: CAREER_SITE_TC
+- name: TD Bank
+  ats: workday
+  tenant: td
+  dc: wd3
+  site: TD_Bank_Careers
 - name: Teledyne
   ats: workday
   tenant: flir
