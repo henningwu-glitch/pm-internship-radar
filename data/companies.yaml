@@ -32,6 +32,11 @@
 - name: Airbnb
   ats: greenhouse
   token: airbnb
+- name: Airbus
+  ats: workday
+  tenant: ag
+  dc: wd3
+  site: Airbus
 - name: Airtable
   ats: greenhouse
   token: airtable
@@ -546,6 +551,9 @@
   tenant: ercot
   dc: wd1
   site: ercot_careers
+- name: Etched
+  ats: ashby
+  token: Etched
 - name: Eulerity
   ats: greenhouse
   token: eulerity
@@ -723,11 +731,6 @@
 - name: Harvey
   ats: ashby
   token: harvey
-- name: HD Supply
-  ats: workday
-  tenant: hdsupply
-  dc: wd1
-  site: External
 - name: Helion Energy
   ats: ashby
   token: helion
@@ -928,11 +931,6 @@
 - name: Lyft
   ats: greenhouse
   token: lyft
-- name: Manulife Financial
-  ats: workday
-  tenant: manulife
-  dc: wd3
-  site: MFCJH_Jobs
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
@@ -1141,6 +1139,9 @@
 - name: Palantir Technologies
   ats: lever
   token: palantir
+- name: Pangram Labs
+  ats: ashby
+  token: pangramlabs
 - name: Peloton
   ats: greenhouse
   token: peloton
@@ -1432,6 +1433,11 @@
 - name: TELUS Digital
   ats: ashby
   token: telus-digital
+- name: Thales
+  ats: workday
+  tenant: thales
+  dc: wd3
+  site: Careers
 - name: The Aerospace Corporation
   ats: workday
   tenant: aero
