@@ -51,11 +51,6 @@
 - name: AMCA
   ats: greenhouse
   token: amca
-- name: Ameren
-  ats: workday
-  tenant: ameren
-  dc: wd1
-  site: External
 - name: American Bankers Association
   ats: workday
   tenant: aba
@@ -556,6 +551,11 @@
   tenant: lthc
   dc: wd1
   site: ExcellusBCBSCareers
+- name: Expedia Group
+  ats: workday
+  tenant: expedia
+  dc: wd108
+  site: private
 - name: Faire
   ats: greenhouse
   token: faire
@@ -564,6 +564,11 @@
   tenant: fanniemae
   dc: wd1
   site: FannieMaeCareers
+- name: FHLBank Chicago
+  ats: workday
+  tenant: fhlbc
+  dc: wd1
+  site: search
 - name: Fidelity Investments
   ats: workday
   tenant: fmr
@@ -850,6 +855,11 @@
   tenant: jabil
   dc: wd5
   site: Jabil_Careers
+- name: Jain Global
+  ats: workday
+  tenant: jainglobal
+  dc: wd5
+  site: ExternalSite
 - name: Johns Manville
   ats: workday
   tenant: jm
@@ -873,6 +883,9 @@
   tenant: albemarle
   dc: wd5
   site: ketjenexternal
+- name: Khan Academy
+  ats: greenhouse
+  token: khanacademy
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
@@ -894,6 +907,16 @@
   tenant: leidos
   dc: wd5
   site: External
+- name: LexisNexis Legal & Professional
+  ats: workday
+  tenant: relx
+  dc: wd3
+  site: LexisNexisLegal
+- name: LexisNexis Risk Solutions
+  ats: workday
+  tenant: relx
+  dc: wd3
+  site: RiskSolutions
 - name: Life Fitness
   ats: workday
   tenant: lifefitness
@@ -902,11 +925,6 @@
 - name: Linear
   ats: ashby
   token: linear
-- name: Live Oak Bank
-  ats: workday
-  tenant: liveoakbancshares
-  dc: wd1
-  site: Live_Oak
 - name: Lowe's
   ats: workday
   tenant: lowes
@@ -943,11 +961,6 @@
   tenant: mastercard
   dc: wd1
   site: Campus
-- name: Mastercard
-  ats: workday
-  tenant: mastercard
-  dc: wd1
-  site: CorporateCareers
 - name: Maven Securities
   ats: greenhouse
   token: mavensecuritiesholdingltd
@@ -989,6 +1002,11 @@
   tenant: micron
   dc: wd1
   site: External
+- name: Midland States Bank
+  ats: workday
+  tenant: midlandsb
+  dc: wd1
+  site: msbcareers
 - name: Mill
   ats: greenhouse
   token: mill
@@ -1252,9 +1270,6 @@
 - name: Resultant
   ats: smartrecruiters
   token: Resultant
-- name: Revel
-  ats: ashby
-  token: revel
 - name: RF-SMART
   ats: greenhouse
   token: rfsmart
@@ -1283,6 +1298,9 @@
   tenant: rockwellautomation
   dc: wd1
   site: External_Rockwell_Automation
+- name: Rothesay
+  ats: greenhouse
+  token: rothesaygraduates
 - name: Royal Bank of Canada
   ats: workday
   tenant: rbc
@@ -1357,6 +1375,9 @@
   tenant: snc
   dc: wd1
   site: snc_external_career_site
+- name: Signifyd
+  ats: greenhouse
+  token: signifyd95
 - name: Skydio
   ats: ashby
   token: skydio
@@ -1403,6 +1424,9 @@
   tenant: sunlife
   dc: wd3
   site: Campus
+- name: Syngenta Group
+  ats: smartrecruiters
+  token: SyngentaGroup
 - name: Synthesia
   ats: ashby
   token: synthesia
@@ -1593,6 +1617,11 @@
 - name: Western Digital
   ats: smartrecruiters
   token: WesternDigital
+- name: Wex
+  ats: workday
+  tenant: wexinc
+  dc: wd5
+  site: WEXInc
 - name: WhiteWater Midstream
   ats: greenhouse
   token: whitewatermidstream
@@ -1616,9 +1645,6 @@
 - name: Xcimer Energy
   ats: lever
   token: xcimer
-- name: XPENG Motors
-  ats: greenhouse
-  token: xpengmotors
 - name: Zekelman Industries
   ats: workday
   tenant: zekelman
