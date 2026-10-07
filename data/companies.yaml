@@ -176,11 +176,6 @@
 - name: Barnes & Thornburg
   ats: ashby
   token: barnes
-- name: Barr
-  ats: workday
-  tenant: barr
-  dc: wd1
-  site: barrcareers
 - name: Bass Pro Shops
   ats: workday
   tenant: basspro
@@ -413,6 +408,9 @@
   tenant: danaher
   dc: wd1
   site: danaherjobs
+- name: Dandy
+  ats: ashby
+  token: dandy
 - name: Databricks
   ats: greenhouse
   token: databricks
@@ -752,6 +750,11 @@
   tenant: hpe
   dc: wd5
   site: jobsathpe
+- name: Highmark Health
+  ats: workday
+  tenant: highmarkhealth
+  dc: wd1
+  site: highmark
 - name: Hitachi Energy
   ats: workday
   tenant: hitachi
@@ -961,6 +964,11 @@
   tenant: mpc
   dc: wd1
   site: MPCCareers
+- name: Marsh
+  ats: workday
+  tenant: mmc
+  dc: wd1
+  site: MMC
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
@@ -1097,6 +1105,11 @@
   tenant: newrez
   dc: wd1
   site: NRZ
+- name: NewYork-Presbyterian
+  ats: workday
+  tenant: nyp
+  dc: wd1
+  site: nypcareers
 - name: Niantic Spatial
   ats: ashby
   token: niantic-spatial
@@ -1305,6 +1318,11 @@
 - name: Roblox
   ats: greenhouse
   token: roblox
+- name: Roche
+  ats: workday
+  tenant: roche
+  dc: wd3
+  site: roche-ext
 - name: Rocket Lab USA
   ats: greenhouse
   token: rocketlab
@@ -1395,6 +1413,9 @@
   tenant: snc
   dc: wd1
   site: snc_external_career_site
+- name: Sigma Computing
+  ats: greenhouse
+  token: sigmacomputing
 - name: Signifyd
   ats: greenhouse
   token: signifyd95
