@@ -212,11 +212,6 @@
   tenant: boeing
   dc: wd1
   site: EXTERNAL_CAREERS
-- name: Booz Allen
-  ats: workday
-  tenant: bah
-  dc: wd1
-  site: bah_jobs
 - name: Brex
   ats: greenhouse
   token: brex
@@ -1060,11 +1055,6 @@
 - name: Muon Space
   ats: greenhouse
   token: muonspace
-- name: Nasdaq
-  ats: workday
-  tenant: nasdaq
-  dc: wd1
-  site: Global_External_Site
 - name: National Information Solutions Cooperative
   ats: greenhouse
   token: nisc
