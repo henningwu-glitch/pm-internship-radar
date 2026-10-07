@@ -108,11 +108,6 @@
   tenant: aspentech
   dc: wd5
   site: aspentech
-- name: Associated Bank
-  ats: workday
-  tenant: associatedbank
-  dc: wd1
-  site: external_careers
 - name: Assurant
   ats: workday
   tenant: assurant
@@ -194,9 +189,6 @@
 - name: Bedrock Robotics
   ats: ashby
   token: bedrock-robotics
-- name: Belvedere Trading
-  ats: lever
-  token: belvederetrading
 - name: BlackRock
   ats: workday
   tenant: blackrock
@@ -389,6 +381,9 @@
   tenant: countryfinancial
   dc: wd5
   site: COUNTRYCorporateInternships
+- name: Courier Health
+  ats: greenhouse
+  token: courierhealth
 - name: CoVar
   ats: greenhouse
   token: covar
@@ -567,6 +562,11 @@
   tenant: expedia
   dc: wd108
   site: private
+- name: F5
+  ats: workday
+  tenant: ffive
+  dc: wd5
+  site: f5jobs
 - name: Faire
   ats: greenhouse
   token: faire
@@ -863,6 +863,11 @@
   tenant: smucker
   dc: wd5
   site: US_External_Careers
+- name: Jabil
+  ats: workday
+  tenant: jabil
+  dc: wd5
+  site: Jabil_Careers
 - name: Jain Global
   ats: workday
   tenant: jainglobal
@@ -920,11 +925,6 @@
   tenant: leidos
   dc: wd5
   site: External
-- name: LexisNexis Legal & Professional
-  ats: workday
-  tenant: relx
-  dc: wd3
-  site: LexisNexisLegal
 - name: LexisNexis Risk Solutions
   ats: workday
   tenant: relx
@@ -956,6 +956,11 @@
 - name: Lyft
   ats: greenhouse
   token: lyft
+- name: Marathon Petroleum
+  ats: workday
+  tenant: mpc
+  dc: wd1
+  site: MPCCareers
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
@@ -1092,6 +1097,9 @@
   tenant: newrez
   dc: wd1
   site: NRZ
+- name: Niantic Spatial
+  ats: ashby
+  token: niantic-spatial
 - name: Nike
   ats: workday
   tenant: nike
@@ -1219,6 +1227,9 @@
 - name: Protective Life
   ats: lever
   token: protective
+- name: Pure Storage
+  ats: greenhouse
+  token: purestorage
 - name: Q2
   ats: workday
   tenant: q2ebanking
@@ -1273,12 +1284,18 @@
 - name: Resultant
   ats: smartrecruiters
   token: Resultant
+- name: Revel
+  ats: ashby
+  token: revel
 - name: RF-SMART
   ats: greenhouse
   token: rfsmart
 - name: Riot Games
   ats: greenhouse
   token: riotgamesup
+- name: Rivet Industries
+  ats: ashby
+  token: rivet
 - name: Robert Bosch Venture Capital
   ats: smartrecruiters
   token: BoschGroup
