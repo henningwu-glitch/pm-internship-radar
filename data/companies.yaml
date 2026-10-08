@@ -464,10 +464,10 @@
   token: discord
 - name: DoorDash
   ats: greenhouse
-  token: doordashusa
+  token: doordashcanada
 - name: DoorDash
   ats: greenhouse
-  token: doordashcanada
+  token: doordashusa
 - name: Dow Jones
   ats: workday
   tenant: dowjones
@@ -592,11 +592,6 @@
   tenant: fmr
   dc: wd1
   site: targeted
-- name: Fifth Third Bank
-  ats: workday
-  tenant: fifththird
-  dc: wd5
-  site: 53careers
 - name: Figma
   ats: greenhouse
   token: figma
@@ -802,11 +797,6 @@
   tenant: humana
   dc: wd5
   site: humana_external_career_site
-- name: Huntington Bancshares
-  ats: workday
-  tenant: huntington
-  dc: wd12
-  site: HNBcareers
 - name: Hy-Vee
   ats: workday
   tenant: hyvee
@@ -1076,10 +1066,10 @@
   token: muonspace
 - name: National Information Solutions Cooperative
   ats: greenhouse
-  token: nisc
+  token: testnisc
 - name: National Information Solutions Cooperative
   ats: greenhouse
-  token: testnisc
+  token: nisc
 - name: National Life
   ats: greenhouse
   token: nationallifeinsurancecompany
@@ -1191,6 +1181,9 @@
   tenant: pacificlife
   dc: wd1
   site: PacificLifeCareers
+- name: Palantir Technologies
+  ats: lever
+  token: palantir
 - name: Pangram Labs
   ats: ashby
   token: pangramlabs
@@ -1376,6 +1369,9 @@
   tenant: globalhr
   dc: wd5
   site: Private_Posting_No_TMP
+- name: Rugged Robotics
+  ats: greenhouse
+  token: ruggedrobotics
 - name: Ryan Companies
   ats: workday
   tenant: ryancompanies
@@ -1468,14 +1464,12 @@
   tenant: southstatebank
   dc: wd5
   site: external
-- name: Southwest Airlines
-  ats: workday
-  tenant: swa
-  dc: wd1
-  site: external
 - name: Squarespace
   ats: greenhouse
   token: squarespace
+- name: Stand Together
+  ats: lever
+  token: standtogether
 - name: Stanley Black & Decker
   ats: workday
   tenant: sbdinc
@@ -1574,11 +1568,6 @@
 - name: The Voleon Group
   ats: ashby
   token: voleon
-- name: Thermo Fisher Scientific
-  ats: workday
-  tenant: thermofisher
-  dc: wd5
-  site: ThermoFisherCareers
 - name: Thrivent
   ats: workday
   tenant: thrivent
