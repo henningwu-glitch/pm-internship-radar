@@ -464,10 +464,10 @@
   token: discord
 - name: DoorDash
   ats: greenhouse
-  token: doordashcanada
+  token: doordashusa
 - name: DoorDash
   ats: greenhouse
-  token: doordashusa
+  token: doordashcanada
 - name: Dow Jones
   ats: workday
   tenant: dowjones
@@ -501,9 +501,6 @@
   tenant: dmainc
   dc: wd5
   site: dma
-- name: Duolingo
-  ats: greenhouse
-  token: duolingounirecruitment
 - name: Duolingo
   ats: greenhouse
   token: duolingo
@@ -595,6 +592,11 @@
   tenant: fmr
   dc: wd1
   site: targeted
+- name: Fifth Third Bank
+  ats: workday
+  tenant: fifththird
+  dc: wd5
+  site: 53careers
 - name: Figma
   ats: greenhouse
   token: figma
@@ -762,6 +764,11 @@
   tenant: highmarkhealth
   dc: wd1
   site: highmark
+- name: Hitachi Energy
+  ats: workday
+  tenant: hitachi
+  dc: wd1
+  site: hitachi
 - name: HMH
   ats: workday
   tenant: hmhw
@@ -1184,9 +1191,6 @@
   tenant: pacificlife
   dc: wd1
   site: PacificLifeCareers
-- name: Palantir Technologies
-  ats: lever
-  token: palantir
 - name: Pangram Labs
   ats: ashby
   token: pangramlabs
@@ -1395,6 +1399,16 @@
   tenant: sailpoint
   dc: wd1
   site: SailPoint
+- name: Salesforce
+  ats: workday
+  tenant: salesforce
+  dc: wd12
+  site: Futureforce_Internships
+- name: Salesforce
+  ats: workday
+  tenant: salesforce
+  dc: wd12
+  site: External_Career_Site
 - name: Saronic
   ats: ashby
   token: saronic
@@ -1462,17 +1476,11 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
-- name: Stand Together
-  ats: lever
-  token: standtogether
 - name: Stanley Black & Decker
   ats: workday
   tenant: sbdinc
   dc: wd1
   site: Stanley_Black_Decker_Career_Site
-- name: State Affairs
-  ats: greenhouse
-  token: stateaffairs
 - name: Stripe
   ats: greenhouse
   token: stripe
@@ -1606,11 +1614,6 @@
 - name: Twilio
   ats: greenhouse
   token: twilio
-- name: U.S. Bank
-  ats: workday
-  tenant: usbank
-  dc: wd1
-  site: US_Bank_Careers
 - name: United Parcel Service
   ats: workday
   tenant: hcmportal
