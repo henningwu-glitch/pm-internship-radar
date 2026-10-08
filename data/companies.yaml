@@ -89,6 +89,11 @@
 - name: Apex
   ats: ashby
   token: apex-technology-inc
+- name: Apple Bank
+  ats: workday
+  tenant: applebank
+  dc: wd5
+  site: applebankcareers
 - name: Applied Materials
   ats: workday
   tenant: amat
@@ -212,6 +217,16 @@
   tenant: boeing
   dc: wd1
   site: EXTERNAL_CAREERS
+- name: Booz Allen
+  ats: workday
+  tenant: bah
+  dc: wd1
+  site: bah_jobs
+- name: Bose
+  ats: workday
+  tenant: boseallaboutme
+  dc: wd503
+  site: Bose_Careers
 - name: Brex
   ats: greenhouse
   token: brex
@@ -500,9 +515,6 @@
   tenant: ecolab
   dc: wd1
   site: ecolab_external
-- name: Efficient Computer
-  ats: greenhouse
-  token: efficientcomputer
 - name: Elevance Health
   ats: workday
   tenant: elevancehealth
@@ -750,11 +762,6 @@
   tenant: highmarkhealth
   dc: wd1
   site: highmark
-- name: Hitachi Energy
-  ats: workday
-  tenant: hitachi
-  dc: wd1
-  site: hitachi
 - name: HMH
   ats: workday
   tenant: hmhw
@@ -894,17 +901,17 @@
   tenant: albemarle
   dc: wd5
   site: ketjenexternal
+- name: KeyBank
+  ats: workday
+  tenant: keybank
+  dc: wd5
+  site: External_Career_Site
 - name: Khan Academy
   ats: greenhouse
   token: khanacademy
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
-- name: Kyndryl
-  ats: workday
-  tenant: kyndryl
-  dc: wd5
-  site: KyndrylEarlyCareers
 - name: LabCorp
   ats: workday
   tenant: labcorp
@@ -977,6 +984,11 @@
   tenant: marvell
   dc: wd1
   site: MarvellCareers2
+- name: Mastercard
+  ats: workday
+  tenant: mastercard
+  dc: wd1
+  site: Campus
 - name: Maven Securities
   ats: greenhouse
   token: mavensecuritiesholdingltd
@@ -1108,6 +1120,11 @@
   tenant: nike
   dc: wd1
   site: nke
+- name: Nissan Global
+  ats: workday
+  tenant: alliance
+  dc: wd3
+  site: nissanjobs
 - name: NJM Insurance Group
   ats: workday
   tenant: njm
@@ -1173,6 +1190,9 @@
 - name: Pangram Labs
   ats: ashby
   token: pangramlabs
+- name: PDT Partners
+  ats: greenhouse
+  token: pdtpartners
 - name: Peloton
   ats: greenhouse
   token: peloton
@@ -1182,6 +1202,9 @@
 - name: Perpay
   ats: greenhouse
   token: perpay
+- name: Persona
+  ats: ashby
+  token: persona
 - name: Persona AI
   ats: ashby
   token: persona.ai
@@ -1367,6 +1390,11 @@
 - name: Sage
   ats: greenhouse
   token: sage49
+- name: SailPoint
+  ats: workday
+  tenant: sailpoint
+  dc: wd1
+  site: SailPoint
 - name: Saronic
   ats: ashby
   token: saronic
@@ -1442,6 +1470,9 @@
   tenant: sbdinc
   dc: wd1
   site: Stanley_Black_Decker_Career_Site
+- name: State Affairs
+  ats: greenhouse
+  token: stateaffairs
 - name: Stripe
   ats: greenhouse
   token: stripe
