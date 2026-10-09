@@ -301,6 +301,9 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
+- name: CesiumAstro
+  ats: lever
+  token: CesiumAstro
 - name: Charter Manufacturing
   ats: workday
   tenant: chartermfg
@@ -934,6 +937,9 @@
   tenant: leidos
   dc: wd5
   site: External
+- name: Lendable
+  ats: ashby
+  token: lendable
 - name: LexisNexis Risk Solutions
   ats: workday
   tenant: relx
@@ -970,11 +976,6 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_Jobs
-- name: Marathon Petroleum
-  ats: workday
-  tenant: mpc
-  dc: wd1
-  site: MPCCareers
 - name: Marsh
   ats: workday
   tenant: mmc
@@ -1047,6 +1048,11 @@
 - name: Mill
   ats: greenhouse
   token: mill
+- name: Mitsubishi UFG
+  ats: workday
+  tenant: mufgub
+  dc: wd3
+  site: mufg-careers
 - name: Moderna
   ats: workday
   tenant: modernatx
@@ -1078,6 +1084,11 @@
   tenant: motorolasolutions
   dc: wd5
   site: Careers
+- name: MUFG
+  ats: workday
+  tenant: mufgub
+  dc: wd3
+  site: mufg-earlycareers
 - name: Muon Space
   ats: greenhouse
   token: muonspace
