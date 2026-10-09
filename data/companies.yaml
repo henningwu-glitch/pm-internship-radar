@@ -3,6 +3,11 @@
   tenant: 3m
   dc: wd1
   site: Search
+- name: 7-Eleven
+  ats: workday
+  tenant: my7elevenhr
+  dc: wd12
+  site: Careers
 - name: ABB
   ats: workday
   tenant: abb
@@ -230,6 +235,11 @@
 - name: Brex
   ats: greenhouse
   token: brex
+- name: Bristol Myers Squibb
+  ats: workday
+  tenant: bristolmyerssquibb
+  dc: wd5
+  site: bms
 - name: Brunswick
   ats: workday
   tenant: brunswick
@@ -291,14 +301,6 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
-- name: CesiumAstro
-  ats: lever
-  token: CesiumAstro
-- name: Chamberlain Group
-  ats: workday
-  tenant: chamberlain
-  dc: wd1
-  site: Chamberlain_Group
 - name: Charter Manufacturing
   ats: workday
   tenant: chartermfg
@@ -885,6 +887,11 @@
   tenant: jj
   dc: wd5
   site: JJ
+- name: Jones Lang LaSalle
+  ats: workday
+  tenant: jll
+  dc: wd1
+  site: jllcareers
 - name: K2 Space
   ats: greenhouse
   token: k2spacecorporation
@@ -958,6 +965,11 @@
 - name: Lyft
   ats: greenhouse
   token: lyft
+- name: Manulife Financial
+  ats: workday
+  tenant: manulife
+  dc: wd3
+  site: MFCJH_Jobs
 - name: Marathon Petroleum
   ats: workday
   tenant: mpc
@@ -1040,6 +1052,11 @@
   tenant: modernatx
   dc: wd1
   site: M_tx
+- name: Modernizing Medicine
+  ats: workday
+  tenant: modmed
+  dc: wd501
+  site: ModMed12
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -1066,10 +1083,10 @@
   token: muonspace
 - name: National Information Solutions Cooperative
   ats: greenhouse
-  token: testnisc
+  token: nisc
 - name: National Information Solutions Cooperative
   ats: greenhouse
-  token: nisc
+  token: testnisc
 - name: National Life
   ats: greenhouse
   token: nationallifeinsurancecompany
@@ -1313,9 +1330,6 @@
 - name: RF-SMART
   ats: greenhouse
   token: rfsmart
-- name: Riot Games
-  ats: greenhouse
-  token: riotgamesup
 - name: Rivet Industries
   ats: ashby
   token: rivet
@@ -1579,11 +1593,6 @@
 - name: Together AI
   ats: greenhouse
   token: togetherai
-- name: Tokyo Electron
-  ats: workday
-  tenant: tel
-  dc: wd3
-  site: tel-careers
 - name: Travelers
   ats: workday
   tenant: travelers
@@ -1643,6 +1652,9 @@
 - name: Viam
   ats: greenhouse
   token: viamrobotics
+- name: Viget
+  ats: lever
+  token: viget
 - name: Viking Global
   ats: greenhouse
   token: vikingglobalinvestors
@@ -1685,6 +1697,11 @@
 - name: Workshop
   ats: greenhouse
   token: workshop
+- name: WSFS Bank
+  ats: workday
+  tenant: wsfsbank
+  dc: wd1
+  site: wsfscareers
 - name: xAI
   ats: greenhouse
   token: xai
