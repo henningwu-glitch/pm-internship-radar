@@ -79,6 +79,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -140,10 +143,10 @@
   site: athene_careers
 - name: Atoms
   ats: greenhouse
-  token: cssmerge
+  token: atoms
 - name: Atoms
   ats: greenhouse
-  token: atoms
+  token: cssmerge
 - name: Auto-Owners Insurance
   ats: workday
   tenant: aoins
@@ -363,11 +366,6 @@
 - name: Compeer Financial
   ats: greenhouse
   token: compeerfinancial
-- name: ConocoPhillips
-  ats: workday
-  tenant: conocophillips
-  dc: wd1
-  site: External
 - name: Continental Resources
   ats: workday
   tenant: clr
@@ -463,10 +461,10 @@
   token: discord
 - name: DoorDash
   ats: greenhouse
-  token: doordashcanada
+  token: doordashusa
 - name: DoorDash
   ats: greenhouse
-  token: doordashusa
+  token: doordashcanada
 - name: Dow Jones
   ats: workday
   tenant: dowjones
@@ -511,6 +509,11 @@
   tenant: ecolab
   dc: wd1
   site: ecolab_external
+- name: Elanco
+  ats: workday
+  tenant: elanco
+  dc: wd5
+  site: External_Career
 - name: Elevance Health
   ats: workday
   tenant: elevancehealth
@@ -642,6 +645,9 @@
 - name: Gas South
   ats: greenhouse
   token: gassouth
+- name: GCM Grosvenor
+  ats: greenhouse
+  token: gcmgrosvenor
 - name: GE Aerospace
   ats: workday
   tenant: geaerospace
@@ -913,6 +919,11 @@
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
+- name: Kyndryl
+  ats: workday
+  tenant: kyndryl
+  dc: wd5
+  site: KyndrylEarlyCareers
 - name: LabCorp
   ats: workday
   tenant: labcorp
@@ -1499,6 +1510,11 @@
   tenant: sbdinc
   dc: wd1
   site: Stanley_Black_Decker_Career_Site
+- name: State of Wisconsin Investment Board
+  ats: workday
+  tenant: swib
+  dc: wd12
+  site: ext
 - name: Stripe
   ats: greenhouse
   token: stripe
@@ -1684,6 +1700,11 @@
   tenant: wattswater
   dc: wd5
   site: Intern-External
+- name: Wawa
+  ats: workday
+  tenant: wawa
+  dc: wd1
+  site: careers
 - name: Webflow
   ats: greenhouse
   token: webflow
