@@ -371,11 +371,6 @@
   tenant: clr
   dc: wd5
   site: CLR_Careers
-- name: Corteva
-  ats: workday
-  tenant: corteva
-  dc: wd5
-  site: corteva
 - name: CoStar Group
   ats: workday
   tenant: costar
@@ -797,11 +792,6 @@
 - name: HP IQ
   ats: greenhouse
   token: hpiq
-- name: Humana
-  ats: workday
-  tenant: humana
-  dc: wd5
-  site: humana_external_career_site
 - name: Hy-Vee
   ats: workday
   tenant: hyvee
@@ -1725,6 +1715,11 @@
 - name: Wise
   ats: greenhouse
   token: wise
+- name: Workday
+  ats: workday
+  tenant: workday
+  dc: wd5
+  site: Workday_Early_Career
 - name: Workshop
   ats: greenhouse
   token: workshop
