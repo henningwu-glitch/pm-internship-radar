@@ -1,3 +1,8 @@
+- name: 3M
+  ats: workday
+  tenant: 3m
+  dc: wd1
+  site: Search
 - name: AFRY
   ats: smartrecruiters
   token: AFRY
