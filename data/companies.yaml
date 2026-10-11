@@ -746,9 +746,6 @@
 - name: Helion Energy
   ats: ashby
   token: helion
-- name: Hermeus
-  ats: lever
-  token: hermeus
 - name: Hewlett Packard Enterprise
   ats: workday
   tenant: hpe
@@ -1275,9 +1272,6 @@
   tenant: pg
   dc: wd5
   site: '1000'
-- name: Protective Life
-  ats: lever
-  token: protective
 - name: Pure Storage
   ats: greenhouse
   token: purestorage
@@ -1492,6 +1486,9 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
+- name: Stand Together
+  ats: lever
+  token: standtogether
 - name: Stanley Black & Decker
   ats: workday
   tenant: sbdinc
@@ -1515,9 +1512,6 @@
   tenant: sunlife
   dc: wd3
   site: Campus
-- name: Syngenta Group
-  ats: smartrecruiters
-  token: SyngentaGroup
 - name: Synthesia
   ats: ashby
   token: synthesia
