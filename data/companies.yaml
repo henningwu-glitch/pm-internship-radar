@@ -79,9 +79,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -746,6 +743,9 @@
 - name: Helion Energy
   ats: ashby
   token: helion
+- name: Hermeus
+  ats: lever
+  token: hermeus
 - name: Hewlett Packard Enterprise
   ats: workday
   tenant: hpe
