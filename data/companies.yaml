@@ -79,6 +79,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -1489,9 +1492,6 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
-- name: Stand Together
-  ats: lever
-  token: standtogether
 - name: Stanley Black & Decker
   ats: workday
   tenant: sbdinc
@@ -1537,11 +1537,6 @@
   tenant: tcenergy
   dc: wd3
   site: CAREER_SITE_TC
-- name: TD Bank
-  ats: workday
-  tenant: td
-  dc: wd3
-  site: TD_Bank_Careers
 - name: Teledyne
   ats: workday
   tenant: flir
