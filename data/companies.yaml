@@ -545,9 +545,6 @@
   tenant: ercot
   dc: wd1
   site: ercot_careers
-- name: Etched
-  ats: ashby
-  token: Etched
 - name: Eulerity
   ats: greenhouse
   token: eulerity
@@ -632,11 +629,6 @@
 - name: Garda Capital Partners
   ats: greenhouse
   token: gardacp
-- name: Gartner
-  ats: workday
-  tenant: gartner
-  dc: wd5
-  site: EXT
 - name: Gas South
   ats: greenhouse
   token: gassouth
@@ -746,6 +738,9 @@
 - name: Helion Energy
   ats: ashby
   token: helion
+- name: Hermeus
+  ats: lever
+  token: hermeus
 - name: Hewlett Packard Enterprise
   ats: workday
   tenant: hpe
@@ -1272,6 +1267,9 @@
   tenant: pg
   dc: wd5
   site: '1000'
+- name: Protective Life
+  ats: lever
+  token: protective
 - name: Pure Storage
   ats: greenhouse
   token: purestorage
@@ -1512,6 +1510,9 @@
   tenant: sunlife
   dc: wd3
   site: Campus
+- name: Syngenta Group
+  ats: smartrecruiters
+  token: SyngentaGroup
 - name: Synthesia
   ats: ashby
   token: synthesia
