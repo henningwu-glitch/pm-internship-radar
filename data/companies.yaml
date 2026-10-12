@@ -514,9 +514,6 @@
   tenant: elevancehealth
   dc: wd1
   site: ELV-ET
-- name: Elk Valley Resources
-  ats: lever
-  token: evr
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -576,11 +573,6 @@
   tenant: fhlbc
   dc: wd1
   site: search
-- name: Fidelity Investments
-  ats: workday
-  tenant: fmr
-  dc: wd1
-  site: fidelitycareers
 - name: Fidelity Investments
   ats: workday
   tenant: fmr
@@ -880,6 +872,11 @@
 - name: K2 Space
   ats: greenhouse
   token: k2spacecorporation
+- name: Kainos
+  ats: workday
+  tenant: kainos
+  dc: wd3
+  site: kainos
 - name: Kensho
   ats: workday
   tenant: spgi
@@ -963,11 +960,6 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_Jobs
-- name: Marsh
-  ats: workday
-  tenant: mmc
-  dc: wd1
-  site: MMC
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
