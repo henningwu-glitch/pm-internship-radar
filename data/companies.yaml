@@ -141,6 +141,11 @@
   tenant: athene
   dc: wd5
   site: athene_careers
+- name: AtkinsRéalis
+  ats: workday
+  tenant: slihrms
+  dc: wd3
+  site: careers
 - name: Atoms
   ats: greenhouse
   token: atoms
@@ -281,6 +286,9 @@
 - name: Capstone Investment Advisors
   ats: greenhouse
   token: capstoneinvestmentadvisors
+- name: CapTech Consulting
+  ats: smartrecruiters
+  token: CapTechConsulting
 - name: Cardinal Health
   ats: workday
   tenant: cardinalhealth
@@ -371,6 +379,11 @@
   tenant: clr
   dc: wd5
   site: CLR_Careers
+- name: Corewell Health
+  ats: workday
+  tenant: spectrumhealth
+  dc: wd5
+  site: CorewellHealthCareers
 - name: CoStar Group
   ats: workday
   tenant: costar
@@ -514,6 +527,9 @@
   tenant: elevancehealth
   dc: wd1
   site: ELV-ET
+- name: Elk Valley Resources
+  ats: lever
+  token: evr
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -550,6 +566,11 @@
   tenant: lthc
   dc: wd1
   site: ExcellusBCBSCareers
+- name: Expedia Group
+  ats: workday
+  tenant: expedia
+  dc: wd108
+  site: search
 - name: Expedia Group
   ats: workday
   tenant: expedia
@@ -660,11 +681,6 @@
   tenant: gdit
   dc: wd5
   site: gdit_earlytalent
-- name: General Dynamics Information Technology
-  ats: workday
-  tenant: gdit
-  dc: wd5
-  site: external_career_site
 - name: General Matter
   ats: greenhouse
   token: generalmatter
@@ -844,11 +860,6 @@
   tenant: smucker
   dc: wd5
   site: US_External_Careers
-- name: Jabil
-  ats: workday
-  tenant: jabil
-  dc: wd5
-  site: Jabil_Careers
 - name: Jain Global
   ats: workday
   tenant: jainglobal
@@ -864,11 +875,6 @@
   tenant: jj
   dc: wd5
   site: JJ
-- name: Jones Lang LaSalle
-  ats: workday
-  tenant: jll
-  dc: wd1
-  site: jllcareers
 - name: K2 Space
   ats: greenhouse
   token: k2spacecorporation
@@ -999,6 +1005,9 @@
   tenant: meijer
   dc: wd5
   site: Meijer
+- name: MEMX
+  ats: greenhouse
+  token: memx
 - name: Merck
   ats: workday
   tenant: msd
@@ -1286,6 +1295,11 @@
 - name: Ramp
   ats: ashby
   token: ramp
+- name: Realty Income
+  ats: workday
+  tenant: realtyincome
+  dc: wd108
+  site: realty_income_careers
 - name: Reddit
   ats: greenhouse
   token: reddit
@@ -1439,9 +1453,6 @@
 - name: SEP
   ats: lever
   token: sep
-- name: Shield AI
-  ats: lever
-  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
@@ -1582,6 +1593,11 @@
   tenant: thrivent
   dc: wd5
   site: external
+- name: TIAA
+  ats: workday
+  tenant: tiaa
+  dc: wd1
+  site: Search
 - name: Tide
   ats: greenhouse
   token: tide
