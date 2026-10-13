@@ -79,9 +79,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -708,9 +705,6 @@
 - name: GoCardless
   ats: greenhouse
   token: gocardless
-- name: Goodlord
-  ats: ashby
-  token: goodlord
 - name: Gordon Food Service
   ats: workday
   tenant: gfs
@@ -901,11 +895,6 @@
   tenant: albemarle
   dc: wd5
   site: ketjenexternal
-- name: KeyBank
-  ats: workday
-  tenant: keybank
-  dc: wd5
-  site: External_Career_Site
 - name: Khan Academy
   ats: greenhouse
   token: khanacademy
@@ -1347,9 +1336,6 @@
 - name: RF-SMART
   ats: greenhouse
   token: rfsmart
-- name: Rivet Industries
-  ats: ashby
-  token: rivet
 - name: Robert Bosch Venture Capital
   ats: smartrecruiters
   token: BoschGroup
@@ -1359,6 +1345,11 @@
 - name: Roblox
   ats: greenhouse
   token: roblox
+- name: Roche
+  ats: workday
+  tenant: roche
+  dc: wd3
+  site: roche-ext
 - name: Rocket Lab USA
   ats: greenhouse
   token: rocketlab
@@ -1389,12 +1380,12 @@
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: rec_rtx_ext_gateway
+  site: Private_Posting_No_TMP
 - name: RTX
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: Private_Posting_No_TMP
+  site: rec_rtx_ext_gateway
 - name: Rugged Robotics
   ats: greenhouse
   token: ruggedrobotics
@@ -1691,11 +1682,6 @@
   tenant: wattswater
   dc: wd5
   site: Intern-External
-- name: Wawa
-  ats: workday
-  tenant: wawa
-  dc: wd1
-  site: careers
 - name: Webflow
   ats: greenhouse
   token: webflow
