@@ -598,6 +598,11 @@
   ats: workday
   tenant: fmr
   dc: wd1
+  site: fidelitycareers
+- name: Fidelity Investments
+  ats: workday
+  tenant: fmr
+  dc: wd1
   site: targeted
 - name: Figma
   ats: greenhouse
@@ -703,6 +708,9 @@
 - name: GoCardless
   ats: greenhouse
   token: gocardless
+- name: Goodlord
+  ats: ashby
+  token: goodlord
 - name: Gordon Food Service
   ats: workday
   tenant: gfs
@@ -1351,11 +1359,6 @@
 - name: Roblox
   ats: greenhouse
   token: roblox
-- name: Roche
-  ats: workday
-  tenant: roche
-  dc: wd3
-  site: roche-ext
 - name: Rocket Lab USA
   ats: greenhouse
   token: rocketlab
@@ -1453,6 +1456,9 @@
 - name: SEP
   ats: lever
   token: sep
+- name: Shield AI
+  ats: lever
+  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
