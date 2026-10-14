@@ -79,9 +79,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -240,11 +237,6 @@
   tenant: boseallaboutme
   dc: wd503
   site: Bose_Careers
-- name: BP
-  ats: workday
-  tenant: bpinternational
-  dc: wd3
-  site: bpEarlyCareers
 - name: Brex
   ats: greenhouse
   token: brex
@@ -561,6 +553,11 @@
   tenant: ebi
   dc: wd5
   site: ebicareers
+- name: Equifax
+  ats: workday
+  tenant: equifax
+  dc: wd5
+  site: UR_External
 - name: Ercot
   ats: workday
   tenant: ercot
@@ -716,6 +713,9 @@
 - name: GoCardless
   ats: greenhouse
   token: gocardless
+- name: Goodlord
+  ats: ashby
+  token: goodlord
 - name: Gordon Food Service
   ats: workday
   tenant: gfs
@@ -792,6 +792,11 @@
   tenant: hntb
   dc: wd5
   site: hntb_careers
+- name: Houlihan Lokey
+  ats: workday
+  tenant: hl
+  dc: wd1
+  site: Campus
 - name: HP IQ
   ats: greenhouse
   token: hpiq
@@ -938,9 +943,6 @@
   tenant: lifefitness
   dc: wd1
   site: searchLFN
-- name: Linear
-  ats: ashby
-  token: linear
 - name: Lowe's
   ats: workday
   tenant: lowes
@@ -1198,6 +1200,11 @@
   tenant: papajohns
   dc: wd1
   site: papajohnscareers
+- name: Parsons
+  ats: workday
+  tenant: parsons
+  dc: wd5
+  site: search
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
@@ -1240,6 +1247,9 @@
   tenant: poet
   dc: wd1
   site: POET
+- name: Point72
+  ats: greenhouse
+  token: point72
 - name: Primer
   ats: ashby
   token: primer
@@ -1299,9 +1309,6 @@
 - name: Remote
   ats: greenhouse
   token: remotecom
-- name: Renesas Electronics
-  ats: smartrecruiters
-  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
