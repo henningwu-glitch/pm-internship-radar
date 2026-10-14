@@ -79,6 +79,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -104,6 +107,9 @@
 - name: Arc
   ats: greenhouse
   token: arcboatcompany
+- name: Armadin
+  ats: ashby
+  token: armadin
 - name: Asana
   ats: greenhouse
   token: asana
@@ -1010,11 +1016,6 @@
   tenant: msd
   dc: wd5
   site: searchjobs
-- name: MFS
-  ats: workday
-  tenant: mfs
-  dc: wd1
-  site: MFS-Careers
 - name: Michelin
   ats: workday
   tenant: michelinhr
@@ -1247,11 +1248,6 @@
   tenant: poet
   dc: wd1
   site: POET
-- name: Polaris
-  ats: workday
-  tenant: polaris
-  dc: wd5
-  site: PolarisJobs
 - name: Primer
   ats: ashby
   token: primer
@@ -1336,6 +1332,9 @@
 - name: RF-SMART
   ats: greenhouse
   token: rfsmart
+- name: Rhombus
+  ats: lever
+  token: rhombus-systems
 - name: Robert Bosch Venture Capital
   ats: smartrecruiters
   token: BoschGroup
@@ -1447,6 +1446,9 @@
 - name: SEP
   ats: lever
   token: sep
+- name: ServiceNow
+  ats: smartrecruiters
+  token: ServiceNow
 - name: Shield AI
   ats: lever
   token: shieldai
@@ -1492,6 +1494,9 @@
   tenant: sbdinc
   dc: wd1
   site: Stanley_Black_Decker_Career_Site
+- name: State Affairs
+  ats: greenhouse
+  token: stateaffairs
 - name: State of Wisconsin Investment Board
   ats: workday
   tenant: swib
@@ -1574,9 +1579,6 @@
 - name: The MJ Companies
   ats: greenhouse
   token: themjcos
-- name: The Nuclear Company
-  ats: greenhouse
-  token: thenuclearcompany
 - name: The Toro Company
   ats: workday
   tenant: ttc
@@ -1691,11 +1693,6 @@
 - name: Western Digital
   ats: smartrecruiters
   token: WesternDigital
-- name: Wex
-  ats: workday
-  tenant: wexinc
-  dc: wd5
-  site: WEXInc
 - name: WhiteWater Midstream
   ats: greenhouse
   token: whitewatermidstream
