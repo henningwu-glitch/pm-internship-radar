@@ -21,6 +21,9 @@
   tenant: adobe
   dc: wd5
   site: external_experienced
+- name: AECOM
+  ats: smartrecruiters
+  token: AECOM2
 - name: AeroVironment
   ats: workday
   tenant: avav
@@ -118,11 +121,6 @@
   tenant: aspentech
   dc: wd5
   site: aspentech
-- name: Assurant
-  ats: workday
-  tenant: assurant
-  dc: wd1
-  site: External_Limited_Posting
 - name: Assurant
   ats: workday
   tenant: assurant
@@ -237,6 +235,11 @@
   tenant: boseallaboutme
   dc: wd503
   site: Bose_Careers
+- name: BP
+  ats: workday
+  tenant: bpinternational
+  dc: wd3
+  site: bpEarlyCareers
 - name: Brex
   ats: greenhouse
   token: brex
@@ -245,6 +248,11 @@
   tenant: bristolmyerssquibb
   dc: wd5
   site: bms
+- name: Brookfield
+  ats: workday
+  tenant: brookfield
+  dc: wd5
+  site: brookfield
 - name: Brunswick
   ats: workday
   tenant: brunswick
@@ -405,11 +413,6 @@
   tenant: covestro
   dc: wd3
   site: cov_external
-- name: Cox
-  ats: workday
-  tenant: cox
-  dc: wd1
-  site: Cox_External_Career_Site_1
 - name: Cursor
   ats: ashby
   token: cursor
@@ -553,11 +556,6 @@
   tenant: ebi
   dc: wd5
   site: ebicareers
-- name: Equifax
-  ats: workday
-  tenant: equifax
-  dc: wd5
-  site: UR_External
 - name: Ercot
   ats: workday
   tenant: ercot
@@ -800,6 +798,11 @@
 - name: HP IQ
   ats: greenhouse
   token: hpiq
+- name: Humana
+  ats: workday
+  tenant: humana
+  dc: wd5
+  site: humana_external_career_site
 - name: Hy-Vee
   ats: workday
   tenant: hyvee
@@ -917,11 +920,6 @@
   tenant: labcorp
   dc: wd1
   site: external
-- name: Land O'Lakes
-  ats: workday
-  tenant: landolakes
-  dc: wd1
-  site: landolakes
 - name: Lawrence Livermore National Laboratory (LLNL)
   ats: smartrecruiters
   token: LLNL
@@ -943,6 +941,9 @@
   tenant: lifefitness
   dc: wd1
   site: searchLFN
+- name: Linear
+  ats: ashby
+  token: linear
 - name: Lowe's
   ats: workday
   tenant: lowes
@@ -965,7 +966,17 @@
   ats: workday
   tenant: manulife
   dc: wd3
+  site: MFCJH_adminJobs
+- name: Manulife Financial
+  ats: workday
+  tenant: manulife
+  dc: wd3
   site: MFCJH_Jobs
+- name: Marsh
+  ats: workday
+  tenant: mmc
+  dc: wd1
+  site: MMC
 - name: Marshall Wace
   ats: greenhouse
   token: mwinternshipprogram
@@ -1013,6 +1024,9 @@
   tenant: msd
   dc: wd5
   site: searchjobs
+- name: MetOx International
+  ats: greenhouse
+  token: metoxinternationalinc
 - name: Michelin
   ats: workday
   tenant: michelinhr
@@ -1075,6 +1089,11 @@
 - name: Muon Space
   ats: greenhouse
   token: muonspace
+- name: Nasdaq
+  ats: workday
+  tenant: nasdaq
+  dc: wd1
+  site: Global_External_Site
 - name: National Information Solutions Cooperative
   ats: greenhouse
   token: nisc
@@ -1448,9 +1467,6 @@
 - name: ServiceNow
   ats: smartrecruiters
   token: ServiceNow
-- name: Shield AI
-  ats: lever
-  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
@@ -1667,6 +1683,16 @@
 - name: Viking Global
   ats: greenhouse
   token: vikingglobalinvestors
+- name: Visa
+  ats: workday
+  tenant: visa
+  dc: wd5
+  site: Visa
+- name: Visa
+  ats: workday
+  tenant: visa
+  dc: wd5
+  site: Visa_Early_Careers
 - name: Wabash Valley Power Alliance
   ats: smartrecruiters
   token: WabashValleyPowerAlliance
