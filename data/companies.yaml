@@ -3,11 +3,6 @@
   tenant: 3m
   dc: wd1
   site: Search
-- name: 7-Eleven
-  ats: workday
-  tenant: my7elevenhr
-  dc: wd12
-  site: Careers
 - name: ABB
   ats: workday
   tenant: abb
@@ -279,11 +274,6 @@
 - name: Cadence Solutions
   ats: greenhouse
   token: solutions
-- name: CAI
-  ats: workday
-  tenant: cai
-  dc: wd5
-  site: computer_aid
 - name: Capital Group
   ats: workday
   tenant: capgroup
@@ -369,11 +359,6 @@
 - name: Cloudflare
   ats: greenhouse
   token: cloudflare
-- name: CME Group
-  ats: workday
-  tenant: cmegroup
-  dc: wd1
-  site: cme_careers
 - name: Coinbase
   ats: greenhouse
   token: coinbase
@@ -576,12 +561,12 @@
   ats: workday
   tenant: expedia
   dc: wd108
-  site: search
+  site: private
 - name: Expedia Group
   ats: workday
   tenant: expedia
   dc: wd108
-  site: private
+  site: search
 - name: F5
   ats: workday
   tenant: ffive
@@ -653,9 +638,6 @@
 - name: Garda Capital Partners
   ats: greenhouse
   token: gardacp
-- name: Gas South
-  ats: greenhouse
-  token: gassouth
 - name: GCM Grosvenor
   ats: greenhouse
   token: gcmgrosvenor
