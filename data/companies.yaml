@@ -82,6 +82,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -790,11 +793,6 @@
   tenant: hntb
   dc: wd5
   site: hntb_careers
-- name: Houlihan Lokey
-  ats: workday
-  tenant: hl
-  dc: wd1
-  site: Campus
 - name: HP IQ
   ats: greenhouse
   token: hpiq
@@ -1197,6 +1195,9 @@
   tenant: oshkoshcorporation
   dc: wd5
   site: Oshkosh
+- name: PA Consulting
+  ats: smartrecruiters
+  token: PAConsulting
 - name: Pace
   ats: ashby
   token: withpace
@@ -1325,9 +1326,6 @@
 - name: Relay
   ats: greenhouse
   token: relaypro
-- name: Remote
-  ats: greenhouse
-  token: remotecom
 - name: Replit
   ats: ashby
   token: replit
@@ -1388,11 +1386,6 @@
   tenant: rbc
   dc: wd3
   site: RBCEARLYTALENT1
-- name: Royal Bank of Canada
-  ats: workday
-  tenant: rbc
-  dc: wd3
-  site: rbcglobal1
 - name: RTX
   ats: workday
   tenant: globalhr
@@ -1467,6 +1460,9 @@
 - name: ServiceNow
   ats: smartrecruiters
   token: ServiceNow
+- name: Shield AI
+  ats: lever
+  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
@@ -1560,6 +1556,9 @@
 - name: TELUS Digital
   ats: ashby
   token: telus-digital
+- name: Tessera Labs
+  ats: ashby
+  token: tessera-labs
 - name: Thales
   ats: workday
   tenant: thales
