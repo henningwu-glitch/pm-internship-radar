@@ -3,6 +3,11 @@
   tenant: 3m
   dc: wd1
   site: Search
+- name: 7-Eleven
+  ats: workday
+  tenant: my7elevenhr
+  dc: wd12
+  site: Careers
 - name: ABB
   ats: workday
   tenant: abb
@@ -46,6 +51,11 @@
 - name: Allen Control Systems
   ats: ashby
   token: allen-control-systems
+- name: Allied Solutions
+  ats: workday
+  tenant: alliedsolutions
+  dc: wd501
+  site: Allied_External
 - name: Altar'd State
   ats: workday
   tenant: standoutforgood
@@ -68,6 +78,11 @@
   ats: workday
   tenant: amfam
   dc: wd1
+  site: Careers
+- name: American Family Insurance Group
+  ats: workday
+  tenant: amfam
+  dc: wd1
   site: AmFamGroupInternCareers
 - name: Amgen
   ats: workday
@@ -77,9 +92,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -132,11 +144,6 @@
   tenant: atcllc
   dc: wd5
   site: atcllc
-- name: Athene
-  ats: workday
-  tenant: athene
-  dc: wd5
-  site: athene_careers
 - name: AtkinsRéalis
   ats: workday
   tenant: slihrms
@@ -396,6 +403,11 @@
 - name: CoVar
   ats: greenhouse
   token: covar
+- name: CoverMyMeds
+  ats: workday
+  tenant: mckesson
+  dc: wd3
+  site: CoverMyMeds_External_Careers
 - name: Covestro
   ats: workday
   tenant: covestro
@@ -432,11 +444,6 @@
 - name: Decagon
   ats: ashby
   token: decagon
-- name: Dee Zee
-  ats: workday
-  tenant: deezee
-  dc: wd108
-  site: DeeZee_Careers
 - name: Deliveroo
   ats: greenhouse
   token: deliveroo
@@ -638,6 +645,9 @@
 - name: Garda Capital Partners
   ats: greenhouse
   token: gardacp
+- name: Gas South
+  ats: greenhouse
+  token: gassouth
 - name: GCM Grosvenor
   ats: greenhouse
   token: gcmgrosvenor
@@ -775,6 +785,11 @@
   tenant: hntb
   dc: wd5
   site: hntb_careers
+- name: Houlihan Lokey
+  ats: workday
+  tenant: hl
+  dc: wd1
+  site: Campus
 - name: HP IQ
   ats: greenhouse
   token: hpiq
@@ -887,6 +902,11 @@
 - name: Khan Academy
   ats: greenhouse
   token: khanacademy
+- name: KLA
+  ats: workday
+  tenant: kla
+  dc: wd1
+  site: Search
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
@@ -983,11 +1003,6 @@
   tenant: mckesson
   dc: wd3
   site: External_Careers
-- name: Medline
-  ats: workday
-  tenant: medline
-  dc: wd5
-  site: Medline
 - name: MegazoneCloud
   ats: ashby
   token: megazone
@@ -1213,6 +1228,11 @@
 - name: Peloton
   ats: greenhouse
   token: peloton
+- name: Pennsylvania State University
+  ats: workday
+  tenant: psu
+  dc: wd1
+  site: PSU_Staff
 - name: Perchwell
   ats: ashby
   token: Perchwell
@@ -1255,11 +1275,6 @@
 - name: Primer
   ats: ashby
   token: primer
-- name: Primient
-  ats: workday
-  tenant: primient
-  dc: wd1
-  site: External_Careers
 - name: Procter & Gamble
   ats: workday
   tenant: pg
@@ -1381,11 +1396,6 @@
 - name: Rugged Robotics
   ats: greenhouse
   token: ruggedrobotics
-- name: Ryan Companies
-  ats: workday
-  tenant: ryancompanies
-  dc: wd5
-  site: ryancompanies
 - name: S&P Global
   ats: workday
   tenant: spgi
@@ -1690,6 +1700,11 @@
   tenant: wattswater
   dc: wd5
   site: Intern-External
+- name: Wawa
+  ats: workday
+  tenant: wawa
+  dc: wd1
+  site: careers
 - name: Webflow
   ats: greenhouse
   token: webflow
