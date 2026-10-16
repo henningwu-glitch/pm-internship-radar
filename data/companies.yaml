@@ -424,6 +424,11 @@
   tenant: covestro
   dc: wd3
   site: cov_external
+- name: Cox
+  ats: workday
+  tenant: cox
+  dc: wd1
+  site: Cox_External_Career_Site_1
 - name: Cursor
   ats: ashby
   token: cursor
@@ -771,6 +776,11 @@
   tenant: highmarkhealth
   dc: wd1
   site: highmark
+- name: Hilb Group
+  ats: workday
+  tenant: hilbgroup
+  dc: wd5
+  site: HG-Careers
 - name: Hitachi Energy
   ats: workday
   tenant: hitachi
@@ -786,11 +796,6 @@
   tenant: hntb
   dc: wd5
   site: hntb_university_careers
-- name: HNTB
-  ats: workday
-  tenant: hntb
-  dc: wd5
-  site: hntb_careers
 - name: Houlihan Lokey
   ats: workday
   tenant: hl
@@ -911,6 +916,11 @@
 - name: Khan Academy
   ats: greenhouse
   token: khanacademy
+- name: KLA
+  ats: workday
+  tenant: kla
+  dc: wd1
+  site: UR
 - name: KLA
   ats: workday
   tenant: kla
@@ -1231,11 +1241,6 @@
   tenant: papajohns
   dc: wd1
   site: papajohnscareers
-- name: Parsons
-  ats: workday
-  tenant: parsons
-  dc: wd5
-  site: search
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
