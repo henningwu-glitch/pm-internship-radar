@@ -16,6 +16,9 @@
 - name: AbbVie
   ats: smartrecruiters
   token: AbbVie
+- name: Abridge
+  ats: ashby
+  token: abridge
 - name: Adobe
   ats: workday
   tenant: adobe
@@ -92,6 +95,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -178,6 +184,11 @@
   tenant: avisbudget
   dc: wd1
   site: abg_careers
+- name: Axiom Space
+  ats: workday
+  tenant: axiomspace
+  dc: wd5
+  site: External_Career_Site
 - name: AXQ Capital
   ats: greenhouse
   token: axq
@@ -520,11 +531,6 @@
   tenant: elanco
   dc: wd5
   site: External_Career
-- name: Elevance Health
-  ats: workday
-  tenant: elevancehealth
-  dc: wd1
-  site: ELV-ET
 - name: Elk Valley Resources
   ats: lever
   token: evr
@@ -841,6 +847,9 @@
   tenant: intel
   dc: wd1
   site: external
+- name: Inversion Space
+  ats: greenhouse
+  token: inversionspace
 - name: Invesco
   ats: workday
   tenant: invesco
@@ -907,6 +916,11 @@
   tenant: kla
   dc: wd1
   site: Search
+- name: KLA Corporation
+  ats: workday
+  tenant: kla
+  dc: wd1
+  site: annarbor
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
@@ -1452,9 +1466,6 @@
 - name: ServiceNow
   ats: smartrecruiters
   token: ServiceNow
-- name: Shield AI
-  ats: lever
-  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
@@ -1524,6 +1535,11 @@
 - name: Synthesia
   ats: ashby
   token: synthesia
+- name: T-Mobile
+  ats: workday
+  tenant: tmobile
+  dc: wd1
+  site: External
 - name: Talos
   ats: ashby
   token: Talos-Trading
