@@ -54,11 +54,6 @@
 - name: Allen Control Systems
   ats: ashby
   token: allen-control-systems
-- name: Allied Solutions
-  ats: workday
-  tenant: alliedsolutions
-  dc: wd501
-  site: Allied_External
 - name: Altar'd State
   ats: workday
   tenant: standoutforgood
@@ -251,11 +246,6 @@
   tenant: bah
   dc: wd1
   site: bah_jobs
-- name: Bose
-  ats: workday
-  tenant: boseallaboutme
-  dc: wd503
-  site: Bose_Careers
 - name: BP
   ats: workday
   tenant: bpinternational
@@ -609,11 +599,6 @@
 - name: Figma
   ats: greenhouse
   token: figma
-- name: First National Bank
-  ats: workday
-  tenant: fnbcorp
-  dc: wd501
-  site: FNBCORP
 - name: Five Rings Capital
   ats: greenhouse
   token: fiveringsllc
@@ -635,6 +620,11 @@
   tenant: freddiemac
   dc: wd5
   site: External
+- name: G-Research
+  ats: workday
+  tenant: gresearch
+  dc: wd103
+  site: G-Research
 - name: Gallup
   ats: greenhouse
   token: gallup
@@ -867,6 +857,11 @@
   tenant: jainglobal
   dc: wd5
   site: ExternalSite
+- name: Johns Manville
+  ats: workday
+  tenant: jm
+  dc: wd103
+  site: External
 - name: Johnson & Johnson
   ats: workday
   tenant: jj
@@ -890,9 +885,6 @@
   tenant: albemarle
   dc: wd5
   site: ketjenexternal
-- name: Khan Academy
-  ats: greenhouse
-  token: khanacademy
 - name: KLA
   ats: workday
   tenant: kla
@@ -1007,11 +999,6 @@
 - name: MegazoneCloud
   ats: ashby
   token: megazone
-- name: Meijer
-  ats: workday
-  tenant: meijer
-  dc: wd5
-  site: Meijer
 - name: MEMX
   ats: greenhouse
   token: memx
@@ -1051,11 +1038,6 @@
   tenant: modernatx
   dc: wd1
   site: M_tx
-- name: Modernizing Medicine
-  ats: workday
-  tenant: modmed
-  dc: wd501
-  site: ModMed12
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -1390,12 +1372,12 @@
   ats: workday
   tenant: ryan
   dc: wd1
-  site: Students-Graduates
+  site: RyanCareers
 - name: Ryan
   ats: workday
   tenant: ryan
   dc: wd1
-  site: RyanCareers
+  site: Students-Graduates
 - name: S&P Global
   ats: workday
   tenant: spgi
@@ -1489,6 +1471,9 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
+- name: Stand Together
+  ats: lever
+  token: standtogether
 - name: Stanley Black & Decker
   ats: workday
   tenant: sbdinc
@@ -1690,11 +1675,6 @@
 - name: Walleye Capital
   ats: greenhouse
   token: walleyecapital-external-students
-- name: Walmart
-  ats: workday
-  tenant: walmart
-  dc: wd504
-  site: WalmartExternal
 - name: Watts Water
   ats: workday
   tenant: wattswater
@@ -1705,6 +1685,9 @@
   tenant: wawa
   dc: wd1
   site: careers
+- name: Webflow
+  ats: greenhouse
+  token: webflow
 - name: Wellmark
   ats: smartrecruiters
   token: WellmarkInc
