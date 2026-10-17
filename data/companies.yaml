@@ -54,6 +54,11 @@
 - name: Allen Control Systems
   ats: ashby
   token: allen-control-systems
+- name: Allied Solutions
+  ats: workday
+  tenant: alliedsolutions
+  dc: wd501
+  site: Allied_External
 - name: Altar'd State
   ats: workday
   tenant: standoutforgood
@@ -246,6 +251,11 @@
   tenant: bah
   dc: wd1
   site: bah_jobs
+- name: Bose
+  ats: workday
+  tenant: boseallaboutme
+  dc: wd503
+  site: Bose_Careers
 - name: BP
   ats: workday
   tenant: bpinternational
@@ -414,11 +424,6 @@
   tenant: covestro
   dc: wd3
   site: cov_external
-- name: Cox
-  ats: workday
-  tenant: cox
-  dc: wd1
-  site: Cox_External_Career_Site_1
 - name: Cursor
   ats: ashby
   token: cursor
@@ -599,6 +604,11 @@
 - name: Figma
   ats: greenhouse
   token: figma
+- name: First National Bank
+  ats: workday
+  tenant: fnbcorp
+  dc: wd501
+  site: FNBCORP
 - name: Five Rings Capital
   ats: greenhouse
   token: fiveringsllc
@@ -615,11 +625,6 @@
   tenant: firstnational
   dc: wd12
   site: fnbocareers
-- name: Freddie Mac
-  ats: workday
-  tenant: freddiemac
-  dc: wd5
-  site: External
 - name: G-Research
   ats: workday
   tenant: gresearch
@@ -1038,6 +1043,11 @@
   tenant: modernatx
   dc: wd1
   site: M_tx
+- name: Modernizing Medicine
+  ats: workday
+  tenant: modmed
+  dc: wd501
+  site: ModMed12
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -1675,6 +1685,11 @@
 - name: Walleye Capital
   ats: greenhouse
   token: walleyecapital-external-students
+- name: Walmart
+  ats: workday
+  tenant: walmart
+  dc: wd504
+  site: WalmartExternal
 - name: Watts Water
   ats: workday
   tenant: wattswater
