@@ -123,6 +123,11 @@
 - name: Arc
   ats: greenhouse
   token: arcboatcompany
+- name: Arch Capital Group
+  ats: workday
+  tenant: archgroup
+  dc: wd1
+  site: careers
 - name: Armadin
   ats: ashby
   token: armadin
@@ -388,11 +393,6 @@
 - name: Compeer Financial
   ats: greenhouse
   token: compeerfinancial
-- name: Continental Resources
-  ats: workday
-  tenant: clr
-  dc: wd5
-  site: CLR_Careers
 - name: Corewell Health
   ats: workday
   tenant: spectrumhealth
@@ -603,16 +603,6 @@
   tenant: fhlbc
   dc: wd1
   site: search
-- name: Fidelity Investments
-  ats: workday
-  tenant: fmr
-  dc: wd1
-  site: fidelitycareers
-- name: Fidelity Investments
-  ats: workday
-  tenant: fmr
-  dc: wd1
-  site: targeted
 - name: Field AI
   ats: lever
   token: field-ai
@@ -645,28 +635,15 @@
   tenant: freddiemac
   dc: wd5
   site: External
-- name: G-Research
-  ats: workday
-  tenant: gresearch
-  dc: wd103
-  site: G-Research
 - name: Gallup
   ats: greenhouse
   token: gallup
 - name: Garda Capital Partners
   ats: greenhouse
   token: gardacp
-- name: Gas South
-  ats: greenhouse
-  token: gassouth
 - name: GCM Grosvenor
   ats: greenhouse
   token: gcmgrosvenor
-- name: GE Aerospace
-  ats: workday
-  tenant: geaerospace
-  dc: wd5
-  site: ge_externalsite
 - name: GE Healthcare
   ats: workday
   tenant: gehc
@@ -796,6 +773,11 @@
   tenant: hntb
   dc: wd5
   site: hntb_university_careers
+- name: HNTB
+  ats: workday
+  tenant: hntb
+  dc: wd5
+  site: hntb_careers
 - name: Houlihan Lokey
   ats: workday
   tenant: hl
@@ -885,11 +867,6 @@
   tenant: jainglobal
   dc: wd5
   site: ExternalSite
-- name: Johns Manville
-  ats: workday
-  tenant: jm
-  dc: wd103
-  site: External
 - name: Johnson & Johnson
   ats: workday
   tenant: jj
@@ -1208,9 +1185,6 @@
 - name: OpenAI
   ats: ashby
   token: openai
-- name: OpenGov
-  ats: ashby
-  token: opengov
 - name: Oshkosh
   ats: workday
   tenant: oshkoshcorporation
@@ -1258,9 +1232,6 @@
 - name: Perpay
   ats: greenhouse
   token: perpay
-- name: Persona
-  ats: ashby
-  token: persona
 - name: Persona AI
   ats: ashby
   token: persona.ai
@@ -1415,6 +1386,16 @@
 - name: Rugged Robotics
   ats: greenhouse
   token: ruggedrobotics
+- name: Ryan
+  ats: workday
+  tenant: ryan
+  dc: wd1
+  site: Students-Graduates
+- name: Ryan
+  ats: workday
+  tenant: ryan
+  dc: wd1
+  site: RyanCareers
 - name: S&P Global
   ats: workday
   tenant: spgi
@@ -1471,6 +1452,9 @@
 - name: ServiceNow
   ats: smartrecruiters
   token: ServiceNow
+- name: Shield AI
+  ats: lever
+  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
@@ -1505,9 +1489,6 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
-- name: Stand Together
-  ats: lever
-  token: standtogether
 - name: Stanley Black & Decker
   ats: workday
   tenant: sbdinc
@@ -1654,11 +1635,6 @@
   tenant: hcmportal
   dc: wd5
   site: Search
-- name: USAA
-  ats: workday
-  tenant: usaa
-  dc: wd1
-  site: USAAJOBSWD
 - name: Vanguard
   ats: workday
   tenant: vanguard
@@ -1705,6 +1681,9 @@
   tenant: visa
   dc: wd5
   site: Visa_Early_Careers
+- name: Waabi
+  ats: lever
+  token: waabi
 - name: Wabash Valley Power Alliance
   ats: smartrecruiters
   token: WabashValleyPowerAlliance
@@ -1726,9 +1705,6 @@
   tenant: wawa
   dc: wd1
   site: careers
-- name: Webflow
-  ats: greenhouse
-  token: webflow
 - name: Wellmark
   ats: smartrecruiters
   token: WellmarkInc
@@ -1757,9 +1733,6 @@
 - name: xAI
   ats: greenhouse
   token: xai
-- name: Xantium
-  ats: greenhouse
-  token: xantium
 - name: Xcel Energy
   ats: workday
   tenant: xcelenergy
