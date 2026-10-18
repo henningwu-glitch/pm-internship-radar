@@ -330,6 +330,9 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
+- name: CesiumAstro
+  ats: lever
+  token: CesiumAstro
 - name: Charter Manufacturing
   ats: workday
   tenant: chartermfg
@@ -923,6 +926,11 @@
 - name: Lendable
   ats: ashby
   token: lendable
+- name: Leonardo
+  ats: workday
+  tenant: leonardocompany
+  dc: wd3
+  site: LeonardoCareerSite
 - name: LexisNexis Risk Solutions
   ats: workday
   tenant: relx
@@ -1321,9 +1329,6 @@
 - name: RF-SMART
   ats: greenhouse
   token: rfsmart
-- name: Rhombus
-  ats: lever
-  token: rhombus-systems
 - name: Robert Bosch Venture Capital
   ats: smartrecruiters
   token: BoschGroup
