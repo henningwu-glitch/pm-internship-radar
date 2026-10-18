@@ -1329,6 +1329,9 @@
 - name: RF-SMART
   ats: greenhouse
   token: rfsmart
+- name: Rhombus
+  ats: lever
+  token: rhombus-systems
 - name: Robert Bosch Venture Capital
   ats: smartrecruiters
   token: BoschGroup
@@ -1359,11 +1362,6 @@
 - name: Rothesay
   ats: greenhouse
   token: rothesaygraduates
-- name: Royal Bank of Canada
-  ats: workday
-  tenant: rbc
-  dc: wd3
-  site: RBCEARLYTALENT1
 - name: RTX
   ats: workday
   tenant: globalhr
@@ -1610,11 +1608,6 @@
   tenant: travelers
   dc: wd5
   site: External
-- name: Trimble
-  ats: workday
-  tenant: trimble
-  dc: wd1
-  site: TrimbleCareers
 - name: Trustpilot
   ats: greenhouse
   token: trustpilot
