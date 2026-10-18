@@ -181,9 +181,6 @@
   tenant: autodesk
   dc: wd1
   site: uni
-- name: Avery Dennison
-  ats: smartrecruiters
-  token: AveryDennison
 - name: Avis Budget Group
   ats: workday
   tenant: avisbudget
@@ -333,9 +330,6 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
-- name: CesiumAstro
-  ats: lever
-  token: CesiumAstro
 - name: Charter Manufacturing
   ats: workday
   tenant: chartermfg
@@ -1731,11 +1725,6 @@
 - name: xAI
   ats: greenhouse
   token: xai
-- name: Xcel Energy
-  ats: workday
-  tenant: xcelenergy
-  dc: wd1
-  site: External
 - name: Xcimer Energy
   ats: lever
   token: xcimer
