@@ -826,9 +826,6 @@
   tenant: intel
   dc: wd1
   site: external
-- name: Inversion Space
-  ats: greenhouse
-  token: inversionspace
 - name: Invesco
   ats: workday
   tenant: invesco
@@ -1403,16 +1400,6 @@
   tenant: sailpoint
   dc: wd1
   site: SailPoint
-- name: Salesforce
-  ats: workday
-  tenant: salesforce
-  dc: wd12
-  site: Futureforce_Internships
-- name: Salesforce
-  ats: workday
-  tenant: salesforce
-  dc: wd12
-  site: External_Career_Site
 - name: Saronic
   ats: ashby
   token: saronic
