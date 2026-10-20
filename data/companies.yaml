@@ -732,12 +732,6 @@
 - name: Harvey
   ats: ashby
   token: harvey
-- name: Helion Energy
-  ats: ashby
-  token: helion
-- name: Hermeus
-  ats: lever
-  token: hermeus
 - name: Hewlett Packard Enterprise
   ats: workday
   tenant: hpe
@@ -1061,11 +1055,6 @@
 - name: Monzo
   ats: greenhouse
   token: monzo
-- name: Moog
-  ats: workday
-  tenant: moog
-  dc: wd5
-  site: moog_external_career_site
 - name: Motorola
   ats: workday
   tenant: motorolasolutions
@@ -1129,14 +1118,6 @@
   tenant: nyp
   dc: wd1
   site: nypcareers
-- name: Niantic Spatial
-  ats: ashby
-  token: niantic-spatial
-- name: Nike
-  ats: workday
-  tenant: nike
-  dc: wd1
-  site: nke
 - name: Nissan Global
   ats: workday
   tenant: alliance
@@ -1209,6 +1190,9 @@
   tenant: papajohns
   dc: wd1
   site: papajohnscareers
+- name: Parallel Wireless
+  ats: lever
+  token: parallelwireless
 - name: Patreon
   ats: ashby
   token: patreon
@@ -1408,6 +1392,16 @@
   tenant: sailpoint
   dc: wd1
   site: SailPoint
+- name: Salesforce
+  ats: workday
+  tenant: salesforce
+  dc: wd12
+  site: External_Career_Site
+- name: Salesforce
+  ats: workday
+  tenant: salesforce
+  dc: wd12
+  site: Futureforce_Internships
 - name: Saronic
   ats: ashby
   token: saronic
@@ -1582,6 +1576,9 @@
 - name: The MJ Companies
   ats: greenhouse
   token: themjcos
+- name: The New York Times
+  ats: greenhouse
+  token: thenewyorktimes
 - name: The Toro Company
   ats: workday
   tenant: ttc
@@ -1611,6 +1608,11 @@
   tenant: travelers
   dc: wd5
   site: External
+- name: Trimble
+  ats: workday
+  tenant: trimble
+  dc: wd1
+  site: TrimbleCareers
 - name: Trustpilot
   ats: greenhouse
   token: trustpilot
