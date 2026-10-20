@@ -92,6 +92,9 @@
   tenant: amgen
   dc: wd1
   site: careers
+- name: Amplify
+  ats: ashby
+  token: amplify
 - name: AnaVation
   ats: lever
   token: anavationllc
@@ -137,6 +140,11 @@
   tenant: aspentech
   dc: wd5
   site: aspentech
+- name: Associated Bank
+  ats: workday
+  tenant: associatedbank
+  dc: wd1
+  site: external_careers
 - name: Assurant
   ats: workday
   tenant: assurant
@@ -184,6 +192,11 @@
 - name: AXQ Capital
   ats: greenhouse
   token: axq
+- name: Badger Meter
+  ats: workday
+  tenant: badgermeter
+  dc: wd5
+  site: US_CareerSite
 - name: Baird
   ats: workday
   tenant: baird
@@ -369,6 +382,11 @@
 - name: Cloudflare
   ats: greenhouse
   token: cloudflare
+- name: Cognex
+  ats: workday
+  tenant: cognex
+  dc: wd1
+  site: External_Career_Site
 - name: Coinbase
   ats: greenhouse
   token: coinbase
@@ -406,6 +424,11 @@
   tenant: covestro
   dc: wd3
   site: cov_external
+- name: Creative Artists Agency
+  ats: workday
+  tenant: caa
+  dc: wd1
+  site: Careers
 - name: Cursor
   ats: ashby
   token: cursor
@@ -503,11 +526,6 @@
 - name: DV Trading
   ats: greenhouse
   token: dvtrading
-- name: Ecolab
-  ats: workday
-  tenant: ecolab
-  dc: wd1
-  site: ecolab_external
 - name: Elanco
   ats: workday
   tenant: elanco
@@ -717,6 +735,9 @@
 - name: Helion Energy
   ats: ashby
   token: helion
+- name: Hermeus
+  ats: lever
+  token: hermeus
 - name: Hewlett Packard Enterprise
   ats: workday
   tenant: hpe
@@ -996,9 +1017,6 @@
   tenant: msd
   dc: wd5
   site: searchjobs
-- name: MetOx International
-  ats: greenhouse
-  token: metoxinternationalinc
 - name: Michelin
   ats: workday
   tenant: michelinhr
@@ -1191,6 +1209,9 @@
   tenant: papajohns
   dc: wd1
   site: papajohnscareers
+- name: Patreon
+  ats: ashby
+  token: patreon
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
@@ -1338,6 +1359,11 @@
   tenant: rockwellautomation
   dc: wd1
   site: External_Rockwell_Automation
+- name: Rogue Fitness
+  ats: workday
+  tenant: roguefitness
+  dc: wd1
+  site: RogueFitness_External_Careers
 - name: Rothesay
   ats: greenhouse
   token: rothesaygraduates
@@ -1476,6 +1502,11 @@
   tenant: sunlife
   dc: wd3
   site: Campus
+- name: Symbotic
+  ats: workday
+  tenant: symbotic
+  dc: wd504
+  site: Symbotic
 - name: Syngenta Group
   ats: smartrecruiters
   token: SyngentaGroup
@@ -1524,6 +1555,9 @@
   tenant: aero
   dc: wd5
   site: external
+- name: The Allen Institute for AI
+  ats: greenhouse
+  token: thealleninstitute
 - name: The Brattle Group
   ats: greenhouse
   token: thebrattlegroup
@@ -1695,9 +1729,19 @@
 - name: xAI
   ats: greenhouse
   token: xai
+- name: Xcel Energy
+  ats: workday
+  tenant: xcelenergy
+  dc: wd1
+  site: External
 - name: Xcimer Energy
   ats: lever
   token: xcimer
+- name: Zebra Technologies
+  ats: workday
+  tenant: zebra
+  dc: wd501
+  site: Zebra_careers
 - name: Zekelman Industries
   ats: workday
   tenant: zekelman
