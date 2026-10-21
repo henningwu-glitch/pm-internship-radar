@@ -98,6 +98,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -509,6 +512,9 @@
   tenant: drivetime
   dc: wd1
   site: DriveTime
+- name: DriveWealth
+  ats: greenhouse
+  token: drivewealth
 - name: Dropbox
   ats: greenhouse
   token: dropbox
@@ -528,6 +534,11 @@
   tenant: elanco
   dc: wd5
   site: External_Career
+- name: Elevance Health
+  ats: workday
+  tenant: elevancehealth
+  dc: wd1
+  site: ELV-ET
 - name: Elk Valley Resources
   ats: lever
   token: evr
@@ -636,11 +647,6 @@
 - name: GCM Grosvenor
   ats: greenhouse
   token: gcmgrosvenor
-- name: GE Healthcare
-  ats: workday
-  tenant: gehc
-  dc: wd5
-  site: GEHC_ExternalSite
 - name: GE Vernova
   ats: workday
   tenant: gevernova
@@ -654,6 +660,11 @@
 - name: Gecko Robotics
   ats: ashby
   token: gecko-robotics
+- name: Genentech
+  ats: workday
+  tenant: roche
+  dc: wd3
+  site: ROG-A2O-GENE
 - name: Generac
   ats: workday
   tenant: generac
@@ -732,9 +743,6 @@
 - name: Harvey
   ats: ashby
   token: harvey
-- name: Hermeus
-  ats: lever
-  token: hermeus
 - name: Hewlett Packard Enterprise
   ats: workday
   tenant: hpe
@@ -1014,6 +1022,9 @@
   tenant: msd
   dc: wd5
   site: searchjobs
+- name: Metamorphic
+  ats: ashby
+  token: metamorphic
 - name: Michelin
   ats: workday
   tenant: michelinhr
@@ -1058,6 +1069,11 @@
 - name: Monzo
   ats: greenhouse
   token: monzo
+- name: Moog
+  ats: workday
+  tenant: moog
+  dc: wd5
+  site: moog_external_career_site
 - name: Motorola
   ats: workday
   tenant: motorolasolutions
@@ -1310,9 +1326,6 @@
   tenant: rjet
   dc: wd108
   site: External_Career_Site
-- name: Resultant
-  ats: smartrecruiters
-  token: Resultant
 - name: Revel
   ats: ashby
   token: revel
@@ -1465,6 +1478,16 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
+- name: Sony
+  ats: workday
+  tenant: sonyglobal
+  dc: wd1
+  site: SonyGlobalCareers
+- name: Sony
+  ats: workday
+  tenant: sonyglobal
+  dc: wd1
+  site: Sony_Europe_Careers
 - name: SouthState Bank
   ats: workday
   tenant: southstatebank
@@ -1771,6 +1794,11 @@
 - name: Zilch
   ats: ashby
   token: zilch
+- name: Zillow
+  ats: workday
+  tenant: zillow
+  dc: wd5
+  site: Zillow_Group_External
 - name: Zurn Elkay Water Solutions
   ats: workday
   tenant: elkay
