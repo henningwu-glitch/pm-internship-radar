@@ -98,9 +98,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -547,6 +544,11 @@
   tenant: emcins
   dc: wd5
   site: EMC_Internships
+- name: Enact Mortgage Insurance
+  ats: workday
+  tenant: gnw
+  dc: wd1
+  site: enact_mi
 - name: Enova
   ats: greenhouse
   token: enova
@@ -678,6 +680,11 @@
   tenant: generalmotors
   dc: wd5
   site: Careers_GM
+- name: Genworth Financial
+  ats: workday
+  tenant: gnw
+  dc: wd1
+  site: GNW
 - name: Glean
   ats: greenhouse
   token: gleanwork
@@ -1004,9 +1011,6 @@
   tenant: mastercard
   dc: wd1
   site: Campus
-- name: Maven Securities
-  ats: greenhouse
-  token: mavensecuritiesholdingltd
 - name: McKesson
   ats: workday
   tenant: mckesson
@@ -1268,6 +1272,9 @@
   tenant: pg
   dc: wd5
   site: '1000'
+- name: Protective Life
+  ats: lever
+  token: protective
 - name: Pure Storage
   ats: greenhouse
   token: purestorage
@@ -1441,9 +1448,6 @@
   tenant: semtech
   dc: wd1
   site: SemtechCareers
-- name: SEP
-  ats: lever
-  token: sep
 - name: ServiceNow
   ats: smartrecruiters
   token: ServiceNow
@@ -1659,6 +1663,11 @@
 - name: Twilio
   ats: greenhouse
   token: twilio
+- name: Uline
+  ats: workday
+  tenant: uline
+  dc: wd1
+  site: Uline_Careers
 - name: United Parcel Service
   ats: workday
   tenant: hcmportal
@@ -1756,6 +1765,9 @@
 - name: WhiteWater Midstream
   ats: greenhouse
   token: whitewatermidstream
+- name: WisdomTree
+  ats: lever
+  token: wisdomtree
 - name: Wise
   ats: smartrecruiters
   token: Wise
