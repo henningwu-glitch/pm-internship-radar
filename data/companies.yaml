@@ -59,6 +59,11 @@
   tenant: alliedsolutions
   dc: wd501
   site: Allied_External
+- name: Allstate
+  ats: workday
+  tenant: allstate
+  dc: wd5
+  site: sourcing_event
 - name: Altar'd State
   ats: workday
   tenant: standoutforgood
@@ -150,6 +155,11 @@
   tenant: atcllc
   dc: wd5
   site: atcllc
+- name: Athene
+  ats: workday
+  tenant: athene
+  dc: wd5
+  site: athene_careers
 - name: Atoms
   ats: greenhouse
   token: atoms
@@ -325,9 +335,6 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
-- name: CesiumAstro
-  ats: lever
-  token: CesiumAstro
 - name: Charter Manufacturing
   ats: workday
   tenant: chartermfg
@@ -579,12 +586,12 @@
   ats: workday
   tenant: expedia
   dc: wd108
-  site: private
+  site: search
 - name: Expedia Group
   ats: workday
   tenant: expedia
   dc: wd108
-  site: search
+  site: private
 - name: F5
   ats: workday
   tenant: ffive
@@ -846,12 +853,12 @@
   ats: workday
   tenant: invesco
   dc: wd1
-  site: IVZ
+  site: IVZearlycareers
 - name: Invesco
   ats: workday
   tenant: invesco
   dc: wd1
-  site: IVZearlycareers
+  site: IVZ
 - name: Itron
   ats: workday
   tenant: itron
@@ -872,11 +879,6 @@
   tenant: jainglobal
   dc: wd5
   site: ExternalSite
-- name: Johns Manville
-  ats: workday
-  tenant: jm
-  dc: wd103
-  site: External
 - name: Johnson & Johnson
   ats: workday
   tenant: jj
@@ -900,6 +902,11 @@
   tenant: albemarle
   dc: wd5
   site: ketjenexternal
+- name: KeyBank
+  ats: workday
+  tenant: keybank
+  dc: wd5
+  site: External_Career_Site
 - name: KLA
   ats: workday
   tenant: kla
@@ -1217,6 +1224,11 @@
 - name: Parallel Wireless
   ats: lever
   token: parallelwireless
+- name: Parsons
+  ats: workday
+  tenant: parsons
+  dc: wd5
+  site: search
 - name: Patreon
   ats: ashby
   token: patreon
@@ -1435,11 +1447,6 @@
 - name: Schonfeld
   ats: greenhouse
   token: schonfeld
-- name: Securian Financial Group
-  ats: workday
-  tenant: hq
-  dc: wd12
-  site: Securian_External
 - name: Semgrep
   ats: ashby
   token: semgrep
@@ -1448,6 +1455,9 @@
   tenant: semtech
   dc: wd1
   site: SemtechCareers
+- name: SEP
+  ats: lever
+  token: sep
 - name: ServiceNow
   ats: smartrecruiters
   token: ServiceNow
@@ -1462,6 +1472,11 @@
   tenant: snc
   dc: wd1
   site: snc_external_career_site
+- name: Sierra Space
+  ats: workday
+  tenant: sierraspace
+  dc: wd1
+  site: Sierra_Space_External_Career_Site
 - name: Sigma Computing
   ats: greenhouse
   token: sigmacomputing
@@ -1729,9 +1744,6 @@
   tenant: visa
   dc: wd5
   site: Visa_Early_Careers
-- name: Waabi
-  ats: lever
-  token: waabi
 - name: Wabash Valley Power Alliance
   ats: smartrecruiters
   token: WabashValleyPowerAlliance
