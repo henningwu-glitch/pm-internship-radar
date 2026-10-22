@@ -1,8 +1,3 @@
-- name: 3M
-  ats: workday
-  tenant: 3m
-  dc: wd1
-  site: Search
 - name: 7-Eleven
   ats: workday
   tenant: my7elevenhr
@@ -434,9 +429,6 @@
   tenant: caa
   dc: wd1
   site: Careers
-- name: Crusoe
-  ats: ashby
-  token: crusoe
 - name: Cursor
   ats: ashby
   token: cursor
@@ -547,6 +539,9 @@
   tenant: elevancehealth
   dc: wd1
   site: ELV-ET
+- name: Elk Valley Resources
+  ats: lever
+  token: evr
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -575,6 +570,9 @@
   tenant: ebi
   dc: wd5
   site: ebicareers
+- name: EQT Corporation
+  ats: greenhouse
+  token: eqtcorporation
 - name: Ercot
   ats: workday
   tenant: ercot
@@ -765,11 +763,6 @@
   ats: workday
   tenant: hpe
   dc: wd5
-  site: acjobsite
-- name: Hewlett Packard Enterprise
-  ats: workday
-  tenant: hpe
-  dc: wd5
   site: jobsathpe
 - name: Highmark Health
   ats: workday
@@ -860,16 +853,6 @@
 - name: Inversion Space
   ats: greenhouse
   token: inversionspace
-- name: Invesco
-  ats: workday
-  tenant: invesco
-  dc: wd1
-  site: IVZearlycareers
-- name: Invesco
-  ats: workday
-  tenant: invesco
-  dc: wd1
-  site: IVZ
 - name: Itron
   ats: workday
   tenant: itron
@@ -1382,11 +1365,6 @@
   tenant: rockwellautomation
   dc: wd1
   site: External_Rockwell_Automation
-- name: Rogue Fitness
-  ats: workday
-  tenant: roguefitness
-  dc: wd1
-  site: RogueFitness_External_Careers
 - name: Rothesay
   ats: greenhouse
   token: rothesaygraduates
@@ -1788,6 +1766,9 @@
 - name: WhiteWater Midstream
   ats: greenhouse
   token: whitewatermidstream
+- name: WisdomTree
+  ats: lever
+  token: wisdomtree
 - name: Wise
   ats: smartrecruiters
   token: Wise

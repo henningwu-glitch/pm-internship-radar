@@ -9,7 +9,7 @@
     "posted_at": 1548784293349,
     "department": "Design",
     "first_seen_at": "2026-09-06T04:45:02Z",
-    "last_seen_at": "2026-10-22T11:50:26Z"
+    "last_seen_at": "2026-10-22T18:56:35Z"
   },
   {
     "source_id": "744000155271954",
@@ -21,7 +21,7 @@
     "posted_at": "2026-10-13T13:55:23.135Z",
     "department": null,
     "first_seen_at": "2026-10-13T20:42:23Z",
-    "last_seen_at": "2026-10-22T11:50:26Z"
+    "last_seen_at": "2026-10-22T18:56:35Z"
   },
   {
     "source_id": "8894797002",
@@ -33,6 +33,6 @@
     "posted_at": "2026-10-20T08:10:46-04:00",
     "department": "Core",
     "first_seen_at": "2026-10-20T18:56:31Z",
-    "last_seen_at": "2026-10-22T11:50:26Z"
+    "last_seen_at": "2026-10-22T18:56:35Z"
   }
 ]
