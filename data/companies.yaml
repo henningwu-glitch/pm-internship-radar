@@ -1,3 +1,8 @@
+- name: 3M
+  ats: workday
+  tenant: 3m
+  dc: wd1
+  site: Search
 - name: 7-Eleven
   ats: workday
   tenant: my7elevenhr
@@ -11,9 +16,6 @@
 - name: AbbVie
   ats: smartrecruiters
   token: AbbVie
-- name: Abridge
-  ats: ashby
-  token: abridge
 - name: Adobe
   ats: workday
   tenant: adobe
@@ -81,12 +83,12 @@
   ats: workday
   tenant: amfam
   dc: wd1
-  site: Careers
+  site: AmFamGroupInternCareers
 - name: American Family Insurance Group
   ats: workday
   tenant: amfam
   dc: wd1
-  site: AmFamGroupInternCareers
+  site: Careers
 - name: Amgen
   ats: workday
   tenant: amgen
@@ -95,9 +97,6 @@
 - name: Amplify
   ats: ashby
   token: amplify
-- name: AnaVation
-  ats: lever
-  token: anavationllc
 - name: Anduril
   ats: greenhouse
   token: andurilindustries
@@ -432,6 +431,11 @@
 - name: Cursor
   ats: ashby
   token: cursor
+- name: CVS Health
+  ats: workday
+  tenant: cvshealth
+  dc: wd1
+  site: CVS_Health_Careers
 - name: Cyvl
   ats: ashby
   token: cyvl
@@ -518,11 +522,6 @@
 - name: Dropbox
   ats: greenhouse
   token: dropbox
-- name: DuCharme, McMillen & Associates
-  ats: workday
-  tenant: dmainc
-  dc: wd5
-  site: dma
 - name: Duolingo
   ats: greenhouse
   token: duolingo
@@ -604,11 +603,6 @@
 - name: Faire
   ats: greenhouse
   token: faire
-- name: Fannie Mae
-  ats: workday
-  tenant: fanniemae
-  dc: wd1
-  site: FannieMaeCareers
 - name: FHLBank Chicago
   ats: workday
   tenant: fhlbc
@@ -901,6 +895,16 @@
   tenant: keybank
   dc: wd5
   site: External_Career_Site
+- name: KION Group
+  ats: workday
+  tenant: kiongroup
+  dc: wd3
+  site: KION_SCS
+- name: KION Group
+  ats: workday
+  tenant: kiongroup
+  dc: wd3
+  site: kiongroup
 - name: KLA
   ats: workday
   tenant: kla
@@ -1041,9 +1045,6 @@
   tenant: midlandsb
   dc: wd1
   site: msbcareers
-- name: Mill
-  ats: greenhouse
-  token: mill
 - name: Mitsubishi UFG
   ats: workday
   tenant: mufgub
@@ -1210,14 +1211,12 @@
 - name: Parallel Wireless
   ats: lever
   token: parallelwireless
-- name: Parsons
-  ats: workday
-  tenant: parsons
-  dc: wd5
-  site: search
 - name: Patreon
   ats: ashby
   token: patreon
+- name: Pattern
+  ats: lever
+  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
@@ -1316,6 +1315,9 @@
 - name: Relay
   ats: greenhouse
   token: relaypro
+- name: Renesas Electronics
+  ats: smartrecruiters
+  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1510,6 +1512,9 @@
 - name: Steel
   ats: ashby
   token: steel
+- name: STR
+  ats: greenhouse
+  token: systemstechnologyresearch
 - name: Stripe
   ats: greenhouse
   token: stripe
@@ -1791,9 +1796,6 @@
   tenant: xcelenergy
   dc: wd1
   site: External
-- name: Xcimer Energy
-  ats: lever
-  token: xcimer
 - name: Zebra Technologies
   ats: workday
   tenant: zebra
