@@ -48,11 +48,6 @@
 - name: Allen Control Systems
   ats: ashby
   token: allen-control-systems
-- name: Allied Solutions
-  ats: workday
-  tenant: alliedsolutions
-  dc: wd501
-  site: Allied_External
 - name: Allstate
   ats: workday
   tenant: allstate
@@ -580,11 +575,6 @@
 - name: Figma
   ats: greenhouse
   token: figma
-- name: First National Bank
-  ats: workday
-  tenant: fnbcorp
-  dc: wd501
-  site: FNBCORP
 - name: Five Rings Capital
   ats: greenhouse
   token: fiveringsllc
@@ -851,11 +841,6 @@
 - name: K2 Space
   ats: greenhouse
   token: k2spacecorporation
-- name: Kainos
-  ats: workday
-  tenant: kainos
-  dc: wd3
-  site: kainos
 - name: Ketjen
   ats: workday
   tenant: albemarle
@@ -1021,11 +1006,6 @@
   tenant: mufgub
   dc: wd3
   site: mufg-careers
-- name: Modernizing Medicine
-  ats: workday
-  tenant: modmed
-  dc: wd501
-  site: ModMed12
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -1100,11 +1080,6 @@
   tenant: newrez
   dc: wd1
   site: NRZ
-- name: NewYork-Presbyterian
-  ats: workday
-  tenant: nyp
-  dc: wd1
-  site: nypcareers
 - name: Nissan Global
   ats: workday
   tenant: alliance
@@ -1303,9 +1278,6 @@
 - name: RF-SMART
   ats: greenhouse
   token: rfsmart
-- name: Rhombus
-  ats: lever
-  token: rhombus-systems
 - name: Robert Bosch Venture Capital
   ats: smartrecruiters
   token: BoschGroup
@@ -1682,11 +1654,6 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
-- name: Verizon Communications
-  ats: workday
-  tenant: verizon
-  dc: wd12
-  site: verizon-careers
 - name: Verkada
   ats: greenhouse
   token: verkada
@@ -1695,16 +1662,6 @@
   tenant: vermeer
   dc: wd5
   site: externalcareersite
-- name: Vertex Pharmaceuticals
-  ats: workday
-  tenant: vrtx
-  dc: wd501
-  site: vertex_intern
-- name: Vertex Pharmaceuticals
-  ats: workday
-  tenant: vrtx
-  dc: wd501
-  site: vertex_careers
 - name: Viam
   ats: greenhouse
   token: viamrobotics
@@ -1772,11 +1729,6 @@
   tenant: xcelenergy
   dc: wd1
   site: External
-- name: Zebra Technologies
-  ats: workday
-  tenant: zebra
-  dc: wd501
-  site: Zebra_careers
 - name: Zekelman Industries
   ats: workday
   tenant: zekelman
