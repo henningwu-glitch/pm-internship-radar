@@ -48,6 +48,11 @@
 - name: Allen Control Systems
   ats: ashby
   token: allen-control-systems
+- name: Allied Solutions
+  ats: workday
+  tenant: alliedsolutions
+  dc: wd501
+  site: Allied_External
 - name: Allstate
   ats: workday
   tenant: allstate
@@ -386,6 +391,11 @@
   tenant: covestro
   dc: wd3
   site: cov_external
+- name: Cox
+  ats: workday
+  tenant: cox
+  dc: wd1
+  site: Cox_External_Career_Site_1
 - name: Creative Artists Agency
   ats: workday
   tenant: caa
@@ -501,9 +511,6 @@
   tenant: elevancehealth
   dc: wd1
   site: ELV-ET
-- name: Elk Valley Resources
-  ats: lever
-  token: evr
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -575,6 +582,11 @@
 - name: Figma
   ats: greenhouse
   token: figma
+- name: First National Bank
+  ats: workday
+  tenant: fnbcorp
+  dc: wd501
+  site: FNBCORP
 - name: Five Rings Capital
   ats: greenhouse
   token: fiveringsllc
@@ -1006,6 +1018,11 @@
   tenant: mufgub
   dc: wd3
   site: mufg-careers
+- name: Modernizing Medicine
+  ats: workday
+  tenant: modmed
+  dc: wd501
+  site: ModMed12
 - name: Momentive
   ats: workday
   tenant: momentive
@@ -1662,6 +1679,16 @@
   tenant: vermeer
   dc: wd5
   site: externalcareersite
+- name: Vertex Pharmaceuticals
+  ats: workday
+  tenant: vrtx
+  dc: wd501
+  site: vertex_intern
+- name: Vertex Pharmaceuticals
+  ats: workday
+  tenant: vrtx
+  dc: wd501
+  site: vertex_careers
 - name: Viam
   ats: greenhouse
   token: viamrobotics
@@ -1729,6 +1756,11 @@
   tenant: xcelenergy
   dc: wd1
   site: External
+- name: Zebra Technologies
+  ats: workday
+  tenant: zebra
+  dc: wd501
+  site: Zebra_careers
 - name: Zekelman Industries
   ats: workday
   tenant: zekelman
