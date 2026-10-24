@@ -80,12 +80,12 @@
   ats: workday
   tenant: amfam
   dc: wd1
-  site: AmFamGroupInternCareers
+  site: Careers
 - name: American Family Insurance Group
   ats: workday
   tenant: amfam
   dc: wd1
-  site: Careers
+  site: AmFamGroupInternCareers
 - name: Amgen
   ats: workday
   tenant: amgen
@@ -245,6 +245,9 @@
   tenant: boseallaboutme
   dc: wd503
   site: Bose_Careers
+- name: Boson Ai
+  ats: lever
+  token: bosonai
 - name: BP
   ats: workday
   tenant: bpinternational
@@ -258,16 +261,6 @@
   tenant: bristolmyerssquibb
   dc: wd5
   site: bms
-- name: Brookfield
-  ats: workday
-  tenant: brookfield
-  dc: wd5
-  site: brookfield
-- name: Brunswick
-  ats: workday
-  tenant: brunswick
-  dc: wd1
-  site: search
 - name: Burlington Stores
   ats: workday
   tenant: burlington
@@ -302,6 +295,11 @@
   tenant: cardinalhealth
   dc: wd1
   site: EXT
+- name: Carrier Global
+  ats: workday
+  tenant: carrier
+  dc: wd5
+  site: jobs
 - name: Caterpillar
   ats: workday
   tenant: cat
@@ -739,11 +737,6 @@
   tenant: hitachi
   dc: wd1
   site: hitachi
-- name: HMH
-  ats: workday
-  tenant: hmhw
-  dc: wd12
-  site: hmh_careers
 - name: HNTB
   ats: workday
   tenant: hntb
@@ -772,6 +765,11 @@
   tenant: humana
   dc: wd5
   site: humana_external_career_site
+- name: Huntington Bancshares
+  ats: workday
+  tenant: huntington
+  dc: wd12
+  site: HNBcareers
 - name: Hy-Vee
   ats: workday
   tenant: hyvee
@@ -1187,6 +1185,9 @@
 - name: Patreon
   ats: ashby
   token: patreon
+- name: Pattern
+  ats: lever
+  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
@@ -1212,6 +1213,9 @@
 - name: PhotoRoom
   ats: ashby
   token: photoroom
+- name: Pilot Company
+  ats: smartrecruiters
+  token: PilotCompany
 - name: PIMCO
   ats: workday
   tenant: pimco
@@ -1332,16 +1336,21 @@
 - name: Rothesay
   ats: greenhouse
   token: rothesaygraduates
-- name: RTX
+- name: RSM
   ats: workday
-  tenant: globalhr
-  dc: wd5
-  site: rec_rtx_ext_gateway
+  tenant: rsm
+  dc: wd1
+  site: RSMCareers
 - name: RTX
   ats: workday
   tenant: globalhr
   dc: wd5
   site: Private_Posting_No_TMP
+- name: RTX
+  ats: workday
+  tenant: globalhr
+  dc: wd5
+  site: rec_rtx_ext_gateway
 - name: Rugged Robotics
   ats: greenhouse
   token: ruggedrobotics
@@ -1355,19 +1364,11 @@
   tenant: ryan
   dc: wd1
   site: Students-Graduates
-- name: S&P Global
-  ats: workday
-  tenant: spgi
-  dc: wd5
-  site: SPGI_Careers
 - name: Saab
   ats: workday
   tenant: saabusa
   dc: wd1
   site: saab_careers
-- name: Sage
-  ats: greenhouse
-  token: sage49
 - name: SailPoint
   ats: workday
   tenant: sailpoint
@@ -1428,6 +1429,9 @@
 - name: Signifyd
   ats: greenhouse
   token: signifyd95
+- name: Simbe Robotics
+  ats: lever
+  token: SimbeRobotics
 - name: Skydio
   ats: ashby
   token: skydio
@@ -1447,6 +1451,11 @@
   tenant: sonyglobal
   dc: wd1
   site: Sony_Europe_Careers
+- name: SOTI
+  ats: workday
+  tenant: soti
+  dc: wd3
+  site: SOTI-Next-Gen
 - name: SouthState Bank
   ats: workday
   tenant: southstatebank
@@ -1455,6 +1464,9 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
+- name: Stand Together
+  ats: lever
+  token: standtogether
 - name: Stanley Black & Decker
   ats: workday
   tenant: sbdinc
@@ -1482,6 +1494,11 @@
   tenant: stryker
   dc: wd1
   site: StrykerCareers
+- name: Sun Life
+  ats: workday
+  tenant: sunlife
+  dc: wd3
+  site: Experienced-Jobs
 - name: Sun Life
   ats: workday
   tenant: sunlife
@@ -1588,6 +1605,11 @@
   tenant: thrivent
   dc: wd5
   site: external
+- name: TIAA
+  ats: workday
+  tenant: tiaa
+  dc: wd1
+  site: Search
 - name: Tide
   ats: greenhouse
   token: tide
@@ -1638,6 +1660,9 @@
   tenant: hcmportal
   dc: wd5
   site: Search
+- name: Upscale AI
+  ats: lever
+  token: upscale-ai
 - name: Vanguard
   ats: workday
   tenant: vanguard
