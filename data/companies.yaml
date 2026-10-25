@@ -346,9 +346,6 @@
   tenant: clarios
   dc: wd5
   site: clarioscareers
-- name: Cloudflare
-  ats: greenhouse
-  token: cloudflare
 - name: Cognex
   ats: workday
   tenant: cognex
@@ -1177,6 +1174,9 @@
 - name: Patreon
   ats: ashby
   token: patreon
+- name: Pattern
+  ats: lever
+  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
