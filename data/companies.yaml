@@ -362,9 +362,6 @@
   tenant: commercebank
   dc: wd1
   site: CommerceJobs
-- name: Compeer Financial
-  ats: greenhouse
-  token: compeerfinancial
 - name: CoStar Group
   ats: workday
   tenant: costar
@@ -511,6 +508,9 @@
   tenant: elevancehealth
   dc: wd1
   site: ELV-ET
+- name: Elk Valley Resources
+  ats: lever
+  token: evr
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -576,9 +576,6 @@
   tenant: fhlbc
   dc: wd1
   site: search
-- name: Field AI
-  ats: lever
-  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -611,9 +608,6 @@
   tenant: gresearch
   dc: wd103
   site: G-Research
-- name: Gallup
-  ats: greenhouse
-  token: gallup
 - name: Garda Capital Partners
   ats: greenhouse
   token: gardacp
@@ -1586,9 +1580,6 @@
   tenant: ttc
   dc: wd1
   site: Toro_External_Careers
-- name: The Voleon Group
-  ats: ashby
-  token: voleon
 - name: Thrivent
   ats: workday
   tenant: thrivent
@@ -1671,9 +1662,6 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
-- name: Verkada
-  ats: greenhouse
-  token: verkada
 - name: Vermeer
   ats: workday
   tenant: vermeer
