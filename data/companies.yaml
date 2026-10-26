@@ -37,11 +37,6 @@
 - name: Airbnb
   ats: greenhouse
   token: airbnb
-- name: Airbus
-  ats: workday
-  tenant: ag
-  dc: wd3
-  site: Airbus
 - name: Airtable
   ats: greenhouse
   token: airtable
@@ -357,11 +352,6 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
-- name: Commerce Bank
-  ats: workday
-  tenant: commercebank
-  dc: wd1
-  site: CommerceJobs
 - name: CoStar Group
   ats: workday
   tenant: costar
@@ -388,11 +378,6 @@
   tenant: covestro
   dc: wd3
   site: cov_external
-- name: Cox
-  ats: workday
-  tenant: cox
-  dc: wd1
-  site: Cox_External_Career_Site_1
 - name: Creative Artists Agency
   ats: workday
   tenant: caa
@@ -503,11 +488,6 @@
   tenant: elanco
   dc: wd5
   site: External_Career
-- name: Elevance Health
-  ats: workday
-  tenant: elevancehealth
-  dc: wd1
-  site: ELV-ET
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -603,6 +583,11 @@
 - name: Freestone Capital Management
   ats: greenhouse
   token: freestonecapitalmanagement
+- name: FTI Consulting
+  ats: workday
+  tenant: fticonsulting
+  dc: wd108
+  site: FTIConsultingCareers
 - name: G-Research
   ats: workday
   tenant: gresearch
@@ -948,11 +933,6 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_adminJobs
-- name: Manulife Financial
-  ats: workday
-  tenant: manulife
-  dc: wd3
-  site: MFCJH_Jobs
 - name: Marsh
   ats: workday
   tenant: mmc
@@ -1275,9 +1255,6 @@
 - name: Relay
   ats: greenhouse
   token: relaypro
-- name: Renesas Electronics
-  ats: smartrecruiters
-  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1588,11 +1565,6 @@
   tenant: thrivent
   dc: wd5
   site: external
-- name: TIAA
-  ats: workday
-  tenant: tiaa
-  dc: wd1
-  site: Search
 - name: Tide
   ats: greenhouse
   token: tide
