@@ -346,6 +346,9 @@
   tenant: clarios
   dc: wd5
   site: clarioscareers
+- name: Cloudflare
+  ats: greenhouse
+  token: cloudflare
 - name: Cognex
   ats: workday
   tenant: cognex
@@ -505,9 +508,6 @@
   tenant: elevancehealth
   dc: wd1
   site: ELV-ET
-- name: Elk Valley Resources
-  ats: lever
-  token: evr
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -1719,9 +1719,6 @@
 - name: Western Digital
   ats: smartrecruiters
   token: WesternDigital
-- name: WhiteWater Midstream
-  ats: greenhouse
-  token: whitewatermidstream
 - name: WisdomTree
   ats: lever
   token: wisdomtree
