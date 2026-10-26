@@ -21,6 +21,11 @@
 - name: AECOM
   ats: smartrecruiters
   token: AECOM2
+- name: Aegon Asset Management
+  ats: workday
+  tenant: transamerica
+  dc: wd5
+  site: AUK_JobSite
 - name: AeroVironment
   ats: workday
   tenant: avav
@@ -488,6 +493,11 @@
   tenant: elanco
   dc: wd5
   site: External_Career
+- name: Elevance Health
+  ats: workday
+  tenant: elevancehealth
+  dc: wd1
+  site: ELV-ET
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -596,9 +606,6 @@
 - name: Gallup
   ats: greenhouse
   token: gallup
-- name: Garda Capital Partners
-  ats: greenhouse
-  token: gardacp
 - name: GCM Grosvenor
   ats: greenhouse
   token: gcmgrosvenor
@@ -731,11 +738,6 @@
   tenant: hntb
   dc: wd5
   site: hntb_careers
-- name: Houlihan Lokey
-  ats: workday
-  tenant: hl
-  dc: wd1
-  site: Campus
 - name: HP Inc.
   ats: workday
   tenant: hp
@@ -754,11 +756,6 @@
   tenant: huntington
   dc: wd12
   site: HNBcareers
-- name: Hy-Vee
-  ats: workday
-  tenant: hyvee
-  dc: wd1
-  site: HyVeeCareers
 - name: IAT Insurance Group
   ats: workday
   tenant: iatinsurancegroup
@@ -822,6 +819,11 @@
   tenant: smucker
   dc: wd5
   site: US_External_Careers
+- name: Jabil
+  ats: workday
+  tenant: jabil
+  dc: wd5
+  site: Jabil_Careers
 - name: Jain Global
   ats: workday
   tenant: jainglobal
@@ -1154,9 +1156,6 @@
 - name: Patreon
   ats: ashby
   token: patreon
-- name: Pattern
-  ats: lever
-  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
@@ -1212,6 +1211,11 @@
 - name: Protective Life
   ats: lever
   token: protective
+- name: PTC
+  ats: workday
+  tenant: ptc
+  dc: wd1
+  site: ptc
 - name: Pure Storage
   ats: greenhouse
   token: purestorage
@@ -1299,6 +1303,16 @@
 - name: Rothesay
   ats: greenhouse
   token: rothesaygraduates
+- name: Royal Bank of Canada
+  ats: workday
+  tenant: rbc
+  dc: wd3
+  site: RBCEARLYTALENT1
+- name: Royal Bank of Canada
+  ats: workday
+  tenant: rbc
+  dc: wd3
+  site: rbcglobal1
 - name: RSM
   ats: workday
   tenant: rsm
@@ -1381,11 +1395,6 @@
   tenant: snc
   dc: wd1
   site: snc_external_career_site
-- name: Sierra Space
-  ats: workday
-  tenant: sierraspace
-  dc: wd1
-  site: Sierra_Space_External_Career_Site
 - name: Sigma Computing
   ats: greenhouse
   token: sigmacomputing
@@ -1446,9 +1455,6 @@
 - name: Steel
   ats: ashby
   token: steel
-- name: STR
-  ats: greenhouse
-  token: systemstechnologyresearch
 - name: Stripe
   ats: greenhouse
   token: stripe
@@ -1512,9 +1518,6 @@
 - name: TELUS Digital
   ats: ashby
   token: telus-digital
-- name: Tessera Labs
-  ats: ashby
-  token: tessera-labs
 - name: Thales
   ats: workday
   tenant: thales
@@ -1544,11 +1547,6 @@
   tenant: thehartford
   dc: wd5
   site: Careers_External
-- name: The Home Depot
-  ats: workday
-  tenant: homedepot
-  dc: wd5
-  site: careerdepot
 - name: The MJ Companies
   ats: greenhouse
   token: themjcos
