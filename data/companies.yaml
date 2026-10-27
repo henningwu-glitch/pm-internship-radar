@@ -109,9 +109,6 @@
 - name: Apera AI
   ats: greenhouse
   token: aperaaiinc
-- name: Apex
-  ats: ashby
-  token: apex-technology-inc
 - name: Apple Bank
   ats: workday
   tenant: applebank
@@ -163,6 +160,9 @@
 - name: Atoms
   ats: greenhouse
   token: cssmerge
+- name: Aurora Innovation
+  ats: ashby
+  token: aurora-operations-inc
 - name: Auto-Owners Insurance
   ats: workday
   tenant: aoins
@@ -261,11 +261,6 @@
 - name: Brex
   ats: greenhouse
   token: brex
-- name: Bristol Myers Squibb
-  ats: workday
-  tenant: bristolmyerssquibb
-  dc: wd5
-  site: bms
 - name: Burlington Stores
   ats: workday
   tenant: burlington
@@ -583,9 +578,6 @@
   tenant: fhlbc
   dc: wd1
   site: search
-- name: Field AI
-  ats: lever
-  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -665,9 +657,6 @@
   tenant: gnw
   dc: wd1
   site: GNW
-- name: Glean
-  ats: greenhouse
-  token: gleanwork
 - name: GlobalFoundries
   ats: workday
   tenant: globalfoundries
@@ -722,9 +711,6 @@
 - name: Hadrian
   ats: ashby
   token: hadrian-automation
-- name: Harvey
-  ats: ashby
-  token: harvey
 - name: Hermeus
   ats: lever
   token: hermeus
@@ -860,6 +846,11 @@
   tenant: jainglobal
   dc: wd5
   site: ExternalSite
+- name: JM Family
+  ats: workday
+  tenant: jmfamily
+  dc: wd1
+  site: jmfamily_external
 - name: Johnson & Johnson
   ats: workday
   tenant: jj
@@ -1049,11 +1040,6 @@
 - name: Monzo
   ats: greenhouse
   token: monzo
-- name: Moog
-  ats: workday
-  tenant: moog
-  dc: wd5
-  site: moog_external_career_site
 - name: Motorola
   ats: workday
   tenant: motorolasolutions
@@ -1112,6 +1098,9 @@
   tenant: newrez
   dc: wd1
   site: NRZ
+- name: Niantic Spatial
+  ats: ashby
+  token: niantic-spatial
 - name: Nissan Global
   ats: workday
   tenant: alliance
@@ -1423,9 +1412,6 @@
 - name: ServiceNow
   ats: smartrecruiters
   token: ServiceNow
-- name: Shield AI
-  ats: lever
-  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
@@ -1706,6 +1692,16 @@
 - name: Viking Global
   ats: greenhouse
   token: vikingglobalinvestors
+- name: Visa
+  ats: workday
+  tenant: visa
+  dc: wd5
+  site: Visa_Early_Careers
+- name: Visa
+  ats: workday
+  tenant: visa
+  dc: wd5
+  site: Visa
 - name: Waabi
   ats: lever
   token: waabi
