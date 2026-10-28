@@ -13,6 +13,11 @@
   tenant: abb
   dc: wd3
   site: external_career_page
+- name: Ace Hardware
+  ats: workday
+  tenant: acehardware
+  dc: wd1
+  site: External
 - name: Adobe
   ats: workday
   tenant: adobe
@@ -94,9 +99,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -179,12 +181,12 @@
   ats: workday
   tenant: autodesk
   dc: wd1
-  site: Ext
+  site: uni
 - name: Autodesk
   ats: workday
   tenant: autodesk
   dc: wd1
-  site: uni
+  site: Ext
 - name: Avis Budget Group
   ats: workday
   tenant: avisbudget
@@ -1256,6 +1258,9 @@
   tenant: pg
   dc: wd5
   site: '1000'
+- name: Protective Life
+  ats: lever
+  token: protective
 - name: PTC
   ats: workday
   tenant: ptc
@@ -1433,6 +1438,9 @@
 - name: Shield AI
   ats: ashby
   token: f7d8749a-72d6-407c-bf98-292ea630c73a
+- name: Shield AI
+  ats: lever
+  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
@@ -1534,9 +1542,6 @@
   tenant: synchronyfinancial
   dc: wd5
   site: University
-- name: Syngenta Group
-  ats: smartrecruiters
-  token: SyngentaGroup
 - name: Synthesia
   ats: ashby
   token: synthesia
