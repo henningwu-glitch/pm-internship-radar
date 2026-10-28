@@ -122,6 +122,11 @@
 - name: Armadin
   ats: ashby
   token: armadin
+- name: Arrowstreet Capital
+  ats: workday
+  tenant: arrowstreetcapital
+  dc: wd5
+  site: Campus_Careers
 - name: Asana
   ats: greenhouse
   token: asana
@@ -138,6 +143,11 @@
   tenant: assurant
   dc: wd1
   site: Assurant_Careers
+- name: Assurant
+  ats: workday
+  tenant: assurant
+  dc: wd1
+  site: External_Limited_Posting
 - name: Astranis
   ats: greenhouse
   token: astranis
@@ -312,9 +322,6 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
-- name: CesiumAstro
-  ats: lever
-  token: CesiumAstro
 - name: Charter Manufacturing
   ats: workday
   tenant: chartermfg
@@ -364,6 +371,9 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
+- name: Commonwealth Fusion Systems
+  ats: lever
+  token: cfsenergy
 - name: CoStar Group
   ats: workday
   tenant: costar
@@ -395,6 +405,11 @@
   tenant: caa
   dc: wd1
   site: Careers
+- name: CSAA Insurance Group
+  ats: workday
+  tenant: aaaie
+  dc: wd1
+  site: CSAACareers2
 - name: Cursor
   ats: ashby
   token: cursor
@@ -428,6 +443,11 @@
 - name: Datadog
   ats: greenhouse
   token: datadog
+- name: David Yurman
+  ats: workday
+  tenant: davidyurman
+  dc: wd1
+  site: DavidYurmanCareers
 - name: Decagon
   ats: ashby
   token: decagon
@@ -575,6 +595,11 @@
   tenant: fhlbc
   dc: wd1
   site: search
+- name: Fidelity Investments
+  ats: workday
+  tenant: fmr
+  dc: wd1
+  site: targeted
 - name: Field AI
   ats: lever
   token: field-ai
@@ -1080,11 +1105,6 @@
   tenant: nelnet
   dc: wd1
   site: MyNelnet
-- name: Neuberger Berman
-  ats: workday
-  tenant: nb
-  dc: wd1
-  site: NBCareers
 - name: New York Mets
   ats: workday
   tenant: sterlingmets
@@ -1123,6 +1143,11 @@
   tenant: nvidia
   dc: wd5
   site: NVIDIAExternalCareerSite
+- name: NXP Semiconductors
+  ats: workday
+  tenant: nxp
+  dc: wd3
+  site: careers
 - name: OCC
   ats: workday
   tenant: theocc
@@ -1233,6 +1258,9 @@
   tenant: pg
   dc: wd5
   site: '1000'
+- name: Protective Life
+  ats: lever
+  token: protective
 - name: PTC
   ats: workday
   tenant: ptc
@@ -1377,12 +1405,12 @@
   ats: workday
   tenant: salesforce
   dc: wd12
-  site: External_Career_Site
+  site: Futureforce_Internships
 - name: Salesforce
   ats: workday
   tenant: salesforce
   dc: wd12
-  site: Futureforce_Internships
+  site: External_Career_Site
 - name: Saronic
   ats: ashby
   token: saronic
@@ -1438,6 +1466,11 @@
 - name: Solidigm
   ats: smartrecruiters
   token: Solidigm
+- name: Sonos
+  ats: workday
+  tenant: sonos
+  dc: wd1
+  site: Sonos
 - name: Sony
   ats: workday
   tenant: sonyglobal
@@ -1543,6 +1576,9 @@
 - name: TELUS Digital
   ats: ashby
   token: telus-digital
+- name: Tessera Labs
+  ats: ashby
+  token: tessera-labs
 - name: Thales
   ats: workday
   tenant: thales
