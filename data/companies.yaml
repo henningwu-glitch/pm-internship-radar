@@ -3,11 +3,6 @@
   tenant: 3m
   dc: wd1
   site: Search
-- name: 7-Eleven
-  ats: workday
-  tenant: my7elevenhr
-  dc: wd12
-  site: Careers
 - name: ABB
   ats: workday
   tenant: abb
@@ -88,11 +83,6 @@
   tenant: amfam
   dc: wd1
   site: AmFamGroupInternCareers
-- name: Amgen
-  ats: workday
-  tenant: amgen
-  dc: wd1
-  site: careers
 - name: Amplify
   ats: ashby
   token: amplify
@@ -314,6 +304,11 @@
   tenant: cat
   dc: wd5
   site: CaterpillarCareers
+- name: Cenovus Energy
+  ats: workday
+  tenant: cenovus
+  dc: wd3
+  site: careers
 - name: Cerity Partners
   ats: workday
   tenant: ceritypartners
@@ -677,6 +672,9 @@
   tenant: generalmotors
   dc: wd5
   site: Careers_GM
+- name: Genesis Molecular AI
+  ats: ashby
+  token: genesis-molecular-ai
 - name: Genworth Financial
   ats: workday
   tenant: gnw
@@ -828,11 +826,6 @@
 - name: Instacart
   ats: greenhouse
   token: instacart
-- name: Insulet
-  ats: workday
-  tenant: insulet
-  dc: wd5
-  site: insuletcareers
 - name: Integrate
   ats: ashby
   token: integrate
@@ -841,6 +834,9 @@
   tenant: intel
   dc: wd1
   site: external
+- name: Intuitive Surgical
+  ats: smartrecruiters
+  token: Intuitive
 - name: Inversion Space
   ats: greenhouse
   token: inversionspace
@@ -1078,11 +1074,6 @@
 - name: Muon Space
   ats: greenhouse
   token: muonspace
-- name: Nasdaq
-  ats: workday
-  tenant: nasdaq
-  dc: wd1
-  site: Global_External_Site
 - name: National Information Solutions Cooperative
   ats: greenhouse
   token: nisc
@@ -1304,6 +1295,9 @@
 - name: Relay
   ats: greenhouse
   token: relaypro
+- name: Renesas Electronics
+  ats: smartrecruiters
+  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1312,6 +1306,11 @@
   tenant: rjet
   dc: wd108
   site: External_Career_Site
+- name: Revantage Corporate Services
+  ats: workday
+  tenant: revantage
+  dc: wd1
+  site: Revantage
 - name: Revel
   ats: ashby
   token: revel
@@ -1487,6 +1486,9 @@
   tenant: soti
   dc: wd3
   site: SOTI-Next-Gen
+- name: SoundExchange
+  ats: greenhouse
+  token: sxinternships
 - name: SouthState Bank
   ats: workday
   tenant: southstatebank
@@ -1542,15 +1544,28 @@
   tenant: synchronyfinancial
   dc: wd5
   site: University
+- name: Syngenta Group
+  ats: smartrecruiters
+  token: SyngentaGroup
 - name: Synthesia
   ats: ashby
   token: synthesia
+- name: T-Mobile
+  ats: workday
+  tenant: tmobile
+  dc: wd1
+  site: External
 - name: Talos
   ats: ashby
   token: Talos-Trading
 - name: Tanium
   ats: greenhouse
   token: tanium
+- name: Tapestry
+  ats: workday
+  tenant: tapestry
+  dc: wd108
+  site: Tapestry_Careers
 - name: Tarrant Regional Water District
   ats: workday
   tenant: trwd
@@ -1678,6 +1693,11 @@
 - name: Upscale AI
   ats: lever
   token: upscale-ai
+- name: USAA
+  ats: workday
+  tenant: usaa
+  dc: wd1
+  site: USAAJOBSWD
 - name: Vanguard
   ats: workday
   tenant: vanguard
@@ -1763,9 +1783,6 @@
 - name: Western Digital
   ats: smartrecruiters
   token: WesternDigital
-- name: WisdomTree
-  ats: lever
-  token: wisdomtree
 - name: Wise
   ats: greenhouse
   token: wise
