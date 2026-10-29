@@ -146,6 +146,9 @@
 - name: Astranis
   ats: greenhouse
   token: astranis
+- name: Astronics
+  ats: greenhouse
+  token: astronicscorporation
 - name: Athene
   ats: workday
   tenant: athene
@@ -203,6 +206,11 @@
   tenant: baird
   dc: wd1
   site: careers
+- name: Bank of Montreal
+  ats: workday
+  tenant: bmo
+  dc: wd3
+  site: External
 - name: Barclays
   ats: workday
   tenant: barclays
@@ -297,11 +305,6 @@
   tenant: cardinalhealth
   dc: wd1
   site: EXT
-- name: Carrier Global
-  ats: workday
-  tenant: carrier
-  dc: wd5
-  site: jobs
 - name: Caterpillar
   ats: workday
   tenant: cat
@@ -740,9 +743,6 @@
 - name: Hadrian
   ats: ashby
   token: hadrian-automation
-- name: Hermeus
-  ats: lever
-  token: hermeus
 - name: Hewlett Packard Enterprise
   ats: workday
   tenant: hpe
@@ -1094,11 +1094,6 @@
 - name: National Life
   ats: greenhouse
   token: nationallifeinsurancecompany
-- name: Nationwide
-  ats: workday
-  tenant: nationwide
-  dc: wd1
-  site: Nationwide_Career
 - name: NBCUniversal
   ats: smartrecruiters
   token: NBCUniversal3
@@ -1161,9 +1156,15 @@
 - name: Okta
   ats: greenhouse
   token: okta
+- name: OLIX
+  ats: ashby
+  token: olix
 - name: ONE Finance
   ats: ashby
   token: oneapp
+- name: OneEthos
+  ats: greenhouse
+  token: oneethos
 - name: OpenAI
   ats: ashby
   token: openai
@@ -1205,9 +1206,6 @@
 - name: Parallel Systems
   ats: greenhouse
   token: parallel
-- name: Parallel Wireless
-  ats: lever
-  token: parallelwireless
 - name: Patreon
   ats: ashby
   token: patreon
@@ -1222,6 +1220,11 @@
   tenant: psu
   dc: wd1
   site: PSU_Staff
+- name: Pernod Ricard, créateurs de convivialité
+  ats: workday
+  tenant: pernodricard
+  dc: wd3
+  site: pernod-ricard
 - name: Perpay
   ats: greenhouse
   token: perpay
@@ -1260,9 +1263,6 @@
   tenant: pg
   dc: wd5
   site: '1000'
-- name: Protective Life
-  ats: lever
-  token: protective
 - name: PTC
   ats: workday
   tenant: ptc
@@ -1276,6 +1276,9 @@
   tenant: q2ebanking
   dc: wd5
   site: Q2
+- name: Qube Research & Technologies
+  ats: greenhouse
+  token: quberesearchandtechnologies
 - name: Qumulo
   ats: ashby
   token: qumulo
@@ -1364,6 +1367,16 @@
 - name: Rothesay
   ats: greenhouse
   token: rothesaygraduates
+- name: Royal Bank of Canada
+  ats: workday
+  tenant: rbc
+  dc: wd3
+  site: rbcglobal1
+- name: Royal Bank of Canada
+  ats: workday
+  tenant: rbc
+  dc: wd3
+  site: RBCEARLYTALENT1
 - name: RSM
   ats: workday
   tenant: rsm
@@ -1415,9 +1428,6 @@
 - name: Saronic
   ats: ashby
   token: saronic
-- name: Saviynt
-  ats: lever
-  token: saviynt
 - name: Scale AI
   ats: greenhouse
   token: scaleai
@@ -1760,9 +1770,6 @@
   tenant: vsp
   dc: wd1
   site: vspvisioncareers
-- name: Waabi
-  ats: lever
-  token: waabi
 - name: Walmart
   ats: workday
   tenant: walmart
