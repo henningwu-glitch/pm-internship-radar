@@ -89,6 +89,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -699,6 +702,9 @@
 - name: Graphcore
   ats: greenhouse
   token: graphcore
+- name: Graphcore
+  ats: greenhouse
+  token: graphcore-early-careers
 - name: Graviton
   ats: greenhouse
   token: gravitonresearchcapital
@@ -773,6 +779,11 @@
   tenant: hntb
   dc: wd5
   site: hntb_careers
+- name: HP Inc.
+  ats: workday
+  tenant: hp
+  dc: wd5
+  site: EXTEU-AC-CareerSite
 - name: HP Inc.
   ats: workday
   tenant: hp
@@ -1295,6 +1306,12 @@
 - name: Relay
   ats: greenhouse
   token: relaypro
+- name: Remote
+  ats: greenhouse
+  token: remotecom
+- name: Rendezvous Robotics
+  ats: greenhouse
+  token: rendezvousrobotics
 - name: Renesas Electronics
   ats: smartrecruiters
   token: RenesasElectronics
@@ -1347,16 +1364,6 @@
 - name: Rothesay
   ats: greenhouse
   token: rothesaygraduates
-- name: Royal Bank of Canada
-  ats: workday
-  tenant: rbc
-  dc: wd3
-  site: rbcglobal1
-- name: Royal Bank of Canada
-  ats: workday
-  tenant: rbc
-  dc: wd3
-  site: RBCEARLYTALENT1
 - name: RSM
   ats: workday
   tenant: rsm
@@ -1437,9 +1444,6 @@
 - name: Shield AI
   ats: ashby
   token: f7d8749a-72d6-407c-bf98-292ea630c73a
-- name: Shield AI
-  ats: lever
-  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
