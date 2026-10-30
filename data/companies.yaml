@@ -178,11 +178,6 @@
   tenant: autodesk
   dc: wd1
   site: uni
-- name: Autodesk
-  ats: workday
-  tenant: autodesk
-  dc: wd1
-  site: Ext
 - name: Avis Budget Group
   ats: workday
   tenant: avisbudget
@@ -245,11 +240,6 @@
   tenant: blueorigin
   dc: wd5
   site: blueorigin
-- name: BlueCross BlueShield of Nebraska
-  ats: workday
-  tenant: nebraskablue
-  dc: wd1
-  site: BCBSNE
 - name: Booz Allen
   ats: workday
   tenant: bah
@@ -300,11 +290,11 @@
 - name: CapTech Consulting
   ats: smartrecruiters
   token: CapTechConsulting
-- name: Cardinal Health
+- name: CareSource
   ats: workday
-  tenant: cardinalhealth
+  tenant: caresource
   dc: wd1
-  site: EXT
+  site: caresource
 - name: Caterpillar
   ats: workday
   tenant: cat
@@ -315,6 +305,11 @@
   tenant: cenovus
   dc: wd3
   site: careers
+- name: Centene
+  ats: workday
+  tenant: centene
+  dc: wd5
+  site: Centene_External
 - name: Cerity Partners
   ats: workday
   tenant: ceritypartners
@@ -449,6 +444,11 @@
 - name: Decagon
   ats: ashby
   token: decagon
+- name: Dee Zee
+  ats: workday
+  tenant: deezee
+  dc: wd108
+  site: DeeZee_Careers
 - name: Deliveroo
   ats: greenhouse
   token: deliveroo
@@ -462,11 +462,6 @@
   tenant: dimensional
   dc: wd5
   site: dfa_careers
-- name: DIRECTV
-  ats: workday
-  tenant: directv
-  dc: wd1
-  site: careers
 - name: Discord
   ats: greenhouse
   token: discord
@@ -485,12 +480,12 @@
   ats: workday
   tenant: draftkings
   dc: wd1
-  site: Campus_Career_Portal
+  site: Employee_Referral_Portal
 - name: DraftKings
   ats: workday
   tenant: draftkings
   dc: wd1
-  site: Employee_Referral_Portal
+  site: Campus_Career_Portal
 - name: Draper
   ats: workday
   tenant: draper
@@ -601,9 +596,6 @@
   tenant: fmr
   dc: wd1
   site: targeted
-- name: Field AI
-  ats: lever
-  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -644,6 +636,9 @@
 - name: Gallup
   ats: greenhouse
   token: gallup
+- name: Garda Capital Partners
+  ats: greenhouse
+  token: gardacp
 - name: GCM Grosvenor
   ats: greenhouse
   token: gcmgrosvenor
@@ -681,6 +676,9 @@
 - name: Genesis Molecular AI
   ats: ashby
   token: genesis-molecular-ai
+- name: Genius AI
+  ats: ashby
+  token: geniusai
 - name: Genworth Financial
   ats: workday
   tenant: gnw
@@ -743,6 +741,9 @@
 - name: Hadrian
   ats: ashby
   token: hadrian-automation
+- name: Hermeus
+  ats: lever
+  token: hermeus
 - name: Hewlett Packard Enterprise
   ats: workday
   tenant: hpe
@@ -966,6 +967,9 @@
 - name: LinkedIn
   ats: smartrecruiters
   token: LinkedIn3
+- name: Loft Orbital
+  ats: lever
+  token: loftorbital
 - name: Lowe's
   ats: workday
   tenant: lowes
@@ -1022,11 +1026,6 @@
   tenant: mckesson
   dc: wd3
   site: External_Careers
-- name: Medline
-  ats: workday
-  tenant: medline
-  dc: wd5
-  site: Medline
 - name: MegazoneCloud
   ats: ashby
   token: megazone
@@ -1206,9 +1205,18 @@
 - name: Parallel Systems
   ats: greenhouse
   token: parallel
+- name: Parallel Wireless
+  ats: lever
+  token: parallelwireless
+- name: Path Robotics
+  ats: greenhouse
+  token: pathrobotics
 - name: Patreon
   ats: ashby
   token: patreon
+- name: Pattern
+  ats: lever
+  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
@@ -1263,6 +1271,9 @@
   tenant: pg
   dc: wd5
   site: '1000'
+- name: Protective Life
+  ats: lever
+  token: protective
 - name: PTC
   ats: workday
   tenant: ptc
@@ -1405,11 +1416,6 @@
   tenant: ryan
   dc: wd1
   site: Students-Graduates
-- name: Saab
-  ats: workday
-  tenant: saabusa
-  dc: wd1
-  site: saab_careers
 - name: SailPoint
   ats: workday
   tenant: sailpoint
@@ -1425,9 +1431,17 @@
   tenant: salesforce
   dc: wd12
   site: External_Career_Site
+- name: Sanofi
+  ats: workday
+  tenant: sanofi
+  dc: wd3
+  site: SanofiCareers
 - name: Saronic
   ats: ashby
   token: saronic
+- name: Saviynt
+  ats: lever
+  token: saviynt
 - name: Scale AI
   ats: greenhouse
   token: scaleai
@@ -1454,6 +1468,9 @@
 - name: Shield AI
   ats: ashby
   token: f7d8749a-72d6-407c-bf98-292ea630c73a
+- name: Shield AI
+  ats: lever
+  token: shieldai
 - name: Sierra
   ats: ashby
   token: Sierra
@@ -1542,12 +1559,12 @@
   ats: workday
   tenant: sunlife
   dc: wd3
-  site: Experienced-Jobs
+  site: Campus
 - name: Sun Life
   ats: workday
   tenant: sunlife
   dc: wd3
-  site: Campus
+  site: Experienced-Jobs
 - name: Symbotic
   ats: workday
   tenant: symbotic
@@ -1770,6 +1787,9 @@
   tenant: vsp
   dc: wd1
   site: vspvisioncareers
+- name: Waabi
+  ats: lever
+  token: waabi
 - name: Walmart
   ats: workday
   tenant: walmart
