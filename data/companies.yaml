@@ -188,6 +188,9 @@
   tenant: axiomspace
   dc: wd5
   site: External_Career_Site
+- name: Axon
+  ats: greenhouse
+  token: axontalentcommunity
 - name: AXQ Capital
   ats: greenhouse
   token: axq
@@ -271,6 +274,9 @@
   tenant: chrobinson
   dc: wd5
   site: CHRobinson
+- name: C3.ai
+  ats: greenhouse
+  token: c3ascend
 - name: CACI
   ats: workday
   tenant: caci
@@ -305,11 +311,6 @@
   tenant: cenovus
   dc: wd3
   site: careers
-- name: Centene
-  ats: workday
-  tenant: centene
-  dc: wd5
-  site: Centene_External
 - name: Cerity Partners
   ats: workday
   tenant: ceritypartners
@@ -596,6 +597,9 @@
   tenant: fmr
   dc: wd1
   site: targeted
+- name: Field AI
+  ats: lever
+  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -625,9 +629,6 @@
   tenant: fticonsulting
   dc: wd108
   site: FTIConsultingCareers
-- name: FUTO
-  ats: lever
-  token: futo-org
 - name: G-Research
   ats: workday
   tenant: gresearch
@@ -830,6 +831,9 @@
 - name: incident.io
   ats: ashby
   token: incident
+- name: InfiniteQuant
+  ats: smartrecruiters
+  token: InfiniteQuant
 - name: Ingredion
   ats: workday
   tenant: ingredion
@@ -980,11 +984,6 @@
   tenant: lseg
   dc: wd3
   site: Graduate_Careers
-- name: LSEG
-  ats: workday
-  tenant: lseg
-  dc: wd3
-  site: Careers
 - name: Lyft
   ats: greenhouse
   token: lyft
@@ -1096,6 +1095,9 @@
 - name: NBCUniversal
   ats: smartrecruiters
   token: NBCUniversal3
+- name: Ncino
+  ats: greenhouse
+  token: ncinoearlytalent
 - name: Neighbor
   ats: lever
   token: neighbor
@@ -1186,9 +1188,6 @@
   tenant: pacificlife
   dc: wd1
   site: PacificLifeCareers
-- name: Palantir Technologies
-  ats: lever
-  token: palantir
 - name: PanAgora
   ats: workday
   tenant: empower
@@ -1485,9 +1484,6 @@
 - name: Signifyd
   ats: greenhouse
   token: signifyd95
-- name: Simbe Robotics
-  ats: lever
-  token: SimbeRobotics
 - name: Skydio
   ats: ashby
   token: skydio
@@ -1502,11 +1498,6 @@
   tenant: sonos
   dc: wd1
   site: Sonos
-- name: Sony
-  ats: workday
-  tenant: sonyglobal
-  dc: wd1
-  site: SonyGlobalCareers
 - name: Sony
   ats: workday
   tenant: sonyglobal
@@ -1547,6 +1538,9 @@
 - name: Steel
   ats: ashby
   token: steel
+- name: Stratolaunch
+  ats: greenhouse
+  token: stratolaunch
 - name: Stripe
   ats: greenhouse
   token: stripe
@@ -1658,11 +1652,6 @@
   tenant: ttc
   dc: wd1
   site: Toro_External_Careers
-- name: Thermo Fisher Scientific
-  ats: workday
-  tenant: thermofisher
-  dc: wd5
-  site: ThermoFisherCareers
 - name: Thrivent
   ats: workday
   tenant: thrivent
@@ -1782,6 +1771,9 @@
   tenant: visa
   dc: wd5
   site: Visa_Early_Careers
+- name: Voyager Technologies
+  ats: greenhouse
+  token: voyagertechnologiesinc
 - name: VSP Vision
   ats: workday
   tenant: vsp
