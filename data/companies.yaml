@@ -180,9 +180,6 @@
   tenant: axiomspace
   dc: wd5
   site: External_Career_Site
-- name: Axon
-  ats: greenhouse
-  token: axontalentcommunity
 - name: AXQ Capital
   ats: greenhouse
   token: axq
@@ -456,6 +453,9 @@
 - name: Discord
   ats: greenhouse
   token: discord
+- name: Divergent Technologies
+  ats: greenhouse
+  token: divergent
 - name: DoorDash
   ats: greenhouse
   token: doordashusa
@@ -507,11 +507,6 @@
   tenant: elanco
   dc: wd5
   site: External_Career
-- name: Elevance Health
-  ats: workday
-  tenant: elevancehealth
-  dc: wd1
-  site: ELV-ET
 - name: EMC Insurance
   ats: workday
   tenant: emcins
@@ -803,11 +798,6 @@
   tenant: huntington
   dc: wd12
   site: HNBcareers
-- name: Hy-Vee
-  ats: workday
-  tenant: hyvee
-  dc: wd1
-  site: HyVeeCareers
 - name: Hyster-Yale Materials Handling
   ats: workday
   tenant: hysteryale
@@ -1099,11 +1089,21 @@
   tenant: nelnet
   dc: wd1
   site: MyNelnet
+- name: Netsmart
+  ats: workday
+  tenant: ntst
+  dc: wd1
+  site: careers
 - name: New York Mets
   ats: workday
   tenant: sterlingmets
   dc: wd5
   site: Mets
+- name: NewYork-Presbyterian
+  ats: workday
+  tenant: nyp
+  dc: wd1
+  site: nypcareers
 - name: Niantic Spatial
   ats: ashby
   token: niantic-spatial
@@ -1245,6 +1245,9 @@
 - name: Point72
   ats: greenhouse
   token: point72
+- name: Pretium
+  ats: greenhouse
+  token: pretiuminternships2027
 - name: Primer
   ats: ashby
   token: primer
@@ -1453,9 +1456,6 @@
 - name: Shield AI
   ats: lever
   token: shieldai
-- name: Sierra
-  ats: ashby
-  token: Sierra
 - name: Sierra Nevada Corporation
   ats: workday
   tenant: snc
@@ -1685,11 +1685,6 @@
 - name: Upscale AI
   ats: lever
   token: upscale-ai
-- name: USAA
-  ats: workday
-  tenant: usaa
-  dc: wd1
-  site: USAAJOBSWD
 - name: Vanguard
   ats: workday
   tenant: vanguard
