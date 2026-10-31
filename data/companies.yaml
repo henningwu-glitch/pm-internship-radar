@@ -650,11 +650,6 @@
 - name: Gecko Robotics
   ats: ashby
   token: gecko-robotics
-- name: Genentech
-  ats: workday
-  tenant: roche
-  dc: wd3
-  site: ROG-A2O-GENE
 - name: General Dynamics Information Technology
   ats: workday
   tenant: gdit
@@ -825,9 +820,6 @@
 - name: incident.io
   ats: ashby
   token: incident
-- name: InfiniteQuant
-  ats: smartrecruiters
-  token: InfiniteQuant
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -1427,9 +1419,6 @@
 - name: Saronic
   ats: ashby
   token: saronic
-- name: Saviynt
-  ats: lever
-  token: saviynt
 - name: Scale AI
   ats: greenhouse
   token: scaleai
