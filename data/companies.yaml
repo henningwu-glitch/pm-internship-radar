@@ -23,6 +23,11 @@
   tenant: transamerica
   dc: wd5
   site: AUK_JobSite
+- name: AeroVironment
+  ats: workday
+  tenant: avav
+  dc: wd1
+  site: avav
 - name: AES
   ats: workday
   tenant: aes
@@ -84,6 +89,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -157,9 +165,6 @@
 - name: Atoms
   ats: greenhouse
   token: cssmerge
-- name: Aurora Innovation
-  ats: ashby
-  token: aurora-operations-inc
 - name: Auto-Owners Insurance
   ats: workday
   tenant: aoins
@@ -248,6 +253,9 @@
   tenant: bpinternational
   dc: wd3
   site: bpEarlyCareers
+- name: Brain Co.
+  ats: ashby
+  token: brainco
 - name: Brex
   ats: greenhouse
   token: brex
@@ -334,11 +342,6 @@
   tenant: citi
   dc: wd5
   site: '2'
-- name: Clarios
-  ats: workday
-  tenant: clarios
-  dc: wd5
-  site: clarioscareers
 - name: Cloudflare
   ats: greenhouse
   token: cloudflare
@@ -569,6 +572,9 @@
 - name: Faire
   ats: greenhouse
   token: faire
+- name: Farmers Mutual Hail
+  ats: greenhouse
+  token: farmersmutualhailinsurancecompany
 - name: Federal Home Loan Bank of Indianapolis
   ats: workday
   tenant: fhlbi
@@ -802,6 +808,11 @@
   tenant: hyvee
   dc: wd1
   site: HyVeeCareers
+- name: Hyster-Yale Materials Handling
+  ats: workday
+  tenant: hysteryale
+  dc: wd1
+  site: hyster-yalecareers
 - name: IAT Insurance Group
   ats: workday
   tenant: iatinsurancegroup
@@ -824,11 +835,9 @@
 - name: incident.io
   ats: ashby
   token: incident
-- name: Ingredion
-  ats: workday
-  tenant: ingredion
-  dc: wd1
-  site: IngredionCareers
+- name: InfiniteQuant
+  ats: smartrecruiters
+  token: InfiniteQuant
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -881,6 +890,11 @@
   tenant: jmfamily
   dc: wd1
   site: jmfamily_external
+- name: John D. and Catherine T. MacArthur Foundation
+  ats: workday
+  tenant: macfound
+  dc: wd1
+  site: MAC_FOUND_EXT_CAREERS
 - name: Johnson & Johnson
   ats: workday
   tenant: jj
@@ -1018,9 +1032,6 @@
 - name: MegazoneCloud
   ats: ashby
   token: megazone
-- name: MEMX
-  ats: greenhouse
-  token: memx
 - name: Merck
   ats: workday
   tenant: msd
@@ -1029,11 +1040,6 @@
 - name: Metamorphic
   ats: ashby
   token: metamorphic
-- name: Michelin
-  ats: workday
-  tenant: michelinhr
-  dc: wd3
-  site: Michelin
 - name: Midland States Bank
   ats: workday
   tenant: midlandsb
@@ -1098,11 +1104,6 @@
   tenant: sterlingmets
   dc: wd5
   site: Mets
-- name: Newrez
-  ats: workday
-  tenant: newrez
-  dc: wd1
-  site: NRZ
 - name: Niantic Spatial
   ats: ashby
   token: niantic-spatial
@@ -1200,6 +1201,9 @@
 - name: Patreon
   ats: ashby
   token: patreon
+- name: Pattern
+  ats: lever
+  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
@@ -1230,11 +1234,6 @@
 - name: Pilot Company
   ats: smartrecruiters
   token: PilotCompany
-- name: PIMCO
-  ats: workday
-  tenant: pimco
-  dc: wd1
-  site: pimco-careers
 - name: Pinterest
   ats: greenhouse
   token: pinterest
@@ -1265,6 +1264,9 @@
 - name: Pure Storage
   ats: greenhouse
   token: purestorage
+- name: Pyrotek
+  ats: smartrecruiters
+  token: Pyrotek3
 - name: Q2
   ats: workday
   tenant: q2ebanking
@@ -1471,6 +1473,9 @@
 - name: Skydio
   ats: ashby
   token: skydio
+- name: Snowflake
+  ats: ashby
+  token: snowflake
 - name: SoFi
   ats: greenhouse
   token: sofi
@@ -1501,11 +1506,6 @@
 - name: Stand Together
   ats: lever
   token: standtogether
-- name: Stanley Black & Decker
-  ats: workday
-  tenant: sbdinc
-  dc: wd1
-  site: Stanley_Black_Decker_Career_Site
 - name: State Affairs
   ats: greenhouse
   token: stateaffairs
@@ -1517,6 +1517,9 @@
 - name: Steel
   ats: ashby
   token: steel
+- name: Strada Education Foundation
+  ats: lever
+  token: stradaeducation
 - name: Stratolaunch
   ats: greenhouse
   token: stratolaunch
@@ -1570,11 +1573,6 @@
   tenant: tapestry
   dc: wd108
   site: Tapestry_Careers
-- name: Tarrant Regional Water District
-  ats: workday
-  tenant: trwd
-  dc: wd1
-  site: TRWDCareers
 - name: TD Bank
   ats: workday
   tenant: td
@@ -1655,11 +1653,6 @@
   tenant: transunion
   dc: wd5
   site: TransUnion
-- name: Travelers
-  ats: workday
-  tenant: travelers
-  dc: wd5
-  site: External
 - name: Trimble
   ats: workday
   tenant: trimble
@@ -1716,11 +1709,6 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
-- name: Vermeer
-  ats: workday
-  tenant: vermeer
-  dc: wd5
-  site: externalcareersite
 - name: Vertex Pharmaceuticals
   ats: workday
   tenant: vrtx
