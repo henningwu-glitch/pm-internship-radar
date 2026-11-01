@@ -63,11 +63,6 @@
   tenant: aba
   dc: wd1
   site: aba
-- name: American Century Investments
-  ats: workday
-  tenant: americancentury
-  dc: wd5
-  site: AmericanCenturyInvestments
 - name: American Family Insurance Group
   ats: workday
   tenant: amfam
@@ -807,9 +802,6 @@
 - name: incident.io
   ats: ashby
   token: incident
-- name: InfiniteQuant
-  ats: smartrecruiters
-  token: InfiniteQuant
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -1183,6 +1175,9 @@
 - name: Patreon
   ats: ashby
   token: patreon
+- name: Pattern
+  ats: lever
+  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
