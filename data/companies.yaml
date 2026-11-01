@@ -45,11 +45,6 @@
 - name: Allen Control Systems
   ats: ashby
   token: allen-control-systems
-- name: Allied Solutions
-  ats: workday
-  tenant: alliedsolutions
-  dc: wd501
-  site: Allied_External
 - name: Allstate
   ats: workday
   tenant: allstate
@@ -538,9 +533,6 @@
 - name: EQT Corporation
   ats: greenhouse
   token: eqtcorporation
-- name: Eulerity
-  ats: greenhouse
-  token: eulerity
 - name: Excellus BCBS
   ats: workday
   tenant: lthc
@@ -591,11 +583,6 @@
 - name: Figma
   ats: greenhouse
   token: figma
-- name: First National Bank
-  ats: workday
-  tenant: fnbcorp
-  dc: wd501
-  site: FNBCORP
 - name: Five Rings Capital
   ats: greenhouse
   token: fiveringsllc
@@ -820,6 +807,9 @@
 - name: incident.io
   ats: ashby
   token: incident
+- name: InfiniteQuant
+  ats: smartrecruiters
+  token: InfiniteQuant
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -1193,9 +1183,6 @@
 - name: Patreon
   ats: ashby
   token: patreon
-- name: Pattern
-  ats: lever
-  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
@@ -1419,6 +1406,9 @@
 - name: Saronic
   ats: ashby
   token: saronic
+- name: Saviynt
+  ats: lever
+  token: saviynt
 - name: Scale AI
   ats: greenhouse
   token: scaleai
