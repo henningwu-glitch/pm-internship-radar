@@ -178,11 +178,6 @@
   tenant: badgermeter
   dc: wd5
   site: US_CareerSite
-- name: Baird
-  ats: workday
-  tenant: baird
-  dc: wd1
-  site: careers
 - name: Bank of Montreal
   ats: workday
   tenant: bmo
@@ -283,11 +278,6 @@
   tenant: caresource
   dc: wd1
   site: caresource
-- name: Caterpillar
-  ats: workday
-  tenant: cat
-  dc: wd5
-  site: CaterpillarCareers
 - name: Cenovus Energy
   ats: workday
   tenant: cenovus
@@ -637,9 +627,6 @@
   tenant: gdit
   dc: wd5
   site: gdit_earlytalent
-- name: General Matter
-  ats: greenhouse
-  token: generalmatter
 - name: General Motors
   ats: workday
   tenant: generalmotors
@@ -710,17 +697,6 @@
 - name: Gymshark
   ats: greenhouse
   token: gymshark
-- name: Hadrian
-  ats: ashby
-  token: hadrian-automation
-- name: Hermeus
-  ats: lever
-  token: hermeus
-- name: Hewlett Packard Enterprise
-  ats: workday
-  tenant: hpe
-  dc: wd5
-  site: jobsathpe
 - name: Highmark Health
   ats: workday
   tenant: highmarkhealth
@@ -905,9 +881,6 @@
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
-- name: KnowBe4
-  ats: greenhouse
-  token: knowbe4
 - name: Kyndryl
   ats: workday
   tenant: kyndryl
@@ -973,9 +946,6 @@
   tenant: mmc
   dc: wd1
   site: mmc
-- name: Marshall Wace
-  ats: greenhouse
-  token: mwinternshipprogram
 - name: Marvell
   ats: workday
   tenant: marvell
@@ -1022,11 +992,6 @@
   tenant: modmed
   dc: wd501
   site: ModMed12
-- name: Momentive
-  ats: workday
-  tenant: momentive
-  dc: wd1
-  site: MC
 - name: MongoDB
   ats: greenhouse
   token: mongodb
@@ -1048,10 +1013,10 @@
   token: muonspace
 - name: National Information Solutions Cooperative
   ats: greenhouse
-  token: nisc
+  token: testnisc
 - name: National Information Solutions Cooperative
   ats: greenhouse
-  token: testnisc
+  token: nisc
 - name: National Life
   ats: greenhouse
   token: nationallifeinsurancecompany
@@ -1322,11 +1287,6 @@
 - name: Roblox
   ats: greenhouse
   token: roblox
-- name: Roche
-  ats: workday
-  tenant: roche
-  dc: wd3
-  site: roche-ext
 - name: Rocket Lab USA
   ats: greenhouse
   token: rocketlab
@@ -1433,11 +1393,6 @@
 - name: Shield AI
   ats: lever
   token: shieldai
-- name: Sierra Nevada Corporation
-  ats: workday
-  tenant: snc
-  dc: wd1
-  site: snc_external_career_site
 - name: Sigma Computing
   ats: greenhouse
   token: sigmacomputing
@@ -1480,9 +1435,6 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
-- name: Stand Together
-  ats: lever
-  token: standtogether
 - name: State Affairs
   ats: greenhouse
   token: stateaffairs
@@ -1563,9 +1515,6 @@
 - name: TELUS Digital
   ats: ashby
   token: telus-digital
-- name: Tessera Labs
-  ats: ashby
-  token: tessera-labs
 - name: Thales
   ats: workday
   tenant: thales
@@ -1681,11 +1630,6 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
-- name: Vertex Pharmaceuticals
-  ats: workday
-  tenant: vrtx
-  dc: wd501
-  site: vertex_intern
 - name: Vertex Pharmaceuticals
   ats: workday
   tenant: vrtx
