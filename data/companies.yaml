@@ -79,9 +79,6 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
-- name: Anduril
-  ats: greenhouse
-  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -136,6 +133,9 @@
 - name: Astranis
   ats: greenhouse
   token: astranis
+- name: Astro Mechanica
+  ats: ashby
+  token: astro-mechanica
 - name: Astronics
   ats: greenhouse
   token: astronicscorporation
@@ -170,14 +170,16 @@
   tenant: axiomspace
   dc: wd5
   site: External_Career_Site
-- name: AXQ Capital
-  ats: greenhouse
-  token: axq
 - name: Badger Meter
   ats: workday
   tenant: badgermeter
   dc: wd5
   site: US_CareerSite
+- name: Baird
+  ats: workday
+  tenant: baird
+  dc: wd1
+  site: careers
 - name: Bank of Montreal
   ats: workday
   tenant: bmo
@@ -322,11 +324,6 @@
 - name: Cloudflare
   ats: greenhouse
   token: cloudflare
-- name: Cognex
-  ats: workday
-  tenant: cognex
-  dc: wd1
-  site: External_Career_Site
 - name: Cohesity
   ats: workday
   tenant: cohesity
@@ -343,11 +340,6 @@
   tenant: costar
   dc: wd1
   site: Costar_Campus
-- name: COUNTRY Financial
-  ats: workday
-  tenant: countryfinancial
-  dc: wd5
-  site: COUNTRYCorporateInternships
 - name: Courier Health
   ats: greenhouse
   token: courierhealth
@@ -597,9 +589,6 @@
   tenant: gresearch
   dc: wd103
   site: G-Research
-- name: Gallup
-  ats: greenhouse
-  token: gallup
 - name: Garda Capital Partners
   ats: greenhouse
   token: gardacp
@@ -775,9 +764,6 @@
 - name: Immuta
   ats: lever
   token: immuta
-- name: incident.io
-  ats: ashby
-  token: incident
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -877,15 +863,23 @@
   ats: workday
   tenant: kla
   dc: wd1
+  site: search
+- name: KLA Corporation
+  ats: workday
+  tenant: kla
+  dc: wd1
   site: annarbor
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
-- name: Kyndryl
+- name: KnowBe4
+  ats: greenhouse
+  token: knowbe4
+- name: LabCorp
   ats: workday
-  tenant: kyndryl
-  dc: wd5
-  site: KyndrylEarlyCareers
+  tenant: labcorp
+  dc: wd1
+  site: external
 - name: Lawrence Livermore National Laboratory (LLNL)
   ats: smartrecruiters
   token: LLNL
@@ -936,6 +930,11 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_adminJobs
+- name: Marriott Vacations Worldwide
+  ats: workday
+  tenant: mymvw
+  dc: wd5
+  site: mvw
 - name: Marsh
   ats: workday
   tenant: mmc
@@ -974,6 +973,9 @@
   tenant: msd
   dc: wd5
   site: searchjobs
+- name: Metalenz
+  ats: ashby
+  token: metalenz
 - name: Metamorphic
   ats: ashby
   token: metamorphic
@@ -1087,9 +1089,6 @@
 - name: Okta
   ats: greenhouse
   token: okta
-- name: OLIX
-  ats: ashby
-  token: olix
 - name: ONE Finance
   ats: ashby
   token: oneapp
@@ -1140,6 +1139,9 @@
 - name: Parallel Wireless
   ats: lever
   token: parallelwireless
+- name: ParetoHealth
+  ats: greenhouse
+  token: paretocaptiveservicesllc
 - name: Patreon
   ats: ashby
   token: patreon
@@ -1393,9 +1395,19 @@
 - name: Shield AI
   ats: lever
   token: shieldai
+- name: Sierra Nevada Corporation
+  ats: workday
+  tenant: snc
+  dc: wd1
+  site: snc_external_career_site
 - name: Sigma Computing
   ats: greenhouse
   token: sigmacomputing
+- name: Signet Jewelers
+  ats: workday
+  tenant: signetjewelers
+  dc: wd1
+  site: SignetCorporateCareers
 - name: Signifyd
   ats: greenhouse
   token: signifyd95
@@ -1531,9 +1543,6 @@
 - name: The Brattle Group
   ats: greenhouse
   token: thebrattlegroup
-- name: The Exploration Company
-  ats: ashby
-  token: the-exploration-company
 - name: The Federal Reserve System
   ats: workday
   tenant: rb
