@@ -79,6 +79,9 @@
 - name: AnaVation
   ats: lever
   token: anavationllc
+- name: Anduril
+  ats: greenhouse
+  token: andurilindustries
 - name: Antares Nuclear
   ats: ashby
   token: Antares
@@ -520,11 +523,6 @@
   tenant: expedia
   dc: wd108
   site: private
-- name: Expedia Group
-  ats: workday
-  tenant: expedia
-  dc: wd108
-  site: search
 - name: F5
   ats: workday
   tenant: ffive
@@ -761,9 +759,6 @@
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
-- name: Immuta
-  ats: lever
-  token: immuta
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -1192,9 +1187,6 @@
 - name: Pretium
   ats: greenhouse
   token: pretiuminternships2027
-- name: Primer
-  ats: ashby
-  token: primer
 - name: Procter & Gamble
   ats: workday
   tenant: pg
@@ -1403,11 +1395,6 @@
 - name: Sigma Computing
   ats: greenhouse
   token: sigmacomputing
-- name: Signet Jewelers
-  ats: workday
-  tenant: signetjewelers
-  dc: wd1
-  site: SignetCorporateCareers
 - name: Signifyd
   ats: greenhouse
   token: signifyd95
@@ -1447,6 +1434,9 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
+- name: Stand Together
+  ats: lever
+  token: standtogether
 - name: State Affairs
   ats: greenhouse
   token: stateaffairs
