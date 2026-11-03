@@ -8,11 +8,6 @@
   tenant: abb
   dc: wd3
   site: external_career_page
-- name: Ace Hardware
-  ats: workday
-  tenant: acehardware
-  dc: wd1
-  site: External
 - name: Adobe
   ats: workday
   tenant: adobe
@@ -259,11 +254,6 @@
 - name: C3.ai
   ats: greenhouse
   token: c3ascend
-- name: CACI
-  ats: workday
-  tenant: caci
-  dc: wd1
-  site: external
 - name: Cadence Solutions
   ats: greenhouse
   token: solutions
@@ -486,12 +476,12 @@
   ats: workday
   tenant: emcins
   dc: wd5
-  site: EMC_Careers
+  site: EMC_Internships
 - name: EMC Insurance
   ats: workday
   tenant: emcins
   dc: wd5
-  site: EMC_Internships
+  site: EMC_Careers
 - name: Enact Mortgage Insurance
   ats: workday
   tenant: gnw
@@ -579,9 +569,6 @@
   tenant: fticonsulting
   dc: wd108
   site: FTIConsultingCareers
-- name: FUTO
-  ats: lever
-  token: futo-org
 - name: G-Research
   ats: workday
   tenant: gresearch
@@ -759,6 +746,9 @@
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
+- name: Immuta
+  ats: lever
+  token: immuta
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -995,6 +985,11 @@
 - name: Monzo
   ats: greenhouse
   token: monzo
+- name: Mosaic
+  ats: workday
+  tenant: mosaic
+  dc: wd5
+  site: mosaic
 - name: Motorola
   ats: workday
   tenant: motorolasolutions
@@ -1184,9 +1179,6 @@
 - name: Point72
   ats: greenhouse
   token: point72
-- name: Pretium
-  ats: greenhouse
-  token: pretiuminternships2027
 - name: Procter & Gamble
   ats: workday
   tenant: pg
@@ -1203,9 +1195,6 @@
 - name: Pure Storage
   ats: greenhouse
   token: purestorage
-- name: Pyrotek
-  ats: smartrecruiters
-  token: Pyrotek3
 - name: Q2
   ats: workday
   tenant: q2ebanking
@@ -1344,12 +1333,12 @@
   ats: workday
   tenant: salesforce
   dc: wd12
-  site: Futureforce_Internships
+  site: External_Career_Site
 - name: Salesforce
   ats: workday
   tenant: salesforce
   dc: wd12
-  site: External_Career_Site
+  site: Futureforce_Internships
 - name: Sanofi
   ats: workday
   tenant: sanofi
