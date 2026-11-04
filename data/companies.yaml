@@ -99,6 +99,11 @@
 - name: Arc
   ats: greenhouse
   token: arcboatcompany
+- name: Arch Capital Group
+  ats: workday
+  tenant: archgroup
+  dc: wd1
+  site: careers
 - name: Armadin
   ats: ashby
   token: armadin
@@ -254,6 +259,11 @@
 - name: C3.ai
   ats: greenhouse
   token: c3ascend
+- name: CACI
+  ats: workday
+  tenant: caci
+  dc: wd1
+  site: external
 - name: Cadence Solutions
   ats: greenhouse
   token: solutions
@@ -333,6 +343,11 @@
   tenant: costar
   dc: wd1
   site: Costar_Campus
+- name: COUNTRY Financial
+  ats: workday
+  tenant: countryfinancial
+  dc: wd5
+  site: COUNTRYCorporateInternships
 - name: Courier Health
   ats: greenhouse
   token: courierhealth
@@ -706,12 +721,12 @@
   ats: workday
   tenant: hp
   dc: wd5
-  site: EXTEU-AC-CareerSite
+  site: externalcareersite
 - name: HP Inc.
   ats: workday
   tenant: hp
   dc: wd5
-  site: externalcareersite
+  site: EXTEU-AC-CareerSite
 - name: HP IQ
   ats: greenhouse
   token: hpiq
@@ -811,6 +826,9 @@
   tenant: jj
   dc: wd5
   site: JJ
+- name: Jomboy Media
+  ats: greenhouse
+  token: jomboymedia
 - name: K2 Space
   ats: greenhouse
   token: k2spacecorporation
@@ -894,9 +912,6 @@
 - name: LinkedIn
   ats: smartrecruiters
   token: LinkedIn3
-- name: Loft Orbital
-  ats: lever
-  token: loftorbital
 - name: Lowe's
   ats: workday
   tenant: lowes
@@ -915,11 +930,6 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_adminJobs
-- name: Marriott Vacations Worldwide
-  ats: workday
-  tenant: mymvw
-  dc: wd5
-  site: mvw
 - name: Marsh
   ats: workday
   tenant: mmc
@@ -945,14 +955,6 @@
   tenant: mbda
   dc: wd3
   site: MBDA-UK
-- name: McKesson
-  ats: workday
-  tenant: mckesson
-  dc: wd3
-  site: External_Careers
-- name: MegazoneCloud
-  ats: ashby
-  token: megazone
 - name: Merck
   ats: workday
   tenant: msd
@@ -1038,9 +1040,9 @@
   tenant: nyp
   dc: wd1
   site: nypcareers
-- name: Niantic Spatial
-  ats: ashby
-  token: niantic-spatial
+- name: Nex
+  ats: greenhouse
+  token: nex
 - name: Nissan Global
   ats: workday
   tenant: alliance
@@ -1384,6 +1386,11 @@
 - name: Sigma Computing
   ats: greenhouse
   token: sigmacomputing
+- name: Signet Jewelers
+  ats: workday
+  tenant: signetjewelers
+  dc: wd1
+  site: SignetCorporateCareers
 - name: Signifyd
   ats: greenhouse
   token: signifyd95
@@ -1434,9 +1441,6 @@
   tenant: swib
   dc: wd12
   site: ext
-- name: Steel
-  ats: ashby
-  token: steel
 - name: Strada Education Foundation
   ats: lever
   token: stradaeducation
@@ -1532,9 +1536,6 @@
   tenant: thehartford
   dc: wd5
   site: Careers_External
-- name: The MJ Companies
-  ats: greenhouse
-  token: themjcos
 - name: The New York Times
   ats: greenhouse
   token: thenewyorktimes
@@ -1615,6 +1616,9 @@
 - name: Varda Space
   ats: greenhouse
   token: vardaspace
+- name: Vatic Investments
+  ats: greenhouse
+  token: vaticlabs
 - name: Vercel
   ats: greenhouse
   token: vercel
@@ -1642,6 +1646,11 @@
   tenant: visa
   dc: wd5
   site: Visa_Early_Careers
+- name: Vizient
+  ats: workday
+  tenant: vizient
+  dc: wd1
+  site: Vizient_Careers
 - name: Voyager Technologies
   ats: greenhouse
   token: voyagertechnologiesinc
