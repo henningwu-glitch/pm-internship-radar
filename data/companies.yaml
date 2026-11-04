@@ -13,11 +13,6 @@
   tenant: adobe
   dc: wd5
   site: external_experienced
-- name: Aegon Asset Management
-  ats: workday
-  tenant: transamerica
-  dc: wd5
-  site: AUK_JobSite
 - name: AeroVironment
   ats: workday
   tenant: avav
@@ -57,12 +52,12 @@
   ats: workday
   tenant: amfam
   dc: wd1
-  site: Careers
+  site: AmFamGroupInternCareers
 - name: American Family Insurance Group
   ats: workday
   tenant: amfam
   dc: wd1
-  site: AmFamGroupInternCareers
+  site: Careers
 - name: Amplify
   ats: ashby
   token: amplify
@@ -349,11 +344,6 @@
 - name: CoVar
   ats: greenhouse
   token: covar
-- name: CoverMyMeds
-  ats: workday
-  tenant: mckesson
-  dc: wd3
-  site: CoverMyMeds_External_Careers
 - name: Covestro
   ats: workday
   tenant: covestro
@@ -1083,11 +1073,6 @@
 - name: OpenAI
   ats: ashby
   token: openai
-- name: Oshkosh
-  ats: workday
-  tenant: oshkoshcorporation
-  dc: wd5
-  site: Oshkosh
 - name: PA Consulting
   ats: smartrecruiters
   token: PAConsulting
@@ -1127,6 +1112,11 @@
 - name: ParetoHealth
   ats: greenhouse
   token: paretocaptiveservicesllc
+- name: Parsons
+  ats: workday
+  tenant: parsons
+  dc: wd5
+  site: search
 - name: Patreon
   ats: ashby
   token: patreon
@@ -1371,9 +1361,6 @@
 - name: Shield AI
   ats: ashby
   token: f7d8749a-72d6-407c-bf98-292ea630c73a
-- name: Shield AI
-  ats: lever
-  token: shieldai
 - name: Sierra Nevada Corporation
   ats: workday
   tenant: snc
@@ -1396,9 +1383,6 @@
 - name: Skydio
   ats: ashby
   token: skydio
-- name: Snowflake
-  ats: ashby
-  token: snowflake
 - name: SoFi
   ats: greenhouse
   token: sofi
