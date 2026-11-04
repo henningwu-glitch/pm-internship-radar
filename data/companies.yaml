@@ -23,11 +23,6 @@
   tenant: avav
   dc: wd1
   site: avav
-- name: AES
-  ats: workday
-  tenant: aes
-  dc: wd1
-  site: AES_US
 - name: Affirm
   ats: greenhouse
   token: affirm
@@ -552,11 +547,6 @@
   tenant: fhlbc
   dc: wd1
   site: search
-- name: Fidelity Investments
-  ats: workday
-  tenant: fmr
-  dc: wd1
-  site: targeted
 - name: Field AI
   ats: lever
   token: field-ai
@@ -584,6 +574,9 @@
   tenant: fticonsulting
   dc: wd108
   site: FTIConsultingCareers
+- name: FUTO
+  ats: lever
+  token: futo-org
 - name: G-Research
   ats: workday
   tenant: gresearch
@@ -875,9 +868,6 @@
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
-- name: KnowBe4
-  ats: greenhouse
-  token: knowbe4
 - name: LabCorp
   ats: workday
   tenant: labcorp
@@ -912,6 +902,9 @@
 - name: LinkedIn
   ats: smartrecruiters
   token: LinkedIn3
+- name: Loft Orbital
+  ats: lever
+  token: loftorbital
 - name: Lowe's
   ats: workday
   tenant: lowes
@@ -1341,6 +1334,9 @@
   tenant: salesforce
   dc: wd12
   site: Futureforce_Internships
+- name: Samsung Research America
+  ats: greenhouse
+  token: samsungresearchamericainternship
 - name: Sanofi
   ats: workday
   tenant: sanofi
@@ -1406,9 +1402,6 @@
 - name: SoFi
   ats: greenhouse
   token: sofi
-- name: Solidigm
-  ats: smartrecruiters
-  token: Solidigm
 - name: Sonos
   ats: workday
   tenant: sonos
@@ -1459,12 +1452,12 @@
   ats: workday
   tenant: sunlife
   dc: wd3
-  site: Campus
+  site: Experienced-Jobs
 - name: Sun Life
   ats: workday
   tenant: sunlife
   dc: wd3
-  site: Experienced-Jobs
+  site: Campus
 - name: Symbotic
   ats: workday
   tenant: symbotic
@@ -1705,6 +1698,9 @@
   tenant: xcelenergy
   dc: wd1
   site: External
+- name: Xcimer Energy
+  ats: lever
+  token: xcimer
 - name: Zebra Technologies
   ats: workday
   tenant: zebra
