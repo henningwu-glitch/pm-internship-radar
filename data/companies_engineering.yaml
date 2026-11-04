@@ -12,6 +12,9 @@
 - name: Bosch
   ats: smartrecruiters
   token: BoschGroup
+- name: Cirrus Logic
+  ats: greenhouse
+  token: cirruslogic
 - name: Crux Product Design
   ats: teamtailor
   domain: cruxproductdesign.teamtailor.com
