@@ -58,6 +58,11 @@
   tenant: amfam
   dc: wd1
   site: Careers
+- name: Amgen
+  ats: workday
+  tenant: amgen
+  dc: wd1
+  site: careers
 - name: Amplify
   ats: ashby
   token: amplify
@@ -97,11 +102,6 @@
 - name: Armadin
   ats: ashby
   token: armadin
-- name: Arrowstreet Capital
-  ats: workday
-  tenant: arrowstreetcapital
-  dc: wd5
-  site: Campus_Careers
 - name: Asana
   ats: greenhouse
   token: asana
@@ -148,6 +148,9 @@
 - name: Atoms
   ats: greenhouse
   token: cssmerge
+- name: Aurora Innovation
+  ats: ashby
+  token: aurora-operations-inc
 - name: Auto-Owners Insurance
   ats: workday
   tenant: aoins
@@ -278,6 +281,11 @@
   tenant: cenovus
   dc: wd3
   site: careers
+- name: Centene
+  ats: workday
+  tenant: centene
+  dc: wd5
+  site: Centene_External
 - name: Cerity Partners
   ats: workday
   tenant: ceritypartners
@@ -325,6 +333,9 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
+- name: Commonwealth Fusion Systems
+  ats: lever
+  token: cfsenergy
 - name: CoStar Group
   ats: workday
   tenant: costar
@@ -464,16 +475,6 @@
   tenant: elanco
   dc: wd5
   site: External_Career
-- name: EMC Insurance
-  ats: workday
-  tenant: emcins
-  dc: wd5
-  site: EMC_Internships
-- name: EMC Insurance
-  ats: workday
-  tenant: emcins
-  dc: wd5
-  site: EMC_Careers
 - name: Enact Mortgage Insurance
   ats: workday
   tenant: gnw
@@ -526,9 +527,6 @@
   tenant: fhlbc
   dc: wd1
   site: search
-- name: Field AI
-  ats: lever
-  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -733,6 +731,9 @@
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
+- name: Immuta
+  ats: lever
+  token: immuta
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -1108,9 +1109,6 @@
 - name: Patreon
   ats: ashby
   token: patreon
-- name: Pattern
-  ats: lever
-  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
@@ -1212,6 +1210,9 @@
 - name: Rendezvous Robotics
   ats: greenhouse
   token: rendezvousrobotics
+- name: Renesas Electronics
+  ats: smartrecruiters
+  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1312,11 +1313,6 @@
 - name: Samsung Research America
   ats: greenhouse
   token: samsungresearchamericainternship
-- name: Sanofi
-  ats: workday
-  tenant: sanofi
-  dc: wd3
-  site: SanofiCareers
 - name: Saronic
   ats: ashby
   token: saronic
@@ -1371,6 +1367,11 @@
 - name: Skydio
   ats: ashby
   token: skydio
+- name: Smith+Nephew
+  ats: workday
+  tenant: smithnephew
+  dc: wd5
+  site: External
 - name: SoFi
   ats: greenhouse
   token: sofi
@@ -1520,6 +1521,11 @@
 - name: Together AI
   ats: greenhouse
   token: togetherai
+- name: Tokyo Electron
+  ats: workday
+  tenant: tel
+  dc: wd3
+  site: tel-careers
 - name: Toyota
   ats: workday
   tenant: toyota
@@ -1619,9 +1625,6 @@
   tenant: vsp
   dc: wd1
   site: vspvisioncareers
-- name: Waabi
-  ats: lever
-  token: waabi
 - name: Walmart
   ats: workday
   tenant: walmart
