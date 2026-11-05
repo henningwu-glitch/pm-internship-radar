@@ -325,19 +325,11 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
-- name: Commonwealth Fusion Systems
-  ats: lever
-  token: cfsenergy
 - name: CoStar Group
   ats: workday
   tenant: costar
   dc: wd1
   site: Costar_Campus
-- name: COUNTRY Financial
-  ats: workday
-  tenant: countryfinancial
-  dc: wd5
-  site: COUNTRYCorporateInternships
 - name: Courier Health
   ats: greenhouse
   token: courierhealth
@@ -518,9 +510,6 @@
   tenant: ffive
   dc: wd5
   site: f5jobs
-- name: Fab2
-  ats: ashby
-  token: fab2
 - name: Faire
   ats: greenhouse
   token: faire
@@ -744,9 +733,6 @@
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
-- name: Immuta
-  ats: lever
-  token: immuta
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -1073,6 +1059,11 @@
 - name: OpenAI
   ats: ashby
   token: openai
+- name: Oshkosh
+  ats: workday
+  tenant: oshkoshcorporation
+  dc: wd5
+  site: Oshkosh
 - name: PA Consulting
   ats: smartrecruiters
   token: PAConsulting
@@ -1106,9 +1097,6 @@
 - name: Parallel Systems
   ats: greenhouse
   token: parallel
-- name: Parallel Wireless
-  ats: lever
-  token: parallelwireless
 - name: ParetoHealth
   ats: greenhouse
   token: paretocaptiveservicesllc
@@ -1224,9 +1212,6 @@
 - name: Rendezvous Robotics
   ats: greenhouse
   token: rendezvousrobotics
-- name: Renesas Electronics
-  ats: smartrecruiters
-  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1361,6 +1346,9 @@
 - name: Shield AI
   ats: ashby
   token: f7d8749a-72d6-407c-bf98-292ea630c73a
+- name: Shield AI
+  ats: lever
+  token: shieldai
 - name: Sierra Nevada Corporation
   ats: workday
   tenant: snc
@@ -1540,11 +1528,6 @@
 - name: Toyota Research Institute
   ats: lever
   token: tri
-- name: TransUnion
-  ats: workday
-  tenant: transunion
-  dc: wd5
-  site: TransUnion
 - name: Trimble
   ats: workday
   tenant: trimble
