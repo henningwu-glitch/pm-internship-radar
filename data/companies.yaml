@@ -102,6 +102,11 @@
 - name: Armadin
   ats: ashby
   token: armadin
+- name: Arrowstreet Capital
+  ats: workday
+  tenant: arrowstreetcapital
+  dc: wd5
+  site: Campus_Careers
 - name: Asana
   ats: greenhouse
   token: asana
@@ -126,6 +131,11 @@
 - name: Astranis
   ats: greenhouse
   token: astranis
+- name: AstraZeneca
+  ats: workday
+  tenant: astrazeneca
+  dc: wd3
+  site: Careers
 - name: Astro Mechanica
   ats: ashby
   token: astro-mechanica
@@ -202,11 +212,6 @@
   tenant: blackrock
   dc: wd1
   site: BlackRock_Professional
-- name: Blackstone
-  ats: workday
-  tenant: blackstone
-  dc: wd1
-  site: Blackstone_Campus_Careers
 - name: Block
   ats: greenhouse
   token: block
@@ -336,11 +341,6 @@
 - name: Commonwealth Fusion Systems
   ats: lever
   token: cfsenergy
-- name: CoStar Group
-  ats: workday
-  tenant: costar
-  dc: wd1
-  site: Costar_Campus
 - name: Courier Health
   ats: greenhouse
   token: courierhealth
@@ -357,6 +357,11 @@
   tenant: caa
   dc: wd1
   site: Careers
+- name: CrowdStrike
+  ats: workday
+  tenant: crowdstrike
+  dc: wd5
+  site: crowdstrikecareers
 - name: CSAA Insurance Group
   ats: workday
   tenant: aaaie
@@ -496,6 +501,11 @@
 - name: EQT Corporation
   ats: greenhouse
   token: eqtcorporation
+- name: Eversource Energy
+  ats: workday
+  tenant: eversource
+  dc: wd1
+  site: ExternalSite
 - name: Excellus BCBS
   ats: workday
   tenant: lthc
@@ -527,6 +537,9 @@
   tenant: fhlbc
   dc: wd1
   site: search
+- name: Field AI
+  ats: lever
+  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -892,6 +905,9 @@
   tenant: lseg
   dc: wd3
   site: Graduate_Careers
+- name: Lumbermen's
+  ats: greenhouse
+  token: lumbermens
 - name: Lyft
   ats: greenhouse
   token: lyft
@@ -900,16 +916,16 @@
   tenant: manulife
   dc: wd3
   site: MFCJH_adminJobs
+- name: Marriott Vacations Worldwide
+  ats: workday
+  tenant: mymvw
+  dc: wd5
+  site: mvw
 - name: Marsh
   ats: workday
   tenant: mmc
   dc: wd1
   site: MMC
-- name: Marsh & McLennan
-  ats: workday
-  tenant: mmc
-  dc: wd1
-  site: mmc
 - name: Marvell
   ats: workday
   tenant: marvell
@@ -1082,11 +1098,6 @@
 - name: Palantir Technologies
   ats: lever
   token: palantir
-- name: PanAgora
-  ats: workday
-  tenant: empower
-  dc: wd12
-  site: PanAgora
 - name: Pangram Labs
   ats: ashby
   token: pangramlabs
@@ -1098,6 +1109,9 @@
 - name: Parallel Systems
   ats: greenhouse
   token: parallel
+- name: Parallel Wireless
+  ats: lever
+  token: parallelwireless
 - name: ParetoHealth
   ats: greenhouse
   token: paretocaptiveservicesllc
@@ -1109,6 +1123,9 @@
 - name: Patreon
   ats: ashby
   token: patreon
+- name: Pattern
+  ats: lever
+  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
@@ -1190,6 +1207,9 @@
   tenant: realtyincome
   dc: wd108
   site: realty_income_careers
+- name: Red Wing Shoe Company
+  ats: smartrecruiters
+  token: RedWingShoeCompany
 - name: Reddit
   ats: greenhouse
   token: reddit
@@ -1210,9 +1230,6 @@
 - name: Rendezvous Robotics
   ats: greenhouse
   token: rendezvousrobotics
-- name: Renesas Electronics
-  ats: smartrecruiters
-  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1340,11 +1357,11 @@
   ats: smartrecruiters
   token: ServiceNow
 - name: Shield AI
-  ats: ashby
-  token: f7d8749a-72d6-407c-bf98-292ea630c73a
-- name: Shield AI
   ats: lever
   token: shieldai
+- name: Shield AI
+  ats: ashby
+  token: f7d8749a-72d6-407c-bf98-292ea630c73a
 - name: Sierra Nevada Corporation
   ats: workday
   tenant: snc
@@ -1399,9 +1416,6 @@
 - name: Stand Together
   ats: lever
   token: standtogether
-- name: State Affairs
-  ats: greenhouse
-  token: stateaffairs
 - name: State of Wisconsin Investment Board
   ats: workday
   tenant: swib
@@ -1625,6 +1639,9 @@
   tenant: vsp
   dc: wd1
   site: vspvisioncareers
+- name: Waabi
+  ats: lever
+  token: waabi
 - name: Walmart
   ats: workday
   tenant: walmart
