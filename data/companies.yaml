@@ -286,11 +286,6 @@
   tenant: cenovus
   dc: wd3
   site: careers
-- name: Centene
-  ats: workday
-  tenant: centene
-  dc: wd5
-  site: Centene_External
 - name: Cerity Partners
   ats: workday
   tenant: ceritypartners
@@ -537,9 +532,6 @@
   tenant: fhlbc
   dc: wd1
   site: search
-- name: Field AI
-  ats: lever
-  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -764,6 +756,16 @@
 - name: Inversion Space
   ats: greenhouse
   token: inversionspace
+- name: Invesco
+  ats: workday
+  tenant: invesco
+  dc: wd1
+  site: IVZ
+- name: Invesco
+  ats: workday
+  tenant: invesco
+  dc: wd1
+  site: IVZearlycareers
 - name: iRhythm Technologies
   ats: workday
   tenant: irhythmtech
@@ -1044,11 +1046,6 @@
   tenant: ngc
   dc: wd1
   site: Northrop_Grumman_External_Site
-- name: Northwestern Mutual
-  ats: workday
-  tenant: northwesternmutual
-  dc: wd5
-  site: corporate-careers
 - name: NVIDIA
   ats: workday
   tenant: nvidia
@@ -1258,6 +1255,11 @@
 - name: Roblox
   ats: greenhouse
   token: roblox
+- name: Roche
+  ats: workday
+  tenant: roche
+  dc: wd3
+  site: roche-ext
 - name: Rocket Lab USA
   ats: greenhouse
   token: rocketlab
@@ -1706,6 +1708,9 @@
   tenant: zillow
   dc: wd5
   site: Zillow_Group_External
+- name: Zoox
+  ats: lever
+  token: zoox
 - name: Zurn Elkay Water Solutions
   ats: workday
   tenant: elkay
