@@ -166,11 +166,6 @@
   tenant: aoins
   dc: wd5
   site: AutoOwners
-- name: Avis Budget Group
-  ats: workday
-  tenant: avisbudget
-  dc: wd1
-  site: abg_careers
 - name: Axiom Space
   ats: workday
   tenant: axiomspace
@@ -532,6 +527,9 @@
   tenant: fhlbc
   dc: wd1
   site: search
+- name: Field AI
+  ats: lever
+  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -661,11 +659,6 @@
 - name: Gymshark
   ats: greenhouse
   token: gymshark
-- name: Highmark Health
-  ats: workday
-  tenant: highmarkhealth
-  dc: wd1
-  site: highmark
 - name: Hilb Group
   ats: workday
   tenant: hilbgroup
@@ -907,9 +900,6 @@
   tenant: lseg
   dc: wd3
   site: Graduate_Careers
-- name: Lumbermen's
-  ats: greenhouse
-  token: lumbermens
 - name: Lyft
   ats: greenhouse
   token: lyft
@@ -928,16 +918,6 @@
   tenant: mmc
   dc: wd1
   site: MMC
-- name: Marvell
-  ats: workday
-  tenant: marvell
-  dc: wd1
-  site: MarvellCareers
-- name: Marvell
-  ats: workday
-  tenant: marvell
-  dc: wd1
-  site: MarvellCareers2
 - name: MBDA
   ats: workday
   tenant: mbda
@@ -954,11 +934,6 @@
 - name: Metamorphic
   ats: ashby
   token: metamorphic
-- name: Midland States Bank
-  ats: workday
-  tenant: midlandsb
-  dc: wd1
-  site: msbcareers
 - name: Mitsubishi UFG
   ats: workday
   tenant: mufgub
@@ -1246,6 +1221,9 @@
 - name: RF-SMART
   ats: greenhouse
   token: rfsmart
+- name: Rivian and Volkswagen Group Technologies
+  ats: ashby
+  token: rivianvw.tech
 - name: Robert Bosch Venture Capital
   ats: smartrecruiters
   token: BoschGroup
@@ -1314,6 +1292,11 @@
   tenant: ryan
   dc: wd1
   site: Students-Graduates
+- name: S&P Global
+  ats: workday
+  tenant: spgi
+  dc: wd5
+  site: SPGI_Careers
 - name: SailPoint
   ats: workday
   tenant: sailpoint
@@ -1412,6 +1395,11 @@
   tenant: southstatebank
   dc: wd5
   site: external
+- name: Spectrum Control
+  ats: workday
+  tenant: spectrumcontrol
+  dc: wd1
+  site: spectrumcontrol
 - name: Squarespace
   ats: greenhouse
   token: squarespace
@@ -1534,6 +1522,9 @@
 - name: Tide
   ats: greenhouse
   token: tide
+- name: Tinder
+  ats: lever
+  token: matchgroup
 - name: Together AI
   ats: greenhouse
   token: togetherai
@@ -1623,11 +1614,6 @@
   tenant: visa
   dc: wd5
   site: Visa
-- name: Visa
-  ats: workday
-  tenant: visa
-  dc: wd5
-  site: Visa_Early_Careers
 - name: Vizient
   ats: workday
   tenant: vizient
@@ -1636,11 +1622,6 @@
 - name: Voyager Technologies
   ats: greenhouse
   token: voyagertechnologiesinc
-- name: VSP Vision
-  ats: workday
-  tenant: vsp
-  dc: wd1
-  site: vspvisioncareers
 - name: Waabi
   ats: lever
   token: waabi
