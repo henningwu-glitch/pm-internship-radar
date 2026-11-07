@@ -271,6 +271,9 @@
   tenant: caresource
   dc: wd1
   site: caresource
+- name: Category Labs
+  ats: ashby
+  token: category-labs
 - name: Cenovus Energy
   ats: workday
   tenant: cenovus
@@ -323,6 +326,9 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
+- name: Commonwealth Fusion Systems
+  ats: lever
+  token: cfsenergy
 - name: Courier Health
   ats: greenhouse
   token: courierhealth
@@ -1114,9 +1120,6 @@
 - name: Patreon
   ats: ashby
   token: patreon
-- name: Pattern
-  ats: lever
-  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
