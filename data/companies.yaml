@@ -185,6 +185,11 @@
   ats: workday
   tenant: bmo
   dc: wd3
+  site: Campus
+- name: Bank of Montreal
+  ats: workday
+  tenant: bmo
+  dc: wd3
   site: External
 - name: Barclays
   ats: workday
@@ -239,16 +244,6 @@
 - name: Brex
   ats: greenhouse
   token: brex
-- name: Burlington Stores
-  ats: workday
-  tenant: burlington
-  dc: wd5
-  site: BurlingtonCareers
-- name: C.H. Robinson
-  ats: workday
-  tenant: chrobinson
-  dc: wd5
-  site: CHRobinson
 - name: C3.ai
   ats: greenhouse
   token: c3ascend
@@ -328,9 +323,6 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
-- name: Commonwealth Fusion Systems
-  ats: lever
-  token: cfsenergy
 - name: Courier Health
   ats: greenhouse
   token: courierhealth
@@ -378,6 +370,9 @@
   tenant: danaher
   dc: wd1
   site: danaherjobs
+- name: Dandy
+  ats: ashby
+  token: dandy
 - name: Databricks
   ats: greenhouse
   token: databricks
@@ -400,19 +395,12 @@
   tenant: deezee
   dc: wd108
   site: DeeZee_Careers
+- name: Deeplocal
+  ats: greenhouse
+  token: deeplocal
 - name: Deliveroo
   ats: greenhouse
   token: deliveroo
-- name: Dick's Sporting Goods
-  ats: workday
-  tenant: dickssportinggoods
-  dc: wd1
-  site: DSG
-- name: Dimensional Fund Advisors
-  ats: workday
-  tenant: dimensional
-  dc: wd5
-  site: dfa_careers
 - name: Discord
   ats: greenhouse
   token: discord
@@ -461,6 +449,9 @@
   token: dropbox
 - name: Duolingo
   ats: greenhouse
+  token: duolingounirecruitment
+- name: Duolingo
+  ats: greenhouse
   token: duolingo
 - name: DV Trading
   ats: greenhouse
@@ -496,11 +487,6 @@
   tenant: eversource
   dc: wd1
   site: ExternalSite
-- name: Excellus BCBS
-  ats: workday
-  tenant: lthc
-  dc: wd1
-  site: ExcellusBCBSCareers
 - name: Expedia Group
   ats: workday
   tenant: expedia
@@ -659,6 +645,11 @@
 - name: Gymshark
   ats: greenhouse
   token: gymshark
+- name: Highmark Health
+  ats: workday
+  tenant: highmarkhealth
+  dc: wd1
+  site: highmark
 - name: Hilb Group
   ats: workday
   tenant: hilbgroup
@@ -853,6 +844,11 @@
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
+- name: L.L.Bean
+  ats: workday
+  tenant: llbean
+  dc: wd1
+  site: llbean_careers
 - name: LabCorp
   ats: workday
   tenant: labcorp
@@ -918,6 +914,16 @@
   tenant: mmc
   dc: wd1
   site: MMC
+- name: Marvell
+  ats: workday
+  tenant: marvell
+  dc: wd1
+  site: MarvellCareers
+- name: Marvell
+  ats: workday
+  tenant: marvell
+  dc: wd1
+  site: MarvellCareers2
 - name: MBDA
   ats: workday
   tenant: mbda
@@ -934,6 +940,11 @@
 - name: Metamorphic
   ats: ashby
   token: metamorphic
+- name: Midland States Bank
+  ats: workday
+  tenant: midlandsb
+  dc: wd1
+  site: msbcareers
 - name: Mitsubishi UFG
   ats: workday
   tenant: mufgub
@@ -950,6 +961,11 @@
 - name: Monzo
   ats: greenhouse
   token: monzo
+- name: Moog
+  ats: workday
+  tenant: moog
+  dc: wd5
+  site: moog_external_career_site
 - name: Mosaic
   ats: workday
   tenant: mosaic
@@ -1021,6 +1037,9 @@
   tenant: ngc
   dc: wd1
   site: Northrop_Grumman_External_Site
+- name: Notion
+  ats: ashby
+  token: notion
 - name: NVIDIA
   ats: workday
   tenant: nvidia
@@ -1117,6 +1136,11 @@
 - name: Perpay
   ats: greenhouse
   token: perpay
+- name: PETRONAS Canada
+  ats: workday
+  tenant: petronascanada
+  dc: wd3
+  site: PETRONASCanada
 - name: Philips
   ats: workday
   tenant: philips
@@ -1609,11 +1633,6 @@
 - name: Viking Global
   ats: greenhouse
   token: vikingglobalinvestors
-- name: Visa
-  ats: workday
-  tenant: visa
-  dc: wd5
-  site: Visa
 - name: Vizient
   ats: workday
   tenant: vizient
