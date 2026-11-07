@@ -1051,11 +1051,6 @@
   tenant: nvidia
   dc: wd5
   site: NVIDIAExternalCareerSite
-- name: NXP Semiconductors
-  ats: workday
-  tenant: nxp
-  dc: wd3
-  site: careers
 - name: OCC
   ats: workday
   tenant: theocc
@@ -1120,6 +1115,9 @@
 - name: Patreon
   ats: ashby
   token: patreon
+- name: Pattern
+  ats: lever
+  token: pattern
 - name: PDT Partners
   ats: greenhouse
   token: pdtpartners
