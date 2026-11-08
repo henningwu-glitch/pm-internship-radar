@@ -281,6 +281,9 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
+- name: CesiumAstro
+  ats: lever
+  token: CesiumAstro
 - name: Charter Manufacturing
   ats: workday
   tenant: chartermfg
@@ -798,9 +801,6 @@
 - name: Jomboy Media
   ats: greenhouse
   token: jomboymedia
-- name: K2 Space
-  ats: greenhouse
-  token: k2spacecorporation
 - name: Ketjen
   ats: workday
   tenant: albemarle
