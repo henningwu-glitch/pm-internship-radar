@@ -27,9 +27,6 @@
 - name: Airtable
   ats: greenhouse
   token: airtable
-- name: Allen Control Systems
-  ats: ashby
-  token: allen-control-systems
 - name: Allstate
   ats: workday
   tenant: allstate
@@ -284,9 +281,6 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
-- name: CesiumAstro
-  ats: lever
-  token: CesiumAstro
 - name: Charter Manufacturing
   ats: workday
   tenant: chartermfg
@@ -1169,9 +1163,6 @@
   tenant: pg
   dc: wd5
   site: '1000'
-- name: Protective Life
-  ats: lever
-  token: protective
 - name: PTC
   ats: workday
   tenant: ptc
@@ -1240,12 +1231,6 @@
   tenant: revantage
   dc: wd1
   site: Revantage
-- name: Revel
-  ats: ashby
-  token: revel
-- name: RF-SMART
-  ats: greenhouse
-  token: rfsmart
 - name: Rivian and Volkswagen Group Technologies
   ats: ashby
   token: rivianvw.tech
@@ -1355,9 +1340,6 @@
 - name: Scout AI
   ats: ashby
   token: scout-ai
-- name: Semgrep
-  ats: ashby
-  token: semgrep
 - name: Semtech
   ats: workday
   tenant: semtech
@@ -1625,9 +1607,6 @@
   tenant: vrtx
   dc: wd501
   site: vertex_careers
-- name: Viam
-  ats: greenhouse
-  token: viamrobotics
 - name: Viget
   ats: lever
   token: viget
