@@ -63,9 +63,6 @@
 - name: Amplify
   ats: ashby
   token: amplify
-- name: AnaVation
-  ats: lever
-  token: anavationllc
 - name: Anduril
   ats: greenhouse
   token: andurilindustries
@@ -1348,9 +1345,6 @@
 - name: ServiceNow
   ats: smartrecruiters
   token: ServiceNow
-- name: Shield AI
-  ats: lever
-  token: shieldai
 - name: Shield AI
   ats: ashby
   token: f7d8749a-72d6-407c-bf98-292ea630c73a
