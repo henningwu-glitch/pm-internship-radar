@@ -320,6 +320,9 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
+- name: Commonwealth Fusion Systems
+  ats: lever
+  token: cfsenergy
 - name: Courier Health
   ats: greenhouse
   token: courierhealth
@@ -430,6 +433,9 @@
   tenant: draper
   dc: wd5
   site: Draper_Careers
+- name: DreamWorks Animation
+  ats: smartrecruiters
+  token: NBCUniversal3
 - name: DriveTime
   ats: workday
   tenant: drivetime
@@ -784,19 +790,9 @@
   tenant: macfound
   dc: wd1
   site: MAC_FOUND_EXT_CAREERS
-- name: Johnson & Johnson
-  ats: workday
-  tenant: jj
-  dc: wd5
-  site: JJ
 - name: Jomboy Media
   ats: greenhouse
   token: jomboymedia
-- name: Ketjen
-  ats: workday
-  tenant: albemarle
-  dc: wd5
-  site: ketjenexternal
 - name: KeyBank
   ats: workday
   tenant: keybank
@@ -874,6 +870,9 @@
 - name: LinkedIn
   ats: smartrecruiters
   token: LinkedIn3
+- name: Loft Orbital
+  ats: lever
+  token: loftorbital
 - name: Lowe's
   ats: workday
   tenant: lowes
@@ -981,9 +980,6 @@
 - name: National Life
   ats: greenhouse
   token: nationallifeinsurancecompany
-- name: NBCUniversal
-  ats: smartrecruiters
-  token: NBCUniversal3
 - name: Neighbor
   ats: lever
   token: neighbor
@@ -1086,11 +1082,6 @@
 - name: ParetoHealth
   ats: greenhouse
   token: paretocaptiveservicesllc
-- name: Parsons
-  ats: workday
-  tenant: parsons
-  dc: wd5
-  site: search
 - name: Patreon
   ats: ashby
   token: patreon
@@ -1230,9 +1221,6 @@
   tenant: roche
   dc: wd3
   site: roche-ext
-- name: Rocket Lab USA
-  ats: greenhouse
-  token: rocketlab
 - name: Rockwell Automation
   ats: workday
   tenant: rockwellautomation
@@ -1307,6 +1295,9 @@
 - name: Samsung Research America
   ats: greenhouse
   token: samsungresearchamericainternship
+- name: Saviynt
+  ats: lever
+  token: saviynt
 - name: Scale AI
   ats: greenhouse
   token: scaleai
@@ -1346,9 +1337,6 @@
 - name: Signifyd
   ats: greenhouse
   token: signifyd95
-- name: Simbe Robotics
-  ats: lever
-  token: SimbeRobotics
 - name: Skydio
   ats: ashby
   token: skydio
@@ -1635,14 +1623,6 @@
 - name: xAI
   ats: greenhouse
   token: xai
-- name: Xcel Energy
-  ats: workday
-  tenant: xcelenergy
-  dc: wd1
-  site: External
-- name: Xcimer Energy
-  ats: lever
-  token: xcimer
 - name: Zebra Technologies
   ats: workday
   tenant: zebra
