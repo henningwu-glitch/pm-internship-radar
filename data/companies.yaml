@@ -63,6 +63,9 @@
 - name: Amplify
   ats: ashby
   token: amplify
+- name: AnaVation
+  ats: lever
+  token: anavationllc
 - name: Anduril
   ats: greenhouse
   token: andurilindustries
@@ -190,9 +193,6 @@
   tenant: barclays
   dc: wd3
   site: External_Career_Site_Barclays
-- name: Barnes & Thornburg
-  ats: ashby
-  token: barnes
 - name: Bass Pro Shops
   ats: workday
   tenant: basspro
@@ -320,9 +320,6 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
-- name: Commonwealth Fusion Systems
-  ats: lever
-  token: cfsenergy
 - name: Courier Health
   ats: greenhouse
   token: courierhealth
@@ -720,9 +717,6 @@
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
-- name: Immuta
-  ats: lever
-  token: immuta
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -880,9 +874,6 @@
 - name: LinkedIn
   ats: smartrecruiters
   token: LinkedIn3
-- name: Loft Orbital
-  ats: lever
-  token: loftorbital
 - name: Lowe's
   ats: workday
   tenant: lowes
@@ -1070,9 +1061,6 @@
 - name: Pace
   ats: ashby
   token: withpace
-- name: Pacific Fusion
-  ats: greenhouse
-  token: pacificfusion
 - name: Pacific Life
   ats: workday
   tenant: pacificlife
@@ -1141,9 +1129,6 @@
 - name: PhotoRoom
   ats: ashby
   token: photoroom
-- name: Pilot Company
-  ats: smartrecruiters
-  token: PilotCompany
 - name: Pinterest
   ats: greenhouse
   token: pinterest
@@ -1322,12 +1307,6 @@
 - name: Samsung Research America
   ats: greenhouse
   token: samsungresearchamericainternship
-- name: Saronic
-  ats: ashby
-  token: saronic
-- name: Saviynt
-  ats: lever
-  token: saviynt
 - name: Scale AI
   ats: greenhouse
   token: scaleai
@@ -1345,6 +1324,9 @@
 - name: ServiceNow
   ats: smartrecruiters
   token: ServiceNow
+- name: Shield AI
+  ats: lever
+  token: shieldai
 - name: Shield AI
   ats: ashby
   token: f7d8749a-72d6-407c-bf98-292ea630c73a
@@ -1404,9 +1386,6 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
-- name: Stand Together
-  ats: lever
-  token: standtogether
 - name: State of Wisconsin Investment Board
   ats: workday
   tenant: swib
