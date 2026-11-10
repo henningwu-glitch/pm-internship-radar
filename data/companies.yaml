@@ -3,6 +3,11 @@
   tenant: 3m
   dc: wd1
   site: Search
+- name: 7-Eleven
+  ats: workday
+  tenant: my7elevenhr
+  dc: wd12
+  site: Careers
 - name: ABB
   ats: workday
   tenant: abb
@@ -139,11 +144,6 @@
 - name: Astronics
   ats: greenhouse
   token: astronicscorporation
-- name: Athene
-  ats: workday
-  tenant: athene
-  dc: wd5
-  site: athene_careers
 - name: AtkinsRéalis
   ats: workday
   tenant: slihrms
@@ -278,9 +278,6 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
-- name: CesiumAstro
-  ats: lever
-  token: CesiumAstro
 - name: Charter Manufacturing
   ats: workday
   tenant: chartermfg
@@ -294,6 +291,11 @@
   tenant: churchdwight
   dc: wd1
   site: chdcareers
+- name: CIBC
+  ats: workday
+  tenant: cibc
+  dc: wd3
+  site: search
 - name: Ciena
   ats: workday
   tenant: ciena
@@ -538,6 +540,11 @@
   tenant: firstnational
   dc: wd12
   site: fnbocareers
+- name: Fortrea
+  ats: workday
+  tenant: fortrea
+  dc: wd1
+  site: Fortrea
 - name: FTI Consulting
   ats: workday
   tenant: fticonsulting
@@ -561,12 +568,12 @@
   ats: workday
   tenant: gevernova
   dc: wd5
-  site: vernova_externalsite
+  site: only_confidential_executive_recruiting
 - name: GE Vernova
   ats: workday
   tenant: gevernova
   dc: wd5
-  site: only_confidential_executive_recruiting
+  site: vernova_externalsite
 - name: Gearset
   ats: ashby
   token: gearset
@@ -702,11 +709,6 @@
   tenant: huntington
   dc: wd12
   site: HNBcareers
-- name: Hyster-Yale Materials Handling
-  ats: workday
-  tenant: hysteryale
-  dc: wd1
-  site: hyster-yalecareers
 - name: IAT Insurance Group
   ats: workday
   tenant: iatinsurancegroup
@@ -790,6 +792,11 @@
   tenant: macfound
   dc: wd1
   site: MAC_FOUND_EXT_CAREERS
+- name: Johnson & Johnson
+  ats: workday
+  tenant: jj
+  dc: wd5
+  site: JJ
 - name: Jomboy Media
   ats: greenhouse
   token: jomboymedia
@@ -844,11 +851,6 @@
 - name: Lawrence Livermore National Laboratory (LLNL)
   ats: smartrecruiters
   token: LLNL
-- name: Leidos
-  ats: workday
-  tenant: leidos
-  dc: wd5
-  site: External
 - name: Leonardo
   ats: workday
   tenant: leonardocompany
@@ -971,12 +973,6 @@
 - name: Muon Space
   ats: greenhouse
   token: muonspace
-- name: National Information Solutions Cooperative
-  ats: greenhouse
-  token: testnisc
-- name: National Information Solutions Cooperative
-  ats: greenhouse
-  token: nisc
 - name: National Life
   ats: greenhouse
   token: nationallifeinsurancecompany
@@ -1046,11 +1042,6 @@
 - name: OpenAI
   ats: ashby
   token: openai
-- name: Oshkosh
-  ats: workday
-  tenant: oshkoshcorporation
-  dc: wd5
-  site: Oshkosh
 - name: PA Consulting
   ats: smartrecruiters
   token: PAConsulting
@@ -1107,6 +1098,9 @@
 - name: Perpay
   ats: greenhouse
   token: perpay
+- name: Persona AI
+  ats: ashby
+  token: persona.ai
 - name: PETRONAS Canada
   ats: workday
   tenant: petronascanada
@@ -1123,6 +1117,9 @@
 - name: Pinterest
   ats: greenhouse
   token: pinterest
+- name: Pivotal Aero
+  ats: lever
+  token: pivotal
 - name: POET
   ats: workday
   tenant: poet
@@ -1144,6 +1141,9 @@
 - name: Pure Storage
   ats: greenhouse
   token: purestorage
+- name: Pyrotek
+  ats: smartrecruiters
+  token: Pyrotek3
 - name: Q2
   ats: workday
   tenant: q2ebanking
@@ -1182,6 +1182,9 @@
   tenant: regeneron
   dc: wd1
   site: Careers
+- name: REGENT
+  ats: ashby
+  token: regent
 - name: Relay
   ats: greenhouse
   token: relaypro
@@ -1191,6 +1194,9 @@
 - name: Rendezvous Robotics
   ats: greenhouse
   token: rendezvousrobotics
+- name: Renesas Electronics
+  ats: smartrecruiters
+  token: RenesasElectronics
 - name: Replit
   ats: ashby
   token: replit
@@ -1244,11 +1250,6 @@
   tenant: rbc
   dc: wd3
   site: RBCEARLYTALENT1
-- name: RSM
-  ats: workday
-  tenant: rsm
-  dc: wd1
-  site: RSMCareers
 - name: RTX
   ats: workday
   tenant: globalhr
@@ -1266,12 +1267,12 @@
   ats: workday
   tenant: ryan
   dc: wd1
-  site: RyanCareers
+  site: Students-Graduates
 - name: Ryan
   ats: workday
   tenant: ryan
   dc: wd1
-  site: Students-Graduates
+  site: RyanCareers
 - name: S&P Global
   ats: workday
   tenant: spgi
@@ -1307,6 +1308,9 @@
 - name: Scout AI
   ats: ashby
   token: scout-ai
+- name: Scout Motors
+  ats: greenhouse
+  token: scoutmotors
 - name: Semtech
   ats: workday
   tenant: semtech
@@ -1337,6 +1341,9 @@
 - name: Signifyd
   ats: greenhouse
   token: signifyd95
+- name: Simbe Robotics
+  ats: lever
+  token: SimbeRobotics
 - name: Skydio
   ats: ashby
   token: skydio
@@ -1358,9 +1365,6 @@
   tenant: soti
   dc: wd3
   site: SOTI-Next-Gen
-- name: SoundExchange
-  ats: greenhouse
-  token: sxinternships
 - name: SouthState Bank
   ats: workday
   tenant: southstatebank
@@ -1393,16 +1397,6 @@
   tenant: stryker
   dc: wd1
   site: StrykerCareers
-- name: Sun Life
-  ats: workday
-  tenant: sunlife
-  dc: wd3
-  site: Experienced-Jobs
-- name: Sun Life
-  ats: workday
-  tenant: sunlife
-  dc: wd3
-  site: Campus
 - name: Symbotic
   ats: workday
   tenant: symbotic
@@ -1427,9 +1421,6 @@
 - name: Talos
   ats: ashby
   token: Talos-Trading
-- name: Tanium
-  ats: greenhouse
-  token: tanium
 - name: Tapestry
   ats: workday
   tenant: tapestry
@@ -1528,6 +1519,9 @@
 - name: Twilio
   ats: greenhouse
   token: twilio
+- name: UiPath
+  ats: ashby
+  token: uipath
 - name: Uline
   ats: workday
   tenant: uline
@@ -1595,11 +1589,6 @@
   tenant: wattswater
   dc: wd5
   site: Intern-External
-- name: Wawa
-  ats: workday
-  tenant: wawa
-  dc: wd1
-  site: careers
 - name: Webflow
   ats: greenhouse
   token: webflow
@@ -1623,6 +1612,9 @@
 - name: xAI
   ats: greenhouse
   token: xai
+- name: Xcimer Energy
+  ats: lever
+  token: xcimer
 - name: Zebra Technologies
   ats: workday
   tenant: zebra
