@@ -96,11 +96,6 @@
 - name: Arc
   ats: greenhouse
   token: arcboatcompany
-- name: Arch Capital Group
-  ats: workday
-  tenant: archgroup
-  dc: wd1
-  site: careers
 - name: Armadin
   ats: ashby
   token: armadin
@@ -278,6 +273,9 @@
   tenant: ceritypartners
   dc: wd12
   site: ceritypartnerscareers
+- name: CesiumAstro
+  ats: lever
+  token: CesiumAstro
 - name: Charter Manufacturing
   ats: workday
   tenant: chartermfg
@@ -699,11 +697,6 @@
 - name: HP IQ
   ats: greenhouse
   token: hpiq
-- name: Humana
-  ats: workday
-  tenant: humana
-  dc: wd5
-  site: humana_external_career_site
 - name: Huntington Bancshares
   ats: workday
   tenant: huntington
@@ -792,11 +785,6 @@
   tenant: macfound
   dc: wd1
   site: MAC_FOUND_EXT_CAREERS
-- name: Johnson & Johnson
-  ats: workday
-  tenant: jj
-  dc: wd5
-  site: JJ
 - name: Jomboy Media
   ats: greenhouse
   token: jomboymedia
@@ -835,6 +823,9 @@
   tenant: kla
   dc: wd1
   site: annarbor
+- name: Klaviyo
+  ats: ashby
+  token: f40d14d9-07f4-403d-802b-37453deccf0a
 - name: Klaviyo
   ats: greenhouse
   token: klaviyocampus
@@ -976,9 +967,6 @@
 - name: National Life
   ats: greenhouse
   token: nationallifeinsurancecompany
-- name: Neighbor
-  ats: lever
-  token: neighbor
 - name: Nelnet
   ats: workday
   tenant: nelnet
@@ -1163,11 +1151,6 @@
 - name: Ramp
   ats: ashby
   token: ramp
-- name: Realty Income
-  ats: workday
-  tenant: realtyincome
-  dc: wd108
-  site: realty_income_careers
 - name: Red Wing Shoe Company
   ats: smartrecruiters
   token: RedWingShoeCompany
@@ -1455,11 +1438,6 @@
 - name: The Brattle Group
   ats: greenhouse
   token: thebrattlegroup
-- name: The Federal Reserve System
-  ats: workday
-  tenant: rb
-  dc: wd5
-  site: FRS
 - name: The Hartford
   ats: workday
   tenant: thehartford
@@ -1497,9 +1475,6 @@
   tenant: toyota
   dc: wd503
   site: tmna
-- name: Toyota Research Institute
-  ats: lever
-  token: tri
 - name: Trimble
   ats: workday
   tenant: trimble
@@ -1562,12 +1537,14 @@
   tenant: vrtx
   dc: wd501
   site: vertex_careers
+- name: Veterans United
+  ats: workday
+  tenant: veteransunited
+  dc: wd1
+  site: VUHL
 - name: Viget
   ats: lever
   token: viget
-- name: Viking Global
-  ats: greenhouse
-  token: vikingglobalinvestors
 - name: Vizient
   ats: workday
   tenant: vizient
