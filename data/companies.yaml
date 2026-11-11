@@ -3,11 +3,6 @@
   tenant: 3m
   dc: wd1
   site: Search
-- name: 7-Eleven
-  ats: workday
-  tenant: my7elevenhr
-  dc: wd12
-  site: Careers
 - name: ABB
   ats: workday
   tenant: abb
@@ -71,6 +66,9 @@
 - name: Amplify
   ats: ashby
   token: amplify
+- name: AnaVation
+  ats: lever
+  token: anavationllc
 - name: Anduril
   ats: greenhouse
   token: andurilindustries
@@ -221,9 +219,6 @@
   tenant: boseallaboutme
   dc: wd503
   site: Bose_Careers
-- name: Boson Ai
-  ats: lever
-  token: bosonai
 - name: BP
   ats: workday
   tenant: bpinternational
@@ -336,11 +331,6 @@
 - name: CoVar
   ats: greenhouse
   token: covar
-- name: Covestro
-  ats: workday
-  tenant: covestro
-  dc: wd3
-  site: cov_external
 - name: Creative Artists Agency
   ats: workday
   tenant: caa
@@ -463,11 +453,6 @@
 - name: Duolingo
   ats: greenhouse
   token: duolingo
-- name: Echo Global Logistics
-  ats: workday
-  tenant: echo
-  dc: wd1
-  site: Echo_Logistics
 - name: Enova
   ats: greenhouse
   token: enova
@@ -545,6 +530,11 @@
 - name: Formulary Financial
   ats: ashby
   token: formulary
+- name: Fortrea
+  ats: workday
+  tenant: fortrea
+  dc: wd1
+  site: Fortrea
 - name: FTI Consulting
   ats: workday
   tenant: fticonsulting
@@ -704,6 +694,11 @@
 - name: ibotta
   ats: ashby
   token: ibotta
+- name: ICF International
+  ats: workday
+  tenant: icf
+  dc: wd5
+  site: icfexternal_career_site
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
@@ -1151,11 +1146,6 @@
 - name: Reddit
   ats: greenhouse
   token: reddit
-- name: Regeneron Pharmaceuticals
-  ats: workday
-  tenant: regeneron
-  dc: wd1
-  site: Careers
 - name: REGENT
   ats: ashby
   token: regent
@@ -1528,9 +1518,6 @@
 - name: Varda Space
   ats: greenhouse
   token: vardaspace
-- name: Vatic Investments
-  ats: greenhouse
-  token: vaticlabs
 - name: Vercel
   ats: greenhouse
   token: vercel
