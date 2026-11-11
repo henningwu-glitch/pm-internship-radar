@@ -13,6 +13,9 @@
   tenant: abb
   dc: wd3
   site: external_career_page
+- name: Addepar
+  ats: greenhouse
+  token: addepar1
 - name: Adobe
   ats: workday
   tenant: adobe
@@ -96,6 +99,11 @@
 - name: Arc
   ats: greenhouse
   token: arcboatcompany
+- name: Arch Capital Group
+  ats: workday
+  tenant: archgroup
+  dc: wd1
+  site: careers
 - name: Armadin
   ats: ashby
   token: armadin
@@ -136,9 +144,6 @@
 - name: Astro Mechanica
   ats: ashby
   token: astro-mechanica
-- name: Astronics
-  ats: greenhouse
-  token: astronicscorporation
 - name: AtkinsRéalis
   ats: workday
   tenant: slihrms
@@ -268,6 +273,11 @@
   tenant: cenovus
   dc: wd3
   site: careers
+- name: Centene
+  ats: workday
+  tenant: centene
+  dc: wd5
+  site: Centene_External
 - name: Cerity Partners
   ats: workday
   tenant: ceritypartners
@@ -456,19 +466,11 @@
 - name: Duolingo
   ats: greenhouse
   token: duolingo
-- name: DV Trading
-  ats: greenhouse
-  token: dvtrading
-- name: Elanco
+- name: Echo Global Logistics
   ats: workday
-  tenant: elanco
-  dc: wd5
-  site: External_Career
-- name: Enact Mortgage Insurance
-  ats: workday
-  tenant: gnw
+  tenant: echo
   dc: wd1
-  site: enact_mi
+  site: Echo_Logistics
 - name: Enova
   ats: greenhouse
   token: enova
@@ -482,6 +484,11 @@
   tenant: ebi
   dc: wd5
   site: ebicareers
+- name: Entegris
+  ats: workday
+  tenant: entegris
+  dc: wd1
+  site: entegriscareers
 - name: EQT Corporation
   ats: greenhouse
   token: eqtcorporation
@@ -594,11 +601,6 @@
 - name: Genius AI
   ats: ashby
   token: geniusai
-- name: Genworth Financial
-  ats: workday
-  tenant: gnw
-  dc: wd1
-  site: GNW
 - name: GlobalFoundries
   ats: workday
   tenant: globalfoundries
@@ -634,9 +636,6 @@
   tenant: greenheckgroup
   dc: wd5
   site: external
-- name: Grow Therapy
-  ats: ashby
-  token: grow-therapy
 - name: Guardian Life
   ats: workday
   tenant: guardianlife
@@ -823,12 +822,11 @@
   tenant: kla
   dc: wd1
   site: annarbor
-- name: Klaviyo
-  ats: ashby
-  token: f40d14d9-07f4-403d-802b-37453deccf0a
-- name: Klaviyo
-  ats: greenhouse
-  token: klaviyocampus
+- name: Kyndryl
+  ats: workday
+  tenant: kyndryl
+  dc: wd5
+  site: KyndrylEarlyCareers
 - name: L.L.Bean
   ats: workday
   tenant: llbean
@@ -876,6 +874,9 @@
   tenant: lseg
   dc: wd3
   site: Graduate_Careers
+- name: Lumbermen's
+  ats: greenhouse
+  token: lumbermens
 - name: Lyft
   ats: greenhouse
   token: lyft
@@ -904,6 +905,9 @@
   tenant: marvell
   dc: wd1
   site: MarvellCareers2
+- name: Matillion
+  ats: lever
+  token: matillion
 - name: MBDA
   ats: workday
   tenant: mbda
@@ -967,6 +971,9 @@
 - name: National Life
   ats: greenhouse
   token: nationallifeinsurancecompany
+- name: Neighbor
+  ats: lever
+  token: neighbor
 - name: Nelnet
   ats: workday
   tenant: nelnet
@@ -1083,9 +1090,6 @@
   tenant: pernodricard
   dc: wd3
   site: pernod-ricard
-- name: Perpay
-  ats: greenhouse
-  token: perpay
 - name: Persona AI
   ats: ashby
   token: persona.ai
@@ -1157,9 +1161,6 @@
 - name: Reddit
   ats: greenhouse
   token: reddit
-- name: Redgate
-  ats: ashby
-  token: red-gate
 - name: Regeneron Pharmaceuticals
   ats: workday
   tenant: regeneron
@@ -1233,6 +1234,11 @@
   tenant: rbc
   dc: wd3
   site: RBCEARLYTALENT1
+- name: Royal Bank of Canada
+  ats: workday
+  tenant: rbc
+  dc: wd3
+  site: ExternalPrivatePostingStudents
 - name: RTX
   ats: workday
   tenant: globalhr
@@ -1335,6 +1341,9 @@
   tenant: smithnephew
   dc: wd5
   site: External
+- name: Snowflake
+  ats: ashby
+  token: snowflake
 - name: SoFi
   ats: greenhouse
   token: sofi
@@ -1438,6 +1447,11 @@
 - name: The Brattle Group
   ats: greenhouse
   token: thebrattlegroup
+- name: The Federal Reserve System
+  ats: workday
+  tenant: rb
+  dc: wd5
+  site: FRS
 - name: The Hartford
   ats: workday
   tenant: thehartford
@@ -1475,6 +1489,9 @@
   tenant: toyota
   dc: wd503
   site: tmna
+- name: Toyota Research Institute
+  ats: lever
+  token: tri
 - name: Trimble
   ats: workday
   tenant: trimble
@@ -1488,9 +1505,6 @@
 - name: Trustpilot
   ats: greenhouse
   token: trustpilot
-- name: TTP
-  ats: smartrecruiters
-  token: TTP1
 - name: Twilio
   ats: greenhouse
   token: twilio
@@ -1545,6 +1559,9 @@
 - name: Viget
   ats: lever
   token: viget
+- name: Viking Global
+  ats: greenhouse
+  token: vikingglobalinvestors
 - name: Vizient
   ats: workday
   tenant: vizient
@@ -1572,9 +1589,6 @@
 - name: Wellmark
   ats: smartrecruiters
   token: WellmarkInc
-- name: Western Digital
-  ats: smartrecruiters
-  token: WesternDigital
 - name: Wise
   ats: greenhouse
   token: wise
@@ -1589,9 +1603,6 @@
 - name: xAI
   ats: greenhouse
   token: xai
-- name: Xcimer Energy
-  ats: lever
-  token: xcimer
 - name: Zebra Technologies
   ats: workday
   tenant: zebra
