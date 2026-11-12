@@ -66,9 +66,6 @@
 - name: Amplify
   ats: ashby
   token: amplify
-- name: AnaVation
-  ats: lever
-  token: anavationllc
 - name: Anduril
   ats: greenhouse
   token: andurilindustries
@@ -219,6 +216,9 @@
   tenant: boseallaboutme
   dc: wd503
   site: Bose_Careers
+- name: Boson Ai
+  ats: lever
+  token: bosonai
 - name: BP
   ats: workday
   tenant: bpinternational
@@ -570,6 +570,11 @@
 - name: Gecko Robotics
   ats: ashby
   token: gecko-robotics
+- name: Genentech
+  ats: workday
+  tenant: roche
+  dc: wd3
+  site: ROG-A2O-GENE
 - name: General Dynamics Information Technology
   ats: workday
   tenant: gdit
@@ -840,6 +845,9 @@
   tenant: lifefitness
   dc: wd1
   site: searchLFN
+- name: Lightmatter
+  ats: greenhouse
+  token: lightmatter
 - name: Linear
   ats: ashby
   token: linear
@@ -919,6 +927,11 @@
   tenant: mufgub
   dc: wd3
   site: mufg-careers
+- name: MKS Instruments
+  ats: workday
+  tenant: mksinst
+  dc: wd1
+  site: MKSCareersUniversity
 - name: Modernizing Medicine
   ats: workday
   tenant: modmed
@@ -1036,6 +1049,11 @@
 - name: Palantir Technologies
   ats: lever
   token: palantir
+- name: Panera Bread
+  ats: workday
+  tenant: panerabread
+  dc: wd5
+  site: panera_careers
 - name: Pangram Labs
   ats: ashby
   token: pangramlabs
@@ -1285,13 +1303,13 @@
   token: ServiceNow
 - name: Shield AI
   ats: ashby
+  token: f7d8749a-72d6-407c-bf98-292ea630c73a
+- name: Shield AI
+  ats: ashby
   token: shield
 - name: Shield AI
   ats: lever
   token: shieldai
-- name: Shield AI
-  ats: ashby
-  token: f7d8749a-72d6-407c-bf98-292ea630c73a
 - name: Sierra Nevada Corporation
   ats: workday
   tenant: snc
@@ -1388,6 +1406,9 @@
   tenant: tmobile
   dc: wd1
   site: External
+- name: Tacit
+  ats: ashby
+  token: tacit
 - name: Talos
   ats: ashby
   token: Talos-Trading
@@ -1564,6 +1585,9 @@
 - name: Wise
   ats: greenhouse
   token: wise
+- name: Woolpert
+  ats: greenhouse
+  token: woolpert
 - name: Workday
   ats: workday
   tenant: workday
