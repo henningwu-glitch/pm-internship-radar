@@ -224,9 +224,6 @@
   tenant: bpinternational
   dc: wd3
   site: bpEarlyCareers
-- name: Brain Co.
-  ats: ashby
-  token: brainco
 - name: Brex
   ats: greenhouse
   token: brex
@@ -260,11 +257,6 @@
 - name: Category Labs
   ats: ashby
   token: category-labs
-- name: Cenovus Energy
-  ats: workday
-  tenant: cenovus
-  dc: wd3
-  site: careers
 - name: Centene
   ats: workday
   tenant: centene
@@ -505,9 +497,6 @@
   tenant: fhlbc
   dc: wd1
   site: search
-- name: Field AI
-  ats: lever
-  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -1236,12 +1225,12 @@
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: rec_rtx_ext_gateway
+  site: Private_Posting_No_TMP
 - name: RTX
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: Private_Posting_No_TMP
+  site: rec_rtx_ext_gateway
 - name: Rugged Robotics
   ats: greenhouse
   token: ruggedrobotics
