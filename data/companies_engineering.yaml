@@ -15,9 +15,6 @@
 - name: Cirrus Logic
   ats: greenhouse
   token: cirruslogic
-- name: Crux Product Design
-  ats: teamtailor
-  domain: cruxproductdesign.teamtailor.com
 - name: Diageo
   ats: workday
   tenant: diageo
