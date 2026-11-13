@@ -107,6 +107,11 @@
 - name: Asana
   ats: greenhouse
   token: asana
+- name: ASML
+  ats: workday
+  tenant: asml
+  dc: wd3
+  site: asmlext1
 - name: ASOS
   ats: smartrecruiters
   token: ASOS
@@ -329,9 +334,11 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
-- name: Commonwealth Fusion Systems
-  ats: lever
-  token: cfsenergy
+- name: CoStar Group
+  ats: workday
+  tenant: costar
+  dc: wd1
+  site: Costar_Campus
 - name: Courier Health
   ats: greenhouse
   token: courierhealth
@@ -502,6 +509,11 @@
 - name: Farmers Mutual Hail
   ats: greenhouse
   token: farmersmutualhailinsurancecompany
+- name: Federal Home Loan Bank of Dallas
+  ats: workday
+  tenant: fhlb
+  dc: wd1
+  site: FHLB_Careers
 - name: Federal Home Loan Bank of Indianapolis
   ats: workday
   tenant: fhlbi
@@ -571,9 +583,6 @@
   tenant: gevernova
   dc: wd5
   site: vernova_externalsite
-- name: Gearset
-  ats: ashby
-  token: gearset
 - name: Gecko Robotics
   ats: ashby
   token: gecko-robotics
@@ -784,11 +793,11 @@
 - name: Jomboy Media
   ats: greenhouse
   token: jomboymedia
-- name: KeyBank
+- name: JSX
   ats: workday
-  tenant: keybank
-  dc: wd5
-  site: External_Career_Site
+  tenant: jsx
+  dc: wd503
+  site: JSX_Careers
 - name: KION Group
   ats: workday
   tenant: kiongroup
@@ -950,11 +959,6 @@
 - name: Monzo
   ats: greenhouse
   token: monzo
-- name: Moog
-  ats: workday
-  tenant: moog
-  dc: wd5
-  site: moog_external_career_site
 - name: Mosaic
   ats: workday
   tenant: mosaic
@@ -1095,11 +1099,6 @@
   tenant: psu
   dc: wd1
   site: PSU_Staff
-- name: Pernod Ricard, créateurs de convivialité
-  ats: workday
-  tenant: pernodricard
-  dc: wd3
-  site: pernod-ricard
 - name: Persona AI
   ats: ashby
   token: persona.ai
@@ -1240,12 +1239,12 @@
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: Private_Posting_No_TMP
+  site: rec_rtx_ext_gateway
 - name: RTX
   ats: workday
   tenant: globalhr
   dc: wd5
-  site: rec_rtx_ext_gateway
+  site: Private_Posting_No_TMP
 - name: Rugged Robotics
   ats: greenhouse
   token: ruggedrobotics
@@ -1304,14 +1303,14 @@
   ats: greenhouse
   token: sharkninjaoperatingllc
 - name: Shield AI
+  ats: lever
+  token: shieldai
+- name: Shield AI
   ats: ashby
   token: f7d8749a-72d6-407c-bf98-292ea630c73a
 - name: Shield AI
   ats: ashby
   token: shield
-- name: Shield AI
-  ats: lever
-  token: shieldai
 - name: Sierra Nevada Corporation
   ats: workday
   tenant: snc
@@ -1416,9 +1415,6 @@
   tenant: tmobile
   dc: wd1
   site: External
-- name: Tacit
-  ats: ashby
-  token: tacit
 - name: Talos
   ats: ashby
   token: Talos-Trading
