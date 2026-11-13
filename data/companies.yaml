@@ -1,8 +1,3 @@
-- name: 3M
-  ats: workday
-  tenant: 3m
-  dc: wd1
-  site: Search
 - name: ABB
   ats: workday
   tenant: abb
@@ -66,6 +61,11 @@
 - name: Amplify
   ats: ashby
   token: amplify
+- name: Analog Devices
+  ats: workday
+  tenant: analogdevices
+  dc: wd1
+  site: External
 - name: Anduril
   ats: greenhouse
   token: andurilindustries
@@ -224,6 +224,11 @@
   tenant: bpinternational
   dc: wd3
   site: bpEarlyCareers
+- name: Bracco
+  ats: workday
+  tenant: bracco
+  dc: wd103
+  site: braccocareers
 - name: Brex
   ats: greenhouse
   token: brex
@@ -238,17 +243,22 @@
 - name: Cadence Solutions
   ats: greenhouse
   token: solutions
-- name: Capital One
+- name: Capital Power
   ats: workday
-  tenant: capitalone
-  dc: wd12
-  site: Capital_One
+  tenant: capitalpower
+  dc: wd10
+  site: External
 - name: Capstone Investment Advisors
   ats: greenhouse
   token: capstoneinvestmentadvisors
 - name: CapTech Consulting
   ats: smartrecruiters
   token: CapTechConsulting
+- name: Cardinal Health
+  ats: workday
+  tenant: cardinalhealth
+  dc: wd1
+  site: EXT
 - name: CareSource
   ats: workday
   tenant: caresource
@@ -275,6 +285,11 @@
   tenant: chartermfg
   dc: wd5
   site: Charter_Careers
+- name: Chatham Financial
+  ats: workday
+  tenant: chathamfinancial
+  dc: wd501
+  site: ChathamFinancial
 - name: Chime
   ats: greenhouse
   token: chime
@@ -497,6 +512,9 @@
   tenant: fhlbc
   dc: wd1
   site: search
+- name: Field AI
+  ats: lever
+  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -615,11 +633,11 @@
   tenant: greenheckgroup
   dc: wd5
   site: external
-- name: Guardian Life
+- name: Greystone
   ats: workday
-  tenant: guardianlife
-  dc: wd5
-  site: guardian-life-careers
+  tenant: greyco
+  dc: wd108
+  site: GTI
 - name: GuideStone
   ats: workday
   tenant: guidestone
@@ -696,6 +714,11 @@
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
+- name: Illinois Tool Works
+  ats: workday
+  tenant: itw
+  dc: wd5
+  site: external
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -743,11 +766,6 @@
   tenant: smucker
   dc: wd5
   site: US_External_Careers
-- name: Jabil
-  ats: workday
-  tenant: jabil
-  dc: wd5
-  site: Jabil_Careers
 - name: Jain Global
   ats: workday
   tenant: jainglobal
@@ -877,6 +895,11 @@
   tenant: mmc
   dc: wd1
   site: MMC
+- name: Martin Marietta
+  ats: workday
+  tenant: martinmarietta
+  dc: wd5
+  site: Martin_Marietta_Careers
 - name: Marvell
   ats: workday
   tenant: marvell
@@ -890,11 +913,6 @@
 - name: Matillion
   ats: lever
   token: matillion
-- name: MBDA
-  ats: workday
-  tenant: mbda
-  dc: wd3
-  site: MBDA-UK
 - name: Merck
   ats: workday
   tenant: msd
@@ -1162,9 +1180,6 @@
 - name: Remote
   ats: greenhouse
   token: remotecom
-- name: Rendezvous Robotics
-  ats: greenhouse
-  token: rendezvousrobotics
 - name: Renesas Electronics
   ats: smartrecruiters
   token: RenesasElectronics
@@ -1249,11 +1264,6 @@
   tenant: spgi
   dc: wd5
   site: SPGI_Careers
-- name: SailPoint
-  ats: workday
-  tenant: sailpoint
-  dc: wd1
-  site: SailPoint
 - name: Salesforce
   ats: workday
   tenant: salesforce
@@ -1290,6 +1300,9 @@
 - name: ServiceNow
   ats: smartrecruiters
   token: ServiceNow
+- name: SharkNinja
+  ats: greenhouse
+  token: sharkninjaoperatingllc
 - name: Shield AI
   ats: ashby
   token: f7d8749a-72d6-407c-bf98-292ea630c73a
@@ -1355,6 +1368,14 @@
 - name: Squarespace
   ats: greenhouse
   token: squarespace
+- name: StackAV
+  ats: greenhouse
+  token: stackav
+- name: Stanley Black & Decker
+  ats: workday
+  tenant: sbdinc
+  dc: wd1
+  site: Stanley_Black_Decker_Career_Site
 - name: State of Wisconsin Investment Board
   ats: workday
   tenant: swib
@@ -1485,6 +1506,11 @@
   tenant: trimble
   dc: wd1
   site: TrimbleCareers
+- name: Trinity Life Sciences
+  ats: workday
+  tenant: trinitylifesciences
+  dc: wd108
+  site: Trinity
 - name: TruStage
   ats: workday
   tenant: trustage
@@ -1531,11 +1557,6 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
-- name: Vertex Pharmaceuticals
-  ats: workday
-  tenant: vrtx
-  dc: wd501
-  site: vertex_careers
 - name: Veterans United
   ats: workday
   tenant: veteransunited
@@ -1544,6 +1565,19 @@
 - name: Viget
   ats: lever
   token: viget
+- name: Visa
+  ats: workday
+  tenant: visa
+  dc: wd5
+  site: Visa_Early_Careers
+- name: Visa
+  ats: workday
+  tenant: visa
+  dc: wd5
+  site: Visa
+- name: Vital Lyfe
+  ats: ashby
+  token: vital-lyfe
 - name: Vizient
   ats: workday
   tenant: vizient
