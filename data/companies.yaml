@@ -134,6 +134,11 @@
 - name: CapTech Consulting
   ats: smartrecruiters
   token: CapTechConsulting
+- name: Carnegie Mellon University
+  ats: workday
+  tenant: cmu
+  dc: wd115
+  site: SEI
 - name: Category Labs
   ats: ashby
   token: category-labs
@@ -209,9 +214,6 @@
 - name: DoorDash
   ats: greenhouse
   token: doordashusa
-- name: DoorDash
-  ats: greenhouse
-  token: doordashcanada
 - name: DreamWorks Animation
   ats: smartrecruiters
   token: NBCUniversal3
