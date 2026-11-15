@@ -257,6 +257,11 @@
   ats: workday
   tenant: cmu
   dc: wd115
+  site: cmu
+- name: Carnegie Mellon University
+  ats: workday
+  tenant: cmu
+  dc: wd115
   site: SEI
 - name: Category Labs
   ats: ashby
@@ -475,6 +480,9 @@
 - name: Faire
   ats: greenhouse
   token: faire
+- name: Fanatics
+  ats: greenhouse
+  token: fanaticscollectibles
 - name: Farmers Mutual Hail
   ats: greenhouse
   token: farmersmutualhailinsurancecompany
@@ -493,6 +501,9 @@
   tenant: fhlbc
   dc: wd1
   site: search
+- name: Field AI
+  ats: lever
+  token: field-ai
 - name: Figma
   ats: greenhouse
   token: figma
@@ -546,9 +557,6 @@
   tenant: gevernova
   dc: wd5
   site: vernova_externalsite
-- name: Gecko Robotics
-  ats: ashby
-  token: gecko-robotics
 - name: Genentech
   ats: workday
   tenant: roche
@@ -1347,9 +1355,6 @@
   tenant: tmobile
   dc: wd1
   site: External
-- name: Talos
-  ats: ashby
-  token: Talos-Trading
 - name: Tapestry
   ats: workday
   tenant: tapestry
