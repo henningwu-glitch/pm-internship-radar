@@ -334,6 +334,9 @@
 - name: Coinbase
   ats: greenhouse
   token: coinbase
+- name: Commonwealth Fusion Systems
+  ats: lever
+  token: cfsenergy
 - name: CoStar Group
   ats: workday
   tenant: costar
@@ -820,11 +823,6 @@
   tenant: kyndryl
   dc: wd5
   site: KyndrylEarlyCareers
-- name: L.L.Bean
-  ats: workday
-  tenant: llbean
-  dc: wd1
-  site: llbean_careers
 - name: LabCorp
   ats: workday
   tenant: labcorp
@@ -959,6 +957,9 @@
 - name: Muon Space
   ats: greenhouse
   token: muonspace
+- name: Neighbor
+  ats: lever
+  token: neighbor
 - name: Nelnet
   ats: workday
   tenant: nelnet
@@ -974,11 +975,6 @@
   tenant: sterlingmets
   dc: wd5
   site: Mets
-- name: NewYork-Presbyterian
-  ats: workday
-  tenant: nyp
-  dc: wd1
-  site: nypcareers
 - name: Nex
   ats: greenhouse
   token: nex
@@ -995,11 +991,6 @@
   tenant: njm
   dc: wd1
   site: njm
-- name: Northrop Grumman
-  ats: workday
-  tenant: ngc
-  dc: wd1
-  site: Northrop_Grumman_External_Site
 - name: Notion
   ats: ashby
   token: notion
@@ -1036,6 +1027,11 @@
 - name: Palantir Technologies
   ats: lever
   token: palantir
+- name: Panera Bread
+  ats: workday
+  tenant: panerabread
+  dc: wd5
+  site: panera_careers
 - name: Pangram Labs
   ats: ashby
   token: pangramlabs
@@ -1237,9 +1233,6 @@
 - name: Samsung Research America
   ats: greenhouse
   token: samsungresearchamericainternship
-- name: Saviynt
-  ats: lever
-  token: saviynt
 - name: Scale AI
   ats: greenhouse
   token: scaleai
@@ -1285,9 +1278,6 @@
 - name: Signifyd
   ats: greenhouse
   token: signifyd95
-- name: Simbe Robotics
-  ats: lever
-  token: SimbeRobotics
 - name: Skydio
   ats: ashby
   token: skydio
