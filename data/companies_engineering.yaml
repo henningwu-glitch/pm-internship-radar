@@ -18,37 +18,12 @@
 - name: Crux Product Design
   ats: teamtailor
   domain: cruxproductdesign.teamtailor.com
-- name: Diageo
-  ats: workday
-  tenant: diageo
-  dc: wd3
-  site: Diageo_Careers
-- name: Dyson
-  ats: workday
-  tenant: dyson
-  dc: wd3
-  site: Dyson_Careers
-- name: Fugro
-  ats: workday
-  tenant: fugro
-  dc: wd3
-  site: Careers
 - name: Graphcore
   ats: greenhouse
   token: graphcore
-- name: Intel
-  ats: workday
-  tenant: intel
-  dc: wd1
-  site: External
 - name: Open Cosmos
   ats: teamtailor
   domain: careers.open-cosmos.com
-- name: Thales
-  ats: workday
-  tenant: thales
-  dc: wd3
-  site: Careers
 - name: Turner & Townsend
   ats: smartrecruiters
   token: TurnerTownsend
