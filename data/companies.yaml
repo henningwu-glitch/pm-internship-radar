@@ -10,11 +10,6 @@
 - name: Airtable
   ats: greenhouse
   token: airtable
-- name: Allstate
-  ats: workday
-  tenant: allstate
-  dc: wd5
-  site: sourcing_event
 - name: AMCA
   ats: greenhouse
   token: amca
@@ -39,16 +34,6 @@
 - name: ASOS
   ats: smartrecruiters
   token: ASOS
-- name: Assurant
-  ats: workday
-  tenant: assurant
-  dc: wd1
-  site: Assurant_Careers
-- name: Assurant
-  ats: workday
-  tenant: assurant
-  dc: wd1
-  site: External_Limited_Posting
 - name: Astranis
   ats: greenhouse
   token: astranis
@@ -61,25 +46,21 @@
 - name: Atoms
   ats: greenhouse
   token: cssmerge
+- name: Attain Partners
+  ats: greenhouse
+  token: attainpartners
 - name: Aurora Innovation
   ats: ashby
   token: aurora-operations-inc
-- name: Badger Meter
-  ats: workday
-  tenant: badgermeter
-  dc: wd5
-  site: US_CareerSite
+- name: Basis Research Institute
+  ats: ashby
+  token: basis-research
 - name: Bedrock Robotics
   ats: ashby
   token: bedrock-robotics
 - name: Block
   ats: greenhouse
   token: block
-- name: Bose
-  ats: workday
-  tenant: boseallaboutme
-  dc: wd503
-  site: Bose_Careers
 - name: Boson Ai
   ats: lever
   token: bosonai
@@ -99,18 +80,10 @@
   ats: workday
   tenant: cmu
   dc: wd115
-  site: cmu
-- name: Carnegie Mellon University
-  ats: workday
-  tenant: cmu
-  dc: wd115
   site: SEI
 - name: Category Labs
   ats: ashby
   token: category-labs
-- name: CesiumAstro
-  ats: lever
-  token: CesiumAstro
 - name: Chatham Financial
   ats: workday
   tenant: chathamfinancial
@@ -122,11 +95,6 @@
 - name: Cloudflare
   ats: greenhouse
   token: cloudflare
-- name: Cohesity
-  ats: workday
-  tenant: cohesity
-  dc: wd5
-  site: Cohesity_Careers
 - name: Coinbase
   ats: greenhouse
   token: coinbase
@@ -136,6 +104,9 @@
 - name: Courier Health
   ats: greenhouse
   token: courierhealth
+- name: Crusoe
+  ats: ashby
+  token: crusoe
 - name: Cursor
   ats: ashby
   token: cursor
@@ -151,11 +122,6 @@
 - name: Datadog
   ats: greenhouse
   token: datadog
-- name: David Yurman
-  ats: workday
-  tenant: davidyurman
-  dc: wd1
-  site: DavidYurmanCareers
 - name: Deeplocal
   ats: greenhouse
   token: deeplocal
@@ -198,22 +164,12 @@
 - name: EQT Corporation
   ats: greenhouse
   token: eqtcorporation
-- name: Expedia Group
-  ats: workday
-  tenant: expedia
-  dc: wd108
-  site: private
 - name: Faire
   ats: greenhouse
   token: faire
 - name: Fanatics
   ats: greenhouse
   token: fanaticscollectibles
-- name: Federal Home Loan Bank of Dallas
-  ats: workday
-  tenant: fhlb
-  dc: wd1
-  site: FHLB_Careers
 - name: Field AI
   ats: lever
   token: field-ai
@@ -235,6 +191,11 @@
 - name: GCM Grosvenor
   ats: greenhouse
   token: gcmgrosvenor
+- name: General Dynamics Information Technology
+  ats: workday
+  tenant: gdit
+  dc: wd5
+  site: gdit_earlytalent
 - name: Genesis Molecular AI
   ats: ashby
   token: genesis-molecular-ai
@@ -256,17 +217,17 @@
 - name: Graviton
   ats: greenhouse
   token: gravitonresearchcapital
-- name: Greystone
-  ats: workday
-  tenant: greyco
-  dc: wd108
-  site: GTI
 - name: Gusto
   ats: greenhouse
   token: gusto
 - name: Gymshark
   ats: greenhouse
   token: gymshark
+- name: Highmark Health
+  ats: workday
+  tenant: highmarkhealth
+  dc: wd1
+  site: highmark
 - name: Hive Financial Systems
   ats: greenhouse
   token: hivefinancialsystems
@@ -276,11 +237,6 @@
 - name: HP IQ
   ats: greenhouse
   token: hpiq
-- name: Huntington Bancshares
-  ats: workday
-  tenant: huntington
-  dc: wd12
-  site: HNBcareers
 - name: ibotta
   ats: ashby
   token: ibotta
@@ -307,27 +263,12 @@
   tenant: irhythmtech
   dc: wd5
   site: irhythm
-- name: J.M. Smucker
-  ats: workday
-  tenant: smucker
-  dc: wd5
-  site: US_External_Careers
 - name: Jomboy Media
   ats: greenhouse
   token: jomboymedia
-- name: JSX
-  ats: workday
-  tenant: jsx
-  dc: wd503
-  site: JSX_Careers
 - name: Lawrence Livermore National Laboratory (LLNL)
   ats: smartrecruiters
   token: LLNL
-- name: Life Fitness
-  ats: workday
-  tenant: lifefitness
-  dc: wd1
-  site: searchLFN
 - name: Lightmatter
   ats: greenhouse
   token: lightmatter
@@ -346,20 +287,12 @@
 - name: Lyft
   ats: greenhouse
   token: lyft
-- name: Matillion
-  ats: lever
-  token: matillion
 - name: Metalenz
   ats: ashby
   token: metalenz
 - name: Metamorphic
   ats: ashby
   token: metamorphic
-- name: Modernizing Medicine
-  ats: workday
-  tenant: modmed
-  dc: wd501
-  site: ModMed12
 - name: MongoDB
   ats: greenhouse
   token: mongodb
@@ -369,9 +302,6 @@
 - name: Muon Space
   ats: greenhouse
   token: muonspace
-- name: Neighbor
-  ats: lever
-  token: neighbor
 - name: Nex
   ats: greenhouse
   token: nex
@@ -396,14 +326,12 @@
 - name: OpenAI
   ats: ashby
   token: openai
+- name: Palantir Technologies
+  ats: lever
+  token: palantir
 - name: Pangram Labs
   ats: ashby
   token: pangramlabs
-- name: Papa John's
-  ats: workday
-  tenant: papajohns
-  dc: wd1
-  site: papajohnscareers
 - name: Parallel Systems
   ats: greenhouse
   token: parallel
@@ -443,11 +371,6 @@
 - name: Pure Storage
   ats: greenhouse
   token: purestorage
-- name: Q2
-  ats: workday
-  tenant: q2ebanking
-  dc: wd5
-  site: Q2
 - name: Qube Research & Technologies
   ats: greenhouse
   token: quberesearchandtechnologies
@@ -457,11 +380,6 @@
 - name: Qumulo
   ats: ashby
   token: qumulo
-- name: Radiance Technologies
-  ats: workday
-  tenant: radiancetech
-  dc: wd12
-  site: Radiance_External
 - name: Ramp
   ats: ashby
   token: ramp
@@ -495,16 +413,6 @@
 - name: Roblox
   ats: greenhouse
   token: roblox
-- name: Rockwell Automation
-  ats: workday
-  tenant: rockwellautomation
-  dc: wd1
-  site: External-Rockwell-Automation-Early-Careers
-- name: Rockwell Automation
-  ats: workday
-  tenant: rockwellautomation
-  dc: wd1
-  site: External_Rockwell_Automation
 - name: Rothesay
   ats: greenhouse
   token: rothesaygraduates
@@ -556,20 +464,12 @@
 - name: SoFi
   ats: greenhouse
   token: sofi
-- name: Soros Fund Management
-  ats: greenhouse
-  token: familyoffice
 - name: Squarespace
   ats: greenhouse
   token: squarespace
 - name: StackAV
   ats: greenhouse
   token: stackav
-- name: State of Wisconsin Investment Board
-  ats: workday
-  tenant: swib
-  dc: wd12
-  site: ext
 - name: Steel
   ats: ashby
   token: steel
@@ -582,11 +482,6 @@
 - name: Stripe
   ats: greenhouse
   token: stripe
-- name: Symbotic
-  ats: workday
-  tenant: symbotic
-  dc: wd504
-  site: Symbotic
 - name: Syngenta Group
   ats: smartrecruiters
   token: SyngentaGroup
@@ -596,44 +491,18 @@
 - name: Synthesia
   ats: ashby
   token: synthesia
-- name: Tapestry
-  ats: workday
-  tenant: tapestry
-  dc: wd108
-  site: Tapestry_Careers
 - name: TELUS Digital
   ats: ashby
   token: telus-digital
-- name: The Aerospace Corporation
-  ats: workday
-  tenant: aero
-  dc: wd5
-  site: external
 - name: The Allen Institute for AI
   ats: greenhouse
   token: thealleninstitute
-- name: The Brattle Group
-  ats: greenhouse
-  token: thebrattlegroup
 - name: The New York Times
   ats: greenhouse
   token: thenewyorktimes
-- name: Thrivent
-  ats: workday
-  tenant: thrivent
-  dc: wd5
-  site: external
 - name: Tide
   ats: greenhouse
   token: tide
-- name: Together AI
-  ats: greenhouse
-  token: togetherai
-- name: Toyota
-  ats: workday
-  tenant: toyota
-  dc: wd503
-  site: tmna
 - name: Toyota Research Institute
   ats: lever
   token: tri
@@ -658,19 +527,11 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
-- name: Vertex Pharmaceuticals
+- name: Visa
   ats: workday
-  tenant: vrtx
-  dc: wd501
-  site: vertex_intern
-- name: Vertex Pharmaceuticals
-  ats: workday
-  tenant: vrtx
-  dc: wd501
-  site: vertex_careers
-- name: Viget
-  ats: lever
-  token: viget
+  tenant: visa
+  dc: wd5
+  site: Visa_Early_Careers
 - name: Vital Lyfe
   ats: ashby
   token: vital-lyfe
@@ -695,19 +556,9 @@
 - name: xAI
   ats: greenhouse
   token: xai
-- name: Zebra Technologies
-  ats: workday
-  tenant: zebra
-  dc: wd501
-  site: Zebra_careers
 - name: Zilch
   ats: ashby
   token: zilch
-- name: Zillow
-  ats: workday
-  tenant: zillow
-  dc: wd5
-  site: Zillow_Group_External
 - name: Zoox
   ats: lever
   token: zoox
