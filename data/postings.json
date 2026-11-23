@@ -9,7 +9,7 @@
     "posted_at": 1548784293349,
     "department": "Design",
     "first_seen_at": "2026-09-06T04:45:02Z",
-    "last_seen_at": "2026-11-22T14:16:23Z"
+    "last_seen_at": "2026-11-23T02:25:23Z"
   },
   {
     "source_id": "744000155271954",
@@ -33,7 +33,7 @@
     "posted_at": "2026-10-20T08:10:46-04:00",
     "department": "Core",
     "first_seen_at": "2026-10-20T18:56:31Z",
-    "last_seen_at": "2026-11-22T14:16:23Z"
+    "last_seen_at": "2026-11-23T02:25:23Z"
   },
   {
     "source_id": "8902294002",
@@ -45,7 +45,7 @@
     "posted_at": "2026-10-20T08:11:23-04:00",
     "department": "Core",
     "first_seen_at": "2026-10-29T12:59:28Z",
-    "last_seen_at": "2026-11-22T14:16:23Z"
+    "last_seen_at": "2026-11-23T02:25:23Z"
   },
   {
     "source_id": "744000159327239",
@@ -81,7 +81,7 @@
     "posted_at": "2026-11-04T16:46:21.957Z",
     "department": null,
     "first_seen_at": "2026-11-09T15:59:04Z",
-    "last_seen_at": "2026-11-22T14:16:23Z"
+    "last_seen_at": "2026-11-23T02:25:23Z"
   },
   {
     "source_id": "744000155271954",
@@ -93,7 +93,7 @@
     "posted_at": "2026-10-13T13:55:23.135Z",
     "department": null,
     "first_seen_at": "2026-11-09T15:59:04Z",
-    "last_seen_at": "2026-11-22T14:16:23Z"
+    "last_seen_at": "2026-11-23T02:25:23Z"
   },
   {
     "source_id": "4726667006",
@@ -105,7 +105,7 @@
     "posted_at": "2026-11-17T04:19:41-05:00",
     "department": "10200 - Engineering R&D",
     "first_seen_at": "2026-11-17T15:44:02Z",
-    "last_seen_at": "2026-11-22T14:16:23Z"
+    "last_seen_at": "2026-11-23T02:25:23Z"
   },
   {
     "source_id": "8207611003",
@@ -117,6 +117,6 @@
     "posted_at": "2026-11-20T14:24:33-05:00",
     "department": "Corporate",
     "first_seen_at": "2026-11-21T03:07:03Z",
-    "last_seen_at": "2026-11-22T14:16:23Z"
+    "last_seen_at": "2026-11-23T02:25:23Z"
   }
 ]
