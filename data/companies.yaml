@@ -4,6 +4,11 @@
 - name: Addepar
   ats: greenhouse
   token: addepar1
+- name: AeroVironment
+  ats: workday
+  tenant: avav
+  dc: wd1
+  site: avav
 - name: Affirm
   ats: greenhouse
   token: affirm
@@ -37,19 +42,14 @@
 - name: ASOS
   ats: smartrecruiters
   token: ASOS
-- name: Assurant
-  ats: workday
-  tenant: assurant
-  dc: wd1
-  site: Assurant_Careers
-- name: Assurant
-  ats: workday
-  tenant: assurant
-  dc: wd1
-  site: External_Limited_Posting
 - name: Astranis
   ats: greenhouse
   token: astranis
+- name: AstraZeneca
+  ats: workday
+  tenant: astrazeneca
+  dc: wd3
+  site: Careers
 - name: Astro Mechanica
   ats: ashby
   token: astro-mechanica
@@ -121,14 +121,14 @@
 - name: CesiumAstro
   ats: lever
   token: CesiumAstro
+- name: Chatham Financial
+  ats: workday
+  tenant: chathamfinancial
+  dc: wd501
+  site: ChathamFinancial
 - name: Chime
   ats: greenhouse
   token: chime
-- name: Citi
-  ats: workday
-  tenant: citi
-  dc: wd5
-  site: '2'
 - name: Cloudflare
   ats: greenhouse
   token: cloudflare
@@ -183,9 +183,6 @@
 - name: Dropbox
   ats: greenhouse
   token: dropbox
-- name: Duetti
-  ats: lever
-  token: duetti
 - name: Duolingo
   ats: greenhouse
   token: duolingounirecruitment
@@ -204,11 +201,6 @@
 - name: Etched
   ats: ashby
   token: etched
-- name: Expedia Group
-  ats: workday
-  tenant: expedia
-  dc: wd108
-  site: private
 - name: Expedia Group
   ats: workday
   tenant: expedia
@@ -244,9 +236,6 @@
 - name: GCM Grosvenor
   ats: greenhouse
   token: gcmgrosvenor
-- name: Genesis Molecular AI
-  ats: ashby
-  token: genesis-molecular-ai
 - name: Genius AI
   ats: ashby
   token: geniusai
@@ -292,6 +281,9 @@
 - name: ID.me
   ats: greenhouse
   token: idmeuniversityrecruiting
+- name: Illumio
+  ats: ashby
+  token: illumio
 - name: Instacart
   ats: greenhouse
   token: instacart
@@ -301,9 +293,6 @@
 - name: Integrate
   ats: ashby
   token: integrate
-- name: Intuitive Surgical
-  ats: smartrecruiters
-  token: Intuitive
 - name: Inversion Space
   ats: greenhouse
   token: inversionspace
@@ -318,11 +307,11 @@
 - name: Lawrence Livermore National Laboratory (LLNL)
   ats: smartrecruiters
   token: LLNL
-- name: Leonardo
+- name: LexisNexis Risk Solutions
   ats: workday
-  tenant: leonardocompany
+  tenant: relx
   dc: wd3
-  site: LeonardoCareerSite
+  site: RiskSolutions
 - name: Lightmatter
   ats: greenhouse
   token: lightmatter
@@ -397,12 +386,12 @@
 - name: OpenAI
   ats: ashby
   token: openai
+- name: Palantir Technologies
+  ats: lever
+  token: palantir
 - name: Pangram Labs
   ats: ashby
   token: pangramlabs
-- name: Parallel Systems
-  ats: greenhouse
-  token: parallel
 - name: Parallel Wireless
   ats: lever
   token: parallelwireless
@@ -489,9 +478,24 @@
 - name: Roblox
   ats: greenhouse
   token: roblox
+- name: RTX
+  ats: workday
+  tenant: globalhr
+  dc: wd5
+  site: rec_rtx_ext_gateway
 - name: Rugged Robotics
   ats: greenhouse
   token: ruggedrobotics
+- name: Salesforce
+  ats: workday
+  tenant: salesforce
+  dc: wd12
+  site: External_Career_Site
+- name: Salesforce
+  ats: workday
+  tenant: salesforce
+  dc: wd12
+  site: Futureforce_Internships
 - name: Samsung Research America
   ats: greenhouse
   token: samsungresearchamericainternship
@@ -521,9 +525,6 @@
   token: sharkninjaoperatingllc
 - name: Shield AI
   ats: ashby
-  token: f7d8749a-72d6-407c-bf98-292ea630c73a
-- name: Shield AI
-  ats: ashby
   token: shield
 - name: Sigma Computing
   ats: greenhouse
@@ -534,26 +535,15 @@
 - name: Skydio
   ats: ashby
   token: skydio
-- name: Snowflake
-  ats: ashby
-  token: snowflake
 - name: SoFi
   ats: greenhouse
   token: sofi
-- name: Soros Fund Management
-  ats: greenhouse
-  token: familyoffice
 - name: Squarespace
   ats: greenhouse
   token: squarespace
 - name: StackAV
   ats: greenhouse
   token: stackav
-- name: State of Wisconsin Investment Board
-  ats: workday
-  tenant: swib
-  dc: wd12
-  site: ext
 - name: Steel
   ats: ashby
   token: steel
@@ -563,9 +553,17 @@
 - name: Stratolaunch
   ats: greenhouse
   token: stratolaunch
+- name: Strava
+  ats: ashby
+  token: Strava
 - name: Stripe
   ats: greenhouse
   token: stripe
+- name: Symbotic
+  ats: workday
+  tenant: symbotic
+  dc: wd504
+  site: Symbotic
 - name: Syngenta Group
   ats: smartrecruiters
   token: SyngentaGroup
@@ -575,17 +573,17 @@
 - name: Synthesia
   ats: ashby
   token: synthesia
+- name: TD Bank
+  ats: workday
+  tenant: td
+  dc: wd3
+  site: TD_Bank_Careers
 - name: TELUS Digital
   ats: ashby
   token: telus-digital
 - name: The Allen Institute for AI
   ats: greenhouse
   token: thealleninstitute
-- name: The Toro Company
-  ats: workday
-  tenant: ttc
-  dc: wd1
-  site: Toro_External_Careers
 - name: Tide
   ats: greenhouse
   token: tide
@@ -616,30 +614,20 @@
 - name: Vercel
   ats: greenhouse
   token: vercel
-- name: Vertex Pharmaceuticals
-  ats: workday
-  tenant: vrtx
-  dc: wd501
-  site: vertex_intern
-- name: Vertex Pharmaceuticals
-  ats: workday
-  tenant: vrtx
-  dc: wd501
-  site: vertex_careers
 - name: Vital Lyfe
   ats: ashby
   token: vital-lyfe
-- name: Vizient
-  ats: workday
-  tenant: vizient
-  dc: wd1
-  site: Vizient_Careers
 - name: Voyager Technologies
   ats: greenhouse
   token: voyagertechnologiesinc
 - name: Waabi
   ats: lever
   token: waabi
+- name: Walmart
+  ats: workday
+  tenant: walmart
+  dc: wd504
+  site: WalmartExternal
 - name: Webflow
   ats: greenhouse
   token: webflow
@@ -655,11 +643,6 @@
 - name: xAI
   ats: greenhouse
   token: xai
-- name: Zebra Technologies
-  ats: workday
-  tenant: zebra
-  dc: wd501
-  site: Zebra_careers
 - name: Zilch
   ats: ashby
   token: zilch
