@@ -18,6 +18,11 @@
   tenant: diageo
   dc: wd3
   site: Diageo_Careers
+- name: Fugro
+  ats: workday
+  tenant: fugro
+  dc: wd3
+  site: Careers
 - name: Graphcore
   ats: greenhouse
   token: graphcore
